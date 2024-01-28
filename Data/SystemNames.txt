@@ -22,6 +22,7 @@ Ashadra
 Aspidiske
 Atria
 Bandomeer
+Bantha
 Bantu
 Bardon
 Bebblebrox
@@ -229,6 +230,7 @@ Vandros
 Vartoxia
 Vega
 Velocifero
+Velorum
 Vendrin
 Ventrux
 Veridian

@@ -14444,7 +14444,7 @@ Hex Size                   := 1
 Picture Index              := 713
 Portrait Filename          := micrometeoroidstorm.bmp
 Large Portrait Filename    := micrometeoroidstorm_lp.jpg
-Description                := A hazardous field of mostly fast moving micrometeoroids. [1]
+Description                := A hazardous field of fast moving micrometeoroids. [1]
 Storm Size                 := Tiny
 
 Stellar Object Name        := Dust Cloud

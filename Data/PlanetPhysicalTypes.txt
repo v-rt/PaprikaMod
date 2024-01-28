@@ -1,0 +1,26 @@
+=======================================================================================
+PLANET PHYSICAL TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                 := Rock
+Description                          := 
+Picture Index                        := 2
+Tech Area For Colonization           := Rock Planet Colonization
+
+Name                                 := Ice
+Description                          := 
+Picture Index                        := 1
+Tech Area For Colonization           := Ice Planet Colonization
+
+Name                                 := Gas Giant
+Description                          := 
+Picture Index                        := 3
+Tech Area For Colonization           := Gas Giant Colonization
+
+=======================================================================================
+*END*
+=======================================================================================

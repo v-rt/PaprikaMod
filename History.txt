@@ -1,7 +1,7 @@
 Version History - Captain Kwok's Balance Mod for Space Empires V
 ================================================================
 
-Version 1.25 Alpha (16 Dec 2023)
+Version 1.25 Beta+ (13 Jan 2024)
 --------------------------------
 
 xA. Added   - Engineering cultural achievement to increase space yard rates for an empire
@@ -32,10 +32,13 @@ xA. Added   - Null-Space Cannons, Null-Space Warhead to Interdimensional Weapons
 xA. Changed - Moved Null-Space Projector to Interdimensional Weapons tech area
 xA. Removed - Null-Space Weapons tech area
 xA. Changed - Reduced Seeking Parasite from 20 to 11 levels
+xG. Changed - Increased range for Electric Discharge and Lightning Ray weapons
+xG. Changed - Spread out tech area requirements for Lightning Ray
 xA. Changed - Reduced Psychic Technology tech area cost from 3,000 to 2,000
 xA. Changed - Some Psychic weapons could be used with Satellites or Drones, which was unintentional
 xA. Changed - Increased Cloaking Device to 11 levels
-xA. Added   - Point-Defense Weapon Anti-Fighter Missile
+xG. Changed - Adjusted small seeker accuracy rate to 0.5 per 1 range (standard accuracy attrition rate)
+xA. Added   - Point-Defense Weapon Anti-Fighter Rocket
 xA. Changed - Reduced Flak Cannons to 3 levels but moved up earlier in Point-Defense Weapons tech area
 xA. Changed - Reduced Bomblet Missile to 3 levels
 xA. Changed - Reduced Tractor Beam and Repulser Beam to 6 levels
@@ -70,6 +73,14 @@ xB. Added   - New event that damages a portion or completely detonates the minef
 xB. Added   - AI support for new design types Drone (Repair), Satellite (Repair), Fighter (Anti-Fighter), Troop (Anti-Fighter) [WIP] 
 xB. Added   - AI support Storage Compound colony type
 xB. Fixed   - Planets orbiting companion stars in certain systems will have proper I, II, III designations
+xG. Changed - AI players will know a little bit more about colonization game settings (WIP)
+xG. Added   - New layer of cooperation strategy which takes into consideration contextual factors like quadrant density, proximity, colonization capability and other racial characteristics
+xG. Changed - Treaty diplomacy will now use cooperation strategy classifications as the base factor and anger/fear/usefulness factors for specific treaty element selection
+xG. Added   - Additional dynamic message text will be added to various message types helpful to explain AI motivations or changes
+xG. Fixed   - Anger for mine explosion events was not being registered against the minefield owner due to a limitation in the event log details
+xG. Changed - Anger for mine explosion events is more significant especially against minefield owners who have treaties with the affected player
+xG. Added   - AI will track broken treaty dates and the frequencies for each player, anger penalties are more severe and future diplomacy more difficult
+xG. Added   - AI players will seek/require at least some form of non-aggression in any treaty
 
 To-do List:
 
@@ -77,8 +88,8 @@ To-do List:
 - Incorporate new facilities in AI script (Completed but not optimized)
 - Add new AI design type instructions (WIP)
 - Update AI build settings (WIP)
-- Update AI diplomacy settings
-- Design AI reputation scheme for diplomacy considerations
+- Update AI diplomacy settings (WIP)
+- Consider reputation for diplomacy considerations (WIP)
 - Review target strength calculations
 - Update AI attack algorithm
 - Update AI ship orders
