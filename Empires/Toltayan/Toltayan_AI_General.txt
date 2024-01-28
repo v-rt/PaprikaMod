@@ -1,0 +1,30 @@
+=======================================================================================
+AI DATA FILE - Toltayan - Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Toltayan
+Description                              := The Toltayan are a race of serene engineers that are excellent at resource generation.
+Empire Name                              := Toltayan
+Empire Type                              := Confederacy
+Emperor Name                             := Volrek
+Emperor Title                            := King
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Hydrogen
+Race Name                                := Toltayan
+Race Plural Name                         := Toltayans
+Race Physical Description                := Humanoid
+Government Type                          := Monarchy
+Society Type                             := Engineers
+Biological Description                   := The Toltayan evolved on a hot barren rock world circling in a binary star system. Physically, they are humanoid in appearance with striking crystal green eyes. Their skin is a tough bark-like material which is very durable and can stand up to extreme temperatures. Their average height is approximately 2.5 meters and their average lifespan is 130 years. The Toltayans also have an unusally high apptitude for construction and engineering tasks.
+Society Description                      := The Toltayan are a feudal society that has pulled itself together after the advent of space travel. A single king rules their entire confederacy and is determined by genetic lineage. The sectors of society are distinctly divided into the ruling, worker, and military class. The predominant class is the worker, which most of the populace has a natural disposition towards.
+General History Description              := The Toltayan civilization has been one of the few examples of a feudal society which has actually survived over time. Most scholars believe that it is the naturally serene manner of the Toltayan which has allowed peaceful coexistence between the different factions. In their entire history, their elected king has never once been deposed or otherwise overthrown. 
+Personality Group                        := 1
+
+=======================================================================================
+*END*
+=======================================================================================
+

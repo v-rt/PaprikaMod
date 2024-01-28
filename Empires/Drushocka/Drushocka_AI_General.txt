@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Drushocka - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Drushocka
+Description                              := The Drushoka are an organic based lifeform that are physically strong and resistant to adverse conditions. They are not known for their intellectual abilities.
+Empire Name                              := Drushocka
+Empire Type                              := Empire
+Emperor Name                             := Fazrad
+Emperor Title                            := Lord
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Methane
+Race Name                                := Drushocka
+Race Plural Name                         := Drushockans
+Race Physical Description                := Organic
+Government Type                          := Tyranny
+Society Type                             := Industrialists
+Biological Description                   := The Drushocka evolved on a world very prone to intense lightning storms, probably resulting in their desire to control energy as best they can. Physically they rather resemble greenish moss-covered boulders. They move through the oscillation of these moss fibers along their bodies. Suffice to say, they move very slow. However, they make up for this in physical toughness.
+Society Description                      := It is believed that the Drushocka follow a dictatorial feudal system, with each lesser 'caste' swearing alliegence to a lord above it, and those lords swearing alliegence to a ruler who is chosen by the former ruler before he dies. The Drushocka are best characterized as inflexible and straightfoward. They see a goal, they move towards it and they attain it.
+General History Description              := Although the Drushocka are considered intellectually sluggish, their relatively peaceful society has steadily advanced developing unique organic technologies that have allowed them to enter space and explore the galaxy.
+Personality Group                        := 3
+
+=======================================================================================
+*END*
+=======================================================================================

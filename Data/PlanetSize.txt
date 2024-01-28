@@ -1,0 +1,146 @@
+=======================================================================================
+PLANET SIZE DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+Breathable:
+
+         Pop    Facil   Cargo   Supply   Ord
+------------------------------------------------
+Tiny     500    5000    5000    125000   50000
+Small    1000   10000   10000   250000   100000
+Medium   2500   15000   15000   375000   150000
+Large    5000   20000   20000   500000   200000
+Huge     10000  25000   25000   625000   250000
+Ring     25000  100000  100000  750000   300000
+Sphere   50000  200000  200000  900000   360000
+
+Domed:
+         Pop    Facil   Cargo   Supply   Ord
+------------------------------------------------
+Tiny     100    1000    1000    25000    10000
+Small    200    2000    2000    50000    20000
+Medium   500    3000    3000    75000    30000
+Large    1000   4000    4000    100000   40000
+Huge     2000   5000    5000    125000   50000
+Ring     5000   20000   20000   250000  100000
+Sphere   10000  40000   40000   500000  200000
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                  := Tiny
+Physical Type                         := Planet
+Stellar Size                          := Tiny
+Max Population                        := 500
+Max Facility Space                    := 5000
+Max Cargo Space                       := 5000
+Max Supply Storage                    := 125000
+Max Ordnance Storage                  := 50000
+Domed Max Population                  := 100
+Domed Max Facility Space              := 1000
+Domed Max Cargo Space                 := 1000
+Domed Max Supply Storage              := 25000
+Domed Max Ordnance Storage            := 10000
+Constructed                           := FALSE
+Special Ability ID                    := 0
+
+Name                                  := Small
+Physical Type                         := Planet
+Stellar Size                          := Small
+Max Population                        := 1000
+Max Facility Space                    := 10000
+Max Cargo Space                       := 10000
+Max Supply Storage                    := 250000
+Max Ordnance Storage                  := 100000
+Domed Max Population                  := 200
+Domed Max Facility Space              := 2000
+Domed Max Cargo Space                 := 2000
+Domed Max Supply Storage              := 50000
+Domed Max Ordnance Storage            := 20000
+Constructed                           := FALSE
+Special Ability ID                    := 0
+
+Name                                  := Medium
+Physical Type                         := Planet
+Stellar Size                          := Medium
+Max Population                        := 2500
+Max Facility Space                    := 15000
+Max Cargo Space                       := 15000
+Max Supply Storage                    := 375000
+Max Ordnance Storage                  := 150000
+Domed Max Population                  := 500
+Domed Max Facility Space              := 3000
+Domed Max Cargo Space                 := 3000
+Domed Max Supply Storage              := 75000
+Domed Max Ordnance Storage            := 30000
+Constructed                           := FALSE
+Special Ability ID                    := 0
+
+Name                                  := Large
+Physical Type                         := Planet
+Stellar Size                          := Large
+Max Population                        := 5000
+Max Facility Space                    := 20000
+Max Cargo Space                       := 20000
+Max Supply Storage                    := 500000
+Max Ordnance Storage                  := 200000
+Domed Max Population                  := 1000
+Domed Max Facility Space              := 4000
+Domed Max Cargo Space                 := 4000
+Domed Max Supply Storage              := 100000
+Domed Max Ordnance Storage            := 40000
+Constructed                           := FALSE
+Special Ability ID                    := 0
+
+Name                                  := Huge
+Physical Type                         := Planet
+Stellar Size                          := Huge
+Max Population                        := 10000
+Max Facility Space                    := 25000
+Max Cargo Space                       := 25000
+Max Supply Storage                    := 625000
+Max Ordnance Storage                  := 250000
+Domed Max Population                  := 2000
+Domed Max Facility Space              := 5000
+Domed Max Cargo Space                 := 5000
+Domed Max Supply Storage              := 125000
+Domed Max Ordnance Storage            := 50000
+Constructed                           := FALSE
+Special Ability ID                    := 0
+
+Name                                  := Ringworld
+Physical Type                         := Planet
+Stellar Size                          := Huge
+Max Population                        := 25000
+Max Facility Space                    := 100000
+Max Cargo Space                       := 100000
+Max Supply Storage                    := 750000
+Max Ordnance Storage                  := 300000
+Domed Max Population                  := 5000
+Domed Max Facility Space              := 20000
+Domed Max Cargo Space                 := 20000
+Domed Max Supply Storage              := 250000
+Domed Max Ordnance Storage            := 100000
+Constructed                           := TRUE
+Special Ability ID                    := 1
+
+Name                                  := Sphereworld
+Physical Type                         := Planet
+Stellar Size                          := Huge
+Max Population                        := 50000
+Max Facility Space                    := 200000
+Max Cargo Space                       := 200000
+Max Supply Storage                    := 900000
+Max Ordnance Storage                  := 360000
+Domed Max Population                  := 10000
+Domed Max Facility Space              := 40000
+Domed Max Cargo Space                 := 40000
+Domed Max Supply Storage              := 500000
+Domed Max Ordnance Storage            := 200000
+Constructed                           := TRUE
+Special Ability ID                    := 2
+
+=======================================================================================
+*END*
+=======================================================================================

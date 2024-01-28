@@ -1,0 +1,434 @@
+Abidjan
+Abu Dhabi
+Abuja 
+Accra
+Addis Ababa
+Alabama
+Alaska
+Albania
+Algeria
+Algiers
+Amman
+Amsterdam
+Andorra
+Andorra la Vella
+Angola
+Ankara 
+Antananarivo 
+Antigua
+Apia
+Argentina
+Arizona
+Arkansas
+Armenia
+Ashgabat 
+Asmara
+Astana
+Asuncion 
+Athens
+Australia
+Austria
+Azerbaijan
+Baghdad
+Bahamas
+Bahrain
+Baku
+Bamko 
+Bandar Seri Begawan
+Bangkok
+Bangladesh
+Bangui
+Banjul
+Barbados 
+Basseterre
+Beijing
+Beirut
+Belarus
+Belgium
+Belgrade
+Belize
+Belmopan
+Benin 
+Berlin
+Bern
+Bhutan
+Bishtek
+Bissau
+Bogota
+Bolivia 
+Bosnia
+Botswana 
+Brasilia
+Bratislava 
+Brazil
+Brazzaville
+Bridgetown
+Brunei 
+Brussels
+Bucharest 
+Budapest
+Buenos Aires
+Bujumbura
+Bulgaria 
+Burkina Faso 
+Burundi 
+Cairo
+California
+Cambodia
+Cameroon 
+Canada 
+Canberra
+Cape Town
+Cape Verde
+Caracas 
+Castries
+Chad
+Chile 
+China
+Chisinau
+Colombia 
+Colombo
+Colorado
+Comoros
+Conakry
+Congo
+Connecticut
+Copenhagen
+Costa Rica 
+Cote d'Ivoire 
+Croatia
+Cuba
+Cyprus 
+Czech Republic
+Dakar 
+Damascus
+Dar es Salaam 
+Delaware
+Denmark
+Dhaka
+Dili
+Djibouti
+Djibouti 
+Doha 
+Dominica 
+Dominican Republic
+Dublin
+Dushanbe
+East Timor 
+Ecuador 
+Egypt
+El Salvador
+Equatorial Guinea 
+Eritrea 
+Estonia
+Ethiopia
+Fiji 
+Finland
+Florida
+France 
+Freetown
+Funafuti
+Gabon 
+Gaborone
+Georgetown
+Georgia
+Georgia
+Germany
+Ghana 
+Greece
+Grenada 
+Guatemala 
+Guatemala City
+Guinea
+Guinea-Bissau 
+Guyana 
+Haiti 
+Hanoi
+Harare 
+Havana
+Hawaii
+Helsinki
+Honduras 
+Honiara
+Hungary
+Iceland
+Idaho
+Illinois
+India 
+Indiana
+Indonesia 
+Iowa
+Iran 
+Iraq
+Ireland
+Islamabad 
+Israel
+Italy
+Jakarta
+Jamaica 
+Japan
+Jerusalem
+Jordan
+Kampala 
+Kansas
+Kathmandu 
+Kazakhstan 
+Kentucky
+Kenya 
+Khartoum
+Kiev 
+Kigali 
+Kingston
+Kingstown 
+Kinshasa
+Kiribati 
+Koror 
+Kuala Lumpur 
+Kuwait
+Kuwait City
+Kyrgyzstan 
+La Paz
+Laos 
+Latvia
+Lebanon
+Lesotho 
+Liberia 
+Libreville
+Libya 
+Liechtenstein 
+Lilongwe 
+Lima 
+Lisbon 
+Lithuania
+Ljubljana 
+Lome
+London
+Louisiana
+Luanda
+Lusaka 
+Luxembourg 
+Luxembourg 
+Macedonia
+Madagascar 
+Madrid
+Maine
+Majuro
+Malabo
+Malawi 
+Malaysia 
+Maldives
+Male
+Mali 
+Malta
+Managua 
+Manama
+Manila
+Maputo
+Marshall Islands
+Maryland
+Maseru
+Massachusetts
+Mauritania 
+Mauritius 
+Mbabana 
+Mexico 
+Mexico City
+Michigan
+Micronesia
+Minnesota
+Minsk
+Mississippi
+Missouri
+Mogadishu 
+Moldova 
+Monaco 
+Monaco 
+Mongolia
+Monrovia 
+Montana
+Montenegro
+Montevideo 
+Morocco
+Moroni
+Moscow
+Mozambique
+Muscat 
+Myanmar
+Nairobi
+Namibia 
+Nassau
+Nauru 
+N'Djamena
+Nebraska
+Nepal 
+Netherlands
+Nevada
+New Delhi
+New Hampshire
+New Jersey
+New Mexico
+New York
+New Zealand 
+Niamey 
+Nicaragua 
+Nicosia
+Niger 
+Nigeria 
+North Carolina
+North Dakota
+North Korea
+Norway
+Nouakchott 
+Nuku'alofa 
+Ohio
+Oklahoma
+Oman
+Oregon
+Oslo 
+Ottawa
+Ouagadougou
+Pakistan 
+Palau
+Palikir
+Panama 
+Panama City
+Papua New Guinea
+Paraguay 
+Paramaribo 
+Paris
+Pennsylvania
+Peru 
+Philippines
+Phnom Penh
+Poland
+Port Louis 
+Port Moresby
+Port-au-Prince
+Port-of-Spain
+Porto-Novo
+Portugal 
+Port-Vila 
+Prague
+Praia
+Pretoria
+Pyongyang
+Qatar 
+Quito
+Rabat
+Rangoon
+Reykjavik
+Rhode Island
+Riga
+Riyadh
+Romania 
+Rome
+Roseau
+Russia
+Rwanda 
+Saint George's
+Saint John's
+Saint Kitts
+Saint Lucia 
+Saint Vincent
+Samoa 
+San Jose
+San Marino 
+San Marino 
+San Salvador
+Sanaa
+Santiago
+Santo Domingo
+Sao Tome
+Sao Tome and Principe
+Sarajevo
+Saudi Arabia
+Senegal 
+Seoul
+Serbia
+Seychelles 
+Sierra Leone
+Singapore 
+Singapore 
+Skopje 
+Slovakia
+Slovenia
+Sofia
+Solomon Islands
+Somalia 
+South Africa 
+South Carolina
+South Dakota
+South Korea
+Spain
+Sri Lanka 
+Stockholm 
+Sudan
+Suriname 
+Suva
+Swaziland 
+Sweden
+Switzerland
+Syria
+Taipei
+Taiwan
+Tajikistan 
+Tallinn
+Tanzania 
+Tarawa
+Tashkent
+Tbilisi
+Tegucigalpa
+Tehran
+Tennessee
+Texas
+Thailand 
+The Gambia
+Thimphu
+Tirane
+Tobago
+Togo
+Tokyo
+Tonga 
+Trinidad
+Tripoli 
+Tunis 
+Tunisia
+Turkey
+Turkmenistan 
+Tuvalu 
+Uganda 
+Ukraine
+Ulaanbaatar
+United Arab Emirates
+United Kingdom
+United States
+Uruguay 
+Utah
+Uzbekistan
+Vaduz 
+Valletta
+Vanuatu 
+Vatican City
+Vatican City
+Venezuela 
+Vermont
+Victoria 
+Vienna
+Vientiane
+Vietnam
+Vilnius 
+Virginia
+Warsaw 
+Washington
+Wellington
+West Virginia
+Windhoek 
+Wisconsin
+Wyoming
+Yaounde
+Yaren District
+Yemen
+Yerevan
+Zagreb
+Zambia 
+Zimbabwe 

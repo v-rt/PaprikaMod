@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Sergetti - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Sergetti
+Description                              := The Sergetti are a race of aggressive xenophobes that have advanced propulsion skills.
+Empire Name                              := Sergetti
+Empire Type                              := Empire
+Emperor Name                             := Triana
+Emperor Title                            := Queen
+Home Planet Type                         := Ice
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Sergetti
+Race Plural Name                         := Sergettians
+Race Physical Description                := Aquatic
+Government Type                          := Monarchy
+Society Type                             := Xenophobes
+Biological Description                   := The Sergetti were orginally an aquatic species which have learned to transport their original ocean with them. They are approximately 3 meters long and have a serpentine body. Their average lifespan is approximately 60 years and they are predominantly male. There exists only a few females which continually give birth to new Sergetti.
+Society Description                      := The Sergetti evolved on a planet that was barren of most other life forms. When the Sergetti did venture into space, they found that they had a cultural distaste for anything that was not like themselves. This caused them to become a deeply xenophobic society which rarely interacts with outsiders. Their society is grouped into autonomous states each with its ruling female. As the Sergetti ventured into space, they agreed that one voice must speek for them all. The designation of queen is given to the current ruling female.
+General History Description              := The Sergetti created large ships containing their primordial ocean to move out into space. This unbridled expansion did not last long as they encountered the hideous aliens that inhabited the rest of the galaxy. The Sergetti continue to expand to this day, but tend to stay away from anything alien to them. The logistics of transporting that much liquid inside their ships would not have been possible without their advances in crystalline technology. 
+Personality Group                        := 3
+
+=======================================================================================
+*END*
+=======================================================================================

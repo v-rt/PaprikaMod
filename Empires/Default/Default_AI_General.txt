@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Default - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Default
+Description                              := 
+Empire Name                              := (Any)
+Empire Type                              := (Any)
+Emperor Name                             := (Any)
+Emperor Title                            := (Any)
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := (Any)
+Race Plural Name                         := (Any)
+Race Physical Description                := Mechanoid
+Government Type                          := (Any)
+Society Type                             := (Any)
+Biological Description                   := The [%EmpireName%] are a humanoid species that are similar to human beings in many ways. They average about 7 feet in height and their skin is a dull orange color. Their average life span is approximately 120 years and they breathe an oxygen atmosphere.
+Society Description                      := The [%EmpireName%] society is organized into a rough collection of states that are governed by a single president. The president is elected by a contest of mental and physical tests between the candidates. Their various states are often at war which prevent their society as a whole from progressing.
+General History Description              := The [%EmpireName%] do not have much of an interstellar history as they have never left their home system. Their society is paralyzed by superstitions of nothing being beyond their home system. Though they have knowledge of warp points, they refuse to attempt to traverse them.
+Personality Group                        := 1
+
+=======================================================================================
+*END*
+=======================================================================================

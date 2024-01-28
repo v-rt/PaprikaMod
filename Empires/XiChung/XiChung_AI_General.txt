@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Xi'Chung - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Xi'Chung
+Description                              := The Xi'Chung are a psychotic race of insects that are devoted to the destruction of all life other than their own.
+Empire Name                              := Xi'Chung
+Empire Type                              := Hive
+Emperor Name                             := Kaziktra
+Emperor Title                            := Queen
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Carbon Dioxide
+Race Name                                := Xi'Chung
+Race Plural Name                         := Xi'Chung
+Race Physical Description                := Insectoid
+Government Type                          := Hive
+Society Type                             := Berzerkers
+Biological Description                   := Physically, the Xi'Chung are insectoids. They have eight limbs, six 'arms' and two 'legs'. Four of the six of their arms are identical, with five fingers and two opposable thumbs, while the bottom two seem to be a throwback to their evolutionary beginnings, as they seem to be nothing more then extensions of their exoskeletons. They are controllable, however, and they bear close resemblance to a pair of serrated blades. It is more than likely that the Xi'Chung still use them as weapons. Their legs are large and powerful and this coupled with their small size (a large Xi'Chung tops out at about 1.75m) they are able to propel themselves long distances in a single bound. Other characteristics also place the Xi'Chung in the insectile classification, their exoskeletons and compound primary eyes being prime examples.
+Society Description                      := The Xi'Chung social behaviour is reminiscent of Earth's predatory mammals such as wolves or hyenas. They are very social amongst themselves, and it is a well-known fact that where there is one Xi'Chung, there's bound to be others nearby. Little is known of the Xi'Chung social structure, but it appears as though all Xi'Chung truly are considered equal, and all have an equal voice in the decisions of their empire. There does not appear to be any one leader or ruling body, and the Xi'Chung have shown no telepathic ability, yet they still manage to function as if some sort of government existed.
+General History Description              := The Xi'Chung have a patchwork military and the state of their technology leads scholars to believe that they may have once been part of an advanced alien empire, long since vanished. An idea becoming widely accepted is that they were once pets of an advanced race, and have become independent with the disappearance of their former masters. Others believe that they are merely a species that has run amok without their original natural predators. What makes them doubly dangerous is their advanced organic manipulation technology. This coupled with their normal savage demeanor means tresspasser beware.
+Personality Group                        := 4
+
+=======================================================================================
+*END*
+=======================================================================================

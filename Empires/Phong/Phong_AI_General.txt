@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Phong - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Phong
+Description                              := The Phong are a serene society of workers. Their advanced mining and refining skills have allowed them to develop crystalline technology.
+Empire Name                              := Phong
+Empire Type                              := Confederation
+Emperor Name                             := Gerath
+Emperor Title                            := Chancellor
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Carbon Dioxide
+Race Name                                := Phong
+Race Plural Name                         := Phong
+Race Physical Description                := Humanoid
+Government Type                          := Democracy
+Society Type                             := Refiners
+Biological Description                   := The Phong appear humanoid in appearance, but their bodies contain a number of non-organic properties. Their polymer-composed skin makes them resistant to adverse conditions. They stand roughly 2 meters tall and have an average lifespan of 30 years. They are most at home when mining deep underground.
+Society Description                      := The Phong society is dedicated to work. Their populations are most happy when vigorously working. They excel at mining and refining radioactive materials. Their society is grouped into different working guilds which are all governed by the High Chancellor.
+General History Description              := The Phong's history is a relatively peaceful one. Most of their differences they solve through some kind of working arrangement. The few wars they have been engaged in were mainly due to other races wanting to obtain their Crystallurgy technology. This advanced technology has allowed the Phong to resist attempts at subjugation.
+Personality Group                        := 1
+
+=======================================================================================
+*END*
+=======================================================================================

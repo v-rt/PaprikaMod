@@ -1,0 +1,691 @@
+=======================================================================================
+COMPONENT ENHANCEMENT DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Long Name                                       := Large Ship Mount
+Short Name                                      := Large Mount
+Description                                     := Large ship mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 1
+Code                                            := L
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Ship
+Number Of Abilities                             := 3
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Cost Percent
+Ability 3 Description                           := Increases weapon cost by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 10
+Ability 3 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 400kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 400
+Requirement 3 Description                       := Empire must have at least tech level 1 in Ship Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= [%Level%]
+Requirement 4 Description                       := Empire must have tech level 1 in Small Ship Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Ship Construction") >= 1
+
+Long Name                                       := Heavy Ship Mount
+Short Name                                      := Heavy Mount
+Description                                     := Heavy ship mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 2
+Code                                            := H
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Ship
+Number Of Abilities                             := 7
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 50 + ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range 
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Tonnage Space Taken Percent
+Ability 3 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 50
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Structure Percent
+Ability 4 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 50
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Cost Percent
+Ability 5 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 75
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Supply Usage Percent
+Ability 6 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 50
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Ordnance Usage Percent
+Ability 7 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 50
+Ability 7 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 750kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 750
+Requirement 3 Description                       := Empire must have at least tech level 4 in Ship Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= 4 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have tech level 1 in Medium Ship Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Medium Ship Construction") >= 1
+
+Long Name                                       := Massive Ship Mount
+Short Name                                      := Massive Mount
+Description                                     := Massive ship mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 3
+Code                                            := M
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Ship
+Number Of Abilities                             := 7
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 100 + ([%Level%] * 20)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 30
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Tonnage Space Taken Percent
+Ability 3 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 100
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Structure Percent
+Ability 4 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 100
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Cost Percent
+Ability 5 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 150
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Supply Usage Percent
+Ability 6 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 100
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Ordnance Usage Percent
+Ability 7 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 100
+Ability 7 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 1250kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 1250
+Requirement 3 Description                       := Empire must have at least tech level 7 in Ship Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= 7 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have tech level 1 in Large Ship Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 1
+
+Long Name                                       := Large Base Mount
+Short Name                                      := Large Mount
+Description                                     := Large base mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 8
+Code                                            := L
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Base
+Number Of Abilities                             := 4
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Cost Percent
+Ability 4 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 10
+Ability 4 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon. 
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 500kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 500
+Requirement 3 Description                       := Empire must have at least tech level 1 in Base Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= [%Level%]
+Requirement 4 Description                       := Empire must have tech level 1 in Small Base Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Base Construction") >= 1
+
+Long Name                                       := Heavy Base Mount
+Short Name                                      := Heavy Mount
+Description                                     := Heavy base mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 9
+Code                                            := H
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Base
+Number Of Abilities                             := 8
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 50 + ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Space Taken Percent
+Ability 4 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 50
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Tonnage Structure Percent
+Ability 5 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 50
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Cost Percent
+Ability 6 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 50
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Supply Usage Percent
+Ability 7 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 50
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Component - Ordnance Usage Percent
+Ability 8 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 50
+Ability 8 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 1000kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 1000
+Requirement 3 Description                       := Empire must have at least tech level 4 in Base Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= 4 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have tech level 6 in Small Base Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Base Construction") >= 6
+
+Long Name                                       := Massive Base Mount
+Short Name                                      := Massive Mount
+Description                                     := Massive base mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 10
+Code                                            := M
+Maximum Level                                   := 5
+Can Be Placed On Vehicle Types                  := Base
+Number Of Abilities                             := 8
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 100 + ([%Level%] * 20)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 30
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Space Taken Percent
+Ability 4 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 100
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Tonnage Structure Percent
+Ability 5 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 100
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Cost Percent
+Ability 6 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 150
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Supply Usage Percent
+Ability 7 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 100
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Component - Ordnance Usage Percent
+Ability 8 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 100
+Ability 8 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 2000kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 2000
+Requirement 3 Description                       := Empire must have at least tech level 7 in Base Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= 7 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have tech level 1 in Large Base Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Large Base Construction") >= 1
+
+Long Name                                       := Large Troop Mount
+Short Name                                      := Large Mount
+Description                                     := Large troop mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 7
+Code                                            := L
+Maximum Level                                   := 1
+Can Be Placed On Vehicle Types                  := Troop
+Number Of Abilities                             := 5
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 100
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Tonnage Space Taken Percent
+Ability 3 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 100
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Structure Percent
+Ability 4 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 100
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Cost Percent
+Ability 5 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 100
+Ability 5 Amount 2 Formula                      := 0
+Number Of Requirements                          := 5
+Requirements Evaluation Availability            := 4, 5
+Requirements Evaluation Allows Placement        := 1, 2
+Requirements Evaluation Allows Usage            := 3
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := Component must not be a Small Missile or Small Torpedo Weapon.
+Requirement 2 Formula                           := not Does_Component_Have_Ability("AI Tag 01")
+Requirement 3 Description                       := The vehicle size must be at least 30kT.
+Requirement 3 Formula                           := Get_Vehicle_Size_Tonnage() >= 30
+Requirement 4 Description                       := Empire must have at least tech level 1 in Unit Weapon Mounts.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 1
+Requirement 5 Description                       := Empire must have at least tech level 6 in Troops.
+Requirement 5 Formula                           := Get_Empire_Tech_Level("Troops") >= 6
+
+Long Name                                       := Large Fighter Mount
+Short Name                                      := Large Mount
+Description                                     := Large fighter mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 7
+Code                                            := L
+Maximum Level                                   := 1
+Can Be Placed On Vehicle Types                  := Fighter
+Number Of Abilities                             := 5
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 100
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Tonnage Space Taken Percent
+Ability 3 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 100
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Structure Percent
+Ability 4 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 100
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Cost Percent
+Ability 5 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 100
+Ability 5 Amount 2 Formula                      := 0
+Number Of Requirements                          := 5
+Requirements Evaluation Availability            := 4, 5
+Requirements Evaluation Allows Placement        := 1, 2
+Requirements Evaluation Allows Usage            := 3
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := Component must not be a Small Missile or Small Torpedo Weapon.
+Requirement 2 Formula                           := not Does_Component_Have_Ability("AI Tag 01")
+Requirement 3 Description                       := The vehicle size must be at least 50kT.
+Requirement 3 Formula                           := Get_Vehicle_Size_Tonnage() >= 50
+Requirement 4 Description                       := Empire must have at least tech level 1 in Unit Weapon Mounts.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 1
+Requirement 5 Description                       := Empire must have at least tech level 4 in Fighters.
+Requirement 5 Formula                           := Get_Empire_Tech_Level("Fighters") >= 4
+
+Long Name                                       := Large Satellite Mount
+Short Name                                      := Large Mount
+Description                                     := Large satellite mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 7
+Code                                            := L
+Maximum Level                                   := 3
+Can Be Placed On Vehicle Types                  := Satellite
+Number Of Abilities                             := 4
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10 + ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range 
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Cost Percent 
+Ability 4 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 10
+Ability 4 Amount 2 Formula                      := 0
+Number Of Requirements                          := 3
+Requirements Evaluation Availability            := 3
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 100kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 100
+Requirement 3 Description                       := Empire must have at least tech level 1 in Unit Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= [%Level%]
+
+Long Name                                       := Large Weapons Platform Mount
+Short Name                                      := Large Mount
+Description                                     := Large platform mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 4
+Code                                            := L
+Maximum Level                                   := 3
+Can Be Placed On Vehicle Types                  := Weapon Platform
+Number Of Abilities                             := 4
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10 + ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range 
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 30
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Cost Percent 
+Ability 4 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 10
+Ability 4 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 250kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 250
+Requirement 3 Description                       := Empire must have at least tech level 1 in Unit Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= [%Level%]
+Requirement 4 Description                       := Empire must have at least tech level 1 in Weapon Platforms.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 1
+
+Long Name                                       := Heavy Weapons Platform Mount
+Short Name                                      := Heavy Mount
+Description                                     := Heavy platform mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 5
+Code                                            := H
+Maximum Level                                   := 3
+Can Be Placed On Vehicle Types                  := Weapon Platform
+Number Of Abilities                             := 8
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 40 + ([%Level%] * 20)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range 
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 40
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Space Taken Percent
+Ability 4 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 50
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Tonnage Structure Percent
+Ability 5 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 50
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Cost Percent 
+Ability 6 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 50
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Supply Usage Percent 
+Ability 7 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 50
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Component - Ordnance Usage Percent 
+Ability 8 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 50
+Ability 8 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 500kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 500
+Requirement 3 Description                       := Empire must have at least tech level 3 in Unit Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 3 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have at least tech level 4 in Weapon Platforms.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 4
+
+Long Name                                       := Massive Weapon Platform Mount
+Short Name                                      := Massive Mount
+Description                                     := Massive platform mount for direct fire weapons that increases their firepower.
+Picture Number                                  := 6
+Code                                            := M
+Maximum Level                                   := 3
+Can Be Placed On Vehicle Types                  := Weapon Platform
+Number Of Abilities                             := 8
+Ability 1 Type                                  := Component - Weapon Damage Percent
+Ability 1 Description                           := Increases weapon damage by [%Amount1%]%.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 80 + ([%Level%] * 40)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Component - Weapon Range 
+Ability 2 Description                           := Adds [%Amount1%]km to weapon range.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 50
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Component - Weapon To Hit Percent
+Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 30
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Component - Tonnage Space Taken Percent
+Ability 4 Description                           := Increases weapon size by [%Amount1%]%.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 100
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Component - Tonnage Structure Percent
+Ability 5 Description                           := Increases weapon structure by [%Amount1%]%.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 100
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Component - Cost Percent 
+Ability 6 Description                           := Increases cost of weapon by [%Amount1%]%.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 150
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Component - Supply Usage Percent 
+Ability 7 Description                           := Increases weapon supply usage by [%Amount1%]%.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 100
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Component - Ordnance Usage Percent 
+Ability 8 Description                           := Increases weapon ordnance usage by [%Amount1%]%.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 100
+Ability 8 Amount 2 Formula                      := 0
+Number Of Requirements                          := 4
+Requirements Evaluation Availability            := 3, 4
+Requirements Evaluation Allows Placement        := 1
+Requirements Evaluation Allows Usage            := 2
+Requirement 1 Description                       := Component must be a Direct Fire Weapon.
+Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
+Requirement 2 Description                       := The vehicle size must be at least 500kT.
+Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 500
+Requirement 3 Description                       := Empire must have at least tech level 5 in Unit Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 5 + ([%Level%] - 1)
+Requirement 4 Description                       := Empire must have at least tech level 5 in Weapon Platforms.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 5
+
+=======================================================================================
+*END*
+=======================================================================================

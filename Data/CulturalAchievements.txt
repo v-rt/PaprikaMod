@@ -1,0 +1,281 @@
+=======================================================================================
+CULTURAL ACHIEVEMENT DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                            := Civics Achievement
+Description                                     := A cultural achievement that improves population loyalty.
+Picture Number                                  := 2
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Civics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Civics") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Achievement - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 5
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Conservation Achievement
+Description                                     := Advancements in energy conservation that reduce supply usage.
+Picture Number                                  := 18
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Conservation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Conservation") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Component - Supply Usage Percent
+Ability 1 Description                           := Achievement - Supply usage reduced by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * -2
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Diplomatic Achievement
+Description                                     := Advancements in diplomacy to improve trade relations with other empires.
+Picture Number                                  := 15
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Diplomacy.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Diplomacy") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Trade Modifier
+Ability 1 Description                           := Achievement - Adds [%Amount1%]% to the maximum trade percentage.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 0.5
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Economic Achievement
+Description                                     := Advancements in economic models and fiscal policies improve productivity.
+Picture Number                                  := 3
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Economics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Economics") >= [%Level%]
+Number Of Abilities                             := 3
+Ability 1 Type                                  := Resource Gen Modifier - Minerals
+Ability 1 Description                           := Achievement - Empire minerals generation increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%]
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Resource Gen Modifier - Organics
+Ability 2 Description                           := Achievement - Organics generation increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := [%Level%]
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Resource Gen Modifier - Radioactives
+Ability 3 Description                           := Achievement - Radioactives generation increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := [%Level%]
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Education Achievement
+Description                                     := Advancements in education that improve research.
+Picture Number                                  := 4
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Education.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Education") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Research
+Ability 1 Description                           := Achievement - Research point generation increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 2
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Engineering Achievement
+Description                                     := Advancements in engineering that improves construction techniques.
+Picture Number                                  := 20
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Engineering.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Engineering") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Space Yard Rate Modifier
+Ability 1 Description                           := Achievement - Space Yard rate is increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%]
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Environmental Achievement
+Description                                     := Advancements in environmental studies to improve planet conditions and reduce pollution.
+Picture Number                                  := 5
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Environment.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Environment") >= [%Level%]
+Number Of Abilities                             := 2
+Ability 1 Type                                  := Planet Conditions Change
+Ability 1 Description                           := Achievement - Planet conditions improved by [%Amount1%]% each year.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 0.5
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Description Only
+Ability 2 Description                           := Achievement - Removes [%Amount1%] pollution points from each planet.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := [%Level%] * 3
+Ability 2 Amount 2 Formula                      := 0
+
+Name                                            := Ethics Achievement
+Description                                     := Advancements in law and ethics to reduce corruption and help defend the empire from intelligence operations.
+Picture Number                                  := 6
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Ethics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Ethics") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Defense Modifier
+Ability 1 Description                           := Achievement - Intelligence defense increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 2
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Logistics Achievement
+Description                                     := Advancements in supply chains.
+Picture Number                                  := 19
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Logistics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Logistics") >= [%Level%]
+Number Of Abilities                             := 3
+Ability 1 Type                                  := Ship Maintenance Cost Modifier
+Ability 1 Description                           := Achievement - Ship maintenance decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * -2
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Facility Maintenance Cost Modifier
+Ability 2 Description                           := Achievement - Facility maintenance decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := [%Level%] * -2
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Unit Maintenance Cost Modifier
+Ability 3 Description                           := Achievement - Unit maintenance decreased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := [%Level%] * -2
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Military Achievement
+Description                                     := Advancements in military training and strategies to improve the rate at which experience is gained.
+Picture Number                                  := 7
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Experience Rate Percent Change
+Ability 1 Description                           := Achievement - Fleet and ship experience rate is increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 5
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Recreation Achievement
+Description                                     := Investment in recreational events and services to keep the population happy.
+Picture Number                                  := 12
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Recreation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Recreation") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Planet Population Happiness
+Ability 1 Description                           := Achievement - Adds [%Amount1%]% to population happiness each turn.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 0.5
+Ability 1 Amount 2 Formula                      := 0
+
+Name                                            := Sociology Achievement
+Description                                     := Development of techniques to improve intelligence activities.
+Picture Number                                  := 13
+Portrait Filename                               := Event_PopulationHappy.jpg
+Large Portrait Filename                         := LargePortrait_Event_PopulationHappy.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Sociology.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Sociology") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Intelligence
+Ability 1 Description                           := Achievement - Intelligence point generation increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := [%Level%] * 2
+Ability 1 Amount 2 Formula                      := 0
+
+=======================================================================================
+*END*
+=======================================================================================

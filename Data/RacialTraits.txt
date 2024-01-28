@@ -1,0 +1,482 @@
+=======================================================================================
+RACIAL TRAITS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+//-------------------------------------------------------------------------------------------------------------------------------
+// Basic Traits
+//-------------------------------------------------------------------------------------------------------------------------------
+Name                                            := Mining Aptitude
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Minerals
+Ability 1 Description                           := Racial Trait - Mineral resource collection increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Mining Ineptness
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Minerals
+Ability 1 Description                           := Racial Trait - Mineral resource collection decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Farming Aptitude
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Organics
+Ability 1 Description                           := Racial Trait - Organic resource collection increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 25
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Farming Ineptness
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Organics
+Ability 1 Description                           := Racial Trait - Organic resource collection decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -25
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Refining Aptitude
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Radioactives
+Ability 1 Description                           := Racial Trait - Radioactive resource collection increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 25
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Refining Ineptness
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Resource Gen Modifier - Radioactives
+Ability 1 Description                           := Racial Trait - Radioactive resource collection decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -25
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Smart
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Research
+Ability 1 Description                           := Racial Trait - Research point generation increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Dumb
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Research
+Ability 1 Description                           := Racial Trait - Research point generation decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Cunning
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Intelligence
+Ability 1 Description                           := Racial Trait - Intelligence point generation increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Foolish
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Point Generation Modifier - Intelligence
+Ability 1 Description                           := Racial Trait - Intelligence point generation decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Builders
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Space Yard Rate Modifier
+Ability 1 Description                           := Racial Trait - Space Yard rate increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Bunglers
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Space Yard Rate Modifier
+Ability 1 Description                           := Racial Trait - Space Yard rate decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -10
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Brave
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Combat To Hit Offense
+Ability 1 Description                           := Racial Trait - Weapon accuracy adds [%Amount1%]% to combat attack modifier.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Cowardly
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Combat To Hit Offense
+Ability 1 Description                           := Racial Trait - Weapon accuracy subtracts [%Amount1%]% from combat attack modifier.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Physical Strength
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 2
+Ability 1 Type                                  := Ground Combat Damage Modifier
+Ability 1 Description                           := Racial Trait - Ground combat damage increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 10
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Boarding Defense Modifier Percent
+Ability 2 Description                           := Racial Trait - Ship crew strength increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 25
+Ability 2 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Physical Weakness
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 2
+Ability 1 Type                                  := Ground Combat Damage Modifier
+Ability 1 Description                           := Racial Trait - Ground combat damage decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -10
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Boarding Defense Modifier Percent
+Ability 2 Description                           := Racial Trait - Ship crew strength decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -25
+Ability 2 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Environmental Resistance
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - Environmental Tolerance
+Ability 1 Description                           := Racial Trait - Environmental resistance adds [%Amount1%]% to population growth rate.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Environmental Weakness
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - Environmental Tolerance
+Ability 1 Description                           := Racial Trait - Environmental resistance subtracts [%Amount1%]% from population growth rate.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := High Reproduction
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - Reproduction
+Ability 1 Description                           := Racial Trait - High reproduction adds [%Amount1%]% to population growth rate.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Low Reproduction
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - Reproduction
+Ability 1 Description                           := Racial Trait - Low reproduction subtracts [%Amount1%]% from population growth rate.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -5
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Naturally Happy
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Planet Population Happiness
+Ability 1 Description                           := Racial Trait - Happiness adds [%Amount1%]% to population happiness each turn.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 3
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Naturally Depressed
+Picture Number                                  := 0
+Racial Cost                                     := -500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Planet Population Happiness
+Ability 1 Description                           := Racial Trait - Happiness subtracts [%Amount1%]% from population happiness each turn.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -3
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+//-------------------------------------------------------------------------------------------------------------------------------
+// Advanced Abilities
+//-------------------------------------------------------------------------------------------------------------------------------
+Name                                            := Advanced Power Conservation
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Component - Supply Usage Percent
+Ability 1 Description                           := Racial Trait - Supply usage reduced by [%Amount1%]% for all components.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -20
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Mechanoids
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - Not effected by plagues
+Ability 1 Description                           := Racial Trait - Not affected by plagues.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Lucky
+Picture Number                                  := 0
+Racial Cost                                     := 500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Bad Event Chance
+Ability 1 Description                           := Racial Trait - Chance for bad events or sabotage activities is decreased by [%Amount1%]%. Chance for good events is improved.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -50
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Natural Merchants
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Points Added to Empire Pool
+Ability 1 Description                           := Racial Trait - Does not require spaceports to collect resources.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Propulsion Experts
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Space Vehicles Movement Modifier
+Ability 1 Description                           := Racial Trait - Gains [%Amount1%] additional movement point for all vehicles.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 1
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Ancient Race
+Picture Number                                  := 0
+Racial Cost                                     := 1500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Empire - All Systems Seen At Start
+Ability 1 Description                           := Racial Trait - Has seen the entire quadrant.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Advanced Storage Techniques
+Picture Number                                  := 0
+Racial Cost                                     := 2000
+Number Of Abilities                             := 2
+Ability 1 Type                                  := Storage Cargo Space Percent
+Ability 1 Description                           := Racial Trait - Cargo space is increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 20
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Storage Facility Space Percent
+Ability 2 Description                           := Racial Trait - Facility space is increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 20
+Ability 2 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Hardy Industrialists
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Space Yard Rate Modifier
+Ability 1 Description                           := Racial Trait - Planetary Space Yard rate increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 20
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Emotionless
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Race - No Mood Change
+Ability 1 Description                           := Racial Trait - Population does not get happy or angry.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+//-------------------------------------------------------------------------------------------------------------------------------
+// Racial Technologies
+//-------------------------------------------------------------------------------------------------------------------------------
+Name                                            := Crystallurgy
+Picture Number                                  := 0
+Racial Cost                                     := 2000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Crystallurgy Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Interdimensional Knowledge
+Picture Number                                  := 0
+Racial Cost                                     := 1500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Interdimensional Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Organic Manipulation
+Picture Number                                  := 0
+Racial Cost                                     := 2000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Organic Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Psychic
+Picture Number                                  := 0
+Racial Cost                                     := 1000
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Psychic Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Deeply Religious
+Picture Number                                  := 0
+Racial Cost                                     := 1500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Religion Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Temporal Knowledge
+Picture Number                                  := 0
+Racial Cost                                     := 1500
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Racial Trait - Access to the Temporal Technology Tree.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+=======================================================================================
+*END*
+=======================================================================================

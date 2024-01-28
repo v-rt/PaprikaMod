@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Jraenar - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Jraenar
+Image Empire Flag Set                         := Jraenar\Jraenar_Flag_Set.bmp
+Image Empire Flag Main Texture                := Jraenar\Jraenar_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Jraenar\Jraenar_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Jraenar\Jraenar_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Jraenar\Jraenar_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Jraenar\Jraenar_Race_Portrait.bmp
+Image Race Large Portrait                     := Jraenar\Jraenar_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Jraenar\Jraenar_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Jraenar\Jraenar_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Jraenar\Jraenar_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Jraenar\Jraenar_ShipSet.bmp
+AI Script File                                := Jraenar\Jraenar_Main_Script.csf
+AI Script Empire Setup File                   := Jraenar\Jraenar_Setup_Script.csf
+AI General File                               := Jraenar\Jraenar_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Jraenar\Jraenar_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Jraenar\Jraenar_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Jraenar\Jraenar_Ships_XFileClasses.txt
+Design Name File                              := Jraenar\Jraenar_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

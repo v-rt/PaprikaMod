@@ -1,0 +1,1076 @@
+=======================================================================================
+SOUND EFFECTS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+//---------------------------------------------------------------------------------------------
+// Explosions
+//---------------------------------------------------------------------------------------------
+Sound Effect Name                                    := Weapon Explosion 1
+Sound Effect Filename                                := ExplosionSmall1.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Weapon Explosion 2
+Sound Effect Filename                                := ExplosionMedium1.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Weapon Explosion 3
+Sound Effect Filename                                := ExplosionMedium2.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Weapon Explosion 4
+Sound Effect Filename                                := ExplosionMedium3.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 1
+Sound Effect Filename                                := ExplosionLarge1.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 2
+Sound Effect Filename                                := ExplosionLarge2.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 3
+Sound Effect Filename                                := ExplosionLarge3.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 4
+Sound Effect Filename                                := ExplosionShip1.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 5
+Sound Effect Filename                                := ExplosionShip2.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ship Explosion 6
+Sound Effect Filename                                := ExplosionShip3.wav
+Sound Min Distance                                   := 10
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ring Explosion Green
+Sound Effect Filename                                := ExplosionEnergyWave1.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 2
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ring Explosion Red
+Sound Effect Filename                                := ExplosionEnergyWave2.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 2
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ring Explosion Purple
+Sound Effect Filename                                := ExplosionEnergyWave3.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 2
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ring Explosion Blue
+Sound Effect Filename                                := ExplosionEnergyWave1.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 2
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ring Explosion Yellow
+Sound Effect Filename                                := ExplosionEnergyWave2.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 2
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Boom 1
+Sound Effect Filename                                := ExplosionBoom1.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Boom 2
+Sound Effect Filename                                := ExplosionBoom2.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Ship Explosion
+Sound Effect Filename                                := ExplosionBoom3.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+//---------------------------------------------------------------------------------------------
+// Warping
+//---------------------------------------------------------------------------------------------
+Sound Effect Name                                    := Warp Flash Enter
+Sound Effect Filename                                := StellarWarpPointEntering.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Warp Flash Exit
+Sound Effect Filename                                := StellarWarpPointExiting.wav
+Sound Min Distance                                   := 20
+Sound Max Distance                                   := 400
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := TRUE
+
+//---------------------------------------------------------------------------------------------
+// Weapons
+//---------------------------------------------------------------------------------------------
+Sound Effect Name                                    := Anti-Proton Beam
+Sound Effect Filename                                := WeaponAntiProtonBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := X-Ray Laser
+Sound Effect Filename                                := WeaponXRayLaser.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Capital Ship Missile
+Sound Effect Filename                                := WeaponCapitalShipMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Meson Blaster
+Sound Effect Filename                                := WeaponMesonBlaster.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Anti-Matter Torpedo
+Sound Effect Filename                                := WeaponAntiMatterTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Plasma Missile
+Sound Effect Filename                                := WeaponPlasmaMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Point-Defense Cannons
+Sound Effect Filename                                := WeaponPointDefenseCannons.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Plague Bomb
+Sound Effect Filename                                := WeaponPlagueBomb.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Phased-Polaron Beam
+Sound Effect Filename                                := WeaponPhasedPolaronBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ripper Beam
+Sound Effect Filename                                := WeaponRipperBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Incinerator Beam
+Sound Effect Filename                                := WeaponIncineratorBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Wave-Motion Gun
+Sound Effect Filename                                := WeaponWaveMotionGun.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Tachyon Projection Cannon
+Sound Effect Filename                                := WeaponTachyonCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ionic Disperser
+Sound Effect Filename                                := WeaponIonicDisperser.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ionic Pulse Missile
+Sound Effect Filename                                := WeaponIonicPulseMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Planetary Napalm
+Sound Effect Filename                                := WeaponPlanetaryNapalm.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Neutron Bomb
+Sound Effect Filename                                := WeaponNeutronBomb.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Radiation Bomb
+Sound Effect Filename                                := WeaponRadiationBomb.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Smart Bomb
+Sound Effect Filename                                := WeaponSmartBomb.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Repulser Beam
+Sound Effect Filename                                := WeaponRepulserBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Tractor Beam
+Sound Effect Filename                                := WeaponTractorBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Graviton Hellbore
+Sound Effect Filename                                := WeaponGravitonHellbore.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Wormhole Beam
+Sound Effect Filename                                := WeaponWormholeBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Shield Depleter
+Sound Effect Filename                                := WeaponShieldDepleter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Shield Disrupter
+Sound Effect Filename                                := WeaponShieldDisrupter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Depleted Uranium Cannon
+Sound Effect Filename                                := WeaponDepletedUraniumCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Plasma Charge
+Sound Effect Filename                                := WeaponPlasmaCharge.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Hyper-Plasma Bolt
+Sound Effect Filename                                := WeaponHyperPlasmaBolt.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Electric Discharge
+Sound Effect Filename                                := WeaponElectricDischarge.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Lightning Ray
+Sound Effect Filename                                := WeaponLightningRay.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Seeking Parasite
+Sound Effect Filename                                := WeaponSeekingParasite.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Acid Globule
+Sound Effect Filename                                := WeaponAcidGlobule.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Enveloping Acid Globule
+Sound Effect Filename                                := WeaponEnvelopingAcidGlobule.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Shard Cannon
+Sound Effect Filename                                := WeaponShardCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := High-Energy Magnifier
+Sound Effect Filename                                := WeaponHighEnergyMagnifier.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Time Distortion Burst
+Sound Effect Filename                                := WeaponTimeDistortionBurst.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Temporal Shifter
+Sound Effect Filename                                := WeaponTemporalShifter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Telekinetic Projector
+Sound Effect Filename                                := WeaponTelekineticProjector.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Mental Flailer
+Sound Effect Filename                                := WeaponPsychicFlailer.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Allegiance Subverter
+Sound Effect Filename                                := WeaponAllegianceSubverter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Computer Virus
+Sound Effect Filename                                := WeaponComputerVirus.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Null-Space Projector
+Sound Effect Filename                                := WeaponNullSpaceProjector.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Crystalline Torpedo
+Sound Effect Filename                                := WeaponCrystallineTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Energy Dampener
+Sound Effect Filename                                := WeaponEnergyDampner.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Shield Accelerator
+Sound Effect Filename                                := WeaponShieldAccelerator.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Tachyon Cannon
+Sound Effect Filename                                := WeaponTachyonCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Mental Singularity Generator
+Sound Effect Filename                                := WeaponMentalSingularityGenerator.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Massive Shield Depleter
+Sound Effect Filename                                := WeaponMassiveShieldDepleter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Massive Ionic Disperser
+Sound Effect Filename                                := WeaponMassiveIonicDisperser.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Anti-Proton Beam
+Sound Effect Filename                                := WeaponSmallAntiProtonBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Depleted Uranium Cannon
+Sound Effect Filename                                := WeaponSmallDepletedUraniumCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Meson Blaster
+Sound Effect Filename                                := WeaponSmallMesonBlaster.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Phased-Polaron Beam
+Sound Effect Filename                                := WeaponSmallPhasedPolaronBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Ripper Beam
+Sound Effect Filename                                := WeaponSmallRipperBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Incinerator Beam
+Sound Effect Filename                                := WeaponSmallIncineratorBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Anti-Matter Torpedo
+Sound Effect Filename                                := WeaponSmallAntiMatterTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Quantum Torpedo
+Sound Effect Filename                                := WeaponSmallQuantumTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Cluster Bomb
+Sound Effect Filename                                := WeaponSmallClusterBomb.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Rocket Pods
+Sound Effect Filename                                := WeaponSmallRocketPods.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Shard Cannon
+Sound Effect Filename                                := WeaponSmallShardCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Crystalline Torpedo
+Sound Effect Filename                                := WeaponSmallCrystallineTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Phase Disruptor
+Sound Effect Filename                                := WeaponSmallPhaseDisruptor.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Null-Space Projector
+Sound Effect Filename                                := WeaponSmallNullSpaceProjector.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Electric Discharge
+Sound Effect Filename                                := WeaponSmallElectricDischarge.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Acid Globule
+Sound Effect Filename                                := WeaponSmallAcidGlobule.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Time Distortion Burst
+Sound Effect Filename                                := WeaponSmallTimeDistortionBurst.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Telekinetic Projector
+Sound Effect Filename                                := WeaponSmallTelekineticProjector.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Graviton Beam
+Sound Effect Filename                                := WeaponSmallGravitonBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Shield Depleter
+Sound Effect Filename                                := WeaponSmallShieldDepleter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Ground Cannon
+Sound Effect Filename                                := WeaponGroundCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Toxic Injector
+Sound Effect Filename                                := WeaponToxicInjector.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Weapon Disrupter
+Sound Effect Filename                                := WeaponWeaponDisrupter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Subspace Rupture Beam
+Sound Effect Filename                                := WeaponSubspaceRuptureBeam.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Gamma Pulse Torpedo
+Sound Effect Filename                                := WeaponGammaPulseTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Quantum Torpedo
+Sound Effect Filename                                := WeaponQuantumTorpedo.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Power Leech Beam
+Sound Effect Filename                                := WeaponPowerLeech.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Stupifier
+Sound Effect Filename                                := WeaponStupifier.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Power Lamprey
+Sound Effect Filename                                := WeaponPowerLamprey.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Weapon Phase Accelerator
+Sound Effect Filename                                := WeaponWeaponPhaseAccelerator.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Shield Imploder
+Sound Effect Filename                                := WeaponShieldImploder.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Crystalline Siphon
+Sound Effect Filename                                := WeaponCrystallineSiphon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Hyperdense Globule
+Sound Effect Filename                                := WeaponHyperdenseGlobule.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Psychic Whiplash
+Sound Effect Filename                                := WeaponPsychicWhiplash.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Alloy Burner Missile
+Sound Effect Filename                                := WeaponAlloyBurnerMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Phase Disruptor
+Sound Effect Filename                                := WeaponPhaseDisruptor.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Superluminal Darts
+Sound Effect Filename                                := WeaponSuperluminalDarts.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Null-Space Cannon
+Sound Effect Filename                                := WeaponNullSpaceCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Quantum Tunneler
+Sound Effect Filename                                := WeaponQuantumTunneler.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Temporal Tachyon Cannon
+Sound Effect Filename                                := WeaponTemporalTachyonCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Anti-Fighter Rocket
+Sound Effect Filename                                := WeaponAntiFighterRocket.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Flak Cannon
+Sound Effect Filename                                := WeaponFlakCannon.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Bomblet Missile
+Sound Effect Filename                                := WeaponBombletMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Nuclear Missile
+Sound Effect Filename                                := WeaponSmallNuclearMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small Plasma Missile
+Sound Effect Filename                                := WeaponSmallPlasmaMissile.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 400
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+//---------------------------------------------------------------------------------------------
+// Game UI
+//---------------------------------------------------------------------------------------------
+Sound Effect Name                                    := Cloak On
+Sound Effect Filename                                := UICloakOn.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Cloak Off
+Sound Effect Filename                                := UICloakOff.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := General Error
+Sound Effect Filename                                := UIGeneralError.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Button Click
+Sound Effect Filename                                := UIButtonClick.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := End Turn
+Sound Effect Filename                                := UIEndturn.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Order Button
+Sound Effect Filename                                := UIOrderButton.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Command Button
+Sound Effect Filename                                := UICommandButton.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Command Action
+Sound Effect Filename                                := UICommandAction.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Select Item
+Sound Effect Filename                                := UIItemSelected.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Window Opened
+Sound Effect Filename                                := UIWindowOpened.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Window Closed
+Sound Effect Filename                                := UIWindowClosed.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := UI Key Press
+Sound Effect Filename                                := UIKeyPress.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Pickup Component From Inventory
+Sound Effect Filename                                := UIComponentPickUpInv.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Drop Component In Inventory
+Sound Effect Filename                                := UIComponentDropIntoInv.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Cannot Place Component
+Sound Effect Filename                                := UIGeneralError.wav 
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+//---------------------------------------------------------------------------------------------
+// Stellar Manipulations
+//---------------------------------------------------------------------------------------------
+Sound Effect Name                                    := Open Warp Point
+Sound Effect Filename                                := StellarManipOpenWarpPoint.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Close Warp Point
+Sound Effect Filename                                := StellarManipCloseWarpPoint.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Create Planet
+Sound Effect Filename                                := StellarManipCreatePlanet.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Planet
+Sound Effect Filename                                := StellarManipDestroyPlanet.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Create Star
+Sound Effect Filename                                := StellarManipCreateStar.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Star
+Sound Effect Filename                                := StellarManipDestroyStar.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Create Storm
+Sound Effect Filename                                := StellarManipCreateStorm.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Storm
+Sound Effect Filename                                := StellarManipDestroyStorm.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Create Nebulae
+Sound Effect Filename                                := StellarManipCreateNebulae.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Nebulae
+Sound Effect Filename                                := StellarManipDestroyNebulae.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Create Black Hole
+Sound Effect Filename                                := StellarManipCreateBlackHole.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Black Hole
+Sound Effect Filename                                := StellarManipDestroyBlackHole.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Construct Planet
+Sound Effect Filename                                := StellarManipConstructPlanet.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Star Explosion Center
+Sound Effect Filename                                := ExplosionLarge2.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Star Explosion Ring
+Sound Effect Filename                                := ExplosionEnergyWave2.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Destroy Star Collapse
+Sound Effect Filename                                := ExplosionVentingFire3.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Warp Point Expanding
+Sound Effect Filename                                := StellarGasCloud2.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Black Hole Closing
+Sound Effect Filename                                := StellarGasCloud1.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Asteroids 1
+Sound Effect Filename                                := StellarAsteroids1.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Asteroids 2
+Sound Effect Filename                                := StellarAsteroids2.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+Sound Effect Name                                    := Asteroids 3
+Sound Effect Filename                                := StellarAsteroids3.wav
+Sound Min Distance                                   := 0
+Sound Max Distance                                   := 0
+Effect Instances                                     := 1
+Is 3D Sound Effect                                   := FALSE
+
+=======================================================================================
+*END*
+=======================================================================================

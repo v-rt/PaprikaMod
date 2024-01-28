@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Ukra-Tal - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Ukra-Tal
+Description                              := The Ukra-Tal are an ancient peaceful people who excel at politics. They have also developed advanced organic manipulation technology.
+Empire Name                              := Ukra-Tal
+Empire Type                              := Collective
+Emperor Name                             := Weshra-Tal
+Emperor Title                            := Imperator
+Home Planet Type                         := Ice
+Home Planet Atmosphere                   := Methane
+Race Name                                := Ukra-Tal
+Race Plural Name                         := Ukra-Talons
+Race Physical Description                := Serpentoid
+Government Type                          := Collective
+Society Type                             := Politicians
+Biological Description                   := The Ukra-Tal are a genetically complex species. Their DNA is a triple strand helix which has so far defied scientific understanding. The Ukra-Tal stand approximately 4 meters tall and move by the rippling their underbellies. Their body resembles that of a slug, with a large dominant head, and 10-20 small tentacles that they use as hands. Their average lifespan is thought to be about 200 years, but scientists are not sure on this.
+Society Description                      := The Ukra-Tal are a society of intellectuals whose main pursuit is that of research and commerce. Early on, they developed an advanced technology of organic manipulation. This much sought after ability is a closely guarded secret to the Ukra-Tal, but they are known to trade in many other technologies. The society is lead by the Imperator who is judged through scientific means to be the most intelligent and genetically advanced of their species. Internal strife is almost unheard of in the Ukra-Tal collective.
+General History Description              := Though they are actually a very peaceful people, the Ukra-Tal have been plagued by wars since they first ventured into space. History has shown that the Ukra-Tal are rarely the aggressors and that they are usually attacked out of fear of their organic technology. History also shows that the Ukra-Tal are not to be trifled with. Though slow to action, when they do go to war, it becomes a very serious endeavor.
+Personality Group                        := 1
+
+=======================================================================================
+*END*
+=======================================================================================

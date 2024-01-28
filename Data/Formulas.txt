@@ -1,0 +1,50 @@
+=======================================================================================
+FORMULAS DATA FILE - Captain Kwok's Balance Mod v1.20+ (Adapted from FQM, BM Small Sys)
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                := Formula Low Level Cost
+Formula             := ([%Level%] * [%Base_Cost%]) / 2
+
+Name                := Formula Medium Level Cost
+Formula             := [%Level%] * [%Base_Cost%] 
+
+Name                := Formula High Level Cost
+Formula             := ([%Level%] * [%Base_Cost%]) * 2
+
+Name                := Formula Planet Gravity
+Formula             := ([%PlanetSize%]) * ([%PlanetSize%]) / 10 * random(0.8, 1.25)
+
+Name                := Formula Planet Gas Gravity
+Formula             := ([%PlanetSize%]) * ([%PlanetSize%]) / 2.5 * random(0.8, 1.25)
+
+Name                := Formula Planet Temperature
+Formula             := MAX(-240, 100 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 50)
+
+Name                := Formula Planet Terr Temperature
+Formula             := MAX(-240, 100 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 50)
+
+Name                := Formula Planet Ven Temperature
+Formula             := MAX(-240, 360 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 50)
+
+Name                := Formula Planet Moon Temperature
+Formula             := MAX(-240, 80 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 50)
+
+Name                := Formula Planet Ice Temperature
+Formula             := MAX(-240, 20 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 20)
+
+Name                := Formula Planet Gas Temperature
+Formula             := MAX(-240, 40 - ([%HexDistanceToCenter%] * [%HexDistanceToCenter%] * 2) + Random(-50, 25)) + (([%NumberOfStars%] - 1) * 25)
+
+Name                := Formula Planet Radiation
+Formula             := MAX(0, [%NumberOfStars%] * (100 + Random(-50, 50)) - ([%HexDistanceToCenter%] * 25))
+
+Name                := Formula Planet None Radiation
+Formula             := MAX(0, [%NumberOfStars%] * (150 + Random(-50, 50)) - ([%HexDistanceToCenter%] * 25))
+
+=======================================================================================
+*END*
+=======================================================================================

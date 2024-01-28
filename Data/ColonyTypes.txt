@@ -1,0 +1,45 @@
+=======================================================================================
+COLONY TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+These are the default starting Colony Types for all players. Balance Mod ministers
+are designed to only understand these colony types.
+
+Name:
+  The name of the colony type.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                 := Military Installation
+
+Name                 := Mining Colony
+
+Name                 := Farming Colony
+
+Name                 := Refining Colony
+
+Name                 := Mining & Farming Colony
+
+Name                 := Mining & Refining Colony
+
+Name                 := Farming & Refining Colony
+
+Name                 := Resource Colony
+
+Name                 := Resupply Base
+
+Name                 := Research Compound
+
+Name                 := Intelligence Compound
+
+Name                 := Research & Intel Compound
+
+Name                 := Construction Yard
+
+Name                 := Storage Compound
+
+=======================================================================================
+*END*
+=======================================================================================

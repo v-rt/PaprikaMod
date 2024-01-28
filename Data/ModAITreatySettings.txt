@@ -1,0 +1,36 @@
+=======================================================================================
+MOD AI TREATY SETTINGS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+This is a custom settings file for the Balance Mod. It allows the player to restrict
+certain AI behaviours in treaties. The purpose of the settings to allow the player
+to reduce certain types of AI spam. It will not restrict the elements between human
+players.
+
+Allow = If false, AI players will not propose or accept the treaty element
+Offer = If false, AI players will not propose the treaty element, but can still accept if proposed
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Allow Trade                                      := TRUE
+Allow Migration                                  := TRUE
+Allow Colonization                               := TRUE
+Allow Share Technology                           := TRUE
+Allow Share Maps                                 := TRUE
+Allow Share Comm Channels                        := TRUE
+Allow Share Espionage Info                       := TRUE
+Allow Share Sensor Info                          := TRUE
+Allow Share Vehicle Designs                      := TRUE
+Allow Share Combat Reports                       := TRUE
+Offer Trade                                      := TRUE
+Offer Migration                                  := TRUE
+Offer Colonization                               := TRUE
+Offer Share Technology                           := TRUE
+Offer Share Maps                                 := TRUE
+Offer Share Comm Channels                        := TRUE
+Offer Share Espionage Info                       := TRUE
+Offer Share Sensor Info                          := TRUE
+Offer Share Vehicle Designs                      := TRUE
+Offer Share Combat Reports                       := TRUE

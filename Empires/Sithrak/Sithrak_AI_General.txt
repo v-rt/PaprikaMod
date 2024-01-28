@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Sithrak - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Sithrak
+Description                              := The Sithrak live for battle and conquest and will not tolerate lesser species as neighbors.
+Empire Name                              := Sithrak
+Empire Type                              := Dominion
+Emperor Name                             := Nyog-kral
+Emperor Title                            := Overlord
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Sithrak
+Race Plural Name                         := Sithrak
+Race Physical Description                := Humanoid
+Government Type                          := Tyranny
+Society Type                             := Berzerkers
+Biological Description                   := The Sithrak are a humanoid race that evolved in another dimension. Sithrak stand approximately 3 meters tall, have 4 arms and 2 legs, and are roughly reptilian in appearance. Their average lifespan is 30 years and they reproduce slowly. Little is known of the dimension they originate from, but evidence would suggest that the conditions were extremely harsh. Sithrak skin is a greenish-brown color and is extremely dense, much like a natural armor. Unlike other intelligence species, the Sithrak’s teeth retain much of their original predator sharpness. The Sithrak are known for still using these teeth in the heat of battle.
+Society Description                      := The Sithrak are grouped into a strict hierarchy dedicated to the advancement of their empire through conquest and destruction. Weakness in society members is not tolerated, with any sign of it resulting in the immediate death of that individual. Individual Sithrak are extremely intelligent, however their intelligence is absolutely dedicated to the pursuit of warfare. Males and females are equal in all aspects with combat being the determining factor in any disputes. It is conjectured that the original dimension the Sithrak inhabited was filled with predators of the Sithrak. This constant battle resulted in a society that seeks to extinguish its enemies before they inevitably attack.
+General History Description              := The Sithrak we know today are from an expeditionary force that entered are galaxy by means of a multi-dimensional portal. This small group established a colony and quickly grew into a large empire. The Sithrak Dominion is ruthless in its use of its power. The Sithrak do not tolerate weakness in any race they encounter. Since strength is always compared to the Sithrak standard, almost all races are determined to be “weak”. The Sithrak Dominion has not known complete peace in its 10,000 years of existence.
+Personality Group                        := 4
+
+=======================================================================================
+*END*
+=======================================================================================

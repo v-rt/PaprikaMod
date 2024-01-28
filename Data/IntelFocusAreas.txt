@@ -1,0 +1,41 @@
+=======================================================================================
+INTELLIGENCE FOCUS AREAS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                            := Sabotage - Ships & Fleets
+Description                                     := Spies will attempt to sabotage ships, bases and fleets belonging to this empire.
+
+Name                                            := Sabotage - Planets & Colonies
+Description                                     := Spies will attempt to sabotage colonies belonging to this empire.
+
+Name                                            := Sabotage - Empire Wide
+Description                                     := Spies will attempt to disrupt the economy, research and intelligence operations of this empire.
+
+Name                                            := Sabotage - Political
+Description                                     := Spies will attempt to cause colonies to revolt, disrupt trade and destabilize relations between this empire and its allies.
+
+Name                                            := Espionage - Ships & Fleets
+Description                                     := Spies will report information relating to this empire's ship locations, orders and activities.
+
+Name                                            := Espionage - Planets & Colonies
+Description                                     := Spies will report information relating to this empire's colonies, constructions and population moods.
+
+Name                                            := Espionage - Empire Wide
+Description                                     := Spies will attempt to obtain information about this empire such as its star charts, vehicle designs and technologies.
+
+Name                                            := Espionage - Political
+Description                                     := Spies will attempt to get detailed information on this empire's treaties, trade and communications with its allies.
+
+Name                                            := Cooperative Intelligence - Attack
+Description                                     := Our intelligence network will support this empire's efforts against its enemies by sharing information and aiding in operations.
+
+Name                                            := Cooperative Intelligence - Defense
+Description                                     := Our intelligence network will support this empire's efforts to protect itself againsts its enemies.
+
+=======================================================================================
+*END*
+=======================================================================================

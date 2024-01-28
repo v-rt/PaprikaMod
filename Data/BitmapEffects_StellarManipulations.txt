@@ -1,0 +1,572 @@
+===================================================================================================================================
+EFFECTS DATA FILE - Captain Kwok's Balance Mod v125+
+===================================================================================================================================
+
+Start X, Start Y:
+  Starting position on the texture as a percentage of the total texture size.
+
+End X, End Y:
+  Ending position on the texture as a percentage of the total texture size.
+
+===================================================================================================================================
+*BEGIN*
+===================================================================================================================================
+
+//--------------------------------------------------------------------------------------
+// Star Explosion
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Star Explosion
+Specific Type                                        := Star Explosion Standard
+Effect Name                                          := Star Explosion Center
+Bitmap Filename                                      := Stellar_StarExplosionCenter.bmp
+Sound Filename                                       := 
+Width                                                := 1.0
+Height                                               := 1.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Star Explosion
+Specific Type                                        := Star Explosion Standard
+Effect Name                                          := Star Explosion Ring
+Bitmap Filename                                      := Stellar_StarExplosionRing.bmp
+Sound Filename                                       := 
+Width                                                := 1.0
+Height                                               := 1.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Star Explosion
+Specific Type                                        := Star Explosion Standard
+Effect Name                                          := Stellar Debris After Glow
+Bitmap Filename                                      := StarGlow.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+//--------------------------------------------------------------------------------------
+// Star Creation
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Star Creation
+Specific Type                                        := Star Creation Standard
+Effect Name                                          := Star Creation Glow
+Bitmap Filename                                      := Stellar_StarCreation.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+//--------------------------------------------------------------------------------------
+// Sparks
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 1
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.25
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 2
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.25
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 0.25
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 3
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.75
+Frame 1 Texture End Y                                := 0.25
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 4
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.75
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 0.25
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 5
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.25
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 6
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.25
+Frame 1 Texture Start Y                              := 0.25
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 7
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.25
+Frame 1 Texture End X                                := 0.75
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 8
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.75
+Frame 1 Texture Start Y                              := 0.25
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 9
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.75
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 10
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.25
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 0.75
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 11
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 0.75
+Frame 1 Texture End Y                                := 0.75
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 12
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.75
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 0.75
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 13
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.75
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 14
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.25
+Frame 1 Texture Start Y                              := 0.75
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 15
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.75
+Frame 1 Texture End X                                := 0.75
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Spark
+Specific Type                                        := Spark Standard
+Effect Name                                          := Spark 16
+Bitmap Filename                                      := Sparks.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.75
+Frame 1 Texture Start Y                              := 0.75
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+//--------------------------------------------------------------------------------------
+// Explosions - Planet
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Explosion
+Specific Type                                        := Planet Explosion
+Effect Name                                          := Planet Explosion 1
+Bitmap Filename                                      := WepEx_01.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 16
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.25
+Frame 2 Texture Start X                              := 0.25
+Frame 2 Texture Start Y                              := 0.00
+Frame 2 Texture End X                                := 0.50
+Frame 2 Texture End Y                                := 0.25
+Frame 3 Texture Start X                              := 0.50
+Frame 3 Texture Start Y                              := 0.00
+Frame 3 Texture End X                                := 0.75
+Frame 3 Texture End Y                                := 0.25
+Frame 4 Texture Start X                              := 0.75
+Frame 4 Texture Start Y                              := 0.00
+Frame 4 Texture End X                                := 1.00
+Frame 4 Texture End Y                                := 0.25
+Frame 5 Texture Start X                              := 0.00
+Frame 5 Texture Start Y                              := 0.25
+Frame 5 Texture End X                                := 0.25
+Frame 5 Texture End Y                                := 0.50
+Frame 6 Texture Start X                              := 0.25
+Frame 6 Texture Start Y                              := 0.25
+Frame 6 Texture End X                                := 0.50
+Frame 6 Texture End Y                                := 0.50
+Frame 7 Texture Start X                              := 0.50
+Frame 7 Texture Start Y                              := 0.25
+Frame 7 Texture End X                                := 0.75
+Frame 7 Texture End Y                                := 0.50
+Frame 8 Texture Start X                              := 0.75
+Frame 8 Texture Start Y                              := 0.25
+Frame 8 Texture End X                                := 1.00
+Frame 8 Texture End Y                                := 0.50
+Frame 9 Texture Start X                              := 0.00
+Frame 9 Texture Start Y                              := 0.50
+Frame 9 Texture End X                                := 0.25
+Frame 9 Texture End Y                                := 0.75
+Frame 10 Texture Start X                             := 0.25
+Frame 10 Texture Start Y                             := 0.50
+Frame 10 Texture End X                               := 0.50
+Frame 10 Texture End Y                               := 0.75
+Frame 11 Texture Start X                             := 0.50
+Frame 11 Texture Start Y                             := 0.50
+Frame 11 Texture End X                               := 0.75
+Frame 11 Texture End Y                               := 0.75
+Frame 12 Texture Start X                             := 0.75
+Frame 12 Texture Start Y                             := 0.50
+Frame 12 Texture End X                               := 1.00
+Frame 12 Texture End Y                               := 0.75
+Frame 13 Texture Start X                             := 0.00
+Frame 13 Texture Start Y                             := 0.75
+Frame 13 Texture End X                               := 0.25
+Frame 13 Texture End Y                               := 1.00
+Frame 14 Texture Start X                             := 0.25
+Frame 14 Texture Start Y                             := 0.75
+Frame 14 Texture End X                               := 0.50
+Frame 14 Texture End Y                               := 1.00
+Frame 15 Texture Start X                             := 0.50
+Frame 15 Texture Start Y                             := 0.75
+Frame 15 Texture End X                               := 0.75
+Frame 15 Texture End Y                               := 1.00
+Frame 16 Texture Start X                             := 0.75
+Frame 16 Texture Start Y                             := 0.75
+Frame 16 Texture End X                               := 1.00
+Frame 16 Texture End Y                               := 1.00
+
+Effect Type                                          := Explosion
+Specific Type                                        := Planet Explosion
+Effect Name                                          := Planet Explosion 2
+Bitmap Filename                                      := WepEx_03.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 16
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.25
+Frame 2 Texture Start X                              := 0.25
+Frame 2 Texture Start Y                              := 0.00
+Frame 2 Texture End X                                := 0.50
+Frame 2 Texture End Y                                := 0.25
+Frame 3 Texture Start X                              := 0.50
+Frame 3 Texture Start Y                              := 0.00
+Frame 3 Texture End X                                := 0.75
+Frame 3 Texture End Y                                := 0.25
+Frame 4 Texture Start X                              := 0.75
+Frame 4 Texture Start Y                              := 0.00
+Frame 4 Texture End X                                := 1.00
+Frame 4 Texture End Y                                := 0.25
+Frame 5 Texture Start X                              := 0.00
+Frame 5 Texture Start Y                              := 0.25
+Frame 5 Texture End X                                := 0.25
+Frame 5 Texture End Y                                := 0.50
+Frame 6 Texture Start X                              := 0.25
+Frame 6 Texture Start Y                              := 0.25
+Frame 6 Texture End X                                := 0.50
+Frame 6 Texture End Y                                := 0.50
+Frame 7 Texture Start X                              := 0.50
+Frame 7 Texture Start Y                              := 0.25
+Frame 7 Texture End X                                := 0.75
+Frame 7 Texture End Y                                := 0.50
+Frame 8 Texture Start X                              := 0.75
+Frame 8 Texture Start Y                              := 0.25
+Frame 8 Texture End X                                := 1.00
+Frame 8 Texture End Y                                := 0.50
+Frame 9 Texture Start X                              := 0.00
+Frame 9 Texture Start Y                              := 0.50
+Frame 9 Texture End X                                := 0.25
+Frame 9 Texture End Y                                := 0.75
+Frame 10 Texture Start X                             := 0.25
+Frame 10 Texture Start Y                             := 0.50
+Frame 10 Texture End X                               := 0.50
+Frame 10 Texture End Y                               := 0.75
+Frame 11 Texture Start X                             := 0.50
+Frame 11 Texture Start Y                             := 0.50
+Frame 11 Texture End X                               := 0.75
+Frame 11 Texture End Y                               := 0.75
+Frame 12 Texture Start X                             := 0.75
+Frame 12 Texture Start Y                             := 0.50
+Frame 12 Texture End X                               := 1.00
+Frame 12 Texture End Y                               := 0.75
+Frame 13 Texture Start X                             := 0.00
+Frame 13 Texture Start Y                             := 0.75
+Frame 13 Texture End X                               := 0.25
+Frame 13 Texture End Y                               := 1.00
+Frame 14 Texture Start X                             := 0.25
+Frame 14 Texture Start Y                             := 0.75
+Frame 14 Texture End X                               := 0.50
+Frame 14 Texture End Y                               := 1.00
+Frame 15 Texture Start X                             := 0.50
+Frame 15 Texture Start Y                             := 0.75
+Frame 15 Texture End X                               := 0.75
+Frame 15 Texture End Y                               := 1.00
+Frame 16 Texture Start X                             := 0.75
+Frame 16 Texture Start Y                             := 0.75
+Frame 16 Texture End X                               := 1.00
+Frame 16 Texture End Y                               := 1.00
+
+Effect Type                                          := Explosion
+Specific Type                                        := Planet Explosion
+Effect Name                                          := Planet Explosion 3
+Bitmap Filename                                      := WepEx_04.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 16
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.25
+Frame 1 Texture End Y                                := 0.25
+Frame 2 Texture Start X                              := 0.25
+Frame 2 Texture Start Y                              := 0.00
+Frame 2 Texture End X                                := 0.50
+Frame 2 Texture End Y                                := 0.25
+Frame 3 Texture Start X                              := 0.50
+Frame 3 Texture Start Y                              := 0.00
+Frame 3 Texture End X                                := 0.75
+Frame 3 Texture End Y                                := 0.25
+Frame 4 Texture Start X                              := 0.75
+Frame 4 Texture Start Y                              := 0.00
+Frame 4 Texture End X                                := 1.00
+Frame 4 Texture End Y                                := 0.25
+Frame 5 Texture Start X                              := 0.00
+Frame 5 Texture Start Y                              := 0.25
+Frame 5 Texture End X                                := 0.25
+Frame 5 Texture End Y                                := 0.50
+Frame 6 Texture Start X                              := 0.25
+Frame 6 Texture Start Y                              := 0.25
+Frame 6 Texture End X                                := 0.50
+Frame 6 Texture End Y                                := 0.50
+Frame 7 Texture Start X                              := 0.50
+Frame 7 Texture Start Y                              := 0.25
+Frame 7 Texture End X                                := 0.75
+Frame 7 Texture End Y                                := 0.50
+Frame 8 Texture Start X                              := 0.75
+Frame 8 Texture Start Y                              := 0.25
+Frame 8 Texture End X                                := 1.00
+Frame 8 Texture End Y                                := 0.50
+Frame 9 Texture Start X                              := 0.00
+Frame 9 Texture Start Y                              := 0.50
+Frame 9 Texture End X                                := 0.25
+Frame 9 Texture End Y                                := 0.75
+Frame 10 Texture Start X                             := 0.25
+Frame 10 Texture Start Y                             := 0.50
+Frame 10 Texture End X                               := 0.50
+Frame 10 Texture End Y                               := 0.75
+Frame 11 Texture Start X                             := 0.50
+Frame 11 Texture Start Y                             := 0.50
+Frame 11 Texture End X                               := 0.75
+Frame 11 Texture End Y                               := 0.75
+Frame 12 Texture Start X                             := 0.75
+Frame 12 Texture Start Y                             := 0.50
+Frame 12 Texture End X                               := 1.00
+Frame 12 Texture End Y                               := 0.75
+Frame 13 Texture Start X                             := 0.00
+Frame 13 Texture Start Y                             := 0.75
+Frame 13 Texture End X                               := 0.25
+Frame 13 Texture End Y                               := 1.00
+Frame 14 Texture Start X                             := 0.25
+Frame 14 Texture Start Y                             := 0.75
+Frame 14 Texture End X                               := 0.50
+Frame 14 Texture End Y                               := 1.00
+Frame 15 Texture Start X                             := 0.50
+Frame 15 Texture Start Y                             := 0.75
+Frame 15 Texture End X                               := 0.75
+Frame 15 Texture End Y                               := 1.00
+Frame 16 Texture Start X                             := 0.75
+Frame 16 Texture Start Y                             := 0.75
+Frame 16 Texture End X                               := 1.00
+Frame 16 Texture End Y                               := 1.00
+
+//--------------------------------------------------------------------------------------
+// Destroy Nebulae Ring Explosion
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Explosion
+Specific Type                                        := Ring Explosion
+Effect Name                                          := Ring Explosion Purple
+Bitmap Filename                                      := RingEx_03.bmp
+Sound Filename                                       := Ring Explosion Purple
+Width                                                := 1.0
+Height                                               := 1.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+===================================================================================================================================
+*END*
+===================================================================================================================================

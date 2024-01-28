@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Sithrak - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Sithrak
+Image Empire Flag Set                         := Sithrak\Sithrak_Flag_Set.bmp
+Image Empire Flag Main Texture                := Sithrak\Sithrak_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Sithrak\Sithrak_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Sithrak\Sithrak_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Sithrak\Sithrak_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Sithrak\Sithrak_Race_Portrait.bmp
+Image Race Large Portrait                     := Sithrak\Sithrak_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Sithrak\Sithrak_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Sithrak\Sithrak_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Sithrak\Sithrak_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Sithrak\Sithrak_ShipSet.bmp
+AI Script File                                := Sithrak\Sithrak_Main_Script.csf
+AI Script Empire Setup File                   := Sithrak\Sithrak_Setup_Script.csf
+AI General File                               := Sithrak\Sithrak_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Sithrak\Sithrak_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Sithrak\Sithrak_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Sithrak\Sithrak_Ships_XFileClasses.txt
+Design Name File                              := Sithrak\Sithrak_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

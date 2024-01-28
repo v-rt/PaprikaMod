@@ -1,0 +1,69 @@
+=======================================================================================
+COLONY STARTING FACILITIES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                   := Low Tech Starting Game
+Percent Of Space To Use                := 100
+Number Of Facilities                   := 25
+Facility 1 Name                        := Space Port
+Facility 2 Name                        := Space Yard Facility
+Facility 3 Name                        := Resupply Depot
+Facility 4 Name                        := Mineral Miner Facility
+Facility 5 Name                        := Organics Farm Facility
+Facility 6 Name                        := Radioactives Extraction Facility
+Facility 7 Name                        := Research Center
+Facility 8 Name                        := Mineral Miner Facility
+Facility 9 Name                        := Organics Farm Facility
+Facility 10 Name                       := Radioactives Extraction Facility
+Facility 11 Name                       := Research Center
+Facility 12 Name                       := Mineral Miner Facility
+Facility 13 Name                       := Research Center
+Facility 14 Name                       := Mineral Miner Facility
+Facility 15 Name                       := Research Center
+Facility 16 Name                       := Mineral Miner Facility
+Facility 17 Name                       := Research Center
+Facility 18 Name                       := Mineral Miner Facility
+Facility 19 Name                       := Research Center
+Facility 20 Name                       := Mineral Miner Facility
+Facility 21 Name                       := Research Center
+Facility 22 Name                       := Organics Farm Facility
+Facility 23 Name                       := Research Center
+Facility 24 Name                       := Radioactives Extraction Facility
+Facility 25 Name                       := Research Center
+
+Name                                   := All Tech Starting Game
+Percent Of Space To Use                := 100
+Number Of Facilities                   := 25
+Facility 1 Name                        := Space Port
+Facility 2 Name                        := Space Yard Facility
+Facility 3 Name                        := Resupply Depot
+Facility 4 Name                        := Monolith Facility
+Facility 5 Name                        := Monolith Facility
+Facility 6 Name                        := Monolith Facility
+Facility 7 Name                        := Monolith Facility
+Facility 8 Name                        := Monolith Facility
+Facility 9 Name                        := Monolith Facility
+Facility 10 Name                       := Components Factory
+Facility 11 Name                       := System Robotoid Factory
+Facility 12 Name                       := Ship Training Facility
+Facility 13 Name                       := Fleet Training Facility
+Facility 14 Name                       := Planetary Shield Generator
+Facility 15 Name                       := Medical Lab
+Facility 16 Name                       := Monolith Facility
+Facility 17 Name                       := Monolith Facility
+Facility 18 Name                       := Monolith Facility
+Facility 19 Name                       := Monolith Facility
+Facility 20 Name                       := Monolith Facility
+Facility 21 Name                       := Monolith Facility
+Facility 22 Name                       := Monolith Facility
+Facility 23 Name                       := Monolith Facility
+Facility 24 Name                       := Monolith Facility
+Facility 25 Name                       := Monolith Facility
+
+=======================================================================================
+*END*
+=======================================================================================

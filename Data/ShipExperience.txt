@@ -1,0 +1,223 @@
+=======================================================================================
+SHIP EXPERIENCE DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+Ship Experience:
+
+Level          Xp Pts Atk Def
+-----------------------------
+Recruit             0   0   0
+Trained           500   4   2
+Regular          1000   8   4
+Veteran          2500  12   6
+Elite            5000  16   8
+Legendary       10000  20  10
+
+Fleet Experience:
+
+Level          Xp Pts Atk Def
+-----------------------------
+Recruit             0   0   0
+Trained          5000   2   1
+Regular         10000   4   2
+Veteran         15000   6   3
+Elite           25000   8   4
+Legendary       50000  10   5
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Ship Experience Model Name                            := Normal Ship Experience
+Description                                           := The standard rate for ships to gain experience and abilities.
+Experience Per Turn For Staying Alive                 := 25.0
+Experience Per Turn For Being Mothballed              := -50.0
+Experience Per Tonnage For Damaging Enemy Ship        := 0.2
+Experience Per Tonnage For Damaging Enemy Base        := 0.2
+Experience Per Tonnage For Damaging Enemy Seeker      := 0.05
+Experience Per Tonnage For Damaging Enemy Unit        := 0.1
+Experience Per Tonnage For Damaging Enemy Facility    := 0.05
+Experience Per Tonnage For Killing Enemy Ship         := 0.2
+Experience Per Tonnage For Killing Enemy Base         := 0.2
+Experience Per Tonnage For Killing Enemy Seeker       := 0.05
+Experience Per Tonnage For Killing Enemy Unit         := 0.1
+Experience Per Tonnage For Killing Enemy Facility     := 0.05
+Experience Per Population For Damaging Enemy Planet   := 0.05
+Number of Crew Experience Levels                      := 6
+Crew Level 1 Name                                     := Recruit
+Crew Level 1 Experience Amount                        := 0
+Crew Level 1 Number Of Abilities                      := 0
+Crew Level 2 Name                                     := Trained
+Crew Level 2 Experience Amount                        := 500
+Crew Level 2 Number Of Abilities                      := 2
+Crew Level 2 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 2 Ability 1 Description                    := Ship XP adds [%Amount1%] to combat attack modifier.
+Crew Level 2 Ability 1 Scope                          := Space Object
+Crew Level 2 Ability 1 Range Formula                  := 0
+Crew Level 2 Ability 1 Amount 1 Formula               := 4
+Crew Level 2 Ability 1 Amount 2 Formula               := 11
+Crew Level 2 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 2 Ability 2 Description                    := Ship XP adds [%Amount1%] to combat defense modifier.
+Crew Level 2 Ability 2 Scope                          := Space Object
+Crew Level 2 Ability 2 Range Formula                  := 0
+Crew Level 2 Ability 2 Amount 1 Formula               := 2
+Crew Level 2 Ability 2 Amount 2 Formula               := 11
+Crew Level 3 Name                                     := Regular
+Crew Level 3 Experience Amount                        := 1000
+Crew Level 3 Number Of Abilities                      := 2
+Crew Level 3 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 3 Ability 1 Description                    := Ship XP adds [%Amount1%] to combat attack modifier.
+Crew Level 3 Ability 1 Scope                          := Space Object
+Crew Level 3 Ability 1 Range Formula                  := 0
+Crew Level 3 Ability 1 Amount 1 Formula               := 8
+Crew Level 3 Ability 1 Amount 2 Formula               := 11
+Crew Level 3 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 3 Ability 2 Description                    := Ship XP adds [%Amount1%] to combat defense modifier.
+Crew Level 3 Ability 2 Scope                          := Space Object
+Crew Level 3 Ability 2 Range Formula                  := 0
+Crew Level 3 Ability 2 Amount 1 Formula               := 4
+Crew Level 3 Ability 2 Amount 2 Formula               := 11
+Crew Level 4 Name                                     := Veteran
+Crew Level 4 Experience Amount                        := 2500
+Crew Level 4 Number Of Abilities                      := 2
+Crew Level 4 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 4 Ability 1 Description                    := Ship XP adds [%Amount1%] to combat attack modifier.
+Crew Level 4 Ability 1 Scope                          := Space Object
+Crew Level 4 Ability 1 Range Formula                  := 0
+Crew Level 4 Ability 1 Amount 1 Formula               := 12
+Crew Level 4 Ability 1 Amount 2 Formula               := 11
+Crew Level 4 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 4 Ability 2 Description                    := Ship XP adds [%Amount1%] to combat defense modifier.
+Crew Level 4 Ability 2 Scope                          := Space Object
+Crew Level 4 Ability 2 Range Formula                  := 0
+Crew Level 4 Ability 2 Amount 1 Formula               := 6
+Crew Level 4 Ability 2 Amount 2 Formula               := 11
+Crew Level 5 Name                                     := Elite
+Crew Level 5 Experience Amount                        := 5000
+Crew Level 5 Number Of Abilities                      := 2
+Crew Level 5 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 5 Ability 1 Description                    := Ship XP adds [%Amount1%] to combat attack modifier.
+Crew Level 5 Ability 1 Scope                          := Space Object
+Crew Level 5 Ability 1 Range Formula                  := 0
+Crew Level 5 Ability 1 Amount 1 Formula               := 16
+Crew Level 5 Ability 1 Amount 2 Formula               := 11
+Crew Level 5 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 5 Ability 2 Description                    := Ship XP adds [%Amount1%] to combat defense modifier.
+Crew Level 5 Ability 2 Scope                          := Space Object
+Crew Level 5 Ability 2 Range Formula                  := 0
+Crew Level 5 Ability 2 Amount 1 Formula               := 8
+Crew Level 5 Ability 2 Amount 2 Formula               := 11
+Crew Level 6 Name                                     := Legendary
+Crew Level 6 Experience Amount                        := 10000
+Crew Level 6 Number Of Abilities                      := 2
+Crew Level 6 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 6 Ability 1 Description                    := Ship XP adds [%Amount1%] to combat attack modifier.
+Crew Level 6 Ability 1 Scope                          := Space Object
+Crew Level 6 Ability 1 Range Formula                  := 0
+Crew Level 6 Ability 1 Amount 1 Formula               := 20
+Crew Level 6 Ability 1 Amount 2 Formula               := 11
+Crew Level 6 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 6 Ability 2 Description                    := Ship XP adds [%Amount1%] to combat defense modifier.
+Crew Level 6 Ability 2 Scope                          := Space Object
+Crew Level 6 Ability 2 Range Formula                  := 0
+Crew Level 6 Ability 2 Amount 1 Formula               := 10
+Crew Level 6 Ability 2 Amount 2 Formula               := 11
+
+Ship Experience Model Name                            := Normal Fleet Experience
+Description                                           := The standard rate for fleets to gain experience and abilities.
+Experience Per Turn For Staying Alive                 := 25.0
+Experience Per Turn For Being Mothballed              := -50.0
+Experience Per Tonnage For Damaging Enemy Ship        := 0.2
+Experience Per Tonnage For Damaging Enemy Base        := 0.2
+Experience Per Tonnage For Damaging Enemy Seeker      := 0.05
+Experience Per Tonnage For Damaging Enemy Unit        := 0.1
+Experience Per Tonnage For Damaging Enemy Facility    := 0.05
+Experience Per Tonnage For Killing Enemy Ship         := 0.2
+Experience Per Tonnage For Killing Enemy Base         := 0.2
+Experience Per Tonnage For Killing Enemy Seeker       := 0.05
+Experience Per Tonnage For Killing Enemy Unit         := 0.1
+Experience Per Tonnage For Killing Enemy Facility     := 0.05
+Experience Per Population For Damaging Enemy Planet   := 0.05
+Number of Crew Experience Levels                      := 6
+Crew Level 1 Name                                     := Recruit
+Crew Level 1 Experience Amount                        := 0
+Crew Level 1 Number Of Abilities                      := 0
+Crew Level 2 Name                                     := Trained
+Crew Level 2 Experience Amount                        := 5000
+Crew Level 2 Number Of Abilities                      := 2
+Crew Level 2 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 2 Ability 1 Description                    := Fleet XP adds [%Amount1%] to combat attack modifier.
+Crew Level 2 Ability 1 Scope                          := Space Object
+Crew Level 2 Ability 1 Range Formula                  := 0
+Crew Level 2 Ability 1 Amount 1 Formula               := 2
+Crew Level 2 Ability 1 Amount 2 Formula               := 12
+Crew Level 2 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 2 Ability 2 Description                    := Fleet XP adds [%Amount1%] to combat defense modifier.
+Crew Level 2 Ability 2 Scope                          := Space Object
+Crew Level 2 Ability 2 Range Formula                  := 0
+Crew Level 2 Ability 2 Amount 1 Formula               := 1
+Crew Level 2 Ability 2 Amount 2 Formula               := 12
+Crew Level 3 Name                                     := Regular
+Crew Level 3 Experience Amount                        := 10000
+Crew Level 3 Number Of Abilities                      := 2
+Crew Level 3 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 3 Ability 1 Description                    := Fleet XP adds [%Amount1%] to combat attack modifier.
+Crew Level 3 Ability 1 Scope                          := Space Object
+Crew Level 3 Ability 1 Range Formula                  := 0
+Crew Level 3 Ability 1 Amount 1 Formula               := 4
+Crew Level 3 Ability 1 Amount 2 Formula               := 12
+Crew Level 3 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 3 Ability 2 Description                    := Fleet XP adds [%Amount1%] to combat defense modifier.
+Crew Level 3 Ability 2 Scope                          := Space Object
+Crew Level 3 Ability 2 Range Formula                  := 0
+Crew Level 3 Ability 2 Amount 1 Formula               := 2
+Crew Level 3 Ability 2 Amount 2 Formula               := 12
+Crew Level 4 Name                                     := Veteran
+Crew Level 4 Experience Amount                        := 15000
+Crew Level 4 Number Of Abilities                      := 2
+Crew Level 4 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 4 Ability 1 Description                    := Fleet XP adds [%Amount1%] to combat attack modifier.
+Crew Level 4 Ability 1 Scope                          := Space Object
+Crew Level 4 Ability 1 Range Formula                  := 0
+Crew Level 4 Ability 1 Amount 1 Formula               := 6
+Crew Level 4 Ability 1 Amount 2 Formula               := 12
+Crew Level 4 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 4 Ability 2 Description                    := Fleet XP adds [%Amount1%] to combat defense modifier.
+Crew Level 4 Ability 2 Scope                          := Space Object
+Crew Level 4 Ability 2 Range Formula                  := 0
+Crew Level 4 Ability 2 Amount 1 Formula               := 3
+Crew Level 4 Ability 2 Amount 2 Formula               := 12
+Crew Level 5 Name                                     := Elite
+Crew Level 5 Experience Amount                        := 25000
+Crew Level 5 Number Of Abilities                      := 2
+Crew Level 5 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 5 Ability 1 Description                    := Fleet XP adds [%Amount1%] to combat attack modifier.
+Crew Level 5 Ability 1 Scope                          := Space Object
+Crew Level 5 Ability 1 Range Formula                  := 0
+Crew Level 5 Ability 1 Amount 1 Formula               := 8
+Crew Level 5 Ability 1 Amount 2 Formula               := 12
+Crew Level 5 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 5 Ability 2 Description                    := Fleet XP adds [%Amount1%] to combat defense modifier.
+Crew Level 5 Ability 2 Scope                          := Space Object
+Crew Level 5 Ability 2 Range Formula                  := 0
+Crew Level 5 Ability 2 Amount 1 Formula               := 4
+Crew Level 5 Ability 2 Amount 2 Formula               := 12
+Crew Level 6 Name                                     := Legendary
+Crew Level 6 Experience Amount                        := 50000
+Crew Level 6 Number Of Abilities                      := 2
+Crew Level 6 Ability 1 Type                           := Combat To Hit Offense
+Crew Level 6 Ability 1 Description                    := Fleet XP adds [%Amount1%] to combat attack modifier.
+Crew Level 6 Ability 1 Scope                          := Space Object
+Crew Level 6 Ability 1 Range Formula                  := 0
+Crew Level 6 Ability 1 Amount 1 Formula               := 10
+Crew Level 6 Ability 1 Amount 2 Formula               := 12
+Crew Level 6 Ability 2 Type                           := Combat To Hit Defense
+Crew Level 6 Ability 2 Description                    := Fleet XP adds [%Amount1%] to combat defense modifier.
+Crew Level 6 Ability 2 Scope                          := Space Object
+Crew Level 6 Ability 2 Range Formula                  := 0
+Crew Level 6 Ability 2 Amount 1 Formula               := 5
+Crew Level 6 Ability 2 Amount 2 Formula               := 12
+
+=======================================================================================
+*END*
+=======================================================================================

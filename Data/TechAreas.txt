@@ -1,0 +1,2217 @@
+=======================================================================================
+TECH AREA DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+//-------------------------------------------------------------------------------------
+// Cultural Advancement
+//-------------------------------------------------------------------------------------
+Name                                            := Cultural Studies
+Group                                           := Cultural Advancement
+Description                                     := The study of a society's culture and how to advance it.
+Picture Number                                  := 29
+Maximum Level                                   := 1
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Civics
+Group                                           := Cultural Advancement
+Description                                     := Investments in civic culture that improve population loyalty.
+Picture Number                                  := 30
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Conservation
+Group                                           := Cultural Advancement
+Description                                     := Improvements in energy conservation that reduce supply usage.
+Picture Number                                  := 30
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Diplomacy
+Group                                           := Cultural Advancement
+Description                                     := Improvements in diplomatic relations that improve trade with other empires.
+Picture Number                                  := 43
+Maximum Level                                   := 10
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 1 in Applied Political Science.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Applied Political Science") >= 1
+
+Name                                            := Economics
+Group                                           := Cultural Advancement
+Description                                     := Improvements in economic models and fiscal policies that increase productivity.
+Picture Number                                  := 31
+Maximum Level                                   := 10
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Education
+Group                                           := Cultural Advancement
+Description                                     := The development of policies to educate the population and improve research.
+Picture Number                                  := 32
+Maximum Level                                   := 10
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Engineering
+Group                                           := Cultural Advancement
+Description                                     := Development of construction techniques for large scale projects.
+Picture Number                                  := 4
+Maximum Level                                   := 10
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 2 in Construction.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Construction") >= 2
+
+Name                                            := Environment
+Group                                           := Cultural Advancement
+Description                                     := Development of environmental policies to improve planetary conditions.
+Picture Number                                  := 33
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 2 in Biology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Biology") >= 2
+
+Name                                            := Ethics
+Group                                           := Cultural Advancement
+Description                                     := Development of laws and policies that reduce the potential for infiltration by foreign intelligence.
+Picture Number                                  := 34
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Logistics
+Group                                           := Cultural Advancement
+Description                                     := Development of advanced distribution chains.
+Picture Number                                  := 59
+Maximum Level                                   := 10
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 2 in Industry.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Industry") >= 2
+
+Name                                            := Military
+Group                                           := Cultural Advancement
+Description                                     := Development of combat strategies and protocols that improve combat training and readiness.
+Picture Number                                  := 35
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 1 in Advanced Military Science.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= 1
+
+Name                                            := Recreation
+Group                                           := Cultural Advancement
+Description                                     := Development of events and services designed to entertain and keep populations happy.
+Picture Number                                  := 40
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+
+Name                                            := Sociology
+Group                                           := Cultural Advancement
+Description                                     := Development of social techniques to improve intelligence activities.
+Picture Number                                  := 44
+Maximum Level                                   := 10
+Level Cost                                      := 1500
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Cultural Studies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cultural Studies") >= 1
+Requirement 2 Description                       := Requires tech level 1 in Psychology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Psychology") >= 1
+
+//-------------------------------------------------------------------------------------
+// Theoretical Science
+//-------------------------------------------------------------------------------------
+Name                                            := Astrophysics
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science dealing with the physical properties of the universe.
+Picture Number                                  := 1
+Maximum Level                                   := 5
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Biology
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science investigating the processes and physical characteristics of all life forms.
+Picture Number                                  := 2
+Maximum Level                                   := 2
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Chemistry
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science dealing with the composition and properties of substances.
+Picture Number                                  := 3
+Maximum Level                                   := 3
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Colonization
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science of colonizing planets.
+Picture Number                                  := 16
+Maximum Level                                   := 1
+Level Cost                                      := 10000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Construction
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science of engineering and constructing complex vehicles and buildings.
+Picture Number                                  := 4
+Maximum Level                                   := 3
+Level Cost                                      := 4000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Industry
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science involving the creation and utilization of large scale manufacturing machinery.
+Picture Number                                  := 5
+Maximum Level                                   := 3
+Level Cost                                      := 5000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Military Science
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science of military practices and the strategic, tactical and logistic theories that determine them.
+Picture Number                                  := 6
+Maximum Level                                   := 3
+Level Cost                                      := 5000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Physics
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science dealing with the properties and interactions of matter and energy.
+Picture Number                                  := 7
+Maximum Level                                   := 4
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Planetary Engineering
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science of designing and manipulating planetary environments.
+Picture Number                                  := 8
+Maximum Level                                   := 1
+Level Cost                                      := 10000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Psychology
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science dealing with the mind and mental and emotional processes.
+Picture Number                                  := 9
+Maximum Level                                   := 1
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Stellar Manipulation
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science involving the study and manipulation of stellar objects.
+Picture Number                                  := 80
+Maximum Level                                   := 6
+Level Cost                                      := 100000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 5 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 5
+
+Name                                            := Xenoarchaeology
+Group                                           := Theoretical Science
+Category                                        := Theoretical Science
+Description                                     := Science that allows for the understanding of ancient alien artifacts and technology.
+Picture Number                                  := 12
+Maximum Level                                   := 1
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 0
+
+//-------------------------------------------------------------------------------------
+// Applied Science
+//-------------------------------------------------------------------------------------
+Name                                            := Rock Planet Colonization
+Group                                           := Applied Science
+Category                                        := Colonization
+Description                                     := Allows the creation of colonies on rock based planets.
+Picture Number                                  := 16
+Maximum Level                                   := 1
+Level Cost                                      := 50000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Colonization.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Colonization") >= 1
+
+Name                                            := Ice Planet Colonization
+Group                                           := Applied Science
+Category                                        := Colonization
+Description                                     := Allows the creation of colonies on ice based planets.
+Picture Number                                  := 17
+Maximum Level                                   := 1
+Level Cost                                      := 50000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Colonization.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Colonization") >= 1
+
+Name                                            := Gas Giant Colonization
+Group                                           := Applied Science
+Category                                        := Colonization
+Description                                     := Allows the creation of colonies within gas giant planets.
+Picture Number                                  := 18
+Maximum Level                                   := 1
+Level Cost                                      := 50000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Colonization.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Colonization") >= 1
+
+Name                                            := Crystalline Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := Science of using crystalline materials.
+Picture Number                                  := 78
+Maximum Level                                   := 20
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Crystallurgy.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
+
+Name                                            := Interdimensional Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := Science unlocking the barriers between dimensions.
+Picture Number                                  := 79
+Maximum Level                                   := 15
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Interdimensional Knowledge.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
+
+Name                                            := Organic Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := Advanced utilization of organic forms.
+Picture Number                                  := 74
+Maximum Level                                   := 20
+Level Cost                                      := 5000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Organic Manipulation.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
+
+Name                                            := Psychic Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := Development of psychic ability to manipulate objects, thoughts and other beings.
+Picture Number                                  := 75
+Maximum Level                                   := 15
+Level Cost                                      := 2000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Psychic.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Psychic")
+
+Name                                            := Religious Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := The utilization of religion to achieve goals.
+Picture Number                                  := 76
+Maximum Level                                   := 20
+Level Cost                                      := 4000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Deeply Religious.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
+
+Name                                            := Temporal Technology
+Group                                           := Applied Science
+Category                                        := Racial Technologies
+Description                                     := Manipulation of temporal streams to produce specific results.
+Picture Number                                  := 77
+Maximum Level                                   := 15
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Temporal Knowledge.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
+
+Name                                            := Space Yards
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Development of technology and methods to construct vehicles in space.
+Picture Number                                  := 22
+Maximum Level                                   := 11
+Level Cost                                      := 4000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Repair
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := The ability to repair damage to vehicles in space.
+Picture Number                                  := 20
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Small Ship Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of small ship hulls.
+Picture Number                                  := 139
+Maximum Level                                   := 6
+Level Cost                                      := 2000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Medium Ship Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of medium ship hulls.
+Picture Number                                  := 140
+Maximum Level                                   := 9
+Level Cost                                      := 6000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 2
+
+Name                                            := Large Ship Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of large ship hulls.
+Picture Number                                  := 141
+Maximum Level                                   := 9
+Level Cost                                      := 10000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 3
+
+Name                                            := Baseship Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of large mobile bases.
+Picture Number                                  := 138
+Maximum Level                                   := 6
+Level Cost                                      := 8000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 6 in Large Ship Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 6
+Requirement 2 Description                       := Requires tech level 4 in Large Base Construction.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Large Base Construction") >= 4
+
+Name                                            := Small Base Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of Space Station hulls.
+Picture Number                                  := 19
+Maximum Level                                   := 6
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Large Base Construction
+Group                                           := Applied Science
+Category                                        := Construction
+Description                                     := Construction of Starbase hulls.
+Picture Number                                  := 137
+Maximum Level                                   := 6
+Level Cost                                      := 10000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 3
+
+Name                                            := Troops
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of troop vehicles and their support components.
+Picture Number                                  := 27
+Maximum Level                                   := 9
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Fighters
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of fighter vehicles and their support components.
+Picture Number                                  := 24
+Maximum Level                                   := 7
+Level Cost                                      := 5000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Satellites
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of satellites and their support components.
+Picture Number                                  := 26
+Maximum Level                                   := 5
+Level Cost                                      := 5000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Weapon Platforms
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of planetary weapon platforms and their support components.
+Picture Number                                  := 28
+Maximum Level                                   := 5
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Mines
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of mines deployed remotely in space.
+Picture Number                                  := 25
+Maximum Level                                   := 5
+Level Cost                                      := 4000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Drones
+Group                                           := Applied Science
+Category                                        := Units
+Description                                     := Construction of small self-directed space vehicles and their support components.
+Picture Number                                  := 23
+Maximum Level                                   := 5
+Level Cost                                      := 10000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Computers.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Computers") >= 1
+
+Name                                            := Vehicle Systems
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Design and development of support systems for vehicles.
+Picture Number                                  := 61
+Maximum Level                                   := 6
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Gravitational Manipulation
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Development of ship systems that manipulate gravitational fields.
+Picture Number                                  := 81
+Maximum Level                                   := 4
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 3
+
+Name                                            := Computers
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Advanced computer technology used to automate or improve technologies.
+Picture Number                                  := 68
+Maximum Level                                   := 6
+Level Cost                                      := 5000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 2
+
+Name                                            := Neural Computer Interface
+Group                                           := Applied Science
+Category                                        := Unique
+Description                                     := Advanced computer interface that enhances the combat capability of a ship's crew.
+Picture Number                                  := 89
+Maximum Level                                   := 3
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(3)
+Requirement 2 Description                       := Requires at least tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology") >= 1
+
+Name                                            := Ion Engines
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Engines that utilize ion streams for propulsion.
+Picture Number                                  := 60
+Maximum Level                                   := 5
+Level Cost                                      := 2000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 1
+
+Name                                            := Contra-Terrene Engines
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Engines that use the energy of anti-matter reactions for propulsion.
+Picture Number                                  := 145
+Maximum Level                                   := 5
+Level Cost                                      := 4000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Ion Engines.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Ion Engines") >= 3
+
+Name                                            := Jacketed-Photon Engines
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Engines that harness light for propulsion.
+Picture Number                                  := 146
+Maximum Level                                   := 5
+Level Cost                                      := 6000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Contra-Terrene Engines.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Contra-Terrene Engines") >= 3
+
+Name                                            := Quantum Engines
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Engines that use the energy generated by quantum singularities for propulsion.
+Picture Number                                  := 147
+Maximum Level                                   := 5
+Level Cost                                      := 8000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Jacketed-Photon Engines.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Jacketed-Photon Engines") >= 3
+
+Name                                            := Resupply
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Development of the infrastructure to resupply vehicles in space.
+Picture Number                                  := 59
+Maximum Level                                   := 20
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Stellar Harnessing
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to utilize the energy emitted by stars.
+Picture Number                                  := 125
+Maximum Level                                   := 6
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 1
+
+Name                                            := Armor
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Development of protective layers used on the exterior of a vehicle.
+Picture Number                                  := 62
+Maximum Level                                   := 20
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Chemistry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Chemistry") >= 1
+
+Name                                            := Shields
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Development of energy barriers that provide protection for a vehicle.
+Picture Number                                  := 63
+Maximum Level                                   := 20
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 2
+
+Name                                            := Cloaking
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Stealth technology to render a vehicle invisible.
+Picture Number                                  := 64
+Maximum Level                                   := 11
+Level Cost                                      := 5000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 4 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 4
+
+Name                                            := Sensors
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Sensors that detect and track objects in space.
+Picture Number                                  := 65
+Maximum Level                                   := 20
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 1
+
+Name                                            := Scanners
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Scanners that can analyze details of other vehicles.
+Picture Number                                  := 66
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 3
+
+Name                                            := Defense Systems
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := Devices used to prevent a ship from being hit by weapons fire.
+Picture Number                                  := 69
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 2
+
+Name                                            := Weapon Mounts
+Group                                           := Weapon Technology
+Category                                        := Vehicle Systems
+Description                                     := Development of mounts to enhance a weapon's damage and range.
+Picture Number                                  := 133
+Maximum Level                                   := 1
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
+
+Name                                            := Ship Weapon Mounts
+Group                                           := Weapon Technology
+Category                                        := Vehicle Systems
+Description                                     := Mounts used on ships to enhance weapon damage and range.
+Picture Number                                  := 71
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Weapon Mounts.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Weapon Mounts") >= 1
+
+Name                                            := Base Weapon Mounts
+Group                                           := Weapon Technology
+Category                                        := Vehicle Systems
+Description                                     := Mounts used on bases to enhance weapon damage and range.
+Picture Number                                  := 72
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Weapon Mounts.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Weapon Mounts") >= 1
+
+Name                                            := Unit Weapon Mounts
+Group                                           := Weapon Technology
+Category                                        := Vehicle Systems
+Description                                     := Mount used on units to enhance weapon damage and range.
+Picture Number                                  := 73
+Maximum Level                                   := 7
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Weapon Mounts.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Weapon Mounts") >= 1
+
+Name                                            := Cargo
+Group                                           := Applied Science
+Category                                        := Vehicle Systems
+Description                                     := The equipment needed to store and transport cargo safely.
+Picture Number                                  := 58
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Storage
+Group                                           := Applied Science
+Category                                        := Storage
+Description                                     := Technology to safely store resources.
+Picture Number                                  := 48
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Applied Research
+Group                                           := Applied Science
+Category                                        := General
+Description                                     := Capability and infrastructure to research new technologies.
+Picture Number                                  := 86
+Maximum Level                                   := 11
+Level Cost                                      := 6000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Advanced Military Science
+Group                                           := Applied Science
+Category                                        := General
+Description                                     := The training, study and improvement of martial practices.
+Picture Number                                  := 87
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 3
+
+Name                                            := Applied Political Science
+Group                                           := Applied Science
+Category                                        := General
+Description                                     := The process of government and its execution.
+Picture Number                                  := 88
+Maximum Level                                   := 5
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Psychology.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychology") >= 1
+
+Name                                            := Robotics
+Group                                           := Applied Science
+Category                                        := Planetary Industry
+Description                                     := Development of intelligent machines for industry.
+Picture Number                                  := 49
+Maximum Level                                   := 9
+Level Cost                                      := 6000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Construction.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Construction") >= 3
+
+Name                                            := Centralized Computer Systems
+Group                                           := Applied Science
+Category                                        := Planetary Industry
+Description                                     := Centralization and industrialization of computers to support an entire solar system.
+Picture Number                                  := 50
+Maximum Level                                   := 5
+Level Cost                                      := 6000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Computers.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Computers") >= 2
+Requirement 2 Description                       := Requires tech level 3 in Industry.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Industry") >= 3
+
+Name                                            := Planetary Defenses
+Group                                           := Applied Science
+Category                                        := Planetary Industry
+Description                                     := Development of protective shields that can protect an entire planet.
+Picture Number                                  := 51
+Maximum Level                                   := 11
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 5 in Shields.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Shields") >= 5
+
+Name                                            := Massive Planetary Shielding
+Group                                           := Applied Science
+Category                                        := Unique
+Description                                     := Massive shield generators that can protect an entire planet.
+Picture Number                                  := 90
+Maximum Level                                   := 3
+Level Cost                                      := 5000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(4)
+Requirement 2 Description                       := Requires tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology") >= 1
+
+Name                                            := Medical Treatment
+Group                                           := Applied Science
+Category                                        := Medical
+Description                                     := The study of how to repair and maintain biological systems.
+Picture Number                                  := 52
+Maximum Level                                   := 10
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Biology.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Biology") >= 1
+
+Name                                            := Planet Utilization
+Group                                           := Applied Science
+Category                                        := Planetary Industry
+Description                                     := Engineering of a planet's resources and biosphere.
+Picture Number                                  := 53
+Maximum Level                                   := 15
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Planetary Engineering.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Planetary Engineering") >= 1
+
+Name                                            := Resource Manipulation
+Group                                           := Applied Science
+Category                                        := Planetary Resources
+Description                                     := Technology to improve resource efficiency and utilization.
+Picture Number                                  := 54
+Maximum Level                                   := 15
+Level Cost                                      := 5000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Chemistry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Chemistry") >= 3
+
+Name                                            := Minerals Extraction
+Group                                           := Applied Science
+Category                                        := Planetary Resources
+Description                                     := Ability to extract minerals from a planet.
+Picture Number                                  := 55
+Maximum Level                                   := 15
+Level Cost                                      := 4000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Organics Extraction
+Group                                           := Applied Science
+Category                                        := Planetary Resources
+Description                                     := Ability to grow and cultivate organic materials on a planet.
+Picture Number                                  := 56
+Maximum Level                                   := 15
+Level Cost                                      := 2000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Radioactives Extraction
+Group                                           := Applied Science
+Category                                        := Planetary Resources
+Description                                     := Ability to locate and refine rare isotopes from a planet.
+Picture Number                                  := 57
+Maximum Level                                   := 15
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Industry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Industry") >= 1
+
+Name                                            := Intelligence Services
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := The capability to gather and perform intelligence actions.
+Picture Number                                  := 83
+Maximum Level                                   := 11
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number of Requirements                          := 0
+
+Name                                            := Sabotage - Ships & Fleets
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards sabotaging ships and fleets.
+Picture Number                                  := 152
+Maximum Level                                   := 10
+Level Cost                                      := 500
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 1
+
+Name                                            := Sabotage - Planets & Colonies
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards sabotaging planets and colonies.
+Picture Number                                  := 151
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 2
+
+Name                                            := Sabotage - Empire Wide
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards sabotaging an entire empire's infrastructure.
+Picture Number                                  := 149
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 3
+
+Name                                            := Sabotage - Political
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards the sabotage of an empire's political relations.
+Picture Number                                  := 150
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 4 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 4
+
+Name                                            := Espionage - Ships & Fleets
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards obtaining information on ships and fleets.
+Picture Number                                  := 156
+Maximum Level                                   := 10
+Level Cost                                      := 500
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 1
+
+Name                                            := Espionage - Planets & Colonies
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards obtaining information on planets and colonies.
+Picture Number                                  := 155
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 2
+
+Name                                            := Espionage - Empire Wide
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards obtaining empire wide information.
+Picture Number                                  := 153
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 3
+
+Name                                            := Espionage - Political
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := Intelligence activities directed towards obtaining information on an empire's political relations.
+Picture Number                                  := 154
+Maximum Level                                   := 10
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 4 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 4
+
+Name                                            := Cooperative Intelligence
+Group                                           := Applied Science
+Category                                        := Intelligence
+Description                                     := The coordination of intelligence activities with foreign powers to assist them.
+Picture Number                                  := 148
+Maximum Level                                   := 5
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 5 in Intelligence Services.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= 5
+
+Name                                            := Storm Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to create and destroy stellar storms.
+Picture Number                                  := 80
+Maximum Level                                   := 2
+Level Cost                                      := 25000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 1
+
+Name                                            := Planetary Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to create and destroy planets.
+Picture Number                                  := 80
+Maximum Level                                   := 10
+Level Cost                                      := 25000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 2
+
+Name                                            := Warp Point Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to open and close warp points.
+Picture Number                                  := 80
+Maximum Level                                   := 6
+Level Cost                                      := 50000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 3
+
+Name                                            := Star Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to create and destroy stars.
+Picture Number                                  := 80
+Maximum Level                                   := 2
+Level Cost                                      := 200000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 4 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 4
+
+Name                                            := Nebulae Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to create and destroy stellar nebulae.
+Picture Number                                  := 80
+Maximum Level                                   := 2
+Level Cost                                      := 200000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 4 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 4
+
+Name                                            := Black Hole Manipulation
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to create and destroy black holes.
+Picture Number                                  := 80
+Maximum Level                                   := 2
+Level Cost                                      := 200000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 5 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 5
+
+Name                                            := Stellar Construction
+Group                                           := Applied Science
+Category                                        := Stellar
+Description                                     := Technology to construct ring and sphere worlds.
+Picture Number                                  := 80
+Maximum Level                                   := 3
+Level Cost                                      := 200000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 6 in Stellar Manipulation.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Stellar Manipulation") >= 6
+
+//-------------------------------------------------------------------------------------
+// Weapon Technology
+//-------------------------------------------------------------------------------------
+Name                                            := Crystalline Weapons
+Group                                           := Weapon Technology
+Category                                        := Racial Weapons
+Description                                     := Weapons utilizing unique properties of crystalline materials.
+Picture Number                                  := 120
+Maximum Level                                   := 20
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Crystallurgy.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
+
+Name                                            := Interdimensional Weapons
+Group                                           := Weapon Technology
+Category                                        := Racial Weapons
+Description                                     := Weapons that harness destructive power from alternate dimensions.
+Picture Number                                  := 136
+Maximum Level                                   := 15
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Interdimensional Knowledge.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
+
+Name                                            := Organic Weapons
+Group                                           := Weapon Technology
+Category                                        := Racial Weapons
+Description                                     := Weapons using organic materials and delivery methods.
+Picture Number                                  := 119
+Maximum Level                                   := 20
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Organic Manipulation.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
+
+Name                                            := Psychic Weapons
+Group                                           := Weapon Technology
+Category                                        := Racial Weapons
+Description                                     := Weapons utilizing psychic energy to manipulate people and ships.
+Picture Number                                  := 118
+Maximum Level                                   := 15
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Psychic.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Psychic")
+
+Name                                            := Temporal Weapons
+Group                                           := Weapon Technology
+Category                                        := Racial Weapons
+Description                                     := Weapons employing temporal manipulation to cause damaging effects.
+Picture Number                                  := 117
+Maximum Level                                   := 20
+Level Cost                                      := 3000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have racial trait Temporal Knowledge.
+Requirement 1 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
+
+Name                                            := Projectile Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that fire projectiles.
+Picture Number                                  := 95
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+Name                                            := Focused-Energy Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons harnessing a focused stream of EM radiation.
+Picture Number                                  := 95
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 1
+
+Name                                            := Energy Stream Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons employing a continuous stream of focused energy.
+Picture Number                                  := 92
+Maximum Level                                   := 11
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 2
+
+Name                                            := Energy Pulse Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that fire exotic bursts of energy.
+Picture Number                                  := 93
+Maximum Level                                   := 11
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 2
+
+Name                                            := High-Energy Discharge Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that employ massive directed energy discharges.
+Picture Number                                  := 97
+Maximum Level                                   := 15
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 3
+
+Name                                            := Phased-Energy Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons using phased-energy to bypass normal shields.
+Picture Number                                  := 98
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 3
+
+Name                                            := Missile Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Guided missile weapons that seek after targets.
+Picture Number                                  := 94
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+Name                                            := Plasma Missile Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Guided missile weapons armed with a plasma warhead.
+Picture Number                                  := 126
+Maximum Level                                   := 11
+Level Cost                                      := 4000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Chemistry.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Chemistry") >= 2
+
+Name                                            := Torpedo Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Seeking torpedo weapons that home in and detonate against a target.
+Picture Number                                  := 96
+Maximum Level                                   := 20
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 3
+
+Name                                            := Point-Defense Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that specifically target and destroy incoming seekers.
+Picture Number                                  := 99
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+Name                                            := Shield Damaging Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons designed to only damage shield systems.
+Picture Number                                  := 100
+Maximum Level                                   := 15
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Shields.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Shields") >= 3
+
+Name                                            := Massive Shield Depleting Weapons
+Group                                           := Weapon Technology
+Category                                        := Unique Weapons
+Description                                     := Weapons designed to deplete shields only.
+Picture Number                                  := 121
+Maximum Level                                   := 3
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(1)
+Requirement 2 Description                       := Requires tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology")
+
+Name                                            := Shield Implosion
+Group                                           := Weapon Technology
+Category                                        := Unique Weapons
+Description                                     := Weapons that cause shields to implode.
+Picture Number                                  := 124
+Maximum Level                                   := 3
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(5)
+Requirement 2 Description                       := Requires tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology")
+
+Name                                            := Tractor\Repulser Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that move enemy targets through space.
+Picture Number                                  := 101
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 2
+
+Name                                            := Weapon Overloading Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons designed to only damage weapon systems.
+Picture Number                                  := 102
+Maximum Level                                   := 11
+Level Cost                                      := 1500
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 2
+
+Name                                            := Engine Overloading Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons designed to only damage engines.
+Picture Number                                  := 103
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Ion Engines.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Ion Engines") >= 3
+
+Name                                            := Massive Engine Destroying Weapons
+Group                                           := Weapon Technology
+Category                                        := Unique Weapons
+Description                                     := Weapons that destroy all of the engines on enemy vehicles.
+Picture Number                                  := 122
+Maximum Level                                   := 3
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(2)
+Requirement 2 Description                       := Requires tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology")
+
+Name                                            := Power Leech
+Group                                           := Weapon Technology
+Category                                        := Unique Weapons
+Description                                     := Weapons that siphon power from their target.
+Picture Number                                  := 123
+Maximum Level                                   := 6
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := TRUE
+Number Of Requirements                          := 2
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires the discovery of ancient ruins.
+Requirement 1 Formula                           := Empire_Has_Found_Unique_Discovery(6)
+Requirement 2 Description                       := Requires tech level 1 in Xenoarchaeology.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Xenoarchaeology")
+
+Name                                            := Gravitational Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that use gravitational forces to rip their targets apart.
+Picture Number                                  := 104
+Maximum Level                                   := 6
+Level Cost                                      := 3000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 3
+
+Name                                            := Warp Weapons
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons that create small warp points at the location of their targets.
+Picture Number                                  := 105
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 5 in Physics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Physics") >= 5
+
+Name                                            := Computer Combat
+Group                                           := Weapon Technology
+Category                                        := Vehicle Weapons
+Description                                     := Weapons designed to destroy computer components only.
+Picture Number                                  := 106
+Maximum Level                                   := 3
+Level Cost                                      := 5000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 3 in Computers.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Computers") >= 3
+
+Name                                            := Ship Capture
+Group                                           := Weapon Technology
+Category                                        := Ship Capture
+Description                                     := Technology used to board and capture a target vehicle.
+Picture Number                                  := 108
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 2
+
+Name                                            := Biological Weapons
+Group                                           := Weapon Technology
+Category                                        := Planetary Weapons
+Description                                     := Biological weapons that attack by means of viruses and plagues.
+Picture Number                                  := 109
+Maximum Level                                   := 11
+Level Cost                                      := 1000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 2 in Biology.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Biology") >= 2
+
+Name                                            := Bombardment Weapons
+Group                                           := Weapon Technology
+Category                                        := Planetary Weapons
+Description                                     := Weapons designed to damage planets and their inhabitants.
+Picture Number                                  := 110
+Maximum Level                                   := 11
+Level Cost                                      := 2000
+Start Level                                     := 0
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+Name                                            := Troop Weapons
+Group                                           := Weapon Technology
+Category                                        := Unit Weapons
+Description                                     := Weapons employed by troop vehicles on a planet's surface.
+Picture Number                                  := 111
+Maximum Level                                   := 11
+Level Cost                                      := 500
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Troops.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Troops") >= 1
+
+Name                                            := Smaller Weapons
+Group                                           := Weapon Technology
+Category                                        := Unit Weapons
+Description                                     := Miniaturization of ship based weapons for smaller vehicles.
+Picture Number                                  := 112
+Maximum Level                                   := 6
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := TRUE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+Name                                            := Warheads
+Group                                           := Weapon Technology
+Category                                        := Warheads
+Description                                     := Warheads that damage enemy targets on contact.
+Picture Number                                  := 113
+Maximum Level                                   := 16
+Level Cost                                      := 1000
+Start Level                                     := 1
+Can Be Removed                                  := FALSE
+Unique or Racial Tech                           := FALSE
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires tech level 1 in Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Military Science") >= 1
+
+=======================================================================================
+*END*
+=======================================================================================

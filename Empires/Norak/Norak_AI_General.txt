@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Norak - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Norak
+Description                              := The Norak are a deeply religious people prone to impulsive crusades against their neighbors.
+Empire Name                              := Norak
+Empire Type                              := Continuum
+Emperor Name                             := Rakul
+Emperor Title                            := High Priest
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Norak
+Race Plural Name                         := Noraki
+Race Physical Description                := Aquatic
+Government Type                          := Theocracy
+Society Type                             := Neutral
+Biological Description                   := The Norak are a semi-aquatic species that are amphibious by nature. Though they prefer a very damp climate, they tend to choose land dwelling over water. The Norak stand approximately 2 meters tall and are tri-pedal. The average life span of a Norak is 120 years. Also of note is their uni-sex nature. There are no male or female Norak, merely a single neutral sex.
+Society Description                      := Historians believe that the trinary star system, in which the Norak homeworld resides, is the cause of the deeply religious nature of all Norak. Their entire society is patterned after their polytheistic worship. The leader of their society is referred to as the High Priest. Their society once contained many different sects, but after a great "religious cleansing", only one sect remains. This has actually proven to be of great benefit, as the society is now cohesive enough to devote its resources to space travel.
+General History Description              := Norak relations in the galaxy have been highly mixed. Their religion allows them to help one species while destroying another. If the Norak's religion finds another race faulting, they will attempt to wipe them out.
+Personality Group                        := 2
+
+=======================================================================================
+*END*
+=======================================================================================

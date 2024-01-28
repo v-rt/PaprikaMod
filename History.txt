@@ -1,0 +1,1470 @@
+Version History - Captain Kwok's Balance Mod for Space Empires V
+================================================================
+
+Version 1.25 Alpha (16 Dec 2023)
+--------------------------------
+
+xA. Added   - Engineering cultural achievement to increase space yard rates for an empire
+xA. Added   - Logistics cultural achievement to reduce maintenance costs for an empire
+xA. Changed - Economics cultural achievement will now provide an empire wide boost to resource production
+xA. Added   - New racial trait Interdimensional
+xA. Changed - Reduced all resource costs and production rates by a factor of 10
+xA. Changed - Reduced all research costs and generation by a factor of 10
+xA. Changed - Low, Medium and High tech starting points reduced by a factor of 10 (5,000; 50,000; 500,000)
+xA. Changed - Reduced all intelligence costs and generation by a factor of 10
+xB. Changed - Reduced starting resources/points default amounts to 1,000, 5,000 and 10,000 
+xA. Changed - Increased Drone Combat Computer Core to 20 kT and added attack/defense modifiers
+xA. Changed - Drone Combat Computer Core now requires Drones Level 2
+xB. Added   - Dynamic AI designs for using Autonomic Ganglion component
+xA. Changed - Increased structure for vehicle controls
+xA. Added   - Component Inertial Dampeners that increases combat movement for a ship
+xA. Added   - Component Deflector Array that reduces a ship's maintenance cost
+xA. Changed - Null-Space Shields moved to Interdimensional Technology
+xA. Changed - Reduced Tachyon Sensors, Psychic Receptors and Temporal Sensors to 6 levels
+xA. Changed - Advanced sensors still see up to sight level 16, but there range at max tech no longer covers an entire system
+xA. Added   - Multiplex Tracking (damage boost to direct-fire point-defense weapons) [Test]
+xA. Changed - Reduced Shard Cannons from 16 to 11 levels
+xA. Changed - Reduced Crystalline Torpedo from 20 to 11 levels
+xA. Added   - Phase Disruptors and Small Phase Disruptors to Interdimensional Weapons
+xA. Added   - Hyperspatial Darts to Interdimensional Weapons
+xA. Added   - Quantum Tunneler to Interdimensional Weapons
+xA. Added   - Null-Space Cannons, Null-Space Warhead to Interdimensional Weapons tech area
+xA. Changed - Moved Null-Space Projector to Interdimensional Weapons tech area
+xA. Removed - Null-Space Weapons tech area
+xA. Changed - Reduced Seeking Parasite from 20 to 11 levels
+xA. Changed - Reduced Psychic Technology tech area cost from 3,000 to 2,000
+xA. Changed - Some Psychic weapons could be used with Satellites or Drones, which was unintentional
+xA. Changed - Increased Cloaking Device to 11 levels
+xA. Added   - Point-Defense Weapon Anti-Fighter Missile
+xA. Changed - Reduced Flak Cannons to 3 levels but moved up earlier in Point-Defense Weapons tech area
+xA. Changed - Reduced Bomblet Missile to 3 levels
+xA. Changed - Reduced Tractor Beam and Repulser Beam to 6 levels
+xA. Changed - Reduced Cobalt Warhead and Mine Warhead to 11 levels
+xA. Changed - Reduced Kamikaze Warhead to 6 levels
+xA. Changed - Reduced Speciality Mine Warheads to 6 levels
+xA. Changed - Reduced Boarding Parties and Security Stations to 6 levels
+xA. Changed - All types of mine warheads have a damage range from 0 to their maximum amount (more variable)
+xA. Changed - Updated most weapon sound effects including conversion to stereo
+xA. Added   - Added dedicated sound effects for small weapons
+xA. Changed - Removed medium size of Weapon Platforms, Satellites, Fighters, Drones and Mines
+xA. Changed - Unit launching components no longer have cargo space (need to use combination of cargo bays and launchers)
+xB. Changed - Reduced Fighter and Drone Launcher requirements for carriers from 20% to 10%
+xB. Changed - Added a requirement for Carriers to have at least 30% total space used between Fighter or Drone Launchers and Cargo Bays
+xB. Changed - Freighters can no longer mount Fighter or Drone Launchers (To be evaluated)
+xA. Changed - Replaced System Computer Complex with Research Directorate
+xA. Changed - Replaced System Databank Complex with Intelligence Directorate
+xA. Changed - Removed vehicle size changes for all unit vehicle types so unit sizes are fixed
+xA. Changed - Removed Emissive Armor restriction for units
+xB. Added   - Large mounts for Large Troops and Large Fighters
+xA. Changed - Added Unit and Facility scrap modifiers to the Ultra-Recycler facility
+xA. Removed - Planetary Gravitational Shield Facility
+xA. Changed - Added Stop Planet Destroyer ability to System Gravitational Shield Facility
+xA. Added   - Extradimensional Portal Facility, Subspace Transmitter and Sensor Facility to Interdimensional trait technology
+xA. Changed - Reduced maximum sight range for Basic Sensors and Advanced Sensors (Tachyon, Psychic and Temporal) by about 40%
+xA. Changed - Planets are now set to visible when entering a system
+xA. Changed - Made sight level descriptions more clear for stellar objects, components and other items
+xA. Changed - Added individual stellar abilities to each type of storm to allow for easier recoginition in game of abilities
+xA. Changed - Set blocked hex radius to 1 for Sphereworlds
+xB. Added   - New intel project that damages a portion or completely detonates the minefield of the target player
+xB. Added   - New event that damages a portion or completely detonates the minefield of the target player
+xB. Added   - AI support for new design types Drone (Repair), Satellite (Repair), Fighter (Anti-Fighter), Troop (Anti-Fighter) [WIP] 
+xB. Added   - AI support Storage Compound colony type
+xB. Fixed   - Planets orbiting companion stars in certain systems will have proper I, II, III designations
+
+To-do List:
+
+- Incorporate new components in AI design script (Completed but not optimized)
+- Incorporate new facilities in AI script (Completed but not optimized)
+- Add new AI design type instructions (WIP)
+- Update AI build settings (WIP)
+- Update AI diplomacy settings
+- Design AI reputation scheme for diplomacy considerations
+- Review target strength calculations
+- Update AI attack algorithm
+- Update AI ship orders
+- Update AI planet orders (WIP)
+
+
+Version 1.24 (02 Jun 2023)
+--------------------------
+
+1.  Added   - Four extra asteroid belt system types
+2.  Added   - Blue Giant system type
+3.  Added   - Two extra standard system types
+4.  Changed - Various updates to every system types assortment of object types
+5.  Fixed   - Some quadrant type system chance percentages did not add up to 1000, resulting in occasional blank systems
+6.  Changed - Adjusted system chance percentages for most quadrant types
+7.  Added   - New storm types (stellar, protostar, micrometeoroid, dust, comet)
+8.  Added   - New stellar ability types for new storm types (debris, stellar storm, white dwarf storm)
+9.  Changed - Adding system wide shield effects for neutron star and white dwarf systems
+10. Added   - Solar system planets and select moons
+11. Added   - New or revised images for some space effects, various systems, and select stellar objects
+12. Fixed   - Small Quantum Torpedoes should be 5 kT with a reload rate of 8000 ms
+13. Changed - Updated small "seeker" weapons to decrease in accuracy at 0.33 per range instead of 0.25 per range (about 15% less accurate at long ranges)
+14. Changed - Adjusted System Point Radius to gain a few more sectors per system
+15. Changed - Improved black hole animation to remove "cloud" gaps
+16. Added   - Descriptive text for facilities that contribute to pollution
+17. Changed - Pollution penalties for homeworlds (in single homeworld game) are reduced by half
+18. Changed - Pollution effects are halved for a game's first 25 turns
+
+
+Version 1.23 (07 April 2023)
+----------------------------
+
+1.  Added   - 10 new stellar skybox backgrounds
+2.  Fixed   - Under rare circumstances, a calculation for AI players regarding trade income could result in a game hang
+3.  Fixed   - The Applied Research tech area was incorrectly set to a maximum of 10 levels
+4.  Fixed   - AI players were not counting enemy designs with skip all type weapons correctly
+5.  Changed - AI players will utilize more ruins technologies
+6.  Changed - Some AI players will incorporate the use of Pyschic Node or Neural Combat Net components
+7.  Changed - Updated descriptions and amounts for various stellar ability chance types
+8.  Changed - Updated some system types references for stellar ability chance types
+9.  Fixed   - Some sensor interference abilities from space objects had positive values
+10. Added   - Balance Mod map folder
+11. Added   - Included "Local Milky Way" map of the Sol system and a variety of known stars/objects within a 1000 light years
+
+
+Version 1.22 (20 February 2023)
+-------------------------------
+
+1.  Fixed   - AI ships were sometimes stranding at the edge of a system
+2.  Fixed   - Organic and Crystalline Racial trait units were not paying maintenance due to stacking error with Unit Maintenance Cost Modifier ability
+3.  Fixed   - Small Crystalline Torpedo and Small Alloy Burner Missile accuracy did not decrease with range
+4.  Fixed   - Moons were sometimes generating in the same sector as their parent planet
+5.  Fixed   - Some clouds were missing in the large black hole animation
+6.  Changed - Tech area Stellar Construction increased to 3 levels
+7.  Changed - Sphere World Generator now requires level 3 in Stellar Construction
+8.  Changed - Reduced ability of Gravitational Quantum Resonator to generate warp points from 10 ly increments to 5 ly (5-25 ly overall)
+9.  Fixed   - Xiati Weapon Platforms were not using the Temporal Tachyon Cannon due to a typo
+10. Fixed   - Occasional bug where a colonizer with a damaged colony module would get stuck in the orbit of its target for colonization
+11. Fixed   - Some AI empires were not following their seek peace empire strategy
+12. Fixed   - AI players were not adding basic sensors to their Satellite (Recon) designs
+13. Added   - Research breakthrough/setbacks add-on now included by default; Can be turned off in ModEventSettings.txt in the Data folder
+14. Added   - Incorporated the lucky trait with respect to research breakthroughs/setbacks
+15. Added   - Pollution events add-on now included by default; Can be turned off in the ModEventSettings.txt in the Data folder
+16. Changed - Environmental Achievements will also reduce pollution in addition to the Climate Control Facility
+
+
+Version 1.21 (15 January 2023)
+------------------------------
+
+1.  Fixed   - Computer Controls could still be used with some components that are described as incompatible
+2.  Fixed   - Error in technology requirements for Mine Layer component
+3.  Fixed   - Disrupt Construction Queues intelligence project was not displaying correct log image
+4.  Fixed   - AI players where making demands or requests based on shared log entries from other players
+5.  Fixed   - AI players were sometimes incorrectly calculating anger against human players
+6.  Changed - More variation from race-to-race for anger generation from ships/colonies in their space
+7.  Fixed   - Sometimes AI players would scrap ships when they were good candidates for retrofitting
+8.  Changed - Adding more variation in how weak AIs interact with strong players
+9.  Changed - Decreased vehicle speeds in combat
+10. Changed - Various adjustments to vehicle turn and acceleration/deceleration rates
+11. Changed - Reduced combat map radius by 50% [Although finding errors in placement, so may need to revert]
+12. Changed - Adjusted ship models sizes to better fit formation spacing
+13. Changed - Small tweaks to Intelligence Project costs
+14. Added   - Re-introduced alternative skybox backgrounds
+15. Changed - Reduced clearance area for Ring and Sphere worlds
+16. Fixed   - Error in one of the Ring World picture references
+17. Added   - Supplementary message text to add context for some types of AI messages
+18. Changed - Increased damage for Black Hole centers
+19. Added   - Strategy Defend Colony to have defending ships collapse back to planet
+20. Changed - AI players will sometimes anticipate attack targets
+21. Added   - New damage type "Skips Almost All Shields and Armor"
+22. Fixed   - Null-Space Shields were not working correctly againt Null-Space Weapons
+23. Fixed   - Some Organic vehicles had incorrect descriptions for their engine or movement limits
+24. Fixed   - Error in target list for Small Plasma Missile and Small Seeking Parasite which allowed them to target fighters
+25. Fixed   - Small Seeking Parasite didn't have a range penalty
+26. Changed - Improved damage and range for Null-Space Projector
+27. Changed - Improved damage for Temporal Shifter
+28. Changed - Rescaled Star model sizes and colouration
+29. Changed - Rescaled Planet model sizes
+30. Changed - Adjustment to nebulae and storm colours
+31. Changed - Updated storm lightning effects
+32. Changed - Increased resource generation for Solar Generator
+33. Changed - Updated binary and trinary systems
+34. Fixed   - Energy Transmission Lens uses a percentage modifier and not absolute shield points
+35. Changed - Improved the results for some intelligence projects
+36. Added   - ModAITreatySettings.txt to allow players to restrict AI players from using certain treaty elements
+
+
+Version 1.20 (03 November 2018)
+-------------------------------
+
+1.  Changed - Reduced System Size "Small Systems" for improved performance
+2.  Changed - Adjusted various component ranges to better suit "Small Systems"
+3.  Changed - Design type naming scheme to improve organization
+4.  Added   - New design types supported by AI/Ministers
+5.  Added   - Component Control Computer (Master Computer that can't use direct fire/seeking weapons)
+6.  Changed - Drone Computer Core can no longer be used with direct fire/seeking weapons
+7.  Added   - Combat Drone Computer Core that can be used with direct fire/seeking weapons
+8.  Added   - Component Supply Pod for emergency supplies
+9.  Added   - Component Ordnance Pod for emergency ordnance
+10. Added   - Component Ordnance Replicator which generates ordnance each turn for a vehicle
+11. Added   - Component Null-Space Shield Generator [NOT WORKING]
+12. Added   - Components Plasma Shield Generator, Small Plasma Shield Generator (Organic Technology)
+13. Added   - Component Psychic Node (Psychic Technology) to share experience between ships in combat
+14. Added   - Component Temporal Space Yard (Temporal Technology)
+15. Added   - Component Small Stealth Armor
+16. Added   - Component Small Phased Shield Generator
+17. Removed - Component Fighter Life Support
+18. Changed - Religious technology components require crewed vehicles (No Master Computers!)
+19. Changed - Psychic technology components/weapons required crewed vehicles (No Master Computers!)
+20. Added   - Weapons X-Ray Laser, Small X-Ray Laser
+21. Added   - Weapon Smart Bomb (Cargo) to damage only units in planetary cargo
+22. Changed - Electric Discharge, Small Electric Discharge damage type to "Double Damage To Shields"
+23. Changed - Lightning Ray damage type to "Double Damage To Shields"
+24. Added   - Weapons Small Capital Ship Missile, Small Plasma Missile, Small Quantum Torpedo
+25. Added   - Racial weapons Small Seeking Parasite, Small Crystalline Torpedo, Small Alloy Burner Missile
+26. Changed - Rocket Pods now available under Troop Weapons and restricted to Troop vehicles
+27. Changed - Weapon Computer Virus can now target any computerized control center
+28. Changed - Damage amounts, resource costs for various weapons
+29. Changed - Split Stellar Manipulation into individual tech areas
+30. Changed - Modified many tech area level requirements components/weapons
+31. Changed - Focused on creating more interspersed tech area requirements for components/weapons/facilities
+32. Changed - Re-organized Planet Utilization tech area
+33. Changed - Re-organized Resource extraction tech areas
+34. Changed - Re-organized Centralized Computer System tech area
+35. Changed - Re-organized Robotics tech area
+36. Changed - Re-organized racial tech area requirements for racial facilities
+37. Changed - Re-organized racial tech area requirements for racial weapons
+38. Changed - Re-organized ship construction tech areas into Small, Medium, Large
+39. Changed - Generally increased ship sizes
+40. Added   - Tech Area Xenoarchaeology as a stage gate for ruins technology
+41. Added   - Tech Area Focused Energy Weapons as an early game weapon technology (X-Ray Lasers)
+42. Added   - Cultural achievement Conservation to reduce supply usage
+43. Added   - Cultural achievement Environment to improve planetary conditions
+44. Changed - Increased cultural achievement Recreation to 10 levels
+45. Changed - Cultural achievement Sociology now improves Intelligence generation
+46. Changed - Updated selected modifiers in SocietyTypes.txt
+47. Changed - Updated selected modifiers in GovernmentTypes.txt
+48. Changed - Updated Fleet and Task Force Formations
+49. Changed - Formations are now available in different sizes (L,S,XS) to allow better fitting for various fleet/TF ship counts
+50. Changed - Reduced maximum trade percentages
+51. Fixed   - Replicant Center was not providing all its bonuses
+52. Added   - Implemented happiness penalties for ongoing wars based on war tolerance
+53. Changed - Intelligence defense points will no longer be depleted with each defense
+54. Changed - Calculation for intelligence project success
+55. Added   - Intelligence project Disrupt Construction Queue
+56. Added   - AI support for cooperative intelligence
+57. Changed - Improved AI intelligence spending
+58. Changed - Made improvements to intel target selection
+59. Changed - Made improvements to event target selection
+60. Added   - AI support for new Master/Control Computer components
+61. Added   - AI performance analysis routine which is used on monthly and yearly basis to measure progress
+62. Added   - New AI empire/design strategy modifiers based on feedback from performance analysis
+63. Changed - Improved AI fleet design and increased variability in fleet sizes and types between AI empires
+64. Changed - Various adjustments to AI ship and unit distribution
+65. Changed - Improvements to how AI players respond and followup to requests
+66. Changed - Updated AI designs for new ship sizes
+67. Changed - Updated AI research scripts for changes to tech tree
+68. Added   - Turn-to-turn AI ship status check
+69. Added   - Turn-to-turn AI colony status check
+
+
+Version 1.19j (05 January 2015)
+-------------------------------
+
+1.  Changed - Modified resource values/percentages for planets
+2.  Changed - Modified starting planet values for finite resource games
+3.  Changed - Adjusted the homeworld starting facilities for low tech starts
+4.  Fixed   - AI had stopped adding ships/units to Base Space Yard queues
+5.  Fixed   - Made improvements for AI colony selection in finite resource games
+6.  Fixed   - Made improvements for AI remote resource gathering in finite resource games
+7.  Fixed   - Made improvements for AI resource facility construction in finite resource games
+8.  Fixed   - AIs were still not retrofitting enough
+9.  Changed - Made improvements to the AI's designation of Space Yard hubs
+10. Changed - Improved AI fleet retrofit location selection
+11. Changed - Space Yard or Repair Ships used by the AI will sometimes help repair fleet ships retrofitting
+12. Fixed   - Sometimes AI players were too eager to return retrofit ships to duty before they were repaired
+13. Fixed   - AI players were sometimes having difficulties with low resource starts
+14. Changed - Made some adjustments to AI vehicle demand
+15. Changed - AI with Ancient Race racial trait less likely to share maps
+16. Changed - AI design improvements
+17. Changed - AI will make more use of Long Range Scanners
+18. Fixed   - AI was not using the Intelligence Compound colony type
+19. Changed - AI will periodically update Colony Types based on actual facilities present
+20. Fixed   - AI players were sometimes too conservative in their resource usage
+21. Changed - Improvements to how AI decides intelligence defense spending
+22. Fixed   - Sometimes AI players were not designing Troop Transports
+23. Fixed   - AI ships/fleets/units were not attacking when they should have been
+24. Changed - AI was too often trying to explore/survey systems that were too distant to be useful
+25. Fixed   - AI players were not always getting rid of their disabled/immobilized ships
+26. Fixed   - Sometimes AI Medical Ships were failing to cure plagues due to outdated Medical Bays
+27. Fixed   - AI players were not upgrading their facilities when a colony was full
+28. Fixed   - Occassionally AI players would pick an invalid target for their Warp Point Openers
+29. Changed - Some improvements to AI orders for Storm/Planet/Star Destroyers
+30. Fixed   - AI explorers were not always receiving the right survey orders
+31. Changed - Improvements to how the AI handles demand for Colony Ships
+32. Changed - AI will sometimes consider "friendly" ships and colonies in their space for anger*
+33. Changed - Revised calculations for AI vehicle distributions
+34. Changed - Made improvements to the AI's resource conversion routine
+35. Fixed   - The AI would still upgrade Research Centers after reaching max tech
+36. Changed - Made improvements to the AI's facility management routine
+37. Fixed   - AI players were building too many Point-Defense Satellites
+38. Changed - AI players were using too much trade income for maintenance costs when struggling with intel defense
+39. Changed - AI Psychic players will not use Psychic weapons on drones/satellites
+40. Fixed   - AI players would still add more than one Energy Refractor on a design
+41. Fixed   - Some elements for AI political anger were being added incorrectly
+42. Changed - Minor adjustments to AI treaty element selection
+43. Changed - Adjusted AI vehicle demand values
+44. Changed - Increased variation in AI usage of remotely deployed units
+45. Changed - Improvements to how the AI estimates production capacities of other players
+
+
+Version 1.19i (26 November 2012)
+--------------------------------
+
+1.  Fixed   - Error in tech area requirement for Ionic and Tachyon Mine Warheads
+2.  Added   - Planet shadows
+3.  Fixed   - Expanse system was not being generated correctly
+4.  Changed - Increased ordnance usage for ship-sized weapons
+5.  Changed - Increased ordnance storage on ship-sized weapons and components
+6.  Fixed   - Combat movement from Afterburners did not match the described amount
+7.  Fixed   - Environmental Achievement was not working correctly
+8.  Changed - Reduced effect to +/-5% for Environmental Resistance/Weakness racial traits
+9.  Changed - Modified various Society Types abilities
+10. Changed - Modified various Government Type abilities
+11. Changed - Reduced the number of hexes blocked by most star types
+12. Changed - Reduced physical size of stars
+13. Changed - Updated star glows and planet atmospheric effects
+14. Changed - Minor improvements to pursuits against certain types of unarmed ships
+15. Fixed   - Score was not being calculated correctly
+16. Changed - Adjusted weight of various score components
+17. Fixed   - Error in Nebula event picture reference
+18. Changed - Improved AI's ability to deal with mine fields
+19. Changed - AI will designate Minesweepers for fleet or solitary usage
+20. Changed - AI will more actively use fighters and drones for defense
+21. Added   - AI will add a roman numeral suffix to upgrade design type names
+22. Changed - Made improvements to AI's selection of targets to attack
+23. Changed - Improved AI's retrofitting of fleets
+24. Changed - Added more variation in AI fleet sizes
+25. Fixed   - AI players had stopped constructing remote bases
+26. Fixed   - Crystalline AIs would sometimes add Energy Refractors to Drones
+27. Fixed   - AI empires were sometimes counting sources of diplomatic anger twice
+28. Fixed   - Sometimes AI empires were selecting the wrong treaty elements when proposing treaty changes
+29. Fixed   - AI would sometimes mothball remote SY bases that couldn't be unmothballed
+30. Fixed   - AI players with no research points available would still attempt to research
+31. Changed - Improved AI's ability to cope when starting off as a fledgling empire from rebellion events
+32. Changed - Reduced the frequency of AI design upgrades
+33. Fixed   - Sometimes rebelling colonies would be re-captured during the same turn
+34. Fixed   - Damage amounts for planetary damage events was incorrect
+35. Fixed   - Storms created by events could hang games during end turn processing
+36. Updated - AI Scripts
+37. Updated - Event/Intel Scripts
+
+
+Version 1.19h (23 September 2010)
+---------------------------------
+
+1.  Fixed   - Error in defense modifier for Troop vehicles
+2.  Changed - Reduced damage amount for Power Leech Beam
+3.  Fixed   - Self-Destruct Device wasn't working correctly
+4.  Changed - Bridge and Master Computer components will allow vehicles to self-destruct, but won't prevent ship capture
+5.  Fixed   - Massive Ionic Dispersers could potentially target bases
+6.  Fixed   - Certain combinations of Fighter Bays/Drone Launchers would not satsify Carrier requirements when they should have
+7.  Fixed   - Ships in fleets could be scrapped/retrofitted when the scrap/retrofit ministers were not activated
+8.  Changed - Reduced AI's likelihood for accepting migration treaty elements
+9.  Changed - AI will consider unexplored warp points for dropping units if there are no other determined locations
+10. Changed - Improved AI's unit scrapping to be balanced across its colonies
+11. Changed - The AI will scrutinize their treaty status with other empires more closely for anger determination
+12. Changed - Attacking and defending AI fleets will vary their tactics more frequently
+13. Fixed   - AI was sometimes constructing Robotoid Factories on planets without Space Yards
+14. Changed - AI will always use its closest colonizer for a selected colony target
+15. Changed - Improved AI's distribution of units on its colonies
+16. Changed - Improvements to balance the AI's vehicle construction scheme
+17. Fixed   - AI empires were too often swapping Intel for Research facilities (and vice versa)
+18. Changed - Add extra anger for the AI for a turn's first combat with another player
+19. Fixed   - Intelligence projects or events that affected happiness were not work correctly
+20. Changed - AI transports and layers will attempt to use leftover movement points after dropping off their cargo
+21. Added   - AI will attempt to add more troops to planets with decreasing happiness levels
+22. Changed - AI empires will utilize unit hubs for distribution of units to launch locations
+23. Added   - General combat performance history will now be kept by AI empires
+24. Added   - AI will use recent combat performance history to modify diplomacy
+25. Fixed   - Sometimes anger from an empire's relations with other known empires was incorrect
+26. Fixed   - Sometimes AI players wouldn't recognize anger events from weaker empires
+27. Changed - Anger for enemy ships/colonies increased based on enemy's priority
+28. Changed - AI empires will are now more likely to maintain non-aggression treaties with lower risk enemies
+29. Changed - AI empires will avoid war or breaking treaties with lower risk
+30. Changed - Added more criteria for determining if an AI empire will go to war (or break its treaty) with another player
+31. Changed - Made improvements to AI fleet's retrofitting
+32. Added   - Diplomacy modifiers for AI empires to react more strongly to human players in weak or strong positions
+33. Fixed   - AI fleets would sometime report no orders when in fact that had orders
+34. Fixed   - Standalone AI Fighter or Drone groups weren't receiving any orders
+35. Added   - Happiness penalty for populations that are disloyal
+36. Changed - Increased intelligent project costs
+37. Updated - AI Scripts
+38. Updated - Event/Intel Scripts
+
+
+Version 1.19g (28 February 2010)
+--------------------------------
+
+1.  Fixed   - Some vehicle hull modifiers were incorrect
+2.  Fixed   - Unit maintenance modifiers for racial trait vehicle hulls were not being applied
+3.  Changed - Increased range for Wave-Motion Gun
+4.  Fixed   - Damage amount for Stupifier was too low
+5.  Changed - Damage amount for Allegiance Subverter was too low
+6.  Added   - Descriptive text to note if timed-effect weapons did damage in milliseconds or seconds
+7.  Fixed   - One of the portrait images for warp points was incorrect
+8.  Added   - New images for Point-Defense Blaster and Point-Defense Beam weapons
+9.  Changed - Designated Colony tech areas as unique
+10. Changed - Increased cost for Shield Implosion tech area
+11. Changed - Increased reload time for Shield Imploder
+12. Changed - Made improvements to the AI's use of Shield Regenerators
+13. Changed - Improved AI's design response against enemies using long range seekers
+14. Changed - The damage amount for planets damaged by intel or random events was too small
+15. Changed - AI or Minister designs for the Recon Satellite design type didn't include Basic Sensors
+16. Fixed   - Sometimes AI players would add multiple Stealth Totems
+17. Added   - Improvements to AI ship distribution based on enemy ship speeds and basic weapon usage
+18. Fixed   - AI players in team mode would sometimes accept a treaty from a human player
+19. Fixed   - Cooperative intelligence points were not being transferred in some instances
+20. Changed - Improved AI's design response to empires heavily using shields or armor
+21. Changed - Made some adjustments to how/when AIs mothball or scrap ships
+22. Changed - Small tweaks to design type distributions for AI empires
+23. Changed - AI's will be more aggressive in obtaining cultural achievements to address empire deficiencies
+24. Fixed   - Sometimes ships/bases wouldn't drop their cargo before retrofitting
+25. Changed - Improved AI empires use of Resource Converters
+26. Fixed   - AI players were often building more than one Ultra-Recycler per system or planet
+27. Fixed   - Remotely mined resources were not being considered in AI's resource budgeting
+28. Fixed   - AI would sometimes try designing units with multiple Emissive Armors, which is currently restricted
+29. Updated - AI Scripts
+30. Updated - Event/Intel Scripts
+
+
+Version 1.19f (27 November 2009)
+--------------------------------
+
+1.  Changed - Description for Energy Refractor component since it does not stack
+2.  Added   - New images for warheads
+3.  Removed - Weapon Delivery Type Damage Received Modifier Percent from Crystalline Hulls as it was not functional
+4.  Added   - Shield Generation From Damage ability to Crystalline Hulls
+5.  Fixed   - Error in ground combat accuracy modifier for Point-Defense Beam
+6.  Changed - Small increase to damage amounts for Meson Blaster
+7.  Changed - Re-balanced Boarding Parties and Security Stations
+8.  Changed - Increased Shield Generation From Damage amount for Light and Heavy Crystalline Armor
+9.  Fixed   - Errors in some combat bonus amounts from experience
+10. Changed - Reduced experience point thresholds for some ship and fleet experience levels
+11. Changed - Increased experience received from Fleet Training Facility
+12. Changed - Increased experience received from Psychic Ship Training Facility and Psychic Fleet Training Facility
+13. Fixed   - Some Stellar Manipulations were not working with all types of stars
+14. Changed - Reduced resource cost of Solar Generator facility
+15. Changed - Increased damage amount for Shard Cannon
+16. Changed - Increased value improvement amount for Nature Shrine facility
+17. Changed - Increased minerals cost of Colony Modules
+18. Changed - Revised color of images for remote mining components and supply components
+19. Fixed   - AI players were not correctly accepting treaties from Alliances
+20. Fixed   - The AI was building Space Ports when it had the Natural Merchants trait
+21. Fixed   - Sometimes the AI would scrap all its facilities and population
+22. Fixed   - AI players were not adding Supply/Ordnance components to their Carrier designs
+23. Changed - Crystalline AIs will no longer add multiple Energy Refractor components
+24. Changed - Made improvements to the AI's Colonizer designs to better protect against boarding actions
+25. Added   - AI players now check ships for damaged functional components for their current orders (such as sensors for surveying)
+26. Updated - AI scripts
+
+
+Version 1.19e (14 August 2009)
+------------------------------
+
+1.  Fixed   - Only Shield Generators damage type was not working correctly
+2.  Changed - Made some improvements to the AI's Defense Base design
+3.  Fixed   - The AI was accepting bad trades
+4.  Changed - Made improvements to the AI's analysis of trades and gifts
+5.  Fixed   - Some AIs starting tech selections were invalid
+6.  Updated - AI Scripts
+
+
+Version 1.19d (8 August 2009)
+-----------------------------
+
+1.  Changed - Reduced reproduction rate bonus of Medical Lab facility
+2.  Changed - Reduced starting migration rate
+3.  Fixed   - AI empires were sometimes adding multiple Robotoid Factory or Time Shrine facilities
+4.  Fixed   - The AI was not constructing Ultra-Recycler facilities
+5.  Changed - Weak AI empires were not able to declare war against much stronger empires
+6.  Fixed   - Error in AI's demand for Missile Satellite design type
+7.  Fixed   - Potential for Organic AI empires to not equip their ships with enough armor
+8.  Fixed   - Sometimes AI players were scrapping ships when it was not required
+9.  Changed - AI empires will react more angrily to negative events committed by human players than by other AI players
+10. Fixed   - Sometimes AI empires were scrapping facilities when it really wasn't necessary
+11. Fixed   - Sometimes a ship would have the wrong internal design type and would not be properly used by a minister acting for a human player
+12. Updated - AI Scripts
+
+
+Version 1.19c (29 July 2009)
+----------------------------
+
+1.  Changed - Restricted Emissive Armor to 1 per Satellite (Temporary Restriction)
+2.  Fixed   - Sometimes the Construction - Facilities minister would skip facility construction in favor of units/ships when those ministers weren't activated
+3.  Changed - AI players will update their resource status each time they make a decision involving resources
+4.  Fixed   - The AI wasn't always identifying when it was in a disconnected state
+5.  Fixed   - AI players were sometimes added Intel facilities in place of research facilities when intel is disabled
+6.  Changed - Further improvements to the AI's facility management functions
+7.  Fixed   - The AI wasn't checking for sector limits when launching units from planets
+8.  Changed - Made improvements to the AI's scrapping and mothballing functions
+9.  Fixed   - AI players were breaking their treaties in unison versus the mega evil player
+10. Changed - The AI wasn't taking into account Shield Depleter usage in its enemy design analysis
+11. Changed - Tweaked some of the AI's design type demand modifiers
+12. Changed - Added new rules for the Ship (All) - Naming minister:
+              - If the ship name contains *, the ship will not be renamed at all
+              - If the ship name contains ^, the ship will retain any text before the ^ (ie Endor V ^ Yard I 0001 -> Endor V ^ Yard II 0001)
+              - Note: Names should follow SE:V format "Ship Name ####"
+13. Updated - AI Scripts
+
+
+Version 1.19b (3 July 2009)
+---------------------------
+
+1.  Changed - Drones can now be recovered, self-destructed, and added to fleets
+2.  Changed - Restricted Emissive Armor to 1 per Weapon Platform or Drone (Temporary Restriction)
+3.  Changed - Reduced Freighter and Colony Ship combat speeds
+4.  Fixed   - The AI would scrap and replace a facility with Monolith Facilities when it wasn't intended
+5.  Changed - Made improvements to the AI's colony facility management
+6.  Changed - Updated AI design creation to follow new emissive armor limits for Weapon Platforms and Drones
+7.  Changed - Improved the criteria for AI empires to remove items from their queues due to low resources
+8.  Updated - AI Scripts
+
+
+Version 1.19a (26 June 2009)
+----------------------------
+
+1.  Changed - Updated description for Self-Destruct Device
+2.  Added   - Set percent chance for Self-Destruct to trigger when a ship is captured
+3.  Changed - Reduced repair rate for Space Yard component
+4.  Fixed   - Removed "diminishing returns" abilities from Research Center
+5.  Changed - Reduced Fighter Bay/Drone Launcher component requirement for carriers from 30% to 20% of hull space
+6.  Changed - Boosted the maintenance reduction effect of the Crystalline Restructuring Plant
+7.  Changed - Increased the shield modifier amount of the Energy Transmission Lens facility
+8.  Changed - Allowed all sensor components to be used on Weapon Platforms
+9.  Changed - Shield Regenerators can be placed on Weapon Platforms
+10. Changed - Revised damage modifiers for damage from ramming
+11. Changed - Adjusted costs and damage amounts for all warheads
+12. Changed - Revised the animations and increased differentiation in warp point appearance
+13. Changed - Decreased distance between ships for all formations
+14. Fixed   - AI wasn't using the right strategy for Kamikaze Attack Ships
+15. Changed - Reduced AI's use of armor on some non-combat designs
+16. Changed - Made improvements to AI's Scout Ship/Explorer Ship design type
+17. Changed - Made improvements to the AI's ship distribution amongst their task forces
+18. Changed - Boosted AI friendliness to non-MEE (Mega Evil Empire) players when the MEE status is triggered
+19. Changed - The AI will be more efficient with colony ship target selection
+20. Changed - AI players will make more of an effort to bring defensive units on Colony Ships for planets in dangerous areas
+21. Fixed   - The AI won't try to convert the atmosphere of Gas Giants to None
+22. Changed - Number of improvements to the AI's building and distribution of units amongst its colonies
+23. Changed - AI will no longer recover launched mines above its colonies
+24. Fixed   - Xi'Chung were sometimes using the wrong weapon on their Defense Ship designs
+25. Fixed   - The AI would sometimes attack with a ship that had no ordnance when it needed ordnance for its weapons
+26. Fixed   - The AI sometimes offered the wrong tariff element
+27. Fixed   - Sometimes the AI entered a low resource state when it wasn't necessary
+28. Changed - Improved the AI's criteria for identifying low resource conditions and when it should build storage facilities
+29. Changed - Made imporvements to allow the AI to expand their maintenance expenditures when trade income is available
+30. Changed - The Construction - Facilities minister when used by human players will adhere more strictly to colony type designations
+31. Updated - AI Scripts
+
+
+Version 1.19 (14 April 2009)
+----------------------------
+
+1.  Changed - Increased damage amount for Alloy Burner Missile
+2.  Changed - Increased regeneration rate for Shield Regenerators
+3.  Changed - Decreased movement (damage) amount for Tractor Beam and Repulser Beam
+4.  Changed - Increased firing rate for Tractor Beam and Repulser Beam
+5.  Fixed   - Error in cost for Psychic Technology tech area
+6.  Fixed   - Energy Refractors were not working when used on armor slots, must now be placed on outer hull slots
+7.  Fixed   - Sometimes when an AI surrendered it caused a turn to hang
+8.  Fixed   - Corrected and revised racial trait and starting technology selections for AI
+9.  Added   - Some AI functionality to escort ships
+10. Changed - Adjusted the conditions for the AI to remain in its Explore & Expand state
+11. Changed - Made improvements to the AI's ability to use the Ancient Race trait
+12. Changed - The AI's Warp Point Openers would sometimes be vulnerable to attack after opening a new warp point
+13. Fixed   - Possible turn hang when an AI made a gift request
+14. Fixed   - The AI tended to clump warp point defenses in less useful locations
+15. Fixed   - Sometimes the AI would drop units in the wrong warp point location
+16. Fixed   - The AI was sometimes not adding a Shield Generator to a design when it should have been
+17. Changed - AI players will respond more actively to add resource storage for surplus resources
+18. Updated - AI Scripts
+
+
+Version 1.18 (3 February 2009)
+------------------------------
+
+1.  Fixed   - Some fighters were still not moving in ground combat
+2.  Changed - Point-Defense weapons now use supplies
+3.  Changed - Reduced the range of Small Rocket Pods in ground combat
+4.  Changed - Small Rocket Pods can now target fighters
+5.  Changed - Restricted Small Emissive Armor to one per vehicle (temporary restriction)
+6.  Changed - Improved the AI's placement of Life Support and Crew Quarters on ships
+7.  Changed - Made it more difficult to spam the AI with surrender requests to force their surrender
+8.  Changed - Sometimes a weak AI might surrender to another empire to spite an empire requesting their surrender
+9.  Changed - Improved the AI's use of Base Space Yards for unit construction
+10. Fixed   - The AI would attempt to retrofit ship hulls that they did not have the racial trait for
+11. Fixed   - Sometimes when an AI surrendered to another empire the game turn would not process
+12. Changed - Made a few improvements to AI vehicle designs
+13. Updated - AI Scripts
+
+
+Version 1.17 (13 January 2009)
+------------------------------
+
+1.  Fixed   - Some Fighters were not moving in ground combat
+2.  Changed - Cooperative Intel split into Attack and Defense versions
+3.  Fixed   - Sometimes cargo bombs would detonate on ships without cargo
+4.  Fixed   - Disrupt comm messages intel project would sometimes report false successes
+5.  Fixed   - Value Improvement Plants were not stacking correctly
+6.  Changed - You must have enough life support for a ship's crew in a design
+7.  Changed - Reduced population modifiers for populations less than 50M
+8.  Changed - Increased structure per level for some components
+9.  Changed - Small Rocket Pods can now target troops
+10. Fixed   - Could not start or continue a simultaneous game in SE5 v1.77
+11. Fixed   - EEE were incorrectly designing low tech fighters
+12. Fixed   - Xiati were not adding weapons to their Drones or Weapon Platforms
+13. Fixed   - The Xi'Chung weren't using all their available ship sizes
+14. Fixed   - Sometimes the AI wasn't using its intended fleet strategies
+15. Fixed   - The AI would sometimes add a Shield Regenerator without a design having a Shield Generator
+16. Fixed   - Crystalline races were often neglecting to add Shield Generators for their smaller ships
+17. Changed - AI will check for when it last sent a treaty or change treaty request to avoid sending a request before a response is made
+18. Changed - Improved relevance of AI warning and request messages
+19. Changed - AI races will utilize more hull sizes in their designs
+20. Added   - Individualized race anger responses for log events and diplomacy
+21. Changed - AI will now cross-retrofit combat ships to alternate design types if no design is available with its current design type
+22. Fixed   - Sometimes the AI wasn't able to scrap a facility it wanted to scrap
+23. Fixed   - The AI was countering treaties when it was sometimes not desired
+24. Changed - Made some improvements to the AI's understanding of trade/gift value
+25. Changed - AI Mine/Satellite Layers will sometimes stack pickup and launch orders to maximize movement points
+26. Changed - Improved the AI's fleet selection process for ships set to fleet usage
+27. Changed - AI will make course corrections for its ships sent to join fleets
+28. Updated - AI Scripts
+29. Updated - Events/Intel Scripts
+
+
+Version 1.16 (06 October 2008)
+------------------------------
+
+1.  Changed - Remove Intelligence Centers as a starting facility
+2.  Fixed   - Error in tech area requirement for Fusion Ground Thrusters, Small Incinerator Beam and Small Phased-Polaron Beam
+3.  Changed - Light Cruisers set to 60 movement points per sector from 61
+4.  Fixed   - Error in requirements evaluation for System Robotoid Factory
+5.  Fixed   - The AI would sometimes counter a treaty with the same elements as the original
+6.  Fixed   - The minister for Warp Point Openers was not considering the maximum distance a ship could open a warp point to
+7.  Fixed   - The minister for Planet Destroyers was not considering the target planet's size
+8.  Fixed   - Some neutral players were inactive
+9.  Fixed   - The AI was sometimes surrending when it shouldn't have
+10. Fixed   - Some strategies placed Fighters too high in the target priorty list
+11. Updated - AI Scripts
+
+
+Version 1.15 (29 September 2008)
+--------------------------------
+
+1.  Changed - Slight revision to Small Shield Generator tech area requirements
+2.  Changed - Increased Heavy Armor to 20kT
+3.  Added   - Light/Heavy Organic Armor and Light/Heavy Crystalline Armor
+4.  Changed - Reduced Organic Armor and Crystalline Armor to 16 tech levels
+5.  Changed - Decreased Small Organic Armor and Small Crystalline Armor to 1kT
+6.  Changed - Reduced Small Organic Armor and Small Crystalline Armor to 6 tech levels
+7.  Changed - Reduced Energy Refractor to 5 tech levels
+8.  Changed - Energy Refractor can only be placed in armor slots
+9.  Changed - Adjusted tech level requirements for Ordnance Vat and Small Ordnance Vat components
+10. Changed - Adjusted tech level requirements for Genetic Recoding Lab facility
+11. Changed - Increased Wormhole Beam effect amount
+12. Removed - Anti-Ship Neutrino, Anti-Ship Ionic, and Anti-Ship Tachyon Warheads
+13. Removed - Emergency Reordnance Pod, Emergency Resupply Pod, and Emergency Propulsion components
+14. Changed - Supply/Ordnance storage cannot be placed on Weapon Platforms
+15. Changed - All sensor types can be placed on Weapon Platforms
+16. Changed - Only Shield Generators damage type skips armor and shields
+17. Changed - Adjusted damage amount of Shield Disrupter
+18. Changed - Small decrease to the damage amount for Anti-Proton Beams
+19. Changed - Increased the ranges for most seeker weapons
+20. Changed - Increased the rate that population loyalty is gained and lost
+21. Changed - Adjusted happiness modifiers to make it a bit more difficult to maintain jubliant populations
+22. Changed - Increased size of Space Yard component to 400kT
+23. Changed - Increased cost for Space Yard components
+24. Changed - Modified engine requirements for Carrier, Light Cruiser and Dreadnought vehicle types
+25. Changed - Increased the size of Dreadnought hulls
+26. Changed - Small decrease to the size of Satellites
+27. Changed - Small increase to the size of Medium and Large Drones
+28. Changed - Reduced the defense bonuses to Drone hulls
+29. Changed - Small decrease to the cost of troop components
+30. Changed - Increased the bonus/penalty amounts for the Organics and Radioactives racial traits to +/-25%
+31. Changed - Increased the bonus/penalty amounts for boarding parties in the Brave and Cowardly racial traits
+32. Changed - Increased the cost of the Ancient Race Trait to 1500 points
+33. Added   - The Advanced Storage Techniques racial trait will now provide 20% more facility space
+34. Changed - Increased the cost of Advanced Storage Techniques racial trait to 2000 points
+35. Changed - Players will now start with level 1 in their racial tech areas
+36. Changed - Organic and Crystalline races with only have access to their racial trait hulls
+37. Changed - Revised damage and range amounts for all racial trait weapons
+38. Changed - Intelligence Centers are available at the beginning of the game
+39. Fixed   - Error in displayed ranges for warhead components
+40. Fixed   - Error in boarding defense amount from Security Stations
+41. Changed - Robotoid Factory facilities now provide a bonus to construction rates and not production rates
+42. Changed - Reduced Robotics tech area to 6 levels and increased tech area cost
+43. Changed - Ultra-Recycler facilities now apply their scrap modifier to the whole system
+44. Changed - Increased tech area cost for Centralized Computer systems
+45. Changed - Retrofit cost for new components is 150% and retrofit cost removal for old components is -30%
+46. Fixed   - A number of errors in maximum tech levels or component formulas
+47. Changed - Increased the tech cost for Armor, Shields, and most ship hull tech areas
+48. Changed - Small increase to ship experience bonuses to attack and defense
+49. Changed - Reduced score calculation by a factor of 10
+50. Changed - Clarified the bonuses from racial traits, government types, and society types
+51. Changed - Clarified the bonuses from the cultural tech areas
+52. Changed - Clarified the description for items that cured plagues
+53. Changed - Re-scaled all ship model sizes
+54. Changed - Modified turning and acceleration rates for all vehicles
+55. Changed - Mines no longer participate in combat
+56. Added   - New images for Heavy Armor, Light Crystalline and Light Organic Armor
+57. Changed - Revised fleet and task force formations and strategies
+58. Added   - AI will consider a player's government and society type as a factor in relations
+59. Changed - Improvements to the responsiveness of the AI's anger system
+60. Changed - The AI will examine treaty elements for their relevance
+61. Changed - The AI will be more aggressive in addressing a low resource condition
+62. Fixed   - There were still instances where a player's design type wouldn't match the internal AI design type
+63. Changed - Made improvements to the way the AI adds weapons to its ship designs
+64. Added   - AI will consider ordnance levels as part of its resupply criteria
+65. Added   - The AI will evaluate each of its ship's orders to see if they are still valid
+66. Added   - AI will use stellar manipulation technologies
+67. Added   - New minister, Ships (All) - Naming, to update ship names after retrofitting
+68. Added   - New minister, Colonies - Resource Conversion to convert resources
+69. Fixed   - The AI was sometimes choosing negative racial traits when it wasn't intended
+70. Fixed   - The AI was spending starting tech points on tech area levels that are provided by default
+71. Fixed   - Sometimes the AI wasn't adding weapon tech areas like Point-Defense to its research queue
+72. Fixed   - The Population Transport Minister won't drop non-breathers on a undomed colony
+73. Added   - The AI can now make use of resource converters
+74. Changed - Improved the AI's retrofit and scrapping decisions
+75. Changed - The AI is a lot more effective at adding multiple items to its construction queues
+76. Changed - Improved the distribution of units on the AI's colonies
+77. Fixed   - Sometimes an AI queue would get stuck building Intelligence Centers whether they were available or not
+78. Fixed   - The AI would try and drop units in a sector that already had the maximum number allowed
+79. Fixed   - The AI wasn't always responding urgently to colonies with zero population
+80. Fixed   - Sometimes AI players would send messages to individual empires in an Alliance
+81. Fixed   - The AI would sometimes build multiple production boosting facilities
+82. Fixed   - The AI wasn't building Monolith Facilities when it should have
+83. Changed - The AI will hijack Cargo Transports (or Colony Ships with no orders) for use as Population Transport if they colonies with no population
+84. Fixed   - The AI was sometimes not getting a player's score and therefore was not able to make proper diplomatic decisions
+85. Changed - Made several improvements to help the AI maintain a suitable balance of resources
+86. Fixed   - Sometimes the AI would add more facility upgrades to a queue than it had facilities of that type
+87. Changed - Added some improvements to the AI's use of remote resource components
+88. Fixed   - AI players will no longer attempt to build ships/units when they have reached max units/ships
+89. Changed - Ships in fleets will be retrofitted more often by the AI when the fleet is at a Space Yard
+90. Fixed   - Sometimes the AI had difficulty in undoming a colony with three or more races present
+91. Fixed   - AI would sometimes research a tech area that was already maxed out
+92. Fixed   - Scout/Explorer ships were not always sent by the AI to the nearest unexplored warp point
+93. Changed - AI players will now consider maximum ship and unit limits
+94. Changed - Repair ships will sometimes be sent to rescue disabled ships rather than just sent to fleets
+95. Fixed   - Sometimes the AI would send multiple fleets to the same target when it wasn't necessary
+96. Changed - Retrofit minister will now consider ships with cargo for retrofits
+97. Fixed   - AI fleets would sometimes be ordered to resupply too early
+98. Changed - An intelligence sabotage project may occassionaly be blocked by a Fate Shrine or the Lucky racial trait
+99. Updated - AI Scripts and Event/Intel scripts
+
+
+Version 1.14b (11 June 2008)
+----------------------------
+
+ 1. Fixed   - Error in the AI's starting tech selection
+ 2. Changed - Improvements to the AI's retrofit and scrapping routine
+ 3. Changed - Improved the AI's definition of low and high resource states
+ 4. Added   - The AI will evaluate each of its ship's orders to see if they are still valid
+ 5. Changed - The AI will check if a colonization destination is valid based on its treaty status
+ 6. Changed - AI will check ordnance levels as part of its resupply routine
+ 7. Added   - AI will use its resource converters
+ 8. Fixed   - Errors in the AI's scrap routine for replacing facilities with needed ones
+ 9. Fixed   - There will still instances where a player's design type wouldn't match the internal AI design type
+10. Updated - AI Scripts
+
+
+Version 1.14a (26 March 2008)
+-----------------------------
+
+ 1. Fixed   - Damage types Only Engines, Only Weapons, and Only Shield Generators were not set to skip armor properly
+ 2. Changed - Increased shield points for Small Shield Generator
+ 3. Changed - Damage amount for Shield Disrupter
+ 4. Changed - Damage amounts for most warhead weapons and reduced their cost
+ 5. Fixed   - Error in the amount of crew Boarding Parties could overcome
+ 6. Fixed   - Some engine details were described incorrectly for Carriers
+ 7. Changed - Reduced the number of engines on Carrier hulls to 15
+ 8. Changed - Updated the maximum allowed unit settings in VehicleUnitTypes.txt
+ 9. Changed - Reduced seeker supply usage
+10. Changed - Increased seeker defense bonus from Defense Systems tech area
+11. Changed - Increased range and effect amounts for Tractor, Repulser, and Wormhole Beams
+12. Changed - Increased cost for Anti-Proton Beams
+13. Changed - Removed to hit penalty form High-Energy Magnifier
+14. Changed - Energy Refractor can only be placed in armor slots
+15. Fixed   - AI was unable to add Energy Refractor to their ship designs
+16. Fixed   - Some AIs were not adding weapons to Fighter Bomber design types
+17. Fixed   - Sometimes a player's design type did not have the correct internal design type and ministers wouldn't work properly
+18. Changed - Updated event and intel scripts for planet conditions event/intel project
+19. Updated - AI Scripts
+
+
+Version 1.14 (20 February 2008)
+-------------------------------
+
+1.  Fixed   - Error in description for Starbase's life support and crew quarter requirements
+2.  Changed - Minor change to tech level requirements for Small Organic Armor and Small Crystalline Armor
+3.  Changed - Increased structure for Small Organic Armor and Small Crystalline Armors
+4.  Changed - Small increase to supply depletion amount of Power Lampreys and Power Leech Beams
+5.  Fixed   - Error in damage amount for Heavy Ship Mount
+6.  Added   - Extra design types with size suffixes to match new AI design types
+7.  Changed - Increased the structure amounts for some seeker weapons
+8.  Changed - Small tweaks to cost and storage amounts of Ordnance Vat and Small Ordnance Vat
+9.  Fixed   - Error in cost increase for Large Ship Mount
+10. Changed - Individualized each AI's distribution of ship sizes in their empires
+11. Changed - Revised AI purchase system for wanted design types
+12. Changed - The AI's weapon choices are now individualized to specific vehicle types
+13. Fixed   - Error in Default Aggressive AI that caused them to build multiple Spaceports in a system
+14. Added   - The AI will perform a rudimentary analysis on known enemy designs
+15. Added   - AIs will make small adjustments based on what components their enemies might be using
+16. Fixed   - AI fleets were sometimes stacking attack orders in locations too far apart to manage effectively
+17. Changed - Re-activated Minister - Cargo Transports to ferry Weapon Platforms to defense systems with Cargo Transports
+18. Added   - The AI will sometimes scrap non-resource facilities to build resource facilities if urgently needed
+19. Fixed   - Error that sometimes prevented the AI from building Weapon Platforms when they cost more than the queue's usage rate
+20. Changed - Lots of little tweaks and improvements to the AI's designs
+21. Fixed   - Ships in fleets were not being added to the desired task force
+22. Changed - Small improvements to the AI's distribution of minor colony types
+23. Changed - Made some enhancements to how the AI determines its maximum maintenance amount
+24. Fixed   - AI was not always despersing Life Support and Crew Quarters between inner and outer slots
+25. Fixed   - Sometimes the AI would send treaty requests with no elements
+26. Added   - Updated AI Scripts
+
+
+Version 1.13 (29 January 2008)
+------------------------------
+
+1.  Changed - Tweaked the number of movement points required to move 1 hex for Small and Medium Freighters
+2.  Added   - Organic fighters and troops now have a small hull bonus for Organic Armor regeneration
+3.  Fixed   - Time Distrotion Burst was 30kT instead of 20kT
+4.  Changed - Increased combat launch rates for fighters, drones, and satellites
+5.  Changed - Clarified the log text associated with some intelligence projects
+6.  Changed - Increased unit maintenance to 10%
+7.  Fixed   - It was still possible to add multiple Space Yards to the queue
+8.  Fixed   - Organic and Crystalline Mines did not have 50% maintenance reduction
+9.  Changed - Matched space combat and ground combat damage for point-defense weapons
+10. Changed - Removed Random Personality Group values from Settings.txt
+11. Fixed   - Error in nearby enemy target selection for fleets
+12. Changed - Small improvements to AI wanted design types
+13. Changed - AI will build and scrap planet improvement facilities when appropriate
+14. Changed - Improved the AI's criteria for scrapping obsolete units
+15. Added   - Planets will sometimes recover launched units to remove obsolete ones
+16. Changed - Customized unit group sizes for each empire
+17. Changed - Improvements to the AI's Population Transport minister
+18. Added   - Additional descriptive text to some AI requests
+19. Fixed   - Sometimes the AI thought it was in a disconnected state when it wasn't
+20. Added   - AI will sometimes follow up its demands for enemies to remove their ships or colonies
+21. Added   - Extra checks for the AI to determine if there is an enemy presence on the other side of warp points
+22. Changed - Improved the filtering on the AI's colonizable planet's list
+23. Added   - Updated AI Scripts
+24. Added   - Updated Event and Intelligence scripts
+
+
+Version 1.12 (20 December 2007)
+-------------------------------
+
+1.  Fixed   - Error in target listings for Small Anti-Proton Beam and Small Anti-Matter Torpedo
+2.  Changed - Skip Armor now has 100% penetration versus armor
+3.  Fixed   - Some seeking weapons had incorrect descriptions
+4.  Changed - Seeker defense bonus now based on defense systems tech area
+5.  Changed - Seeker damage resistance now based on armor tech area (or racial trait tech area for racial trait seekers)
+6.  Changed - Adjusted the scale of ships in combat (Thanks MrWho)
+7.  Changed - Increased the number of levels of the Mine Sweeper component
+8.  Changed - Increased the supply and ordnance capacity of planets
+9.  Changed - Increased the supply and ordnance production for Resupply Depots
+10. Fixed   - Sometimes Cue Cappa fighters had no weapons
+11. Fixed   - The AI was sometimes not adding combat sensors or ECM on fighters and troops
+12. Fixed   - Error in sort routine for choosing attack locations and nearby enemies
+13. Fixed   - Error in AI Medical Ship design
+14. Fixed   - Sometimes the AI's resource ships were attempting to remotely mine in an occupied sector
+15. Changed - Some AI players were building too many remote resource ships
+16. Fixed   - Sometimes Ministers would not use or retrofit a player's design type correctly
+17. Added   - The AI will designate systems to avoid for non-combat ships
+18. Fixed   - The AI was not spreading its supply ships between fleets effectively
+19. Changed - AI will designate some fleets for attack, others for defense
+20. Fixed   - The AI in team mode would sometimes break its treaties with others AIs
+21. Added   - Support for AI Alliance diplomacy
+22. Added   - The AI will assign a priority value against their opponents
+23. Changed - AI fleets can now attack multiple targets in a turn
+24. Changed - AI Colony Ships will attempt to load a Weapon Platform if colonizing a planet in a defensive or nearby enemy location
+25. Changed - AI will launch mines more frequently and in greater numbers in their defensive locations
+26. Fixed   - Ships that rebel due to events or intelligence will join a known race or the race responsible for the intel attack
+27. Changed - Only vehicles that have movement will have their orders changed through events or intel attacks
+28. Updated - AI Scripts
+
+
+Version 1.11 (28 October 2007)
+------------------------------
+
+1.  Fixed   - Error in Miltia amounts
+2.  Fixed   - Error in restrictions for "Only One Per" components
+3.  Fixed   - The Units-Fighter minister was not being used
+4.  Fixed   - Medium and Large Freighters were not advancing their hull sizes properly
+5.  Changed - Returned maximum trade amounts to default values
+6.  Changed - Trade will increased at a rate of 0.5% per turn
+7.  Fixed   - Error in tech area requirements for Mine Layer component
+8.  Fixed   - Sometimes ship weapons with low damage would not damage a planet
+9.  Changed - Increased the combat movement bonus for Afterburners
+10. Changed - Removed fighters and troops from target types for Small Rocket Pods and Small Anti-Matter Torpedoes
+11. Fixed   - Some Stellar Ability Types were not being applied
+12. Changed - Boarding attacker strength adjusted to 4:1 versus normal crew members
+13. Changed - Reduced effect of research points on score
+14. Changed - Tweaked population happiness effects and levels for anger states
+15. Fixed   - The Defensive minister style was not working correctly
+16. Fixed   - Sometimes the AI would design Small Drones without weapons
+17. Changed - A weaker AI will seek peace
+18. Added   - The AI will consider other player's relations with their allies/enemies for anger
+19. Changed - The AI won't try and build so many units when they are poor in resources
+20. Fixed   - Error that increased the Refining Colony value threshold when low on radioactives
+21. Changed - Increased AI's overall demand for ships
+22. Fixed   - Error prevented AI from making changes to their treaties with other players
+23. Fixed   - The AI was sometimes breaking treaties when one didn't exist
+24. Changed - The minister for population transports is now functioning much better
+25. Changed - Improved the AI's distribution of remote unit defenses
+26. Fixed   - The AI was not colonizing when the game starting at maximum tech
+27. Fixed   - The AI was surrending more often then they should
+28. Updated - AI Scripts
+
+
+Version 1.10 (14 October 2007)
+------------------------------
+
+1.  Fixed   - Error in ShipExperience.txt was preventing experience bonuses from being applied
+2.  Fixed   - Error in fleet experience points required for elite status
+3.  Changed - Increased starting maintenance for ships to 25%
+4.  Changed - Reduced Shield Regenerators to 6 levels
+5.  Changed - Decreased ability amount for Shield Regenerators
+6.  Note    - Shield Regenerators are stackable
+7.  Changed - Split Armor into 5kT and 10kT Light and Heavy versions
+8.  Added   - Pictures for Heavy Armor
+9.  Changed - Increased Emissive Armor to 16 levels
+10. Changed - Decreased Small Emissive Armor to 3 levels
+11. Changed - Life Support and Crew Quarters reduced to 5kT and increased to 6 levels
+12. Changed - Increased Vehicle Systems to 6 levels
+13. Changed - Seeker weapons can now be placed on Outer or Inner hull slots
+14. Added   - Pictures for 5kT Supply Storage and 5kT Ordnance Storage components
+15. Changed - Reduced Intel defense modifier in settings.txt
+16. Changed - Increased Supply and Ordnance storage for planets
+17. Changed - Reduced the ordnance supplied by Emergency Reordnance Pods
+18. Changed - Drone Launchers now count towards Carrier requirements
+19. Changed - Small Rocket Pods can now be placed on troops
+20. Added   - Randomized the amounts for a stellar object's abilities
+21. Changed - Removed Green Stars
+22. Changed - Reduced size of fighters and decreased their required engine amounts
+23. Changed - Increased maximum size of Medium Freighter hulls to 800kT
+24. Changed - Increased maximum size of Large Freighter hulls to 1200kT
+25. Changed - Increased costs for Computer Core components
+26. Changed - Increased size of Drone Computer Core to 20kT
+27. Added   - Small Ripper Beam
+28. Added   - Pictures for Small Ripper Beam
+29. Changed - Reduced Small Incinerator Beam to 3 levels
+30. Changed - Reduced Time Distortion Burst to 20kT and Small Time Distortion Burst to 2kT
+31. Changed - Space Yard component reduced to 300kT size
+32. Changed - Increased storage amounts for resource storage facilities
+33. Changed - Reduced Storage tech area to 11 levels and increased its cost
+34. Changed - Reduced Medical Treatment tech area to 5 levels and increased its cost
+35. Changed - Reduced Medical Lab facility to 5 levels
+36. Changed - Lots of minor changes to facility costs and structure amounts
+37. Changed - Genetic Recoding Labs now has a ground combat modifier ability for the system
+38. Changed - Reduced Temporal Vacation Service facility to 5 levels
+39. Changed - Reduced Urban Pacification Center facility to 5 levels
+40. Changed - Reduced Psychic Scanner to 11 levels
+41. Changed - Reduced Fate Shrine to 5 levels
+42. Changed - Reduced Nature Shrine to 5 levels
+43. Changed - Reduced Time Shrine to 5 levels
+44. Changed - Re-organized Religious Technology facility availability
+45. Changed - Interspersed Climate Control Facility and Value Improvement Plant levels in Planet Utilization tech area
+46. Changed - "Skip Armor" damage type now has 95% penetration versus armor
+47. Changed - "Only" damage types now have 100% penetration versus armor
+48. Changed - Most damage types do only 50% of their normal damage amount to facilities
+49. Changed - Reduced Bombardment Weapons to 11 levels
+50. Changed - Increased damage amount for Planetary Napalm
+51. Changed - Reduced the positive effect of troops on population happiness
+52. Changed - Reduced the happiness effect from the Naturally Happy and Naturally Depressed traits
+53. Fixed   - A number of errors in defense penalties for ships and space stations
+54. Fixed   - Error in tech requirements for Organic and Crystalline Carriers
+55. Changed - Increased the map area for ground combat
+56. Added   - Added additional buildings for ground combat
+57. Added   - AI Minister for Survey Ships
+58. Added   - AI Minister for Patrol Ships
+59. Added   - AI Minister for Cloaking
+60. Added   - New AI design types
+61. Fixed   - Combat designs for some races would be created without weapons
+62. Fixed   - AIs were not longer immediately hostile to human players in AI team mode
+63. Fixed   - AI ships and fleets were not resupplying as often as required*
+64. Fixed   - Error in Medical Ship orders
+65. Fixed   - Ships were not always sent to join the most appropriate fleet
+66. Fixed   - Error in AI selection of systems to attack
+67. Fixed   - The AI was never giving up, never surrending*
+68. Added   - AI will use Space Yard Ships to construct remote defense bases
+69. Added   - AI will break their treaties with the Mega Evil player
+70. Changed - AI will now use Carriers for Drone Carrier design type
+71. Changed - AI will use cloaking devices
+72. Changed - AI's facility selection is now more responsive to its needs
+73. Changed - Improved the AI's vehicle purchasing routine
+74. Changed - Improved the AI's handling of resources
+75. Fixed   - AI wasn't using Fighter or Drone Groups for attacks
+76. Added   - AI will drop troops on rioting colonies
+77. Added   - AI will send their fleets for training
+78. Fixed   - Error in AI scrapping routine for ships
+79. Fixed   - AI Minister for Population Transports was not working correctly
+80. Changed - Improved AI's use of scout ships for exploration and surveying
+81. Changed - AI will now use Patrol Ships for patrol missions only
+82. Changed - AI players will focus on sabotage operations only
+83. Fixed   - Error in Intelligence script that allowed projects to succeed more than they should*
+84. Fixed   - Error in destroy resources intel project that allowed negative values
+85. Changed - Increased emphasis on defense point contribution to leaky intel success rate calculation
+86. Fixed   - Sometimes the AI would get stuck trying to research a tech area level that did not exist
+87. Changed - Made improvements to the AI's research pathing
+88. Changed - Improved the AI's starting tech selection
+89. Changed - Revised each AI Empire's weapon and design type usage
+90. Added   - General improvements to AI diplomacy
+91. Changed - A weaker AI at war will consider making peace
+92. Added   - AI design improvements
+93. Added   - Improvements to AI setup scripts
+94. Added   - Fixes for stellar events
+95. Updated - AI Scripts
+
+* Item added in AI Patch for v1.09
+
+
+Version 1.09 (27 July 2007)
+---------------------------
+
+1.  Fixed   - Error in ability amount for small ECM
+2.  Changed - Increased cost of Colony Module components
+3.  Changed - Increased shield points for Small Shield Generator
+4.  Changed - Increased structure for Small Emissive Armor
+5.  Changed - Fixed error in Militia amounts in settings.txt
+6.  Changed - Fixed error with some unique ruin technologies never being available
+7.  Changed - AI will no longer devevelop intel operations when intelligence is not allowed by the game setup
+8.  Fixed   - Error in Change Crew Experience intel project
+9.  Changed - The intel project for a planet to rebel will no longer spawn a new empire, but join
+              the source Empire
+10. Changed - In order for a planet to rebel due to intelligence, the population must be very unhappy
+11. Changed - The amount of disruption to another Empire's research or intel due to an intel project is more variable
+12. Changed - Adjusted the costs to conduct some intel projects
+13. Fixed   - Error with Drushocka weapon selection
+14. Fixed   - Some races did not have a Small Secondary Weapon designation
+15. Fixed   - Sometimes AI Fighter Bomber design had no weapons
+16. Fixed   - Error in Sithrak fighter weapon selection
+17. Fixed   - AIs in team mode sometimes broke treaties they had with each other
+18. Changed - AI will research more efficiently by spending only the points require to reach the next level
+19. Added   - New locations for AI to hold their fleets while they wait for ships to join
+20. Changed - Slightly increased AI use of Weapon Platforms
+21. Changed - Tweaked AI's anger values towards other empires with respect to war, treaty, or known status types
+22. Changed - Modified the AI's anger calculation to be more dynamic
+23. Fixed   - Sometimes specific Empire AI values for political settings were being overridden by default values
+24. Fixed   - Error that resulted in the AI building too many Resuppy Depots on some colonies
+25. Updated - AI Scripts
+
+
+Version 1.08 (09 June 2007)
+---------------------------
+
+1.  Changed - All weapons now have intervals for damage amounts
+2.  Changed - Made lots of overall damage/range/cost changes to weapons
+3.  Changed - Gamma Pulse Torpedoes damage type to Skips All Shields
+4.  Fixed   - Seeker description for Power Lamprey was not being displayed
+5.  Fixed   - Error in Plague Bomb description
+6.  Changed - Increased cost of Crystalline and Organic racial traits to 2000 points
+7.  Changed - Increased tech area cost for racial trait technologies
+8.  Changed - Decreased Neural Combat Net to 10kT
+9.  Changed - Increased cloak level of Stealth Totems
+10. Changed - Reduced Holy War Totem to 5 levels and reduced size to 10kT
+11. Changed - Reduced size of Vengeance Totem to 20kT
+12. Changed - Increased tech area cost for Religious Technology
+13. Chaged  - Decreased cost of Psychic Scanner and added regular scanning ability to it
+14. Changed - Updated Homeworld starting facilities for a max tech start
+15. Fixed   - Alloy Burner Missile was not using ordnance
+16. Changed - Reduced experience points required to achieve experience levels and receive attack and defense bonuses
+17. Added   - New images for Small Supply Storage, Small Ordnance Storage, and Small Ordnance Vat
+18. Changed - Slight inrease to ruins tech area costs
+19. Changed - Reduced experience rates for Psychic Fleet Training and Psychic Ship Training facilities
+20. Changed - AI fleets when waiting for ships to join will occupy enemy  if they have enough ships to be active
+21. Changed - AI will favor facility construction when maintainence costs are high
+22. Changed - AI Carriers will leave fleets to re-load Fighters if they have none
+23. Changed - Narrowed AI's choice of warp points to drop mines and satellites
+24. Fixed   - AI would not always build a Spaceport right away if required
+25. Updated - AI Scripts
+
+
+Version 1.07 (31 May 2007)
+--------------------------
+
+1.  Fixed   - Error in requirements for Small Telekinetic Projector
+2.  Added   - More default design types
+3.  Changed - Reduced the costs for most intel projects
+4.  Added   - New design types
+5.  Changed - Small amount of organics returned for scrapping population
+6.  Changed - Increased starting shield strength for Shield Generators
+7.  Fixed   - If AI players had Natural Merchants trait, they would self-destruct their empire
+8.  Error   - Crystalline Torpedoes could be placed on the Inner Hull
+9.  Changed - All races start with level 1 in Smaller Weapons
+10. Changed - Increased range and damage for Tachyon Projection Cannon
+11. Changed - Increased range for Weapon Disrupter
+12. Changed - Decreased damage for Ionic Dispersers
+13. Changed - Empires now start with level 1 in Small Weapons
+14. Changed - Reduced size and damage for Kamikaze Warhead
+15. Fixed   - Mines could not be fired at in tactical combat
+16. Changed - Drones no longer seek to ram automatically
+17. Fixed   - Planetary Napalm did not store any ordnance
+18. Changed - Increased starting damage resistance for Quantum Torpedoes
+19. Changed - Increased speed and modified damage for Gamma Pulse Torpedoes
+20. Changed - Small tweaks to population happiness modifiers
+22. Added   - Implemented Aggressive, Defensive, and Moderate scripts for default AI
+23. Changed - Improved AI ship design and utilization of components
+24. Changed - Improved AI fleet use, composition and supply
+25. Changed - Updated weapon selections for each default race
+26. Added   - New AI design types
+27. Updated - AI Scripts
+
+
+Version 1.06 (27 April 2007)
+----------------------------
+
+1.  Fixed   - Error in cost for Supply Storage components
+2.  Fixed   - Error in amount for Advanced Storage Techniques racial trait
+3.  Changed - Reduced Hardy Industrialists trait to 20% bonus
+4.  Changed - Increased effect amounts for most Cultural Achievements
+5.  Changed - Small Graviton Beam can now be used with Troops
+6.  Changed - Reduced the effect of troops on happiness
+7.  Fixed   - Error in requirements for Organic Heavy Carrier
+8.  Changed - Reduced Remote Mining component tech level requirements slightly
+9.  Fixed   - Error in tech level requirements for Alloy Burner Missile
+10. Changed - Slight adjustment to tech level requirements for Weapon Phase Accelerator
+11. Added   - New AI Minister to manage populations (ruthlessly)
+12. Added   - New AI Minister to optimize colony production
+13. Added   - AI will now remotely mine
+14. Changed - AI Minister for Vehicle Construction split into ship and unit Ministers
+15. Changed - Tweaked effect amounts and costs for Intel Projects
+16. Changed - Improved default strategy choices for AI design types
+17. Updated - AI Scripts
+
+
+Version 1.05 (25 March 2007)
+----------------------------
+
+1.  Changed - Increased cost for Chemistry tech area
+2.  Changed - Increased cost for Physics tech area
+3.  Changed - Increased cost for Industry tech area
+4.  Changed - Slight increase to Depleted Uranium Cannon damage amount
+5.  Changed - Added ordnance usage to Planetary Napalm
+6.  Fixed   - Error in Planet Combat Defense Modifier
+7.  Fixed   - Some levels of Biological Weapons did not give any results
+8.  Changed - Reduced number of tech levels for Biological Weapons
+8.  Changed - Increased cost for Plasma Missiles tech area
+9.  Fixed   - Fighter combat speeds were not adjusted for new engine system
+10. Fixed   - Error in damage amount for Massive Weapon Platform Mount
+11. Changed - Increased cost for Military Science tech area
+12. Changed - Torpedo Weapons now requires Military Science level 3
+13. Changed - Ship Capture now requires Military Science level 2
+14. Changed - Reduced cost of Supply and Ordnance Storage components
+15. Fixed   - Error in Combat To Hit penalty for Space Stations
+16. Changed - Increased maximum speed for all Carrier ships
+17. Changed - Decreased and ground damage and range for Point-Defense Weapons
+18. Fixed   - Error in range for Point-Defense Blaster
+19. Fixed   - Massive Ship mount should require a ship of 1250kT or larger
+20. Changed - Point-Defense and some small weapons can now target Mines in combat
+21. Updated - Incorporated FQM Beta 8 components in the Balance Mod
+22. Updated - Improved AI construction queue purchasing
+23. Updated - Enhanced AI diplomacy with less static treaties and responses
+24. Added   - Introduced fear modifier in AI diplomacy
+25. Fixed   - A few errors in anger levels used to determine diplomatic responses
+26. Updated - AI will prioritize tech area research during times of war
+27. Added   - Construction Yard colony type for the AI
+28. Fixed   - AI was not adding Ordnance Storage for Carriers
+29. Fixed   - AI was not scrapping ships
+30. Updated - AI Scripts
+
+
+Version 1.04 (28 February 2007)
+-------------------------------
+
+1.  Fixed   - Error in number of tech levels for Crystalline Dreadnought
+2.  Fixed   - Inconsistency in cost for Crystalline Small Fighter
+3.  Fixed   - Bases with Quantum Reactors were not adding Supply Storage components
+4.  Fixed   - Organic vehicle hulls were not receiving their regeneration bonus amounts
+5.  Fixed   - Error in Baseship defense penalty
+6.  Fixed   - Miscellaneous seeker weapon errors
+7.  Changed - Increased damage amount for Anti-Matter Torpedo
+8.  Changed - Decreased planet defense modifier
+9.  Changed - Increased damage factor for weapons and facilities to be functional
+10. Changed - Reduced ECM defense bonus amount to 4% per level
+11. Changed - Reduced size of mounts: Large is 1x, Heavy is 1.5x, and Massive is 2x size
+12. Changed - Increased damage bonuses for mounts
+13. Changed - Added range bonuses to ship mounts
+14. Changed - Added accuracy bonus for Large Satellite Mount
+15. Changed - Costs for ship mounts are now fixed amounts rather than increasing per level
+16. Changed - Ionic Pulse Missiles can now be placed on Satellites and Weapon Platforms
+17. Fixed   - Error in number of tech levels for Religious Studies
+18. Changed - Slightly reduced number of tech levels for Resupply tech area
+19. Changed - Small change to tech requirements for Quantum Reactor
+20. Changed - Increased the research cost for Applied Research
+21. Changed - Adjusted damage type and damage amounts for Alloy Burner Missiles. They now do 2x damage to armor.
+22. Changed - Increased the number of tech levels for Alloy Burner Missiles.
+23. Changed - Increased tech area cost for Applied Research
+24. Fixed   - Error in starting range for Capital Ship Missile
+25. Fixed   - Error in starting range for Plasma Missile
+26. Changed - Tweaked score calculation
+27. Changed - Emissive Armor will reduce damage by a fixed percentage per armor (PENDING)
+28. Fixed   - The Gravitational Quantum Resonator's range was too high
+29. Changed - Incorporated Fyron's Quadrant Mod with a few small changes
+30. Changed - AI will now use a mixed variety of ship sizes
+31. Changed - AI will also scrap obsolete Satellites in addition to Weapon Platforms
+32. Added   - Patrol and Scout Ship AI design types
+33. Added   - AI will now scrap obsolete ships
+34. Changed - AI will consider racial trait technologies in choosing Colony Types
+35. Added   - Updated AI Scripts
+
+
+Version 1.03 (01 February 2007)
+-------------------------------
+
+1.  Fixed   - Error in maximum level for Organic and Crystalline Baseships
+2.  Fixed   - Some ships had the incorrect number of maximum engines  
+3.  Fixed   - Error in ability amount for Mineral Scanner facilities
+4.  Added   - Updated generic slot layouts (Thanks to Fyron)
+5.  Changed - Slight increase in supply usage for seeker weapons
+6.  Changed - Slight reduction in defense structure for Crystalline Torpedoes
+7.  Changed - Small increase in bolt speed for bolt weapons
+8.  Changed - Increased damage amount required to kill population
+9.  Changed - Slightly adjusted base reproduction rate
+10. Fixed   - Error in attenuation for Hyper-Plasma Bolts
+11. Changed - Improved AI's facility selection for its colony types
+12. Changed - AI will no longer add ordnance storage on ships/units that don't use ordnance
+13. Added   - AI will scrap obsolete Weapon Platforms
+14  Changed - AIs will take score into consideration for accepting treaties
+15. Changed - Reduced anger ranges for some of the AI's proposed treaty types
+16. Updated - AI research spending tweaked
+17. Updated - AI Scripts
+
+
+Version 1.02 (07 January 2007)
+------------------------------
+
+1.  Fixed   - Error in allowable vehicle types for Ionic Pulse Missile
+2.  Fixed   - Error in number of abilities for Massive Ship Mount
+3.  Fixed   - Error in tech requirements for all Medium Freighters
+4.  Fixed   - Error in exchange of trade items
+5.  Fixed   - AI designs will no longer have 5kT of space remaining on some designs
+6.  Changed - AI designs will only add enough Life Support or Crew Quarters to fulfill requirements
+7.  Changed - AI will no longer retrofit Colonizers
+8.  Fixed   - Occassional error for AI that sometimes resulted in a long delay during processing
+9.  Changed - Increased planet's population, supply, and ordnance amounts, but decreased cargo storage
+10. Fixed   - Error in ability amount description for Plague Bombs 
+11. Fixed   - Error in Psychic Weapons tech area 
+12. Changed - Telekinetic Projectors increased to 11 tech levels
+13. Changed - Tech requirement levels for Psychic Whiplash
+14. Changed - Tech requirement levels for Stupifier
+15. Changed - Increased damage amounts for Time Distortion Burst and Small Time Distortion Burst
+16. Changed - Slightly reduced Organic regeneration rates
+17. Fixed   - Racial trait Drone hulls did not have the correct maintenance reduction
+18. Fixed   - AI flags and shipsets no longer listed in duplicate
+19. Added   - Additional mini flags (Thanks to Wayne W.)
+20. Changed - AI players should occassionally offer new treaties in place of old ones
+21. Changed - AI players should no longer spam other players with treaties
+22. Changed - AI will no longer retrofit colony ships and will properly retrofit bases
+23. Changed - AI will now issue attack orders against valid targets for attack ships
+24. Added   - Modifiers to tweak AI colony type selection based on available facility space
+25. Updated - AI Scripts
+
+
+Version 1.01 (19 December 2006)
+-------------------------------
+
+1.  Fixed   - Error with AI design for Small Crystalline Fighters
+2.  Fixed   - Error in maximum number of engines for Small Organic Freighter  
+3.  Fixed   - Error in supply storage amount for Quantum Engines
+4.  Fixed   - Point-Defense Weapons did not have troops as a valid target type
+5.  Changed - Increased sight range for Basic Sensors
+6.  Changed - Existing Mines automatically increase in cloak ability based partly on level of Mines tech area
+7.  Updated - Settings.txt with new entry from SE:V v1.20
+8.  Changed - AI will now retrofit more ships at once
+9.  Updated - AI Scripts
+
+
+Version 1.00 (10 December 2006)
+-------------------------------
+
+1.  Fixed   - AI players were not selecting starting technology
+2.  Added   - Small Crystalline Armor
+3.  Added   - Small Organic Armor
+4.  Fixed   - Error in tech requirement for Environmental Studies cultural achievement
+5.  Fixed   - Error in tech requirement for Temporal Space Yard
+6.  Changed - Plague Bombs are now only a single entry
+7.  Fixed   - Range was incorrect for Plague Bomb
+8.  Fixed   - The Massive Base Mount had an incorrect amount for its accuracy bonus
+9.  Changed - Tweaked hull costs for some vehicle types
+10. Changed - Increased damage amount for Alloy Burner Missile
+11. Changed - Quantum Reactors now provide more supplies per level and their cost reduced slightly
+12. Changed - Revised entire engine system
+13. Changed - Increased number of tech levels for larger ships (Cruiser > Baseship)
+14. Changed - Reduced the regeneration rate for Organic Armor
+15. Changed - Increased Ripper Beam to 11 levels
+16. Changed - Increased Plasma Missile to 11 levels
+17. Changed - Slightly increased seeker speeds
+18. Added   - Defense Modifiers to seeker weapons descriptions
+19. Fixed   - Error in Boarding Combat defense modifier
+20. Changed - Reduced the maximum time it takes for Atmospheric Modification Plant to change the atmosphere
+21. Changed - Increased amount of damage required to kill 1M population
+22. Changed - Increased values for starting tech points
+23. Fixed   - AI wasn't adding Basic Sensors to their satellites
+24. Changed - Racial trait sensors (Temporal, Psychic) reduced in cost
+25. Fixed   - A number of typos
+26. Updated - Updated AI research pathing
+27. Updated - AI Scripts
+
+
+Version 0.99 (26 November 2006)
+-------------------------------
+
+1.  Changed - Adjusted the damage order for Armor and Shield types
+2.  Changed - Increased resource levels for finite games
+3.  Changed - Increased Combat Radius to 2500
+4.  Changed - Crew Boarding Strength to 0.5
+5.  Fixed   - Maximum level for some vehicles was incorrect
+6.  Fixed   - Engines Per Move value for Organic Large Freighter was incorrect
+7.  Changed - Genetic Recoding Lab no longer modifies reproduction rate
+8.  Changed - Increased shield point amounts slightly
+9.  Changed - Phased-Shield Generator is now a bit more expensive
+10. Changed - Slightly increased shield regneration rate for Shield Regenerators
+11. Changed - Decreased Life Support and Crew Quarters to 3 levels
+12. Changed - Decreased Vehicle Systems tech area to 5 levels
+13. Changed - Adjusted tech level requirements for Self-Destruct Device and Auxiliary Control
+14. Changed - Solar Sail now has 2 levels
+15. Added   - New design type Bombardment Ship
+16. Changed - Increase damage and range for Planetary Napalm
+17. Fixed   - AI wasn't always adding max engines on large ships
+18. Changed - AI Fleets will break formation immediately
+19. Fixed   - A few typos with maximum levels
+20. Changed - Sound effects in combat range have a larger range to be heard
+21. Changed - Increased the size of some combat effects
+22. Changed - Increased AI's number of Intel Compounds
+23. Changed - AI will use more fleets
+24. Added   - New Treaty Proposal scheme for AIs
+25. Updated - Continued to refine AI research pathing
+26. Updated - AI Empire Scripts
+
+
+Version 0.98 (20 November 2006)
+-------------------------------
+
+1.  Fixed   - Error in Weapon Platform requirements prevented their design
+2.  Fixed   - Error in crew requirement amounts for some ship types
+3.  Changed - All "Weapons Platform" references should now be "Weapon Platform"
+4.  Added   - Default Override_InvConfiguration_Slots.txt to mod
+5.  Changed - Shield Regenerator component abilities in response to SE:V v1.17 fix
+6.  Changed - Increased cost of Mechanoids racial trait to 500 points
+7.  Fixed   - AI was not designing Weapon Platforms
+8.  Added   - AI will now use Master Computers for larger designs if available
+9.  Added   - AI fixes for Alliance politics from SE:V v1.17
+10. Updated - AI Empire Scripts
+
+
+Version 0.97 (17 November 2006)
+-------------------------------
+
+1.  Changed - Tech level requirements for Point-Defense Blaster and Point-Defense Beam
+2.  Fixed   - Corrected error in Engines Per Move amount for Light Cruisers
+3.  Changed - Increased ability amount for Afterburners
+4.  Changed - A few minor tweaks to system types
+5.  Changed - Reduced crew requirements for most ship types
+6.  Fixed   - Vehicle placement type typo in Stealth and Scattering Armor
+7.  Changed - Reduced Phased-Shield Generators to 30kT
+8.  Added   - New design types for Drones
+9.  Added   - New mixed-use colony types for the AI
+10. Changed - More tweaking of AI colony type selection
+11. Changed - Continued optimization of AI research selections
+12. Changed - Continued optimization of AI design types
+13. Updated - AI Empire Scripts
+
+
+Version 0.96 (09 November 2006)
+-------------------------------
+
+1.  Fixed    - Scattering Armor and Stealth Armor did not add their combat to hit bonuses
+2.  Added    - AI Defense Ships implemented with se
+3.  Fixed    - AI was using more Point-Defense than they needed
+4.  Changed  - Reduced maximum combat time to 180 seconds
+5.  Changed  - Space Combat Map Radius to 1500
+6.  Changed  - Tweaked AI Colony Type selection some more
+7.  Updated  - AI Empire Scripts
+
+
+Version 0.95 (08 November 2006)
+-------------------------------
+
+1.  Changed  - Decreased the engines per move value for Destroyers and Light Cruisers
+2.  Changed  - Decreased the max number of engines allowed for Destroyers and Light Cruisers
+3.  Changed  - Reduced Organic and Crystalline Armor to 10kT
+4.  Changed  - Reduced Stealth and Scattering Armor to 20kT
+5.  Changed  - Carriers now only require 30% of their hull devoted to fighter bays
+6.  Changed  - Brave and Cowardly traits now provide small Combat To Hit bonus/penalty
+7.  Removed  - Ordnance generation from Ordnance Storage containers
+8.  Changed  - Supply/Ordnance Storage components can be placed on Weapon Platforms
+9.  Added    - Supply storage for Weapons Platform Computer Core
+10. Changed  - Re-worked main Empires weapon selection
+11. Added    - AI fixes/improvements from SE:V v1.08 to v1.13
+12. Updated  - AI Empire Scripts
+
+
+Version 0.94 (04 November 2006)
+-------------------------------
+
+1.  Changed  - Increased structure for Emissive Armor
+2.  Fixed    - Engine movement bonuses will now only apply when all engines are of the same type
+3.  Fixed    - Error in AI research scripts
+4.  Changed  - Made some changes to AI Empires racial traits and weapon choices
+5.  Updated  - AI Empire Scripts
+
+
+Version 0.93 (27 October 2006)
+------------------------------
+
+1.  Fixed    - Plague Bombs were not following their tech requirements
+2.  Fixed    - Point-Defense Weapons accuracy at range values were accidently reversed
+3.  Changed  - Drones can now be recovered
+4.  Changed  - Added back Recover - Unit abilities for launch components
+5.  Added    - Satellite Layer design type
+6.  Changed  - Reduced Recreation Services cultural achievement to 5 levels
+7.  Changed  - Cargo Facilities now include additional supply and ordnance storage
+8.  Changed  - Increase remote cargo distribution for Resupply Depots
+9.  Changed  - Point-Defense Weapons now do ground damage
+10. Changed  - Tweaked AI ship designs
+11. Updated  - AI research pathing
+12. Updated  - AI Empire Scripts
+
+
+Version 0.92 (24 October 2006)
+------------------------------
+
+1.  Changed  - Made adjustments to supply and ordnance amounts for weapons
+2.  Changed  - Removed or reduced to-hit modifiers for Point-Defense weapons
+3.  Fixed    - Restored accuracy at range modifier for Phased-Polaron Beam
+4.  Changed  - Bonuses from GovernmentTypes.txt to reduce riots and rebellions
+5.  Changed  - Reduced size of happiness bonuses in SocietyTypes.txt
+6.  Changed  - Reduced Recreational Services cultural achievement to 5 levels
+7.  Fixed    - Error in damage at accuracy decrease for Ionic Disperser
+8.  Changed  - Only the most recent type of Plague Bomb will appear now
+9.  Changed  - Increase Resupply Depot amounts for supply and ordnance
+10. Fixed    - Error in Wave-Motion Gun tech requirement
+11. Fixed    - Error in movement amount for Large Organic Freighter
+12. Changed  - Added "Ordnance Generation" ability to Ordnance Storage to counter Ordnance bug in 1.08 (Temporary Fix)
+13. Changed  - Reduced Ship Maint to 20%, Unit and Facility Maint to 5%
+14. Changed  - Starting reproduction rate to 5% from 10%
+15. Changed  - Increased starting storage amount to 100000
+16. Changed  - Minor tweaks to AI research and politics
+17. Updated  - AI Empire Scripts
+
+
+Version 0.91 (20 October 2006)
+------------------------------
+
+1.  Fixed   - Typo in Planetary Shield Generator facility
+2.  Fixed   - Accuracy at Range modifier for Phased-Polaron beam was not correct
+3.  Fixed   - Error in number of abilities for Seeking Parasite
+4.  Changed - Increased damage amount for Ripper Beam
+5.  Changed - Slightly modified PD weapons damage amounts
+6.  Fixed   - AI Frigates were not adding any Point-Defense
+7.  Added   - Point-Defense design type
+8.  Changed - Made some minor changes to how AI proposes treaties
+9.  Fixed   - Typo in ability Shield Regeneration rate
+10. Fixed   - Error in number of tech levels for Mine Layer
+11. Updated - AI Empire Scripts
+
+
+Version 0.90 (16 October 2006) (5:20) Tachyon Sensors [C]2  (1:11) Long Range Scanners [C], Scanner Ja

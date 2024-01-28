@@ -1,0 +1,27 @@
+=======================================================================================
+MOD EVENT SETTINGS DATA FILE - Captain Kwok's Balance Mod v1.20+
+=======================================================================================
+
+This is a custom settings file for the Balance Mod. It allows the player to enable or
+disable certain script evens that run in Script_Main_ExternalEvents at the end of
+each turn.
+
+Research Events
+Watch your scientists have breakthroughs and setbacks in areas of active research. Adds a bit of variability
+to research. The "Lucky" racial trait will increase the likelihood of good outcomes.
+
+Facility Pollution
+Industrial facilities (resource, construction facilities) decrease planetary conditions. Adds an
+emphasis on using climate improvement measures (Environmental Achievements, Climate Control Facility)
+to balance out.
+
+The duplicate entries are necessary for now due to some unknown bug.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Allow Research Events                  := TRUE
+Allow Pollution Events                 := TRUE
+Allow Research Events                  := TRUE
+Allow Pollution Events                 := TRUE

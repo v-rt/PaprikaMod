@@ -1,0 +1,425 @@
+=======================================================================================
+GOVERNMENT TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+                        Intel                 War     Pop.       Base
+Government  Loyalty   Defense  Research Tolerance   Assim.  Happiness
+---------------------------------------------------------------------
+Anarchy         -25       -20        -5       -25       +50        75 (Happy)
+Democracy       -20       -10        +5       -25       +25        65 (Indifferent)
+Corporate       -25       -20       +10       +10       +25        60 (Indifferent)
+Republic        -20       -10        +5       -25       +25        65 (Indifferent)
+Oligarchy         0         0         0         0         0        60 (Indifferent)
+Theocracy       +25       +20        -5       +25       -25        55 (Indifferent)
+Monarchy        +25       +10         0       +10       -10        55 (Indifferent)
+Tyranny         +20       +20        -5       +25       -10        50 (Indifferent)
+Hive            +50       +10        -5       +50       -25        55 (Indifferent)
+Collective      +50       +10         0       +50       -25        50 (Indifferent)
+
+Note: Planet Population War Tolerance and Base Happiness values are used in Function 
+Population_Events in Script_Main_ExternalEvents. You must alter the source script file
+and re-compile for any changes to have an effect. The values and descriptions
+provided are cosmetic only. All other modifiers work through existing SE5 hard-coded
+mechanisms.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                            := Anarchy
+Description                                     := The complete absence of a government with the idea that all organized government is repressive and corrupt.
+Picture Index                                   := 1
+Portrait Filename                               := GovType_Anarchy.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -25
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research point generation decreased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population tolerance for war decreased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation increased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 50
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends to Happy.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Democracy
+Description                                     := A government by the people through direct vote or representatives.
+Picture Index                                   := 2
+Portrait Filename                               := GovType_Democracy.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -20
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research point generation increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population war tolerance decreased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation increased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 25
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends weakly towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Corporate
+Description                                     := A government organized around business ideals and goals.
+Picture Index                                   := 3
+Portrait Filename                               := GovType_Corporate.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -25
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research generation increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 10
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population war tolerance increased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 10
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation increased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 25
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Republic
+Description                                     := A government headed by a president in which the power is exercised by officials elected by the voters.
+Picture Index                                   := 4
+Portrait Filename                               := GovType_Republic.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty decreased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := -20
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense decreased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research generation increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population war tolerance decreased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation increased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 25
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends weakly towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Oligarchy
+Description                                     := A government headed by a small group of people that hold absolute power.
+Picture Index                                   := 5
+Portrait Filename                               := GovType_Oligarchy.bmp
+Number Of Abilities                             := 2
+Ability 1 Type                                  := Description Only
+Ability 1 Description                           := Government - No specific advantages or disadvantages.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 0
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Description Only
+Ability 2 Description                           := Government - Population happiness trends weakly towards Indifferent.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 0
+Ability 2 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Theocracy
+Description                                     := A government run by priests who claim to rule with divine authority.
+Picture Index                                   := 6
+Portrait Filename                               := GovType_Theocracy.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 25
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research point generation decreased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population war tolerance increased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation decreased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -25
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Monarchy
+Description                                     := A government headed by a king or queen who assumes leadership through hereditary ties.
+Picture Index                                   := 7
+Portrait Filename                               := GovType_Monarchy.bmp
+Number Of Abilities                             := 5
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 25
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Planet Population War Tolerance
+Ability 3 Description                           := Government - Population war tolerance increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 10
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population Assimilation
+Ability 4 Description                           := Government - Foreign population assimilation decreased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -10
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Description Only
+Ability 5 Description                           := Government - Population happiness trends towards Indifferent.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 0
+Ability 5 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Tyranny
+Description                                     := A government headed by a single individual with absolute authority.
+Picture Index                                   := 8
+Portrait Filename                               := GovType_Tyranny.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 20
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 20
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research generation decreased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population tolerance for war increased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation decreased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -10
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends strongly towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Hive
+Description                                     := A government where individuals only exist to serve a specific role in the society. Absolute authority is held by a central individual or group.
+Picture Index                                   := 9
+Portrait Filename                               := GovType_Hive.bmp
+Number Of Abilities                             := 6
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 50
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Point Generation Modifier - Research
+Ability 3 Description                           := Government - Research generation decreased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population War Tolerance
+Ability 4 Description                           := Government - Population war tolerance increased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 50
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Planet Population Assimilation
+Ability 5 Description                           := Government - Foreign population assimilation decreased by [%Amount1%]%.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -25
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Government - Population happiness trends towards Indifferent.
+Ability 6 Scope                                 := Galaxy - This Player
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+Name                                            := Collective
+Description                                     := A government controlled by a central mind which all individuals make up. All individuals are interchangeable and execute tasks without question.
+Picture Index                                   := 10
+Portrait Filename                               := GovType_Collective.bmp
+Number Of Abilities                             := 5
+Ability 1 Type                                  := Planet Population Loyalty
+Ability 1 Description                           := Government - Population loyalty increased by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 50
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Intelligence Defense Modifier
+Ability 2 Description                           := Government - Intelligence defense increased by [%Amount1%]%.
+Ability 2 Scope                                 := Galaxy - This Player
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 10
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Planet Population War Tolerance
+Ability 3 Description                           := Government - Population war tolerance increased by [%Amount1%]%.
+Ability 3 Scope                                 := Galaxy - This Player
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 50
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Planet Population Assimilation
+Ability 4 Description                           := Government - Foreign population assimilation decreased by [%Amount1%]%.
+Ability 4 Scope                                 := Galaxy - This Player
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Description Only
+Ability 5 Description                           := Government - Population happiness trends strongly towards Indifferent.
+Ability 5 Scope                                 := Galaxy - This Player
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 0
+Ability 5 Amount 2 Formula                      := 0
+Number Of Requirements                          := 0
+
+=======================================================================================
+*END*
+=======================================================================================

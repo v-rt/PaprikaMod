@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Amon'krie - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Amon'krie
+Description                              := The Amon'krie are an intellectual race with advanced technology. Though physically weak, they make up for it with powerful warships.
+Empire Name                              := Amon'krie
+Empire Type                              := Continuum
+Emperor Name                             := Amon-Kurath
+Emperor Title                            := Lord
+Home Planet Type                         := Ice
+Home Planet Atmosphere                   := Methane
+Race Name                                := Amon'krie
+Race Plural Name                         := Amon'krie
+Race Physical Description                := Serpentoid
+Government Type                          := Oligarchy
+Society Type                             := Xenophobes
+Biological Description                   := The Amon'krie are small worm-like beings just under 2 meters long. They propel their bodies by undulating their underside. They have several small tubules near their head which they use to grasp tools. They prefer to make their homes under the soil of a planet and have very poor eyesight. Their average lifespan is about 50 years.
+Society Description                      := The Amon'krie have a society made up of several groups of governing personnel. Each group has absolute authority over a different sector of their government. They work together in a delicate network of checks and balances. Their society is strongly xenophobic and does not interact well with other races.
+General History Description              := The Amon'krie are thought to have evolved on a planet far on the rim of the galaxy. They developed spaceflight relatively quickly, but found no other sentient life near them. Over the centuries, they developed the belief that theirs was the only race in existance. As they ventured further into the galaxy, they did finally encounter other species but their isolation had already left them strongly xenophobic.
+Personality Group                        := 3
+
+=======================================================================================
+*END*
+=======================================================================================

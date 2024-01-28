@@ -1,0 +1,17 @@
+=======================================================================================
+MOD DEFINITION DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Mod Name                                 := Balance Mod v1.25 Beta
+Description                              := Captain Kwok's "stock" version of Space Empires V that targets improved gameplay and AI performance. Check Readme.txt or https://www.captainkwok.net/balancemod.php for details.
+Picture Filename                         := BalanceMod.bmp
+Allow Main Empires                       := FALSE
+Override InvConfiguration Slots          := FALSE
+
+=======================================================================================
+*END*
+=======================================================================================

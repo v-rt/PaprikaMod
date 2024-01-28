@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Drushocka - Captain Kwok's Balance Mod v1.20+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Drushocka
+Image Empire Flag Set                         := Drushocka\Drushocka_Flag_Set.bmp
+Image Empire Flag Main Texture                := Drushocka\Drushocka_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Drushocka\Drushocka_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Drushocka\Drushocka_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Drushocka\Drushocka_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Drushocka\Drushocka_Race_Portrait.bmp
+Image Race Large Portrait                     := Drushocka\Drushocka_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Drushocka\Drushocka_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Drushocka\Drushocka_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Drushocka\Drushocka_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Drushocka\Drushocka_ShipSet.bmp
+AI Script File                                := Drushocka\Drushocka_Main_Script.csf
+AI Script Empire Setup File                   := Drushocka\Drushocka_Setup_Script.csf
+AI General File                               := Drushocka\Drushocka_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Drushocka\Drushocka_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Drushocka\Drushocka_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Drushocka\Drushocka_Ships_XFileClasses.txt
+Design Name File                              := Drushocka\Drushocka_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

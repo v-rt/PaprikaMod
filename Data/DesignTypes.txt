@@ -1,0 +1,203 @@
+=======================================================================================
+DESIGN TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+These are the default starting Design Types for every player. Balance Mod ministers
+understand all of these design types with the following exceptions:
+- Retroseries
+- Ship (Stellar Manipulation)
+
+Name:
+  The name of the design type.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                 := Base (Defense L)
+
+Name                 := Base (Defense S)
+
+Name                 := Base (Remote Farming)
+
+Name                 := Base (Remote Mining)
+
+Name                 := Base (Remote Refining)
+
+Name                 := Base (Repair)
+
+Name                 := Base (Space Yard)
+
+Name                 := Base (Supply)
+
+Name                 := Carrier (Drone L)
+
+Name                 := Carrier (Drone M)
+
+Name                 := Carrier (Drone S)
+
+Name                 := Carrier (Fighter L)
+
+Name                 := Carrier (Fighter M)
+
+Name                 := Carrier (Fighter S)
+
+Name                 := Colonizer (Gas)
+
+Name                 := Colonizer (Ice)
+
+Name                 := Colonizer (Rock)
+
+Name                 := Drone (Attack)
+
+Name                 := Drone (Bombardment)
+
+Name                 := Drone (Defense)
+
+Name                 := Drone (Kamikaze)
+
+Name                 := Drone (Recon)
+
+Name                 := Drone (Repair)
+
+Name                 := Drone (Seeker)
+
+Name                 := Fighter
+
+Name                 := Fighter (Anti-Fighter)
+
+Name                 := Fighter (Bomber)
+
+Name                 := Fighter (Kamikaze)
+
+Name                 := Mine
+
+Name                 := Mine (Ionic)
+
+Name                 := Mine (Neutrino)
+
+Name                 := Mine (Tachyon)
+
+Name                 := Retroseries
+
+Name                 := Satellite
+
+Name                 := Satellite (Point-Defense)
+
+Name                 := Satellite (Recon)
+
+Name                 := Satellite (Repair)
+
+Name                 := Satellite (Seeker)
+
+Name                 := Ship (Attack Base)
+
+Name                 := Ship (Attack L)
+
+Name                 := Ship (Attack M)
+
+Name                 := Ship (Attack S)
+
+Name                 := Ship (Black Hole Creator)
+
+Name                 := Ship (Black Hole Destroyer)
+
+Name                 := Ship (Boarding)
+
+Name                 := Ship (Bombardment)
+
+Name                 := Ship (Defense L)
+
+Name                 := Ship (Defense M)
+
+Name                 := Ship (Defense S)
+
+Name                 := Ship (Explorer)
+
+Name                 := Ship (Point-Defense)
+
+Name                 := Ship (Kamikaze)
+
+Name                 := Ship (Medical)
+
+Name                 := Ship (Mine Layer)
+
+Name                 := Ship (Mine Sweeper)
+
+Name                 := Ship (Nebulae Creator)
+
+Name                 := Ship (Nebulae Destroyer)
+
+Name                 := Ship (Patrol)
+
+Name                 := Ship (Plague)
+
+Name                 := Ship (Planet Creator)
+
+Name                 := Ship (Planet Destroyer)
+
+Name                 := Ship (Remote Farming)
+
+Name                 := Ship (Remote Mining)
+
+Name                 := Ship (Remote Refining)
+
+Name                 := Ship (Repair)
+
+Name                 := Ship (Satellite Launcher)
+
+Name                 := Ship (Scout)
+
+Name                 := Ship (Seeker L)
+
+Name                 := Ship (Seeker M)
+
+Name                 := Ship (Seeker S)
+
+Name                 := Ship (Stellar Manipulation)
+
+Name                 := Ship (Storm Creator)
+
+Name                 := Ship (Storm Destroyer)
+
+Name                 := Ship (Space Yard)
+
+Name                 := Ship (Star Creator)
+
+Name                 := Ship (Star Destroyer)
+
+Name                 := Ship (Warp Point Closer)
+
+Name                 := Ship (Warp Point Opener)
+
+Name                 := Transport (Cargo)
+
+Name                 := Transport (Population)
+
+Name                 := Transport (Supply)
+
+Name                 := Transport (Troop)
+
+Name                 := Troop
+
+Name                 := Troop (Anti-Fighter)
+
+Name                 := Troop (Heavy)
+
+Name                 := Troop (Light)
+
+Name                 := Weapon Platform (L)
+
+Name                 := Weapon Platform (M)
+
+Name                 := Weapon Platform (S)
+
+Name                 := Weapon Platform (Seeker L)
+
+Name                 := Weapon Platform (Seeker M)
+
+Name                 := Weapon Platform (Seeker S)
+
+=======================================================================================
+*END*
+=======================================================================================

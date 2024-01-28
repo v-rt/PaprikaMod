@@ -1,0 +1,132 @@
+=======================================================================================
+HAPPINESS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+Population Happiness Levels:
+
+Anger %   Description     Mod
+-----------------------------
+    100    Rioting         0%
+  75-99    Angry          50%
+  50-74    Unhappy        80%
+  25-50    Indifferent   100%
+   6-24    Happy         110%
+    0-5    Jubliant      120%
+
+Population Happiness Effects:
+- Riot prevents any point generation from that planet
+- If a planet riots for sufficient time, it may rebel
+- Rebellion changes the planet to a new owner
+- Happiness level modifies the output of resources, research, and intel
+
+Planet Conditions:
+
+Description   Mod
+Deadly        -5%
+Harsh         -3%
+Unpleasant    -1%
+Mild          +1%
+Good          +2%
+Optimal       +3%
+
+Note only the first entry is used by the game. The Balance Mod has additional
+happiness effects that are applied through the events script that are modified
+by a player's government type, diplomacy and other factors.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                             := Peaceful
+Description                      := Populations respond well to good events such as ships being constructed, colonies being created, Partnership treaties, etc. They respond poorly to enemy ships, wars, and plagues. 
+Max Positive Anger Change        := 20.0
+Max Negative Anger Change        := -20.0
+Our Homeworld Lost               := 20.0
+Our Planet Lost                  := 10.0
+Our Ship Lost                    := 0.1
+Planet Colonized By Us           := -1.0
+Our Planet Captured              := 10.0
+Enemy Planet Captured            := -2.0
+New Treaty War                   := 5.0
+New Treaty None                  := 2.0
+New Treaty Partnership           := -5.0
+Battle in System - Win           := -4.0
+Battle in System - Loss          := 4.0
+Battle in System - Stalemate     := 2.0
+Enemy Ship in System             := 0.2
+Enemy Ship in Sector             := 0.5
+Our Ship in Sector               := -0.2
+Our Ship in System               := -0.1
+Enemy Troops on Planet           := 5.0
+Our Troops on Planet             := -0.1
+Our 1M Population Killed         := 0.2
+Our Ship Lost in System          := 0.5
+Our Ship Constructed             := -0.2
+Our Facility Constructed         := -0.2
+Our Planet Plagued               := 10.0
+Natural Decrease                 := -1.0
+Natural Decrease for Other Races := 2.0
+
+Name                             := Bloodthirsty
+Description                      := Populations love wars and the destruction of their enemies. They respond poorly to any combat losses or peace of any kind. 
+Max Positive Anger Change        := 20.0
+Max Negative Anger Change        := -20.0
+Our Homeworld Lost               := 20.0
+Our Planet Lost                  := 10.0
+Our Ship Lost                    := 0.1
+Planet Colonized By Us           := -1.0
+Our Planet Captured              := 10.0
+Enemy Planet Captured            := -2.0
+New Treaty War                   := 5.0
+New Treaty None                  := 2.0
+New Treaty Partnership           := -5.0
+Battle in System - Win           := -4.0
+Battle in System - Loss          := 4.0
+Battle in System - Stalemate     := 2.0
+Enemy Ship in System             := 0.2
+Enemy Ship in Sector             := 0.5
+Our Ship in Sector               := -0.2
+Our Ship in System               := -0.1
+Enemy Troops on Planet           := 5.0
+Our Troops on Planet             := -0.1
+Our 1M Population Killed         := 0.2
+Our Ship Lost in System          := 0.5
+Our Ship Constructed             := -0.2
+Our Facility Constructed         := -0.2
+Our Planet Plagued               := 10.0
+Natural Decrease                 := -1.0
+Natural Decrease for Other Races := 2.0
+
+Name                             := Neutral
+Description                      := Populations prefer that their race is left alone and scorns all treaties. They respond poorly to any unusual events. 
+Max Positive Anger Change        := 20.0
+Max Negative Anger Change        := -20.0
+Our Homeworld Lost               := 20.0
+Our Planet Lost                  := 10.0
+Our Ship Lost                    := 0.1
+Planet Colonized By Us           := -1.0
+Our Planet Captured              := 10.0
+Enemy Planet Captured            := -2.0
+New Treaty War                   := 5.0
+New Treaty None                  := 2.0
+New Treaty Partnership           := -5.0
+Battle in System - Win           := -4.0
+Battle in System - Loss          := 4.0
+Battle in System - Stalemate     := 2.0
+Enemy Ship in System             := 0.2
+Enemy Ship in Sector             := 0.5
+Our Ship in Sector               := -0.2
+Our Ship in System               := -0.1
+Enemy Troops on Planet           := 5.0
+Our Troops on Planet             := -0.1
+Our 1M Population Killed         := 0.2
+Our Ship Lost in System          := 0.5
+Our Ship Constructed             := -0.2
+Our Facility Constructed         := -0.2
+Our Planet Plagued               := 10.0
+Natural Decrease                 := -1.0
+Natural Decrease for Other Races := 2.0
+
+=======================================================================================
+*END*
+=======================================================================================

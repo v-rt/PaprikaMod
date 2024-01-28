@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Cue Cappa - Captain Kwok's Balance Mod v1.20
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := CueCappa
+Image Empire Flag Set                         := CueCappa\CueCappa_Flag_Set.bmp
+Image Empire Flag Main Texture                := CueCappa\CueCappa_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := CueCappa\CueCappa_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := CueCappa\CueCappa_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := CueCappa\CueCappa_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := CueCappa\CueCappa_Race_Portrait.bmp
+Image Race Large Portrait                     := CueCappa\CueCappa_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := CueCappa\CueCappa_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := CueCappa\CueCappa_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := CueCappa\CueCappa_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := CueCappa\CueCappa_ShipSet.bmp
+AI Script File                                := CueCappa\CueCappa_Main_Script.csf
+AI Script Empire Setup File                   := CueCappa\CueCappa_Setup_Script.csf
+AI General File                               := CueCappa\CueCappa_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := CueCappa\CueCappa_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := CueCappa\CueCappa_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := CueCappa\CueCappa_Ships_XFileClasses.txt
+Design Name File                              := CueCappa\CueCappa_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

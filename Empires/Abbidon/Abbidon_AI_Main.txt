@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Abbidon - Captain Kwok's Balance Mod v1.20+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Abbidon
+Image Empire Flag Set                         := Abbidon\Abbidon_Flag_Set.bmp
+Image Empire Flag Main Texture                := Abbidon\Abbidon_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Abbidon\Abbidon_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Abbidon\Abbidon_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Abbidon\Abbidon_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Abbidon\Abbidon_Race_Portrait.bmp
+Image Race Large Portrait                     := Abbidon\Abbidon_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Abbidon\Abbidon_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Abbidon\Abbidon_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Abbidon\Abbidon_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Abbidon\Abbidon_ShipSet.bmp
+AI Script File                                := Abbidon\Abbidon_Main_Script.csf
+AI Script Empire Setup File                   := Abbidon\Abbidon_Setup_Script.csf
+AI General File                               := Abbidon\Abbidon_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Abbidon\Abbidon_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Abbidon\Abbidon_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Abbidon\Abbidon_Ships_XFileClasses.txt
+Design Name File                              := Abbidon\Abbidon_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

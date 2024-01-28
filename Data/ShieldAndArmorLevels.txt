@@ -1,0 +1,27 @@
+=======================================================================================
+SHIELD AND ARMOR LEVELS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+Damage to armor is applied in order of placement. Mixing shield points results in them
+being treated as normal points only.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Number Of Shield Levels                       := 4
+Shield Level 1 Name                           := Normal Shields
+Shield Level 2 Name                           := Phased Shields
+Shield Level 3 Name                           := Plasma Shields
+Shield Level 4 Name                           := Null-Space Shields
+
+Number Of Armor Levels                        := 5
+Armor Level 1 Name                            := Emissive Armor
+Armor Level 2 Name                            := Organic Armor
+Armor Level 3 Name                            := Crystalline Armor
+Armor Level 4 Name                            := Scattering Armor
+Armor Level 5 Name                            := Normal Armor
+
+=======================================================================================
+*END*
+=======================================================================================

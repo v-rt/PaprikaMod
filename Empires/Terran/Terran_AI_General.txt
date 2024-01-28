@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Terran - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Terran
+Description                              := Terrans are an aggressive species which seek to expand their economy to every corner of the galaxy.
+Empire Name                              := Terran
+Empire Type                              := Confederation
+Emperor Name                             := Takei
+Emperor Title                            := General
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Terran
+Race Plural Name                         := Terrans
+Race Physical Description                := Humanoid
+Government Type                          := Democracy
+Society Type                             := Industrialists
+Biological Description                   := The Terrans are one of the few species that is made up of several sub-categories that have followed different evolutionary and cultural paths. As a result, Terrans, or Humans as they call themselves have developed into one of the most diverse races in the galaxy. Physically, they aren't anything special. Bi-pedal with two arms and a head, they are a remarkably ordinary-looking race. A positive byproduct of this fact is that their appearence is inoffensive to most, which allows them to make treaties and trade with other races with relative ease.
+Society Description                      := The Terrans are goverened by a very liberal democracy. The large numbers of freedoms granted by this system result in feelings of happiness and well being amongst the general population. However, this openness also leaves the Terrans vulnerable to infiltration.
+General History Description              := With so many different cultures all evolving at the same time, even a brief summary of Terran history would take volumes. The Terrans do have a pronounced history of killing each other that stretches back to the beginning of their race. As a result, they have become extremely proficient at the art.
+Personality Group                        := 2
+
+=======================================================================================
+*END*
+=======================================================================================

@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Neutral 005 - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := FALSE
+Is Available For Player Selection             := FALSE
+Is Neutral Race                               := TRUE
+Empire Name                                   := Default
+Image Empire Flag Set                         := (Any)
+Image Empire Flag Main Texture                := (Any)
+Image Empire Flag Ship Texture                := (Any)
+Image Empire Flag Fleet Texture               := (Any)
+Image Race Smaller Portraits                  := Neutral005\Neutral005_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Neutral005\Neutral005_Race_Portrait.bmp
+Image Race Large Portrait                     := Neutral005\Neutral005_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Default\Default_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Default\Default_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Default\Default_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Default\Default_ShipSet.bmp
+AI Script File                                := Default\Default_Main_Script.csf
+AI Script Empire Setup File                   := Default\Default_Setup_Script.csf
+AI General File                               := Neutral005\Neutral005_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Default\Default_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Default\Default_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Default\Default_Ships_XFileClasses.txt
+Design Name File                              := Neutral005\Neutral005_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

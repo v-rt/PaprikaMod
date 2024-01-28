@@ -1,0 +1,36 @@
+=======================================================================================
+ATMOSPHERE TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                 := None
+Description                          := 
+Picture Index                        := 1
+Allowed On Planet Physical Types     := Rock, Ice
+
+Name                                 := Oxygen
+Description                          := 
+Picture Index                        := 4
+Allowed On Planet Physical Types     := All
+
+Name                                 := Methane
+Description                          := 
+Picture Index                        := 3
+Allowed On Planet Physical Types     := All
+
+Name                                 := Hydrogen
+Description                          := 
+Picture Index                        := 2
+Allowed On Planet Physical Types     := All
+
+Name                                 := Carbon Dioxide
+Description                          := 
+Picture Index                        := 5
+Allowed On Planet Physical Types     := All
+
+=======================================================================================
+*END*
+=======================================================================================

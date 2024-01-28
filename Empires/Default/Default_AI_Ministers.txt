@@ -1,0 +1,73 @@
+=======================================================================================
+AI DATA FILE - Ministers - Captain Kwok's Balance Mod v1.20+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Number Of Ministers                       := 60
+Minister 1 Name                           := Colony Types
+Minister 2 Name                           := Empire Goals
+Minister 3 Name                           := Enemy Analysis
+Minister 4 Name                           := Fleets
+Minister 5 Name                           := Intelligence
+Minister 6 Name                           := Politics
+Minister 7 Name                           := Research
+Minister 8 Name                           := Restricted Systems
+Minister 9 Name                           := Vehicle Design
+Minister 10 Name                          := Colonies - Colony Type Change
+Minister 11 Name                          := Colonies - Drone Launching
+Minister 12 Name                          := Colonies - Facilities
+Minister 13 Name                          := Colonies - Resource Conversion
+Minister 14 Name                          := Colonies - Fighter Launching
+Minister 15 Name                          := Colonies - Mine Launching
+Minister 16 Name                          := Colonies - Population
+Minister 17 Name                          := Colonies - Satellite Launching
+Minister 18 Name                          := Colonies - Unit Scrapping
+Minister 19 Name                          := Construction - Facilities
+Minister 20 Name                          := Construction - Ships
+Minister 21 Name                          := Construction - Units
+Minister 22 Name                          := Construction - Queue Cleanup
+Minister 23 Name                          := Ships - (All) Cloaking
+Minister 24 Name                          := Ships - (All) Mothballing
+Minister 25 Name                          := Ships - (All) Naming
+Minister 26 Name                          := Ships - (All) Resupply
+Minister 27 Name                          := Ships - (All) Retrofit
+Minister 28 Name                          := Ships - (All) Scrapping
+Minister 29 Name                          := Ships - Attack Bases
+Minister 30 Name                          := Ships - Attack Ships
+Minister 31 Name                          := Ships - Black Hole Creators
+Minister 32 Name                          := Ships - Black Hole Destroyers
+Minister 33 Name                          := Ships - Boarding Ships
+Minister 34 Name                          := Ships - Cargo Transports
+Minister 35 Name                          := Ships - Colony Ships
+Minister 36 Name                          := Ships - Drone Carriers
+Minister 37 Name                          := Ships - Fighter Carriers
+Minister 38 Name                          := Ships - Medical Ships
+Minister 39 Name                          := Ships - Mine Layers
+Minister 40 Name                          := Ships - Mine Sweepers
+Minister 41 Name                          := Ships - Nebulae Creators
+Minister 42 Name                          := Ships - Nebulae Destroyers
+Minister 43 Name                          := Ships - Patrol Ships
+Minister 44 Name                          := Ships - Planet Creators
+Minister 45 Name                          := Ships - Planet Destroyers
+Minister 46 Name                          := Ships - Population Transports
+Minister 47 Name                          := Ships - Ramming Ships
+Minister 48 Name                          := Ships - Remote Mining Ships
+Minister 49 Name                          := Ships - Satellite Layers
+Minister 50 Name                          := Ships - Space Yard Ships
+Minister 51 Name                          := Ships - Star Creators
+Minister 52 Name                          := Ships - Star Destroyers
+Minister 53 Name                          := Ships - Storm Creators
+Minister 54 Name                          := Ships - Storm Destroyers
+Minister 55 Name                          := Ships - Survey Ships
+Minister 56 Name                          := Ships - Troop Transports
+Minister 57 Name                          := Ships - Warp Point Closers
+Minister 58 Name                          := Ships - Warp Point Openers
+Minister 59 Name                          := Units - Drones
+Minister 60 Name                          := Units - Fighters
+
+=======================================================================================
+*END*
+=======================================================================================

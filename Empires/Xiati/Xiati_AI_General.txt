@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Xiati - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Xiati
+Description                              := The Xiati are equally aggressive and devious. They are known to possess Temporal Manipulation technology.
+Empire Name                              := Xiati
+Empire Type                              := Empire
+Emperor Name                             := Tax'renath
+Emperor Title                            := Emperor
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Xiati
+Race Plural Name                         := Xiati
+Race Physical Description                := Humanoid
+Government Type                          := Tyranny
+Society Type                             := Schemers
+Biological Description                   := The Xiati are a humanoid race which evolved on an Oxygen world. They stand approximately 2 meters tall and are dull brown in appearance. Their average lifespan is approximately 70 years, and they are striking for their dark black eyes. Of additional note is the high level of cybernetic enhancement which the Xiati perform on themselves. It is estimated that 30% of a Xiati's mass is made up of non-organic technology.
+Society Description                      := The Xiati are an archetypal empire dedicated to spreading its control across the galaxy. The government keeps all of its citizens in line and allows no dissention. The society is ruled absolutely by the current emperor, with new emperors coming to power only after the current one has aged to ineptitude. There are the occasional rebellions, but they are put down quickly and violently. Most of the galaxy has heard of the infamous Omicron Theta rebellion during which 30 million Xiati were bombed out of existence by imperial ships. Rumor has it that only 100,000 miners at the colony were actually refusing to work.
+General History Description              := Originally, the Xiati were not considered much of a threat to other species. They were intelligent and agressive, but their technology was a bit dated. That all changed when a Xiati scientist discovered Temporal Manipulation. This new technology allowed the Xiati to manipulate time itself. With an arsenal of devastating temporal weapons at their disposal, the Xiati became a force to be reckoned with.
+Personality Group                        := 3
+
+=======================================================================================
+*END*
+=======================================================================================

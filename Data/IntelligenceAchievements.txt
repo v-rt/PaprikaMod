@@ -1,0 +1,211 @@
+=======================================================================================
+INTELLIGENCE ACHIEVEMENTS DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                            := Sabotage - Ships & Fleets
+Description                                     := Intelligence activities directed towards sabotaging ships and fleets.
+Picture Number                                  := 1
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Sabotage - Ships & Fleets.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Sabotage - Ships & Fleets") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Sabotage - Ships & Fleets are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Sabotage - Ships & Fleets"
+
+Name                                            := Sabotage - Planets & Colonies
+Description                                     := Intelligence activities directed towards sabotaging planets and colonies.
+Picture Number                                  := 2
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Sabotage - Planets & Colonies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Sabotage - Planets & Colonies") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Sabotage - Planets & Colonies are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Sabotage - Planets & Colonies"
+
+Name                                            := Sabotage - Empire Wide
+Description                                     := Intelligence activities directed towards sabotaging an entire empire's infrastructure.
+Picture Number                                  := 3
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Sabotage - Empire Wide.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Sabotage - Empire Wide") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Sabotage - Empire Wide are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Sabotage - Empire Wide"
+
+Name                                            := Sabotage - Political
+Description                                     := Intelligence activities directed towards the sabotage of an empire's political relations.
+Picture Number                                  := 4
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Sabotage - Political.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Sabotage - Political") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Sabotage - Political are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Sabotage - Political"
+
+Name                                            := Espionage - Ships & Fleets
+Description                                     := Intelligence activities directed towards obtaining information on ships and fleets.
+Picture Number                                  := 5
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Espionage - Ships & Fleets.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Espionage - Ships & Fleets") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Espionage - Ships & Fleets are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Espionage - Ships & Fleets"
+
+Name                                            := Espionage - Planets & Colonies
+Description                                     := Intelligence activities directed towards obtaining information on planets and colonies.
+Picture Number                                  := 6
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Espionage - Planets & Colonies.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Espionage - Planets & Colonies") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Espionage - Planets & Colonies are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Espionage - Planets & Colonies"
+
+Name                                            := Espionage - Empire Wide
+Description                                     := Intelligence activities directed towards obtaining empire wide information.
+Picture Number                                  := 7
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Espionage - Empire Wide.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Espionage - Empire Wide") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Espionage - Empire Wide are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Espionage - Empire Wide"
+
+Name                                            := Espionage - Political
+Description                                     := Intelligence activities directed towards obtaining information on an empire's political relations.
+Picture Number                                  := 8
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 10
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Espionage - Political.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Espionage - Political") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Espionage - Political are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 5)
+Ability 1 Amount 2 Formula                      := "Espionage - Political"
+
+Name                                            := Cooperative Intelligence - Attack
+Description                                     := The coordination of intelligence activities with foreign powers to help conduct intelligence attacks.
+Picture Number                                  := 9
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 5
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Cooperative Intelligence.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cooperative Intelligence") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Cooperative Intelligence - Attack are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := "Cooperative Intelligence"
+
+Name                                            := Cooperative Intelligence - Defense
+Description                                     := The coordination of intelligence activities with foreign powers to help protect them against intelligence attacks.
+Picture Number                                  := 9
+Portrait Filename                               := Event_IntelGeneralInfo.jpg
+Large Portrait Filename                         := LargePortrait_Event_IntelGeneralInfo.jpg
+Maximum Level                                   := 5
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := AND
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Empire must have at least tech level 1 in Cooperative Intelligence.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cooperative Intelligence") >= [%Level%]
+Number Of Abilities                             := 1
+Ability 1 Type                                  := Intelligence Focus Area Modifier
+Ability 1 Description                           := Intelligence actions with a focus area of Cooperative Intelligence - Defense are improved by [%Amount1%]%.
+Ability 1 Scope                                 := Galaxy - This Player
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := ([%Level%] * 10)
+Ability 1 Amount 2 Formula                      := "Cooperative Intelligence"
+
+=======================================================================================
+*END*
+=======================================================================================

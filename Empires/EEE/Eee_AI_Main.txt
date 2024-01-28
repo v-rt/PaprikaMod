@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - EEE - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Eee
+Image Empire Flag Set                         := Eee\Eee_Flag_Set.bmp
+Image Empire Flag Main Texture                := Eee\Eee_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Eee\Eee_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Eee\Eee_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Eee\Eee_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Eee\Eee_Race_Portrait.bmp
+Image Race Large Portrait                     := Eee\Eee_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Eee\Eee_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Eee\Eee_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Eee\Eee_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Eee\Eee_ShipSet.bmp
+AI Script File                                := Eee\Eee_Main_Script.csf
+AI Script Empire Setup File                   := Eee\Eee_Setup_Script.csf
+AI General File                               := Eee\Eee_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Eee\Eee_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Eee\Eee_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Eee\Eee_Ships_XFileClasses.txt
+Design Name File                              := Eee\Eee_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

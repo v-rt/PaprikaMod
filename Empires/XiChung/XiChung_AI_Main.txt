@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Xi'Chung - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Xichung
+Image Empire Flag Set                         := XiChung\XiChung_Flag_Set.bmp
+Image Empire Flag Main Texture                := XiChung\XiChung_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := XiChung\XiChung_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := XiChung\XiChung_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := XiChung\XiChung_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := XiChung\XiChung_Race_Portrait.bmp
+Image Race Large Portrait                     := XiChung\XiChung_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := XiChung\XiChung_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := XiChung\XiChung_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := XiChung\XiChung_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := XiChung\XiChung_ShipSet.bmp
+AI Script File                                := XiChung\XiChung_Main_Script.csf
+AI Script Empire Setup File                   := XiChung\XiChung_Setup_Script.csf
+AI General File                               := XiChung\XiChung_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := XiChung\XiChung_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := XiChung\XiChung_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := XiChung\XiChung_Ships_XFileClasses.txt
+Design Name File                              := XiChung\XiChung_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

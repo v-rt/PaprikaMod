@@ -1,0 +1,20 @@
+=======================================================================================
+AI MAIN DATA FILE - Defensive - Captain Kwok's Balance Mod
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Minister Style Name                           := Defensive
+AI Script File                                := Default\Default_Defensive_Main_Script.csf
+AI Script Empire Setup File                   := Default\Default_Defensive_Setup_Script.csf
+AI General File                               := Default\Default_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Default\Default_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+
+=======================================================================================
+*END*
+=======================================================================================

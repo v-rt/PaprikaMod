@@ -1,0 +1,872 @@
+=======================================================================================
+STELLAR ABILITY TYPES DATA FILE - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+Name:
+  Any identifying name for this Stellar Type. This will be used in the
+  System Types file to specify this set of possible abilities.
+
+Number of Poss Abilities:
+  The number of possible abilities for this stellar type. This can range
+  from 0 - 100.
+
+Ability X Chance:
+  The chance that this ability will be present in the stellar object.
+  This chance can range from 0-1000. The total of all the chances
+  for all of the abilities of this Stellar Object should be equal to or
+  less than 1000. Values are in 10ths of a percent.
+
+Ability X Type:
+  System - Sight Obscuration, System - Sensor Interference, System - Shield Disruption,
+  System - Damage, System - Ability Required
+
+Ability X Descr: 
+  Any general description of this ability.
+
+Ability X Val 1:
+  This value is dependent on the Ability X Type. See the Abilities description text
+  file for more information.
+
+Ability X Val 2: 
+  This value is dependent on the Ability X Type. See the Abilities description text
+  file for more information.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                            := Normal Planet
+Number Of Abilities                             := 9
+Ability 1 Chance                                := 5
+Ability 1 Type                                  := Empire - Grant Random New Tech Levels
+Ability 1 Description                           := There are ancient ruins on this planet from a long dead civilization.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 1
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 5
+Ability 2 Type                                  := Empire - Grant Random New Tech Levels
+Ability 2 Description                           := There are buried alien cities on this planet that have long been deserted.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 2
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 5
+Ability 3 Type                                  := Empire - Grant Random New Tech Levels
+Ability 3 Description                           := Sensors indicate some kind of advanced technological devices on this planet.
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 3
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 5
+Ability 4 Type                                  := Empire - Grant Unique Discovery
+Ability 4 Description                           := We have detected advanced technology present on this planet.
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 1
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Chance                                := 5
+Ability 5 Type                                  := Empire - Grant Unique Discovery
+Ability 5 Description                           := A technosignature has been detected on this planet.
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 2
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Chance                                := 5
+Ability 6 Type                                  := Empire - Grant Unique Discovery
+Ability 6 Description                           := There appear to be technological artifacts buired on this planet.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 3
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Chance                                := 5
+Ability 7 Type                                  := Empire - Grant Unique Discovery
+Ability 7 Description                           := A survey has revealed the presence of a technosignature on this planet.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 4
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Chance                                := 5
+Ability 8 Type                                  := Empire - Grant Unique Discovery
+Ability 8 Description                           := Technological artifacts are present on the surface of this planet.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 5
+Ability 8 Amount 2 Formula                      := 0
+Ability 9 Chance                                := 5
+Ability 9 Type                                  := Empire - Grant Unique Discovery
+Ability 9 Description                           := An unusual power source.
+Ability 9 Scope                                 := Space Object
+Ability 9 Range Formula                         := 0
+Ability 9 Amount 1 Formula                      := 6
+Ability 9 Amount 2 Formula                      := 0
+
+Name                                            := Normal Asteroids
+Number Of Abilities                             := 8
+Ability 1 Chance                                := 250
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Rogue meteoroid strikes in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 300)
+Ability 1 Amount 2 Formula                      := 1
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := Highly reflective asteroids in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 3
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 50
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := High albedo of asteroids in sector [%ScopeSector%] masks objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 5
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 50
+Ability 4 Type                                  := Sight Obscuration
+Ability 4 Description                           := Dense asteroid field in sector [%ScopeSector%] obfuscates objects below sight level [%Amount1%].
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 10
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Chance                                := 100
+Ability 5 Type                                  := Sensor Interference
+Ability 5 Description                           := High metallic content of asteroids in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -25
+Ability 5 Amount 2 Formula                      := 25
+Ability 6 Chance                                := 50
+Ability 6 Type                                  := Sensor Interference
+Ability 6 Description                           := Unusual composition of asteroids in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 6 Scope                                 := Sector - All
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := -50
+Ability 6 Amount 2 Formula                      := 50
+Ability 7 Chance                                := 100
+Ability 7 Type                                  := Shield Disruption
+Ability 7 Description                           := Irradiated asteroids in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 7 Scope                                 := Sector - All
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 300
+Ability 7 Amount 2 Formula                      := 0
+Ability 8 Chance                                := 50
+Ability 8 Type                                  := Shield Disruption
+Ability 8 Description                           := Frequent micrometeoroid strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 8 Scope                                 := Sector - All
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 500
+Ability 8 Amount 2 Formula                      := 0
+
+Name                                            := Normal Destroyed Star
+Number of Abilities                             := 0
+
+Name                                            := Normal Star
+Number Of Abilities                             := 0
+
+//------------------------------------------------------------------------------
+// Normal Storms (no damage)
+//------------------------------------------------------------------------------
+Name                                            := Normal Storm Red
+Number Of Abilities                             := 3
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 3
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sensor Interference
+Ability 2 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -10
+Ability 2 Amount 2 Formula                      := 10
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Shield Disruption
+Ability 3 Description                           := High energy particle strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 200
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Normal Storm Orange
+Number Of Abilities                             := 3
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 6
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 200
+Ability 2 Type                                  := Sensor Interference
+Ability 2 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -20
+Ability 2 Amount 2 Formula                      := 20
+Ability 3 Chance                                := 200
+Ability 3 Type                                  := Shield Disruption
+Ability 3 Description                           := High energy particle strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 300
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Normal Storm White
+Number Of Abilities                             := 3
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 9
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 300
+Ability 2 Type                                  := Sensor Interference
+Ability 2 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -30
+Ability 2 Amount 2 Formula                      := 30
+Ability 3 Chance                                := 300
+Ability 3 Type                                  := Shield Disruption
+Ability 3 Description                           := High levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 400
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Normal Storm Blue
+Number Of Abilities                             := 3
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 12
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 500
+Ability 2 Type                                  := Sensor Interference
+Ability 2 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -50
+Ability 2 Amount 2 Formula                      := 50
+Ability 3 Chance                                := 500
+Ability 3 Type                                  := Shield Disruption
+Ability 3 Description                           := Extreme levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 500
+Ability 3 Amount 2 Formula                      := 0
+
+Name                                            := Normal Storm Dark
+Number Of Abilities                             := 1
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 15
+Ability 1 Amount 2 Formula                      := 0
+
+//------------------------------------------------------------------------------
+// Electrostatic Storms (50% damaging)
+//------------------------------------------------------------------------------
+Name                                            := Electrostatic Storm Red
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 3
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 500
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Violent electrostatic discharges in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(50, 100)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -20
+Ability 3 Amount 2 Formula                      := 20
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := Electrostatic bursts in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 200
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Electrostatic Storm Orange
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 5
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 500
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Violent electrostatic discharges in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(100, 200)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 200
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -40
+Ability 3 Amount 2 Formula                      := 40
+Ability 4 Chance                                := 200
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := Electrostatic bursts in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 300
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Electrostatic Storm White
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 7
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 500
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Violent electrostatic discharges in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(200, 400)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 300
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -60
+Ability 3 Amount 2 Formula                      := 60
+Ability 4 Chance                                := 300
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := High levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 400
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Electrostatic Storm Blue
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 1000
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Storm in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 9
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 500
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Violent electrostatic discharges in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(400, 600)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 500
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -75
+Ability 3 Amount 2 Formula                      := 75
+Ability 4 Chance                                := 500
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := Extreme levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 1000
+Ability 4 Amount 2 Formula                      := 0
+
+//------------------------------------------------------------------------------
+// Stellar Storms
+//------------------------------------------------------------------------------
+Name                                            := Stellar Storm
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 300
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Stellar flare in sector [%ScopeSector%] causes damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 200)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 200
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Coronal mass ejection in sector [%ScopeSector%] causes damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(100, 500)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 200
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -50
+Ability 3 Amount 2 Formula                      := 50
+Ability 4 Chance                                := 300
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := High energy particle strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 500
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Debris
+Number Of Abilities                             := 5
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Frequent debris strikes in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 200)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := High reflectivity of particles in sector [%ScopeSector%] masks objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 4
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 50
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := Sensor interference in sector [%ScopeSector%] obfuscates objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 8
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 200
+Ability 4 Type                                  := Sensor Interference
+Ability 4 Description                           := Interference from space debris in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 25
+Ability 5 Chance                                := 150
+Ability 5 Type                                  := Shield Disruption
+Ability 5 Description                           := Collisions with microdebris in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 200
+Ability 5 Amount 2 Formula                      := 0
+
+//------------------------------------------------------------------------------
+// Nebula Storms
+//------------------------------------------------------------------------------
+Name                                            := Nebula Storm Red
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Denser region in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 5
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 50
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Turbulent plasma flows in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(50, 100)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Ionizing radiation in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -20
+Ability 3 Amount 2 Formula                      := 20
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := High energy particle strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 200
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Nebula Storm Orange
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Denser region in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 8
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 50
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Turbulent plasma flows in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(100, 200)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Ionizing radiation in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -40
+Ability 3 Amount 2 Formula                      := 40
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := High energy particle strikes in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 300
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Nebula Storm White
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Denser region in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 8
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 50
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Turbulent plasma flows in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(200, 400)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromangnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -60
+Ability 3 Amount 2 Formula                      := 60
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := High levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 400
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Nebula Storm Blue
+Number Of Abilities                             := 4
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Denser region in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 12
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 50
+Ability 2 Type                                  := Damage Caused To Space Vehicles
+Ability 2 Description                           := Turbulent plasma flows in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := Random(400, 600)
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromangnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -75
+Ability 3 Amount 2 Formula                      := 75
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Shield Disruption
+Ability 4 Description                           := Extreme levels of ultraviolet radiation in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 1000
+Ability 4 Amount 2 Formula                      := 0
+
+Name                                            := Molecular Cloud Storm
+Number Of Abilities                             := 2
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Denser region in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 15
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sensor Interference
+Ability 2 Description                           := Coalescing materials in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := -25
+Ability 2 Amount 2 Formula                      := 25
+
+//------------------------------------------------------------------------------
+// Protostar Storms
+//------------------------------------------------------------------------------
+Name                                            := Protostar Storm
+Number Of Abilities                             := 5
+Ability 1 Chance                                := 200
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Strikes by forming planetesimals [%ScopeSector%] cause damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 300)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := High particulate density in sector [%ScopeSector%] masks objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 3
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 50
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := Dense field of forming planetesimals in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 6
+Ability 3 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 50
+Ability 4 Chance                                := 100
+Ability 4 Type                                  := Sensor Interference
+Ability 4 Description                           := Interference from forming planetesimals in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 25
+Ability 5 Chance                                := 100
+Ability 5 Type                                  := Shield Disruption
+Ability 5 Description                           := High particle density in sector [%ScopeSector%] reduces shield strength by [%Amount1%] points.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 300
+Ability 5 Amount 2 Formula                      := 0
+
+//------------------------------------------------------------------------------
+// Warp Points
+//------------------------------------------------------------------------------
+Name                                            := Normal Warp Point
+Number Of Abilities                             := 5
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Sight Obscuration
+Ability 1 Description                           := Gravimetric distortions in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 3
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 50
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := Strong gravitational fields in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 5
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sensor Interference
+Ability 3 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%]% to combat defense modifier.
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := -25
+Ability 3 Amount 2 Formula                      := 25
+Ability 4 Chance                                := 50
+Ability 4 Type                                  := Sensor Interference
+Ability 4 Description                           := Variable gravity in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -50
+Ability 4 Amount 2 Formula                      := 50
+Ability 5 Chance                                := 100
+Ability 5 Type                                  := Shield Disruption
+Ability 5 Description                           := High energy particle discharges in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 500
+Ability 5 Amount 2 Formula                      := 0
+
+Name                                            := Unstable Warp Point
+Number Of Abilities                             := 6
+Ability 1 Chance                                := 250
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Warp point turbulence in sector [%ScopeSector%] causes damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 300)
+Ability 1 Amount 2 Formula                      := 1
+Ability 2 Chance                                := 150
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := Gravimetric distortions in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 4
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := Variable gravitational fields in sector [%ScopeSector%] obfuscates objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 8
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 200
+Ability 4 Type                                  := Sensor Interference
+Ability 4 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 25
+Ability 5 Chance                                := 100
+Ability 5 Type                                  := Sensor Interference
+Ability 5 Description                           := Gravimetric flux in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -50
+Ability 5 Amount 2 Formula                      := 50
+Ability 6 Chance                                := 200
+Ability 6 Type                                  := Shield Disruption
+Ability 6 Description                           := High energy particle discharges in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 6 Scope                                 := Sector - All
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 500
+Ability 6 Amount 2 Formula                      := 0
+
+//------------------------------------------------------------------------------
+// Other Systems
+//------------------------------------------------------------------------------
+Name                                            := Neutron Storm
+Number Of Abilities                             := 9
+Ability 1 Chance                                := 250
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Strong tidal forces in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 500)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := Gravimetric distortions in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 3
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 75
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := Gravimetric distortions in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 4
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 50
+Ability 4 Type                                  := Sight Obscuration
+Ability 4 Description                           := Gravimetric flux in sector [%ScopeSector%] obscures objects below sight level [%Amount1%].
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 5
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Chance                                := 25
+Ability 5 Type                                  := Sight Obscuration
+Ability 5 Description                           := Intense magnetic fields in [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 10
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Chance                                := 150
+Ability 6 Type                                  := Sensor Interference
+Ability 6 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 6 Scope                                 := Sector - All
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := -25
+Ability 6 Amount 2 Formula                      := 25
+Ability 7 Chance                                := 100
+Ability 7 Type                                  := Sensor Interference
+Ability 7 Description                           := Magnetic flux in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 7 Scope                                 := Sector - All
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := -50
+Ability 7 Amount 2 Formula                      := 50
+Ability 8 Chance                                := 150
+Ability 8 Type                                  := Shield Disruption
+Ability 8 Description                           := Electrostatic discharges in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 8 Scope                                 := Sector - All
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 500
+Ability 8 Amount 2 Formula                      := 0
+Ability 9 Chance                                := 100
+Ability 9 Type                                  := Shield Disruption
+Ability 9 Description                           := Strong X-ray emissions in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 9 Scope                                 := Sector - All
+Ability 9 Range Formula                         := 0
+Ability 9 Amount 1 Formula                      := 1000
+Ability 9 Amount 2 Formula                      := 0
+
+Name                                            := White Dwarf Storm
+Number Of Abilities                             := 6
+Ability 1 Chance                                := 100
+Ability 1 Type                                  := Damage Caused To Space Vehicles
+Ability 1 Description                           := Strong tidal forces in sector [%ScopeSector%] cause damage to space vehicles.
+Ability 1 Scope                                 := Sector - All
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := Random(100, 500)
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Chance                                := 100
+Ability 2 Type                                  := Sight Obscuration
+Ability 2 Description                           := Gravimetric distortions in sector [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 2 Scope                                 := Sector - All
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 3
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Chance                                := 100
+Ability 3 Type                                  := Sight Obscuration
+Ability 3 Description                           := Intense magnetic fields in [%ScopeSector%] obscure objects below sight level [%Amount1%].
+Ability 3 Scope                                 := Sector - All
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 10
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Chance                                := 300
+Ability 4 Type                                  := Sensor Interference
+Ability 4 Description                           := Electromagnetic interference in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 4 Scope                                 := Sector - All
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := -25
+Ability 4 Amount 2 Formula                      := 25
+Ability 5 Chance                                := 100
+Ability 5 Type                                  := Sensor Interference
+Ability 5 Description                           := Magnetic flux in sector [%ScopeSector%] adds [%Amount2%] to combat defense modifier.
+Ability 5 Scope                                 := Sector - All
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := -50
+Ability 5 Amount 2 Formula                      := 50
+Ability 6 Chance                                := 200
+Ability 6 Type                                  := Shield Disruption
+Ability 6 Description                           := Electrostatic discharges in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 6 Scope                                 := Sector - All
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 300
+Ability 6 Amount 2 Formula                      := 0
+Ability 6 Chance                                := 100
+Ability 6 Type                                  := Shield Disruption
+Ability 6 Description                           := X-ray emissions in sector [%ScopeSector%] reduce shield strength by [%Amount1%] points.
+Ability 6 Scope                                 := Sector - All
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 500
+Ability 6 Amount 2 Formula                      := 0
+
+=======================================================================================
+*END*
+=======================================================================================

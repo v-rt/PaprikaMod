@@ -1,0 +1,37 @@
+=======================================================================================
+AI MAIN DATA FILE - Amonkrie - Captain Kwok's Balance Mod v1.20
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Is Empire Race                                := TRUE
+Is Available For Player Selection             := TRUE
+Is Neutral Race                               := FALSE
+Empire Name                                   := Amonkrie
+Image Empire Flag Set                         := Amonkrie\Amonkrie_Flag_Set.bmp
+Image Empire Flag Main Texture                := Amonkrie\Amonkrie_Flag_Texture.bmp
+Image Empire Flag Ship Texture                := Amonkrie\Amonkrie_Flag_Texture_Ship.bmp
+Image Empire Flag Fleet Texture               := Amonkrie\Amonkrie_Flag_Texture_Fleet.bmp
+Image Race Smaller Portraits                  := Amonkrie\Amonkrie_Race_SmallPortraits.bmp
+Image Race Medium Portrait                    := Amonkrie\Amonkrie_Race_Portrait.bmp
+Image Race Large Portrait                     := Amonkrie\Amonkrie_Race_LargePortrait.jpg
+Image Vehicle Main Texture                    := Amonkrie\Amonkrie_Vehicle_Main_Texture.bmp
+Image Unit Main Texture                       := Amonkrie\Amonkrie_Unit_Main_Texture.bmp
+Image Unit Combat Texture                     := Amonkrie\Amonkrie_Unit_Combat_Texture.bmp
+Image Topdown Shipset                         := Amonkrie\Amonkrie_ShipSet.bmp
+AI Script File                                := Amonkrie\Amonkrie_Main_Script.csf
+AI Script Empire Setup File                   := Amonkrie\Amonkrie_Setup_Script.csf
+AI General File                               := Amonkrie\Amonkrie_AI_General.txt
+AI Ministers File                             := Default\Default_AI_Ministers.txt
+AI Speech File                                := Amonkrie\Amonkrie_AI_Speech.txt
+AI Strategies File                            := Default\Default_AI_Strategies.txt
+AI Warp Transit Types File                    := Default\Default_AI_WarpTransitTypes.txt
+Inventory Configuration Slots File            := Amonkrie\Amonkrie_InvConfiguration_Slots.txt
+Ship XFile Classes File                       := Amonkrie\Amonkrie_Ships_XFileClasses.txt
+Design Name File                              := Amonkrie\Amonkrie_AI_DesignNames.txt
+
+=======================================================================================
+*END*
+=======================================================================================

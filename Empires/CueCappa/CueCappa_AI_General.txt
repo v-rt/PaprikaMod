@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Cue Cappa - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Cue Cappa
+Description                              := The Cue Cappa are a symbiotic race that have advanced psychic abilities.
+Empire Name                              := Cue Cappa
+Empire Type                              := Commonwealth
+Emperor Name                             := Gortalooth
+Emperor Title                            := Regent
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Oxygen
+Race Name                                := Cue Cappa
+Race Plural Name                         := Cue Cappas
+Race Physical Description                := Symbiotic
+Government Type                          := Oligarchy
+Society Type                             := Merchants
+Biological Description                   := The Cue Cappa are actually made up of two symbiotic races, the "Cue" and the "Cappa". The Cappa are large squid like creatures, and the Cue are small parisitical beings which inhabit their bodies. Their symbiosis is so complete that it is speculated that the Cue and the Cappa were actually one race in the distant past. The Cue are a highly psychic species, and use the Cappa for most of the manual labour involved in building an interstellar empire.
+Society Description                      := Far from being a manevolant race that most assume them to be, the Cue Cappa are actually quite peaceful. Rumors that Cue jump between Cappa as they desire have proven to be false; indeed, most Cue Cappa unions last a lifetime. Towards other races, they are quite indifferent. Should another race treat them well, that race will be treated well in return, but should another race treat them badly, they can be quite dangerous, as the Cue are quite strong telepaths. The society is ruled completely by an elected Cue ruler.
+General History Description              := Fear has been the biggest determinant of the Cue Cappa history. Most species inherently fear parisitical lifeforms, but that compounded with the Cue's psychic abilities creates a recipe for distrust. The few races that have gotten past these prejudices have had long and beneficial relations with the Cue Cappa.
+Personality Group                        := 2
+
+=======================================================================================
+*END*
+=======================================================================================

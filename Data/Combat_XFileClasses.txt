@@ -1,0 +1,64 @@
+===================================================================================================================================
+PRESET XFILES DATA FILE - Captain Kwok's Balance Mod v1.20+
+===================================================================================================================================
+
+===================================================================================================================================
+*BEGIN*
+===================================================================================================================================
+
+Name                                                 := Capture Pod
+XFile                                                := generic_cargo1.x
+Override Texture Filename                            := 
+Base Model Radius                                    := 1.0
+Starting Rotate X                                    := 0
+Starting Rotate Y                                    := 0
+Starting Rotate Z                                    := 0
+Starting Scale X                                     := 0.02
+Starting Scale Y                                     := 0.02
+Starting Scale Z                                     := 0.02
+Starting Position Offset X                           := 0
+Starting Position Offset Y                           := 0
+Starting Position Offset Z                           := 0
+Continual Rotation Vector X                          := 0
+Continual Rotation Vector Y                          := 0
+Continual Rotation Vector Z                          := 0
+Continual Rotation Speed                             := 0
+Star Glow Color                                      := 0, 0, 0
+Firing Flash Color                                   := 0, 0, 0
+Explosion Effect                                     := 
+Explosion Center Color                               := 0, 0, 0
+Explosion Radius                                     := 0.0
+Light Point Effect                                   := Tiny Red Blinking Light
+Engine Glow Effect                                   := Engine Glow Standard
+Firing Flare Effect                                  := Main Firing Flare
+Number Of Firing Points                              := 0
+Number Of Engine Points                              := 0
+Number Of Lights                                     := 8
+Light Point 1 X                                      := -14.5831
+Light Point 1 Y                                      := -35.6627
+Light Point 1 Z                                      := -14.9108
+Light Point 2 X                                      :=  14.5831
+Light Point 2 Y                                      := -35.6627
+Light Point 2 Z                                      := -14.9108
+Light Point 3 X                                      := -14.5831
+Light Point 3 Y                                      := -35.6627
+Light Point 3 Z                                      :=  14.9108
+Light Point 4 X                                      :=  14.5831
+Light Point 4 Y                                      := -35.6627
+Light Point 4 Z                                      :=  14.9108
+Light Point 5 X                                      := -14.5831
+Light Point 5 Y                                      :=  35.6627
+Light Point 5 Z                                      := -14.9108
+Light Point 6 X                                      :=  14.5831
+Light Point 6 Y                                      :=  35.6627
+Light Point 6 Z                                      := -14.9108
+Light Point 7 X                                      := -14.5831
+Light Point 7 Y                                      :=  35.6627
+Light Point 7 Z                                      :=  14.9108
+Light Point 8 X                                      :=  14.5831
+Light Point 8 Y                                      :=  35.6627
+Light Point 8 Z                                      :=  14.9108
+
+===================================================================================================================================
+*END*
+===================================================================================================================================

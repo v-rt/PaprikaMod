@@ -1,0 +1,29 @@
+=======================================================================================
+AI DATA FILE - Jraenar - Captain Kwok's Balance Mod v125+
+=======================================================================================
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Jraenar
+Description                              := The Jraenar are an aggressive race of reptillian warriors. They are known for their strength and cunning.
+Empire Name                              := Jraenar
+Empire Type                              := Imperium
+Emperor Name                             := Jar-Nolath
+Emperor Title                            := Master General
+Home Planet Type                         := Rock
+Home Planet Atmosphere                   := Hydrogen
+Race Name                                := Jraenar
+Race Plural Name                         := Jraenar
+Race Physical Description                := Reptilian
+Government Type                          := Tyranny
+Society Type                             := Warriors
+Biological Description                   := The Jraenar are bi-pedal reptiles which stand about 2 meters high. Highly intelligent and resourceful, the Jraenar are known for their crafty nature and military prowess. A Jraenar prefers a temperature of approximately 100°C and has a normal lifespan of 60 years.
+Society Description                      := The Jraenar society is organized in a heirarchy from the Master General on down to the lowly workers. All members of the society are considered valuable, and each serves to promote the interest of their species. Though they have never changed their hardworking nature, they are now devoted mainly to a military expansionist philosophy.
+General History Description              := The Jraenar were originally a quiet hard working race which didn't have must interest in the outside galaxy. But after a number of wars and the rise of the first Master General, the Jraenar entered into an aggressive military expansion phase.
+Personality Group                        := 3
+
+=======================================================================================
+*END*
+=======================================================================================

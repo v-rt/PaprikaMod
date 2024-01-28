@@ -1,0 +1,128 @@
+===================================================================================================================================
+EFFECTS DATA FILE - Captain Kwok's Balance Mod v125+
+===================================================================================================================================
+
+Start X, Start Y:
+  Starting position on the texture as a percentage of the total texture size.
+
+End X, End Y:
+  Ending position on the texture as a percentage of the total texture size.
+
+===================================================================================================================================
+*BEGIN*
+===================================================================================================================================
+
+//--------------------------------------------------------------------------------------
+// Blinking Lights
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Blinking Light
+Specific Type                                        := Blinking Light Standard
+Effect Name                                          := Red Blinking Light
+Bitmap Filename                                      := BlinkingLights.bmp
+Sound Filename                                       := 
+Width                                                := 0.5
+Height                                               := 0.5
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Blinking Light
+Specific Type                                        := Blinking Light Standard
+Effect Name                                          := Blue Blinking Light
+Bitmap Filename                                      := BlinkingLights.bmp
+Sound Filename                                       := 
+Width                                                := 0.5
+Height                                               := 0.5
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 0.50
+
+Effect Type                                          := Blinking Light
+Specific Type                                        := Blinking Light Standard
+Effect Name                                          := Yellow Blinking Light
+Bitmap Filename                                      := BlinkingLights.bmp
+Sound Filename                                       := 
+Width                                                := 0.5
+Height                                               := 0.5
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 1.00
+
+Effect Type                                          := Blinking Light
+Specific Type                                        := Blinking Light Standard
+Effect Name                                          := Green Blinking Light
+Bitmap Filename                                      := BlinkingLights.bmp
+Sound Filename                                       := 
+Width                                                := 0.5
+Height                                               := 0.5
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.50
+Frame 1 Texture Start Y                              := 0.50
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+//--------------------------------------------------------------------------------------
+// Engine Glow
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Engine Glow
+Specific Type                                        := Engine Glow Standard
+Effect Name                                          := Engine Glow Standard
+Bitmap Filename                                      := EngineGlow.bmp
+Sound Filename                                       := 
+Width                                                := 0.35
+Height                                               := 0.35
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 1
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 1.00
+Frame 1 Texture End Y                                := 1.00
+
+//--------------------------------------------------------------------------------------
+// Firing Flare
+//--------------------------------------------------------------------------------------
+Effect Type                                          := Firing Flare
+Specific Type                                        := Firing Flare Standard
+Effect Name                                          := Main Firing Flare
+Bitmap Filename                                      := weapon_flare.bmp
+Sound Filename                                       := 
+Width                                                := 2.0
+Height                                               := 2.0
+Src Blend                                            := Blend_One
+Dest Blend                                           := Blend_One
+Number Of Frames                                     := 4
+Frame 1 Texture Start X                              := 0.00
+Frame 1 Texture Start Y                              := 0.00
+Frame 1 Texture End X                                := 0.50
+Frame 1 Texture End Y                                := 0.50
+Frame 2 Texture Start X                              := 0.50
+Frame 2 Texture Start Y                              := 0.00
+Frame 2 Texture End X                                := 1.00
+Frame 2 Texture End Y                                := 0.50
+Frame 3 Texture Start X                              := 0.00
+Frame 3 Texture Start Y                              := 0.50
+Frame 3 Texture End X                                := 0.50
+Frame 3 Texture End Y                                := 1.00
+Frame 4 Texture Start X                              := 0.50
+Frame 4 Texture Start Y                              := 0.50
+Frame 4 Texture End X                                := 1.00
+Frame 4 Texture End Y                                := 1.00
+
+===================================================================================================================================
+*END*
+===================================================================================================================================
