@@ -463,7 +463,7 @@ Requirements Evaluation Availability            := TRUE
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := 1
 Requirement 1 Description                       := Only destroys Master Computer components.
-Requirement 1 Formula                           := Does_Component_Have_Ability("Master Computer")
+Requirement 1 Formula                           := Does_Component_Have_Ability("AI Tag 02")
 Number Of Abilities                             := 0
 
 Damage Type Name                                := Only Shield Generators

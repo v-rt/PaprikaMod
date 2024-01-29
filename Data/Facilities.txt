@@ -24,7 +24,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Storage.
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= 1
 Number of Abilities                             := 1
 Ability 1 Type                                  := Points Added to Empire Pool
@@ -49,7 +49,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Resupply.
+Requirement 1 Description                       := Requires at least tech level 1 in Resupply.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resupply") >= IIF([%Level%] = 1, 1, ([%Level%] - 1) * 2)
 Number of Abilities                             := 4
 Ability 1 Type                                  := Supply Generation
@@ -92,7 +92,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := 1
 Requirements Evaluation Allows Placement        := 2
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Space Yards.
+Requirement 1 Description                       := Requires at least tech level 1 in Space Yards.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Space Yards") >= [%Level%]
 Requirement 2 Description                       := Only one Space Yard per planet allowed.
 Requirement 2 Formula                           := (Get_Planet_Ability_Facility_Count("Space Yard") = 0) and (Get_Queue_Ability_Facility_Count("Space Yard") = 0) and ([%NumQueueItemsAdding%] = 1)
@@ -155,7 +155,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := 1
 Requirements Evaluation Allows Placement        := 2
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Robotics.
+Requirement 1 Description                       := Requires at least tech level 1 in Robotics.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Robotics") >= IIF([%Level%] <= 3, [%Level%], ((2 * [%Level%]) - 3))
 Requirement 2 Description                       := Only 1 Robotoid Factory per planet is allowed.
 Requirement 2 Formula                           := (Get_Planet_Specific_Facility_Count("Components Factory") = 0) and (Get_Queue_Specific_Facility_Count("Components Factory") = 0) and ([%NumQueueItemsAdding%] = 1)
@@ -188,7 +188,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := 1
 Requirements Evaluation Allows Placement        := 2
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 4 in Robotics.
+Requirement 1 Description                       := Requires at least tech level 4 in Robotics.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Robotics") >= ((2 * [%Level%]) + 2)
 Requirement 2 Description                       := Only 1 System Robotoid Factory per system allowed.
 Requirement 2 Formula                           := (Get_System_Specific_Facility_Count("System Robotoid Factory") = 0) and (Get_System_Queues_Specific_Facility_Count("System Robotoid Factory") = 0) and ([%NumQueueItemsAdding%] = 1)
@@ -221,7 +221,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Resource Manipulation.
+Requirement 1 Description                       := Requires at least tech level 1 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= (([%Level%] * 2) - 1)
 Number of Abilities                             := 4
 Ability 1 Type                                  := Ship Scrap Value Modifier
@@ -267,7 +267,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Minerals Extraction.
+Requirement 1 Description                       := Requires at least tech level 1 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Minerals
@@ -298,7 +298,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Organics Extraction.
+Requirement 1 Description                       := Requires at least tech level 1 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Organics
@@ -329,7 +329,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Radioactives Extraction.
+Requirement 1 Description                       := Requires at least tech level 1 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Radioactives
@@ -360,7 +360,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 5 in Resource Manipulation.
+Requirement 1 Description                       := Requires at least tech level 5 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= 5 + ([%Level%] - 1)
 Number of Abilities                             := 4
 Ability 1 Type                                  := Mined Resource Generation - Minerals
@@ -403,7 +403,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 6 in Minerals Extraction.
+Requirement 1 Description                       := Requires at least tech level 6 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= 6 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Minerals
@@ -440,7 +440,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 7 in Minerals Extraction.
+Requirement 1 Description                       := Requires at least tech level 7 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= 7 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Minerals
@@ -477,7 +477,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 6 in Organics Extraction.
+Requirement 1 Description                       := Requires at least tech level 6 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= 6 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Organics
@@ -514,7 +514,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 7 in Organics Extraction.
+Requirement 1 Description                       := Requires at least tech level 7 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= 7 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Organics
@@ -551,7 +551,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 6 in Radioactives Extraction.
+Requirement 1 Description                       := Requires at least tech level 6 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= 6 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Radioactives
@@ -588,7 +588,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 7 in Radioactives Extraction.
+Requirement 1 Description                       := Requires at least tech level 7 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= 7 + (([%Level%] - 1) * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Radioactives
@@ -625,7 +625,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Resource Manipulation.
+Requirement 1 Description                       := Requires at least tech level 2 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= ([%Level%] * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Resource Conversion
@@ -665,7 +665,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Applied Research.
+Requirement 1 Description                       := Requires at least tech level 1 in Applied Research.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Research") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Point Generation - Research
@@ -690,7 +690,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Centralized Computer Systems.
+Requirement 1 Description                       := Requires at least tech level 1 in Centralized Computer Systems.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Centralized Computer Systems") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Research
@@ -721,7 +721,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Applied Research.
+Requirement 1 Description                       := Requires at least tech level 3 in Applied Research.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Research") >= iif([%Level%] = 3, 11, ([%Level%] * 4))
 Number of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Research
@@ -755,7 +755,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Intelligence Services.
+Requirement 1 Description                       := Requires at least tech level 1 in Intelligence Services.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Point Generation - Intelligence
@@ -780,7 +780,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Centralized Computer Systems.
+Requirement 1 Description                       := Requires at least tech level 1 in Centralized Computer Systems.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Centralized Computer Systems") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Intelligence
@@ -811,7 +811,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Intelligence Services.
+Requirement 1 Description                       := Requires at least tech level 3 in Intelligence Services.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= iif([%Level%] = 3, 11, ([%Level%] * 4))
 Number of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Intelligence
@@ -845,7 +845,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Medical Treatment.
+Requirement 1 Description                       := Requires at least tech level 2 in Medical Treatment.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Medical Treatment") >= ([%Level%] * 2)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Plague Prevention
@@ -882,7 +882,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Applied Political Science.
+Requirement 1 Description                       := Requires at least tech level 1 in Applied Political Science.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Political Science") >= [%Level%]
 Number of Abilities                             := 2
 Ability 1 Type                                  := Planet Population Happiness
@@ -916,7 +916,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Storage.
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Minerals
@@ -941,7 +941,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Storage.
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Organics
@@ -966,7 +966,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Storage.
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Radioactives
@@ -981,36 +981,36 @@ Description                                     := Large warehouses that can pro
 Facility Group                                  := Storage
 XFile Class Name                                := Cargo Storage
 Picture Number                                  := 13
-Maximum Level                                   := 11
+Maximum Level                                   := 6
 Tonnage Space Taken Formula                     := 1000
-Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 400 + (([%Level%] - 1) * 20)
+Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 100)
+Cost Minerals Formula                           := 400 + (([%Level%] - 1) * 40)
 Cost Organics Formula                           := 0
 Cost Radioactives Formula                       := 0
 Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Cargo.
-Requirement 1 Formula                           := Get_Empire_Tech_Level("Cargo") >= [%Level%]
+Requirement 1 Description                       := Requires at least tech level 1 in Cargo.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Cargo") >= iif([%Level%] = 1, 1, ([%Level%] * 2) - 1)
 Number of Abilities                             := 3
 Ability 1 Type                                  := Storage Cargo Space Amount
 Ability 1 Description                           := Cargo Facilities add [%Amount1%]kT extra cargo space to the planet.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
-Ability 1 Amount 1 Formula                      := 1000 + (([%Level%] - 1) * 100)
+Ability 1 Amount 1 Formula                      := 1000 + (([%Level%] - 1) * 200)
 Ability 1 Amount 2 Formula                      := 0
 Ability 2 Type                                  := Supply Storage
 Ability 2 Description                           := Cargo Facilities store [%Amount1%] additional units of supply.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
-Ability 2 Amount 1 Formula                      := 25000 + (([%Level%] - 1) * 2500)
+Ability 2 Amount 1 Formula                      := 25000 + (([%Level%] - 1) * 5000)
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Ordnance Storage
 Ability 3 Description                           := Cargo Facilities store [%Amount1%] additional units of ordnance.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
-Ability 3 Amount 1 Formula                      := 10000 + (([%Level%] - 1) * 1000)
+Ability 3 Amount 1 Formula                      := 10000 + (([%Level%] - 1) * 2000)
 Ability 3 Amount 2 Formula                      := 0
 
 //-------------------------------------------------------------------------------------
@@ -1031,7 +1031,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Planet Utilization.
+Requirement 1 Description                       := Requires at least tech level 1 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= (3 * [%Level%]) - 2
 Number of Abilities                             := 2
 Ability 1 Type                                  := Planet Conditions Change
@@ -1062,7 +1062,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Planet Utilization.
+Requirement 1 Description                       := Requires at least tech level 2 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= (3 * [%Level%]) - 1
 Number of Abilities                             := 3
 Ability 1 Type                                  := Planet Value - Minerals
@@ -1099,7 +1099,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Planet Utilization.
+Requirement 1 Description                       := Requires at least tech level 3 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= ([%Level%] * 3)
 Number of Abilities                             := 1
 Ability 1 Type                                  := Planet Atmosphere Change
@@ -1127,8 +1127,8 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Advanced Military Science.
-Requirement 1 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= (2 * [%Level%] * 2)
+Requirement 1 Description                       := Requires at least tech level 1 in Advanced Military Science.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= (2 * [%Level%]) - 1
 Number of Abilities                             := 2
 Ability 1 Type                                  := Ship Training
 Ability 1 Description                           := Ships in this sector will gain [%Amount1%] experience points each turn.
@@ -1158,7 +1158,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Advanced Military Science.
+Requirement 1 Description                       := Requires at least tech level 2 in Advanced Military Science.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= (2 * [%Level%])
 Number of Abilities                             := 2
 Ability 1 Type                                  := Fleet Training
@@ -1192,7 +1192,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 11 in Planetary Defenses.
+Requirement 1 Description                       := Requires at least tech level 11 in Planetary Defenses.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planetary Defenses") >= 11
 Number of Abilities                             := 6
 Ability 1 Type                                  := Stop Planet Destroyer
@@ -1247,7 +1247,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Planetary Defenses.
+Requirement 1 Description                       := Requires at least tech level 1 in Planetary Defenses.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planetary Defenses") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Shield Generation
@@ -1272,7 +1272,7 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Massive Planetary Shielding.
+Requirement 1 Description                       := Requires at least tech level 1 in Massive Planetary Shielding.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Massive Planetary Shielding") >= [%Level%]
 Number of Abilities                             := 1
 Ability 1 Type                                  := Shield Generation
@@ -1300,7 +1300,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Crystalline Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Crystalline Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= iif([%Level%] = 1, [%Level%], ([%Level%] - 1) * 2)
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
@@ -1339,7 +1339,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Crystalline Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Crystalline Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= (2 * [%Level%]) + 1
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
@@ -1372,7 +1372,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 11 in Crystalline Technology.
+Requirement 1 Description                       := Requires at least tech level 11 in Crystalline Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= 11 + (2 * ([%Level%] - 1))
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
@@ -1408,7 +1408,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Interdimensional Technology.
+Requirement 1 Description                       := Requires at least tech level 3 in Interdimensional Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Interdimensional Technology") >= ([%Level%] * 2) + 1
 Requirement 2 Description                       := Empire must have racial trait Interdimensional Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
@@ -1435,7 +1435,7 @@ Number Of Requirements                          := 3
 Requirements Evaluation Availability            := 1, 2
 Requirements Evaluation Allows Placement        := 3
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 6 in Interdimensional Technology.
+Requirement 1 Description                       := Requires at least tech level 6 in Interdimensional Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Interdimensional Technology") >= 6 + (([%Level%] - 1) * 3)
 Requirement 2 Description                       := Empire must have racial trait Interdimensional Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
@@ -1464,7 +1464,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 8 in Interdimensional Technology.
+Requirement 1 Description                       := Requires at least tech level 8 in Interdimensional Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Interdimensional Technology") >= 8 + (([%Level%] - 1) * 3)
 Requirement 2 Description                       := Empire must have racial trait Interdimensional Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
@@ -1494,7 +1494,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Organic Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Organic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= (2 * [%Level%]) - 1
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
@@ -1527,7 +1527,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Organic Technology.
+Requirement 1 Description                       := Requires at least tech level 2 in Organic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= (2 * [%Level%])
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
@@ -1572,7 +1572,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 11 in Organic Technology.
+Requirement 1 Description                       := Requires at least tech level 11 in Organic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= 11 + (2 * ([%Level%] - 1))
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
@@ -1626,7 +1626,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Psychic Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Psychic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= (2 * [%Level%]) - 1
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
@@ -1659,7 +1659,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Psychic Technology.
+Requirement 1 Description                       := Requires at least tech level 2 in Psychic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= (2 * [%Level%])
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
@@ -1692,7 +1692,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 5 in Psychic Technology.
+Requirement 1 Description                       := Requires at least tech level 5 in Psychic Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= 5 + ([%Level%] - 1)
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
@@ -1734,7 +1734,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Religious Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Religious Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 2) - 1
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
@@ -1779,7 +1779,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Religious Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Religious Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 3
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
@@ -1812,7 +1812,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Religious Technology.
+Requirement 1 Description                       := Requires at least tech level 2 in Religious Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 2
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
@@ -1851,7 +1851,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Religious Technology.
+Requirement 1 Description                       := Requires at least tech level 3 in Religious Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 1
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
@@ -1884,7 +1884,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 4 in Religious Technology.
+Requirement 1 Description                       := Requires at least tech level 4 in Religious Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4)
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
@@ -1932,7 +1932,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 1 in Temporal Technology.
+Requirement 1 Description                       := Requires at least tech level 1 in Temporal Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Temporal Technology") >= ([%Level%] * 2) - 1
 Requirement 2 Description                       := Empire must have racial trait Temporal Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
@@ -1965,7 +1965,7 @@ Number Of Requirements                          := 2
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 2 in Temporal Technology.
+Requirement 1 Description                       := Requires at least tech level 2 in Temporal Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Temporal Technology") >= ([%Level%] * 2)
 Requirement 2 Description                       := Empire must have racial trait Temporal Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
@@ -1998,7 +1998,7 @@ Number Of Requirements                          := 3
 Requirements Evaluation Availability            := 1, 2
 Requirements Evaluation Allows Placement        := 3
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 10 in Temporal Technology.
+Requirement 1 Description                       := Requires at least tech level 10 in Temporal Technology.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Temporal Technology") >= (9 + [%Level%])
 Requirement 2 Description                       := Empire must have racial trait Temporal Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
