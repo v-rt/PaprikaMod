@@ -1907,7 +1907,7 @@ Requirements Evaluation Allows Usage            := TRUE
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 1 Description                       := Empire must have at least tech level 1 in Crystalline Technology.
-Requirement 1 Formula                           := Get_Empire_Tech_Level("Vehicle Systems") >= IIF([%Level%] = 1, [%Level%], ([%Level%] - 1) * 3)
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= IIF([%Level%] = 1, [%Level%], ([%Level%] - 1) * 3)
 Number Of Abilities                             := 1
 Ability 1 Type                                  := Description Only
 Ability 1 Description                           := Crystalline Bulkheads provide [%Amount1%]kT of inner or outer hull structure.
