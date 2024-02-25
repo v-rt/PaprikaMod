@@ -1,5 +1,5 @@
 =======================================================================================
-STRINGS DATA FILE - Balance Mod v1.20+
+STRINGS DATA FILE - Balance Mod v125+
 =======================================================================================
 
 =======================================================================================
@@ -6693,11 +6693,11 @@ Global 259                                             := Long Range
 Global 260                                             := All Weapons Gone
 Global 261                                             := All Engines Gone
 Global 262                                             := Nearest (Absolute)
-Global 263                                             := Nearest (5 ls increments)
-Global 264                                             := Nearest (10 ls increments)
+Global 263                                             := Nearest (5 km increments)
+Global 264                                             := Nearest (10 km increments)
 Global 265                                             := Farthest (Absolute)
-Global 266                                             := Farthest (5 ls increments)
-Global 267                                             := Farthest (10 ls increments)
+Global 266                                             := Farthest (5 km increments)
+Global 267                                             := Farthest (10 km increments)
 Global 268                                             := Largest
 Global 269                                             := Smallest
 Global 270                                             := Fastest

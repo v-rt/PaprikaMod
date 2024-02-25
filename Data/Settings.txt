@@ -132,9 +132,9 @@ Starting Player Planets Medium                                        := 3
 Starting Player Planets High                                          := 5
 Starting Player Planets Very High                                     := 10
 //---------------------------------------------------------------------------------------
-Starting Player Resources Low                                         := 1000
-Starting Player Resources Medium                                      := 5000
-Starting Player Resources High                                        := 10000
+Starting Player Resources Low                                         := 2000
+Starting Player Resources Medium                                      := 10000
+Starting Player Resources High                                        := 20000
 //---------------------------------------------------------------------------------------
 Computer Player Bonus Points Multiplier Low                           := 2.0
 Computer Player Bonus Points Multiplier Medium                        := 3.0
@@ -216,9 +216,9 @@ Plr Planet Value High Resources                                       := 5000000
 //---------------------------------------------------------------------------------------
 Upgrade Facility Cost Percent                                         := 50
 //---------------------------------------------------------------------------------------
-Unpaid Maintenance Cost To Kill 1 Ship                                := 20000
+Unpaid Maintenance Cost To Kill 1 Ship                                := 5000
 Empire Starting Ship Percent Maint Cost                               := 25
-Empire Starting Unit Percent Maint Cost                               := 10
+Empire Starting Unit Percent Maint Cost                               := 15
 Empire Starting Facility Percent Maint Cost                           := 10
 Race Starting 1M Population Maint Cost Minerals                       := 0.0
 Race Starting 1M Population Maint Cost Organics                       := 0.2
@@ -246,9 +246,9 @@ Planet Value Percent Loss After Owner Death                           := 10
 Retrofit Cost Percent For Comps                                       := 150
 Retrofit Cost Percent For Comp Removal                                := -30
 Retrofit Max Percent Difference in Cost                               := 50
-Empire Base Planet Mineral Usage Rate                                 := 200
-Empire Base Planet Organic Usage Rate                                 := 200
-Empire Base Planet Radioactive Usage Rate                             := 200
+Empire Base Planet Mineral Usage Rate                                 := 500
+Empire Base Planet Organic Usage Rate                                 := 500
+Empire Base Planet Radioactive Usage Rate                             := 500
 Maximum Emergency Build Turns                                         := 10
 Construction Queue Emergency Build Rate Percent                       := 150
 Construction Queue Slow Build Rate Percent                            := 25

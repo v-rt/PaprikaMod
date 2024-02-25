@@ -803,8 +803,8 @@ Number Of Requirements                          := 1
 Requirements Evaluation Availability            := AND
 Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
-Requirement 1 Description                       := Requires tech level 3 in Astrophysics.
-Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 3
+Requirement 1 Description                       := Requires tech level 4 in Astrophysics.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Astrophysics") >= 4
 
 Name                                            := Computers
 Group                                           := Applied Science
@@ -1170,8 +1170,8 @@ Group                                           := Applied Science
 Category                                        := General
 Description                                     := The training, study and improvement of martial practices.
 Picture Number                                  := 87
-Maximum Level                                   := 10
-Level Cost                                      := 2000
+Maximum Level                                   := 5
+Level Cost                                      := 4000
 Start Level                                     := 0
 Can Be Removed                                  := TRUE
 Unique or Racial Tech                           := FALSE

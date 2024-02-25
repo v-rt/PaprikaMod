@@ -142,6 +142,8 @@ Name                 := Ship (Remote Mining)
 
 Name                 := Ship (Remote Refining)
 
+Name                 := Ship (Recon)
+
 Name                 := Ship (Repair)
 
 Name                 := Ship (Satellite Launcher)
@@ -188,13 +190,9 @@ Name                 := Troop (Light)
 
 Name                 := Weapon Platform (L)
 
-Name                 := Weapon Platform (M)
-
 Name                 := Weapon Platform (S)
 
 Name                 := Weapon Platform (Seeker L)
-
-Name                 := Weapon Platform (Seeker M)
 
 Name                 := Weapon Platform (Seeker S)
 

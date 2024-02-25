@@ -8,11 +8,12 @@ xA. Added   - Engineering cultural achievement to increase space yard rates for 
 xA. Added   - Logistics cultural achievement to reduce maintenance costs for an empire
 xA. Changed - Economics cultural achievement will now provide an empire wide boost to resource production
 xA. Added   - New racial trait Interdimensional
-xA. Changed - Reduced all resource costs and production rates by a factor of 10
+xG. Changed - Reduced all resource costs and production rates by a factor of 5 [WIP]
 xA. Changed - Reduced all research costs and generation by a factor of 10
+xG. Changed - Increased starting unit maintenance to 15% from 10%
 xA. Changed - Low, Medium and High tech starting points reduced by a factor of 10 (5,000; 50,000; 500,000)
 xA. Changed - Reduced all intelligence costs and generation by a factor of 10
-xB. Changed - Reduced starting resources/points default amounts to 1,000, 5,000 and 10,000 
+xG. Changed - Reduced starting resources/points default amounts to 2,000, 10,000 and 20,000 [WIP]
 xA. Changed - Increased Drone Combat Computer Core to 20 kT and added attack/defense modifiers
 xA. Changed - Drone Combat Computer Core now requires Drones Level 2
 xB. Added   - Dynamic AI designs for using Autonomic Ganglion component
@@ -23,6 +24,10 @@ xA. Changed - Null-Space Shields moved to Interdimensional Technology
 xA. Changed - Reduced Tachyon Sensors, Psychic Receptors and Temporal Sensors to 6 levels
 xA. Changed - Advanced sensors still see up to sight level 16, but there range at max tech no longer covers an entire system
 xA. Added   - Multiplex Tracking (damage boost to direct-fire point-defense weapons) [Test]
+xG. Changed - Slightly reduced hitpoints of regular armor
+xG. Changed - Reduced levels of Stealth Armor from 6 to 5, but made it available earlier (level 4 Armor) and increased its cloak level
+xG. Changed - Reduced levels of Scattering Armor from 6 to 3, but double the advancement between each level and increased its overall defense bonus
+xG. Changed - Increased hitpoints of Organic Armors, but slightly reduced their regeneration rate [WIP]
 xA. Changed - Reduced Shard Cannons from 16 to 11 levels
 xA. Changed - Reduced Crystalline Torpedo from 20 to 11 levels
 xA. Added   - Phase Disruptors and Small Phase Disruptors to Interdimensional Weapons
@@ -32,7 +37,7 @@ xA. Added   - Null-Space Cannons, Null-Space Warhead to Interdimensional Weapons
 xA. Changed - Moved Null-Space Projector to Interdimensional Weapons tech area
 xA. Removed - Null-Space Weapons tech area
 xA. Changed - Reduced Seeking Parasite from 20 to 11 levels
-xG. Changed - Increased range for Electric Discharge and Lightning Ray weapons
+xG. Changed - Increased range for Electric Discharge, Lightning Ray and Hyperdense Globule weapons
 xG. Changed - Spread out tech area requirements for Lightning Ray
 xA. Changed - Reduced Psychic Technology tech area cost from 3,000 to 2,000
 xA. Changed - Some Psychic weapons could be used with Satellites or Drones, which was unintentional
@@ -54,13 +59,17 @@ xA. Changed - Unit launching components no longer have cargo space (need to use 
 xB. Changed - Reduced Fighter and Drone Launcher requirements for carriers from 20% to 10%
 xB. Changed - Added a requirement for Carriers to have at least 30% total space used between Fighter or Drone Launchers and Cargo Bays
 xB. Changed - Freighters can no longer mount Fighter or Drone Launchers (To be evaluated)
-xA. Changed - Replaced System Computer Complex with Research Directorate
-xA. Changed - Replaced System Databank Complex with Intelligence Directorate
 xA. Changed - Removed vehicle size changes for all unit vehicle types so unit sizes are fixed
 xA. Changed - Removed Emissive Armor restriction for units
 xB. Added   - Large mounts for Large Troops and Large Fighters
+xG. Changed - Reduced resource bonuses to 10-30% from 10-50% for Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities
+xG. Changed - Reduced from 5 levels to 3 levels system versions of Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities; Reduced bonuses to 5-15% from 5-25%
+xA. Changed - Replaced System Computer Complex with Research Directorate and reduced to 3 levels
+xA. Changed - Replaced System Databank Complex with Intelligence Directorate and reduced to 3 levels
+xG. Changed - Reduced resource/intel bonuses to 10-30% from 10-50% for Central Computer Complex and Citizen Databank Complex
 xA. Changed - Added Unit and Facility scrap modifiers to the Ultra-Recycler facility
 xA. Removed - Planetary Gravitational Shield Facility
+xG. Changed - Combined Ship and Fleet Training into single Training Faclity for both regular and Psychic versions
 xA. Changed - Added Stop Planet Destroyer ability to System Gravitational Shield Facility
 xA. Added   - Extradimensional Portal Facility, Subspace Transmitter and Sensor Facility to Interdimensional trait technology
 xA. Changed - Reduced maximum sight range for Basic Sensors and Advanced Sensors (Tachyon, Psychic and Temporal) by about 40%
