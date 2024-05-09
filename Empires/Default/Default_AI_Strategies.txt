@@ -3,8 +3,8 @@ DEFAULT STRATEGIES DATA FILE - Captain Kwok's Balance Mod v125+
 =======================================================================================
 
 Targeting Priority:
-  Nearest (Absolute), Nearest (5 ls increments), Nearest (10 ls increments),
-  Farthest (Absolute), Farthest (5 ls increments), Farthest (10 ls increments),
+  Nearest (Absolute), Nearest (5 km increments), Nearest (10 km increments),
+  Farthest (Absolute), Farthest (5 km increments), Farthest (10 km increments),
   Largest, Smallest, Fastest, Slowest, Most Damaged, Least Damaged,
   Most Shields, Least Shields, Most Armor, Least Armor, Most Crew, Least Crew,
   Most Experience, Least Experience, Has Undamaged Weapons, Strongest At Start
@@ -1158,7 +1158,7 @@ Retreat Base Defense                        := Never
 Retreat Attacking                           := Never
 Retreat Defending                           := Never
 Retreat Do Not Leave Sector                 := TRUE
-Targeting Priority 1                        := Nearest (10 ls increments)
+Targeting Priority 1                        := Nearest (10 km increments)
 Targeting Priority 2                        := Slowest
 Targeting Priority 3                        := Has Undamaged Weapons
 Targeting Priority 4                        := Strongest At Start
