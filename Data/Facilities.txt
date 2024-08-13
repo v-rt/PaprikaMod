@@ -26,7 +26,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= 1
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Points Added to Empire Pool
 Ability 1 Description                           := Space Port automatically transports all resources and points from this system to the [%ScopePlayerName%].
 Ability 1 Scope                                 := System - This Player
@@ -51,7 +51,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Resupply.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resupply") >= iif([%Level%] = 1, 1, ([%Level%] - 1) * 2)
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Supply Generation
 Ability 1 Description                           := Resupply Depot generates [%Amount1%] supplies each turn.
 Ability 1 Scope                                 := Space Object
@@ -96,7 +96,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Space Yards") >= [%Level%]
 Requirement 2 Description                       := Only one Space Yard per planet allowed.
 Requirement 2 Formula                           := (Get_Planet_Ability_Facility_Count("Space Yard") = 0) and (Get_Queue_Ability_Facility_Count("Space Yard") = 0) and ([%NumQueueItemsAdding%] = 1)
-Number of Abilities                             := 7
+Number Of Abilities                             := 7
 Ability 1 Type                                  := Space Yard
 Ability 1 Description                           := Constructs with [%Amount2%] minerals per turn.
 Ability 1 Scope                                 := Space Object
@@ -159,7 +159,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Robotics") >= iif([%Level%] <= 3, [%Level%], ((2 * [%Level%]) - 3))
 Requirement 2 Description                       := Only 1 Robotoid Factory per planet is allowed.
 Requirement 2 Formula                           := (Get_Planet_Specific_Facility_Count("Components Factory") = 0) and (Get_Queue_Specific_Facility_Count("Components Factory") = 0) and ([%NumQueueItemsAdding%] = 1)
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Space Yard Rate Modifier
 Ability 1 Description                           := Components Factory increases Space Yard construction rates in the sector by [%Amount1%]%.
 Ability 1 Scope                                 := Sector - This Player
@@ -192,7 +192,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Robotics") >= ((2 * [%Level%]) + 2)
 Requirement 2 Description                       := Only 1 System Robotoid Factory per system allowed.
 Requirement 2 Formula                           := (Get_System_Specific_Facility_Count("System Robotoid Factory") = 0) and (Get_System_Queues_Specific_Facility_Count("System Robotoid Factory") = 0) and ([%NumQueueItemsAdding%] = 1)
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Space Yard Rate Modifier
 Ability 1 Description                           := System Robotoid Factory increases all Space Yard construction rates in the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -223,7 +223,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= (([%Level%] * 2) - 1)
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Ship Scrap Value Modifier
 Ability 1 Description                           := Ultra-Recycler reclaims [%Amount1%]% of a ship's original resource value when scrapped in the system.
 Ability 1 Scope                                 := System - This Player
@@ -252,6 +252,254 @@ Ability 4 Amount 2 Formula                      := 0
 //-------------------------------------------------------------------------------------
 // Resource Extraction Facilities
 //-------------------------------------------------------------------------------------
+Name                                            := Highly Industrialized Slums
+Description                                     := Poorly organized production and urban centers, which cannot be upgraded.
+Facility Group                                  := Resource Extraction
+XFile Class Name                                := Monolith
+Picture Number                                  := 57
+Maximum Level                                   := 1
+Tonnage Space Taken Formula                     := 3000
+Tonnage Structure Formula                       := 2500
+Cost Minerals Formula                           := 1
+Cost Organics Formula                           := 1
+Cost Radioactives Formula                       := 1
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := NOT
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= 1
+Number Of Abilities                             := 15
+Ability 1 Type                                  := Mined Resource Generation - Minerals
+Ability 1 Description                           := Slums generate [%Amount1%] minerals each turn.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 500
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Mined Resource Generation - Minerals
+Ability 2 Description                           := Slums generate [%Amount1%] pollution points.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 7
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Mined Resource Generation - Organics
+Ability 3 Description                           := Slums generate [%Amount1%] organics each turn
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 150
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Mined Resource Generation - Radioactives
+Ability 4 Description                           := Slums generate [%Amount1%] radioactives each turn
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 150
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Point Generation - Research
+Ability 5 Description                           := Slums generate [%Amount1%] research points each turn
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 50
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Point Generation - Intelligence
+Ability 6 Description                           := Slums generate [%Amount1%] intelligence points each turn
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 10
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Space Yard
+Ability 7 Description                           := Constructs with [%Amount2%] minerals per turn.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 1
+Ability 7 Amount 2 Formula                      := 50
+Ability 8 Type                                  := Space Yard
+Ability 8 Description                           := Constructs with [%Amount2%] organics per turn.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 2
+Ability 8 Amount 2 Formula                      := 50
+Ability 9 Type                                  := Space Yard
+Ability 9 Description                           := Constructs with [%Amount2%] radioactives per turn.
+Ability 9 Scope                                 := Space Object
+Ability 9 Range Formula                         := 0
+Ability 9 Amount 1 Formula                      := 3
+Ability 9 Amount 2 Formula                      := 50
+Ability 10 Type                                  := Tonnage Repair Ship
+Ability 10 Description                           := Repairs [%Amount1%]kT of ship tonnage per turn.
+Ability 10 Scope                                 := Space Object
+Ability 10 Range Formula                         := 0
+Ability 10 Amount 1 Formula                      := 50
+Ability 10 Amount 2 Formula                      := 0
+Ability 11 Type                                  := Tonnage Repair Unit
+Ability 11 Description                           := Repairs [%Amount1%]kT of unit tonnage per turn.
+Ability 11 Scope                                 := Space Object
+Ability 11 Range Formula                         := 0
+Ability 11 Amount 1 Formula                      := 25
+Ability 11 Amount 2 Formula                      := 0
+Ability 12 Type                                  := Tonnage Repair Facility
+Ability 12 Description                           := Repairs [%Amount1%]kT of facility tonnage per turn.
+Ability 12 Scope                                 := Space Object
+Ability 12 Range Formula                         := 0
+Ability 12 Amount 1 Formula                      := 100
+Ability 12 Amount 2 Formula                      := 0
+Ability 13 Type                                  := Resource Storage - Minerals
+Ability 13 Description                           := Slums hold [%Amount1%] minerals for an empire.
+Ability 13 Scope                                 := Space Object
+Ability 13 Range Formula                         := 0
+Ability 13 Amount 1 Formula                      := 1000
+Ability 13 Amount 2 Formula                      := 0
+Ability 14 Type                                  := Resource Storage - Organics
+Ability 14 Description                           := Slums hold [%Amount1%] organics for an empire.
+Ability 14 Scope                                 := Space Object
+Ability 14 Range Formula                         := 0
+Ability 14 Amount 1 Formula                      := 1000
+Ability 14 Amount 2 Formula                      := 0
+Ability 15 Type                                  := Resource Storage - Radioactives
+Ability 15 Description                           := Slums hold [%Amount1%] radioactives for an empire.
+Ability 15 Scope                                 := Space Object
+Ability 15 Range Formula                         := 0
+Ability 15 Amount 1 Formula                      := 1000
+Ability 15 Amount 2 Formula                      := 0
+
+Name                                            := Legacy Infrastructure
+Description                                     := Vast cities and highly efficient resource extraction systems built up over the ages.
+Facility Group                                  := Resource Extraction
+XFile Class Name                                := Monolith
+Picture Number                                  := 58
+Maximum Level                                   := 1
+Tonnage Space Taken Formula                     := 4000
+Tonnage Structure Formula                       := 4000
+Cost Minerals Formula                           := 1
+Cost Organics Formula                           := 1
+Cost Radioactives Formula                       := 1
+Number Of Requirements                          := 1
+Requirements Evaluation Availability            := NOT
+Requirements Evaluation Allows Placement        := TRUE
+Requirements Evaluation Allows Usage            := TRUE
+Requirement 1 Description                       := Requires at least tech level 1 in Storage.
+Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= 1
+Number Of Abilities                             := 20
+Ability 1 Type                                  := Mined Resource Generation - Minerals
+Ability 1 Description                           := Legacy Infrastructure generates [%Amount1%] minerals each turn.
+Ability 1 Scope                                 := Space Object
+Ability 1 Range Formula                         := 0
+Ability 1 Amount 1 Formula                      := 1000
+Ability 1 Amount 2 Formula                      := 0
+Ability 2 Type                                  := Mined Resource Generation - Minerals
+Ability 2 Description                           := Legacy Infrastructure generates [%Amount1%] pollution points.
+Ability 2 Scope                                 := Space Object
+Ability 2 Range Formula                         := 0
+Ability 2 Amount 1 Formula                      := 4
+Ability 2 Amount 2 Formula                      := 0
+Ability 3 Type                                  := Mined Resource Generation - Organics
+Ability 3 Description                           := Legacy Infrastructure generates [%Amount1%] organics each turn
+Ability 3 Scope                                 := Space Object
+Ability 3 Range Formula                         := 0
+Ability 3 Amount 1 Formula                      := 800
+Ability 3 Amount 2 Formula                      := 0
+Ability 4 Type                                  := Mined Resource Generation - Radioactives
+Ability 4 Description                           := Legacy Infrastructure generates [%Amount1%] radioactives each turn
+Ability 4 Scope                                 := Space Object
+Ability 4 Range Formula                         := 0
+Ability 4 Amount 1 Formula                      := 400
+Ability 4 Amount 2 Formula                      := 0
+Ability 5 Type                                  := Point Generation - Research
+Ability 5 Description                           := Legacy Infrastructure generates [%Amount1%] research points each turn
+Ability 5 Scope                                 := Space Object
+Ability 5 Range Formula                         := 0
+Ability 5 Amount 1 Formula                      := 150
+Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Point Generation - Intelligence
+Ability 6 Description                           := Legacy Infrastructure generates [%Amount1%] intelligence points each turn
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 20
+Ability 6 Amount 2 Formula                      := 0
+Ability 7 Type                                  := Space Yard
+Ability 7 Description                           := Constructs with [%Amount2%] minerals per turn.
+Ability 7 Scope                                 := Space Object
+Ability 7 Range Formula                         := 0
+Ability 7 Amount 1 Formula                      := 1
+Ability 7 Amount 2 Formula                      := 200
+Ability 8 Type                                  := Space Yard
+Ability 8 Description                           := Constructs with [%Amount2%] organics per turn.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 2
+Ability 8 Amount 2 Formula                      := 200
+Ability 9 Type                                  := Space Yard
+Ability 9 Description                           := Constructs with [%Amount2%] radioactives per turn.
+Ability 9 Scope                                 := Space Object
+Ability 9 Range Formula                         := 0
+Ability 9 Amount 1 Formula                      := 3
+Ability 9 Amount 2 Formula                      := 200
+Ability 10 Type                                  := Tonnage Repair Ship
+Ability 10 Description                           := Repairs [%Amount1%]kT of ship tonnage per turn.
+Ability 10 Scope                                 := Space Object
+Ability 10 Range Formula                         := 0
+Ability 10 Amount 1 Formula                      := 75
+Ability 10 Amount 2 Formula                      := 0
+Ability 11 Type                                  := Tonnage Repair Unit
+Ability 11 Description                           := Repairs [%Amount1%]kT of unit tonnage per turn.
+Ability 11 Scope                                 := Space Object
+Ability 11 Range Formula                         := 0
+Ability 11 Amount 1 Formula                      := 50
+Ability 11 Amount 2 Formula                      := 0
+Ability 12 Type                                  := Tonnage Repair Facility
+Ability 12 Description                           := Repairs [%Amount1%]kT of facility tonnage per turn.
+Ability 12 Scope                                 := Space Object
+Ability 12 Range Formula                         := 0
+Ability 12 Amount 1 Formula                      := 250
+Ability 12 Amount 2 Formula                      := 0
+Ability 13 Type                                  := Resource Storage - Minerals
+Ability 13 Description                           := Legacy Infrastructure holds [%Amount1%] minerals for an empire.
+Ability 13 Scope                                 := Space Object
+Ability 13 Range Formula                         := 0
+Ability 13 Amount 1 Formula                      := 2000
+Ability 13 Amount 2 Formula                      := 0
+Ability 14 Type                                  := Resource Storage - Organics
+Ability 14 Description                           := Legacy Infrastructure holds [%Amount1%] organics for an empire.
+Ability 14 Scope                                 := Space Object
+Ability 14 Range Formula                         := 0
+Ability 14 Amount 1 Formula                      := 2000
+Ability 14 Amount 2 Formula                      := 0
+Ability 15 Type                                  := Resource Storage - Radioactives
+Ability 15 Description                           := Legacy Infrastructure holds [%Amount1%] radioactives for an empire.
+Ability 15 Scope                                 := Space Object
+Ability 15 Range Formula                         := 0
+Ability 15 Amount 1 Formula                      := 2000
+Ability 15 Amount 2 Formula                      := 0
+Ability 16 Type                                  := Points Added to Empire Pool
+Ability 16 Description                           := Legacy Infrastructure automatically transports all resources and points from this system to the [%ScopePlayerName%].
+Ability 16 Scope                                 := System - This Player
+Ability 16 Range Formula                         := 0
+Ability 16 Amount 1 Formula                      := 0
+Ability 16 Amount 2 Formula                      := 0
+Ability 17 Type                                  := Supply Generation
+Ability 17 Description                           := Legacy Infrastructure generates [%Amount1%] supplies each turn.
+Ability 17 Scope                                 := Space Object
+Ability 17 Range Formula                         := 0
+Ability 17 Amount 1 Formula                      := 4000
+Ability 17 Amount 2 Formula                      := 0
+Ability 18 Type                                  := Ordnance Generation
+Ability 18 Description                           := Legacy Infrastructure generates [%Amount1%] ordnance each turn.
+Ability 18 Scope                                 := Space Object
+Ability 18 Range Formula                         := 0
+Ability 18 Amount 1 Formula                      := 2000
+Ability 18 Amount 2 Formula                      := 0
+Ability 19 Type                                  := Remote Supply Distribution
+Ability 19 Description                           := Legacy Infrastructure distributes up to [%Amount1%] supplies to vehicles in the system per turn.
+Ability 19 Scope                                 := System - This Player
+Ability 19 Range Formula                         := 0
+Ability 19 Amount 1 Formula                      := 1000
+Ability 19 Amount 2 Formula                      := 0
+Ability 20 Type                                  := Remote Ordnance Distribution
+Ability 20 Description                           := Legacy Infrastructure distributes up to [%Amount1%] ordnance to vehicles in the system per turn.
+Ability 20 Scope                                 := System - This Player
+Ability 20 Range Formula                         := 0
+Ability 20 Amount 1 Formula                      := 400
+Ability 20 Amount 2 Formula                      := 0
+
 Name                                            := Mineral Miner Facility
 Description                                     := Large scale planetary processor that mines minerals from the deepest layers.
 Facility Group                                  := Resource Extraction
@@ -269,7 +517,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Minerals
 Ability 1 Description                           := Mineral Miners generate [%Amount1%] minerals each turn.
 Ability 1 Scope                                 := Space Object
@@ -300,7 +548,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Organics
 Ability 1 Description                           := Organics Farms generate [%Amount1%] organics each turn.
 Ability 1 Scope                                 := Space Object
@@ -331,7 +579,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Mined Resource Generation - Radioactives
 Ability 1 Description                           := Radioactives Extraction generates [%Amount1%] radioactives each turn.
 Ability 1 Scope                                 := Space Object
@@ -362,7 +610,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 5 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= 5 + ([%Level%] - 1)
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Mined Resource Generation - Minerals
 Ability 1 Description                           := Monolith Facilities generate [%Amount1%] minerals each turn.
 Ability 1 Scope                                 := Space Object
@@ -405,7 +653,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 6 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= 6 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Minerals
 Ability 1 Description                           := Mineral Scanner increases mineral production on the planet by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
@@ -442,7 +690,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 11 in Minerals Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Minerals Extraction") >= 11 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Minerals
 Ability 1 Description                           := System Mineral Scanner increases mineral production for the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -479,7 +727,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 6 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= 6 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Organics
 Ability 1 Description                           := Hybrid-Eco Farms increase organics production on the planet by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
@@ -516,7 +764,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 11 in Organics Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organics Extraction") >= 11 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Organics
 Ability 1 Description                           := System Eco-Farms increase organics production for the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -553,7 +801,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 6 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= 6 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Radioactives
 Ability 1 Description                           := Radioactives Collider increases radioactive production on the planet by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
@@ -590,7 +838,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 11 in Radioactives Extraction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Radioactives Extraction") >= 11 + (([%Level%] - 1) * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Gen Modifier - Radioactives
 Ability 1 Description                           := System Radioactives Collider increases radioactives production for the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -610,6 +858,9 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 10
 Ability 3 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Research Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Resource Converter
 Description                                     := Massive molecular converter that can transform resources to different types.
 Facility Group                                  := Resource Extraction
@@ -627,7 +878,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 2 in Resource Manipulation.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Resource Manipulation") >= ([%Level%] * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Resource Conversion
 Ability 1 Description                           := Resource Converter transforms resources into other types with a [%Amount1%]% loss of material.
 Ability 1 Scope                                 := Space Object
@@ -647,9 +898,6 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 10
 Ability 3 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Research Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Research Center
 Description                                     := High-tech researching facility that develops new technology for a society.
 Facility Group                                  := Research
@@ -667,7 +915,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Applied Research.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Research") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Point Generation - Research
 Ability 1 Description                           := Research Centers generate [%Amount1%] research points per turn.
 Ability 1 Scope                                 := Space Object
@@ -692,7 +940,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Centralized Computer Systems.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Centralized Computer Systems") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Research
 Ability 1 Description                           := Central Computer Complex increases all research on the planet by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
@@ -706,6 +954,9 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Intelligence Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Research Directorate
 Description                                     := Administrative complex that prioritizes and coordinates research activities across the system.
 Facility Group                                  := Research
@@ -723,7 +974,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 4 in Applied Research.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Research") >= iif([%Level%] = 3, 11, ([%Level%] * 4))
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Research
 Ability 1 Description                           := Research Directorate increases all research in the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -737,9 +988,6 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Intelligence Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Intelligence Center
 Description                                     := Large intelligence gathering organization.
 Facility Group                                  := Intelligence
@@ -757,7 +1005,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Intelligence Services.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Point Generation - Intelligence
 Ability 1 Description                           := Intelligence Centers generate [%Amount1%] intelligence points per turn.
 Ability 1 Scope                                 := Space Object
@@ -782,7 +1030,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Centralized Computer Systems.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Centralized Computer Systems") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Intelligence
 Ability 1 Description                           := Citizen Databank Complex increases all intelligence generation on the planet by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
@@ -796,6 +1044,9 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Population Support Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Intelligence Directorate
 Description                                     := Administrative center that prioritizes and coordinates intelligence activites in a system.
 Facility Group                                  := Intelligence
@@ -813,7 +1064,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 4 in Intelligence Services.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Intelligence Services") >= iif([%Level%] = 3, 11, ([%Level%] * 4))
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Point Generation Modifier - Intelligence
 Ability 1 Description                           := Intelligence Directorate increases all intelligence generation in the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -827,9 +1078,6 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Population Support Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Medical Lab
 Description                                     := Facility dedicated to curing disease and improving the population's quality of life.
 Facility Group                                  := Population Support
@@ -847,7 +1095,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 2 in Medical Treatment.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Medical Treatment") >= ([%Level%] * 2)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Plague Prevention
 Ability 1 Description                           := Medical Lab will cure up to level [%Amount1%] plagues in this system.
 Ability 1 Scope                                 := System - This Player
@@ -867,6 +1115,9 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
 Ability 3 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Storage Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Urban Pacification Center
 Description                                     := Psychological treatment center designed to keep a system's populations happy.
 Facility Group                                  := Population Support
@@ -884,7 +1135,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Applied Political Science.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Applied Political Science") >= [%Level%]
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Planet Population Happiness
 Ability 1 Description                           := Urban Pacification Center improves population happiness for planets in this system by [%Amount1%]% each turn.
 Ability 1 Scope                                 := System - This Player
@@ -898,9 +1149,6 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Storage Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Mineral Resource Storage
 Description                                     := Large warehouses that store minerals for an empire.
 Facility Group                                  := Storage
@@ -918,7 +1166,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Minerals
 Ability 1 Description                           := Mineral Resource Storage holds [%Amount1%] minerals for an empire.
 Ability 1 Scope                                 := Space Object
@@ -943,7 +1191,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Organics
 Ability 1 Description                           := Organic Resource Storage holds [%Amount1%] organics for an empire.
 Ability 1 Scope                                 := Space Object
@@ -968,7 +1216,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Storage.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Storage") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Resource Storage - Radioactives
 Ability 1 Description                           := Radioactive Resource Storage holds [%Amount1%] radioactives for an empire.
 Ability 1 Scope                                 := Space Object
@@ -976,6 +1224,9 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 10000 + (([%Level%] - 1) * 1000)
 Ability 1 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Planet Modification Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Cargo Facility
 Description                                     := Large warehouses that can provide extra cargo space on a planet.
 Facility Group                                  := Storage
@@ -993,7 +1244,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Cargo.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Cargo") >= iif([%Level%] = 1, 1, ([%Level%] * 2) - 1)
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Storage Cargo Space Amount
 Ability 1 Description                           := Cargo Facilities add [%Amount1%]kT extra cargo space to the planet.
 Ability 1 Scope                                 := Space Object
@@ -1013,9 +1264,6 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 10000 + (([%Level%] - 1) * 2000)
 Ability 3 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Planet Modification Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Climate Control Facility
 Description                                     := Improves the conditions of a planet.
 Facility Group                                  := Planet Modification
@@ -1033,7 +1281,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= (3 * [%Level%]) - 2
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Planet Conditions Change
 Ability 1 Description                           := Climate Control Facility improves the conditions of the planet by [%Amount1%]% each year.
 Ability 1 Scope                                 := Space Object
@@ -1064,7 +1312,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 2 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= (3 * [%Level%]) - 1
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Planet Value - Minerals
 Ability 1 Description                           := Value Improvement Plants add [%Amount1%]% each year to the planet's minerals value.
 Ability 1 Scope                                 := Space Object
@@ -1084,6 +1332,9 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := [%Level%]
 Ability 3 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Ship Support Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Atmospheric Modification Plant
 Description                                     := Massive atmospheric processors that slowly change the atmosphere of a planet to a breathable state.
 Facility Group                                  := Planet Modification
@@ -1101,7 +1352,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 3 in Planet Utilization.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planet Utilization") >= ([%Level%] * 3)
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Planet Atmosphere Change
 Ability 1 Description                           := Atmospheric Modification Plant changes the atmosphere of the planet to one that is breathable by the colony's majority population over [%Amount2%] turns.
 Ability 1 Scope                                 := Space Object
@@ -1109,9 +1360,6 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 8.0 - ([%Level%] * 1.0)
 Ability 1 Amount 2 Formula                      := 80 - ([%Level%] * 10)
 
-//-------------------------------------------------------------------------------------
-// Ship Support Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Ship Training Facility
 Description                                     := Training complex that helps ship crews gain experience. [Discontinued]
 Facility Group                                  := Ship Support
@@ -1129,7 +1377,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 99 in Advanced Military Science.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= 99
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Ship Training
 Ability 1 Description                           := Ships in this sector will gain [%Amount1%] experience points each turn.
 Ability 1 Scope                                 := Space Object
@@ -1143,6 +1391,9 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Shield Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Training Facility
 Description                                     := Training complex that helps ship crews and fleets gain experience.
 Facility Group                                  := Ship Support
@@ -1160,7 +1411,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Advanced Military Science.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Advanced Military Science") >= [%Level%]
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Ship Training
 Ability 1 Description                           := Ships in this sector will gain [%Amount1%] experience points (XP) each turn.
 Ability 1 Scope                                 := Space Object
@@ -1180,9 +1431,6 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
 Ability 3 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Shield Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := System Gravitational Shield Facility
 Description                                     := Finely tuned gravitational beams used in an array to stop stellar manipulations in the entire system.
 Facility Group                                  := Shields
@@ -1200,7 +1448,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 11 in Planetary Defenses.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planetary Defenses") >= 11
-Number of Abilities                             := 6
+Number Of Abilities                             := 6
 Ability 1 Type                                  := Stop Planet Destroyer
 Ability 1 Description                           := System Gravitational Shield Facility stops all planet destroying weapons against this planet.
 Ability 1 Scope                                 := Space Object
@@ -1238,6 +1486,9 @@ Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Cyrstallurgy Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Planetary Shield Generator
 Description                                     := Large shield generators that protect an entire planet during combat.
 Facility Group                                  := Shields
@@ -1255,7 +1506,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Planetary Defenses.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Planetary Defenses") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Shield Generation
 Ability 1 Description                           := Planetary Shield Generator provides [%Amount2%] normal shield points for a planet during combat.
 Ability 1 Scope                                 := Space Object
@@ -1280,7 +1531,7 @@ Requirements Evaluation Allows Placement        := TRUE
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Requires at least tech level 1 in Massive Planetary Shielding.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Massive Planetary Shielding") >= [%Level%]
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Shield Generation
 Ability 1 Description                           := Massive Planetary Shield Generator provides [%Amount2%] phased shield points for a planet during combat.
 Ability 1 Scope                                 := Space Object
@@ -1288,9 +1539,6 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := "Phased Shields"
 Ability 1 Amount 2 Formula                      := 10000 + (2500 * ([%Level%] - 1))
 
-//-------------------------------------------------------------------------------------
-// Cyrstallurgy Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Solar Generator
 Description                                     := Massive solar collectors that can transmute solar energy to raw materials.
 Facility Group                                  := Crystalline
@@ -1310,7 +1558,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= iif([%Level%] = 1, [%Level%], ([%Level%] - 1) * 2)
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Solar Resource Generation - Minerals
 Ability 1 Description                           := Solar Generator produces [%Amount1%] minerals per star each turn.
 Ability 1 Scope                                 := Space Object
@@ -1349,7 +1597,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= (2 * [%Level%]) + 1
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Ship Maintenance Cost Modifier
 Ability 1 Description                           := Crystalline Restructuring Plant reduces all ship maintenance costs in the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -1363,6 +1611,9 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Interdimensional Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Energy Transmission Lens
 Description                                     := Massive lens that allows supplemental power to be beamed directly to ships within the system.
 Facility Group                                  := Crystalline
@@ -1382,7 +1633,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Crystalline Technology") >= 11 + (2 * ([%Level%] - 1))
 Requirement 2 Description                       := Empire must have racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Shield Modifier
 Ability 1 Description                           := Energy Transmission Lens increases the shield strength of all ships in the system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -1396,9 +1647,6 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Interdimensional Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Subspace Transmitter
 Description                                     := Transmitter that permits faster than light coordination between ships to enhance combat performance.
 Facility Group                                  := Interdimensional
@@ -1418,7 +1666,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Interdimensional Technology") >= ([%Level%] * 2) + 1
 Requirement 2 Description                       := Empire must have racial trait Interdimensional Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Combat Modifier
 Ability 1 Description                           := Sensor facility adds [%Amount1%] to the combat attack modifier for all ships and units in this system.
 Ability 1 Scope                                 := System - This Player
@@ -1426,6 +1674,9 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := ([%Level%] * 3)
 Ability 1 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Organic Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Interdimensional Portal Facility
 Description                                     := Creates an interdimensional pocket within the facility that can increase a planet's capacity for facilities.
 Facility Group                                  := Interdimensional
@@ -1447,7 +1698,7 @@ Requirement 2 Description                       := Empire must have racial trait
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
 Requirement 3 Description                       := Only one Interdimensional Portal Facility per planet allowed.
 Requirement 3 Formula                           := (Get_Planet_Ability_Facility_Count("Storage Facility Space Amount") = 0) and (Get_Queue_Ability_Facility_Count("Storage Facility Space Amount") = 0) and ([%NumQueueItemsAdding%] = 1)
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Storage Facility Space Amount
 Ability 1 Description                           := Interdimensional Portal Facility adds [%Amount2%]kT additional facility space.
 Ability 1 Scope                                 := Space Object
@@ -1474,7 +1725,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Interdimensional Technology") >= 8 + (([%Level%] - 1) * 3)
 Requirement 2 Description                       := Empire must have racial trait Interdimensional Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Interdimensional Knowledge")
-Number of Abilities                             := 1
+Number Of Abilities                             := 1
 Ability 1 Type                                  := Description Only
 Ability 1 Description                           := Dimensional rifts can be directed with about [%Amount1%] accuracy throughout this system.
 Ability 1 Scope                                 := Space Object
@@ -1482,9 +1733,6 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := [%Level%] * 10
 Ability 1 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Organic Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Gestation Vats
 Description                                     := Artificial gestation chambers that greatly increase the reproduction rate of an entire system.
 Facility Group                                  := Population Support
@@ -1504,7 +1752,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= ([%Level%] * 2) - 1
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Planet Population Reproduction
 Ability 1 Description                           := Gestation Vats add [%Amount1%]% to the reproductive rate in the system.
 Ability 1 Scope                                 := System - This Player
@@ -1537,7 +1785,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= ([%Level%] * 2)
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Plague Prevention
 Ability 1 Description                           := Prevents level [%Amount1%] plagues in this system.
 Ability 1 Scope                                 := System - This Player
@@ -1563,6 +1811,9 @@ Ability 4 Range Formula                         := 0
 Ability 4 Amount 1 Formula                      := 0
 Ability 4 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Psychic Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Replicant Center
 Description                                     := Artificially created population used primarily for labor.
 Facility Group                                  := Population Support
@@ -1582,7 +1833,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Organic Technology") >= 11 + (([%Level%] - 1) * 2)
 Requirement 2 Description                       := Empire must have racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
-Number of Abilities                             := 5
+Number Of Abilities                             := 5
 Ability 1 Type                                  := Planet Population Amount
 Ability 1 Description                           := Replicant Centers increase the population on each planet in the system by [%Amount1%]M per turn.
 Ability 1 Scope                                 := System - This Player
@@ -1614,9 +1865,6 @@ Ability 5 Range Formula                         := 0
 Ability 5 Amount 1 Formula                      := 0
 Ability 5 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Psychic Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Allegiance Subverter Amplifier
 Description                                     := Psychic broadcast center that targets crewed enemy ships in a system for subversion.
 Facility Group                                  := Psychic
@@ -1636,7 +1884,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= 5 * [%Level%]
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Description Only
 Ability 1 Description                           := Enemy ships in this system have approximately a [%Amount1%]% chance of being psychically captured.
 Ability 1 Scope                                 := System - This Player
@@ -1669,7 +1917,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= ([%Level%] * 2)
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
-Number of Abilities                             := 1
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Ship Training
 Ability 1 Description                           := Ships in this system will gain [%Amount1%] experience points (XP) each turn.
 Ability 1 Scope                                 := System - This Player
@@ -1689,6 +1937,9 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
 Ability 3 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Religious Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Psychic Array
 Description                                     := Psychic sensor array that can detect and perform a detailed scan of enemy ships within range.
 Facility Group                                  := Psychic
@@ -1708,7 +1959,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Psychic Technology") >= 5 + ([%Level%] - 1)
 Requirement 2 Description                       := Empire must have racial trait Psychic.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Psychic")
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Sight Level
 Ability 1 Description                           := Psychic Arrays see at sight level [%Amount1%].
 Ability 1 Scope                                 := Space Object
@@ -1728,9 +1979,6 @@ Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 5 + ([%Level%] - 1)
 Ability 3 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Religious Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Fate Shrine
 Description                                     := Thoughtful seers who predict the future and can avert disasters.
 Facility Group                                  := Religious
@@ -1750,7 +1998,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 2) - 1
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Bad Event Chance
 Ability 1 Description                           := Fate Shrine decreases the chance of any bad events in this system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -1795,7 +2043,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 3
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Combat Modifier
 Ability 1 Description                           := War Shrine adds [%Amount1%] to combat attack modifier for all ships and units in this system.
 Ability 1 Scope                                 := System - This Player
@@ -1828,7 +2076,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 2
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
-Number of Abilities                             := 3
+Number Of Abilities                             := 3
 Ability 1 Type                                  := Planet Value Change
 Ability 1 Description                           := Nature Shrine increases the value of all planets in the system by [%Amount1%]% each year.
 Ability 1 Scope                                 := System - This Player
@@ -1867,7 +2115,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4) - 1
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Damage Modifier
 Ability 1 Description                           := Death Shrine adds a [%Amount1%]% damage bonus for all weapons used in this system.
 Ability 1 Scope                                 := System - This Player
@@ -1881,6 +2129,9 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
 Ability 2 Amount 2 Formula                      := 0
 
+//-------------------------------------------------------------------------------------
+// Temporal Racial Trait Facilities
+//-------------------------------------------------------------------------------------
 Name                                            := Time Shrine
 Description                                     := Devout following of workers dedicated to improving their ultimate use of time.
 Facility Group                                  := Religious
@@ -1900,7 +2151,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Religious Technology") >= ([%Level%] * 4)
 Requirement 2 Description                       := Empire must have racial trait Deeply Religious.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Deeply Religious")
-Number of Abilities                             := 4
+Number Of Abilities                             := 4
 Ability 1 Type                                  := Resource Gen Modifier - Minerals
 Ability 1 Description                           := Time Shrine increases mineral production in this system by [%Amount1%]%.
 Ability 1 Scope                                 := System - This Player
@@ -1926,9 +2177,6 @@ Ability 4 Range Formula                         := 0
 Ability 4 Amount 1 Formula                      := 0
 Ability 4 Amount 2 Formula                      := 0
 
-//-------------------------------------------------------------------------------------
-// Temporal Racial Trait Facilities
-//-------------------------------------------------------------------------------------
 Name                                            := Temporal Vacation Service
 Description                                     := Entertainment service that allows populations to view past histories.
 Facility Group                                  := Temporal
@@ -1948,7 +2196,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Temporal Technology") >= ([%Level%] * 2) - 1
 Requirement 2 Description                       := Empire must have racial trait Temporal Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Planet Population Happiness
 Ability 1 Description                           := Temporal Vacation Service improves population happiness for planets in this system by [%Amount1%]% each turn.
 Ability 1 Scope                                 := System - This Player
@@ -1981,7 +2229,7 @@ Requirement 1 Description                       := Requires at least tech level 
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Temporal Technology") >= ([%Level%] * 2)
 Requirement 2 Description                       := Empire must have racial trait Temporal Knowledge.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
-Number of Abilities                             := 2
+Number Of Abilities                             := 2
 Ability 1 Type                                  := Combat Modifier
 Ability 1 Description                           := Events Predictor adds [%Amount1%] to combat attack modifier for all ships and units in this system.
 Ability 1 Scope                                 := System - This Player
@@ -2016,7 +2264,7 @@ Requirement 2 Description                       := Empire must have racial trait
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Temporal Knowledge")
 Requirement 3 Description                       := Only one Temporal Space Yard per planet is allowed.
 Requirement 3 Formula                           := (Get_Planet_Ability_Facility_Count("Space Yard") = 0) and (Get_Queue_Ability_Facility_Count("Space Yard") = 0) and ([%NumQueueItemsAdding%] = 1)
-Number of Abilities                             := 6
+Number Of Abilities                             := 6
 Ability 1 Type                                  := Space Yard
 Ability 1 Description                           := Temporal Space Yard constructs with [%Amount2%] minerals per turn.
 Ability 1 Scope                                 := Space Object
