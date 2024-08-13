@@ -1,3 +1,37 @@
+Paprika Mod
+===========
+
+Based on Captain Kwok's Balance mod.
+
+Components:
+- Added 290kT Tactical Spaceyard Component for Small Freighters
+- Added Overdrive Thrusters for Ships at Contra-Terrene Level 1 for +1 combat movement (modified by hull size, below).
+- Increased Ordnance consumption from 5 to 25 for nearly all Seekers. Not affected are Biological weapons and some Bombardment weapons.
+
+Facilities:
+- Added Highly Industrialized Slums and Legacy Infrastructure. Inspired by SuicideJunkie.
+
+Combat Speed: Is now modified by hull size. Are values are compared to BMv125.
+
+Warships get the following combat speed bonuses or penalties:
+- Frigates have        +20%.
+- Destroyers have      +10%.
+- Light Cruisers have  0%
+- Cruisers have        -5%.
+- Battleships have     -10%.
+- Dreadnoughts and Baseships -15%
+
+Fighter and Drone speed AND maneuverability have been increased by 50%.
+
+Freighters and Colony Ships are unchanged at -25% speed and maneuverability.
+
+Homeworlds:
+
+Homeworlds are much stronger in Paprika than in Balance Mod. Most production and construction rates have been increased by around 60%.
+Homeworlds receive special facilities that cost no maintenance, but they cannot be built by the player or AIs (subject to change.) 
+This places more emphasis on protecting and capturing homeworlds. Some common strategies for colony bombardment may be more difficult with
+the increased ordnance consumption changes.
+
 Captain Kwok's Balance Mod for Space Empires V
 ==============================================
 
@@ -167,7 +201,7 @@ Jonathan Sorensen (se5a)
 Kwayne
   - Toltayan Ship Set adapted for Balance Mod
 
-Andreas Brüngger (Q)
+Andreas BrÃ¼ngger (Q)
   - Testing and suggestions
 
 Paulo Brito (CrazyDog)
