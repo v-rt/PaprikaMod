@@ -1,108 +1,109 @@
 Version History - Captain Kwok's Balance Mod for Space Empires V
 ================================================================
 
-Version 1.25 Beta+ (13 Jan 2024)
---------------------------------
+Version 1.25 (01 June 2024)
+---------------------------
 
-xA. Added   - Engineering cultural achievement to increase space yard rates for an empire
-xA. Added   - Logistics cultural achievement to reduce maintenance costs for an empire
-xA. Changed - Economics cultural achievement will now provide an empire wide boost to resource production
-xA. Added   - New racial trait Interdimensional
-xG. Changed - Reduced all resource costs and production rates by a factor of 5 [WIP]
-xA. Changed - Reduced all research costs and generation by a factor of 10
-xG. Changed - Increased starting unit maintenance to 15% from 10%
-xA. Changed - Low, Medium and High tech starting points reduced by a factor of 10 (5,000; 50,000; 500,000)
-xA. Changed - Reduced all intelligence costs and generation by a factor of 10
-xG. Changed - Reduced starting resources/points default amounts to 2,000, 10,000 and 20,000 [WIP]
-xA. Changed - Increased Drone Combat Computer Core to 20 kT and added attack/defense modifiers
-xA. Changed - Drone Combat Computer Core now requires Drones Level 2
-xB. Added   - Dynamic AI designs for using Autonomic Ganglion component
-xA. Changed - Increased structure for vehicle controls
-xA. Added   - Component Inertial Dampeners that increases combat movement for a ship
-xA. Added   - Component Deflector Array that reduces a ship's maintenance cost
-xA. Changed - Null-Space Shields moved to Interdimensional Technology
-xA. Changed - Reduced Tachyon Sensors, Psychic Receptors and Temporal Sensors to 6 levels
-xA. Changed - Advanced sensors still see up to sight level 16, but there range at max tech no longer covers an entire system
-xA. Added   - Multiplex Tracking (damage boost to direct-fire point-defense weapons) [Test]
-xG. Changed - Slightly reduced hitpoints of regular armor
-xG. Changed - Reduced levels of Stealth Armor from 6 to 5, but made it available earlier (level 4 Armor) and increased its cloak level
-xG. Changed - Reduced levels of Scattering Armor from 6 to 3, but double the advancement between each level and increased its overall defense bonus
-xG. Changed - Increased hitpoints of Organic Armors, but slightly reduced their regeneration rate [WIP]
-xA. Changed - Reduced Shard Cannons from 16 to 11 levels
-xA. Changed - Reduced Crystalline Torpedo from 20 to 11 levels
-xA. Added   - Phase Disruptors and Small Phase Disruptors to Interdimensional Weapons
-xA. Added   - Hyperspatial Darts to Interdimensional Weapons
-xA. Added   - Quantum Tunneler to Interdimensional Weapons
-xA. Added   - Null-Space Cannons, Null-Space Warhead to Interdimensional Weapons tech area
-xA. Changed - Moved Null-Space Projector to Interdimensional Weapons tech area
-xA. Removed - Null-Space Weapons tech area
-xA. Changed - Reduced Seeking Parasite from 20 to 11 levels
-xG. Changed - Increased range for Electric Discharge, Lightning Ray and Hyperdense Globule weapons
-xG. Changed - Spread out tech area requirements for Lightning Ray
-xA. Changed - Reduced Psychic Technology tech area cost from 3,000 to 2,000
-xA. Changed - Some Psychic weapons could be used with Satellites or Drones, which was unintentional
-xA. Changed - Increased Cloaking Device to 11 levels
-xG. Changed - Adjusted small seeker accuracy rate to 0.5 per 1 range (standard accuracy attrition rate)
-xA. Added   - Point-Defense Weapon Anti-Fighter Rocket
-xA. Changed - Reduced Flak Cannons to 3 levels but moved up earlier in Point-Defense Weapons tech area
-xA. Changed - Reduced Bomblet Missile to 3 levels
-xA. Changed - Reduced Tractor Beam and Repulser Beam to 6 levels
-xA. Changed - Reduced Cobalt Warhead and Mine Warhead to 11 levels
-xA. Changed - Reduced Kamikaze Warhead to 6 levels
-xA. Changed - Reduced Speciality Mine Warheads to 6 levels
-xA. Changed - Reduced Boarding Parties and Security Stations to 6 levels
-xA. Changed - All types of mine warheads have a damage range from 0 to their maximum amount (more variable)
-xA. Changed - Updated most weapon sound effects including conversion to stereo
-xA. Added   - Added dedicated sound effects for small weapons
-xA. Changed - Removed medium size of Weapon Platforms, Satellites, Fighters, Drones and Mines
-xA. Changed - Unit launching components no longer have cargo space (need to use combination of cargo bays and launchers)
-xB. Changed - Reduced Fighter and Drone Launcher requirements for carriers from 20% to 10%
-xB. Changed - Added a requirement for Carriers to have at least 30% total space used between Fighter or Drone Launchers and Cargo Bays
-xB. Changed - Freighters can no longer mount Fighter or Drone Launchers (To be evaluated)
-xA. Changed - Removed vehicle size changes for all unit vehicle types so unit sizes are fixed
-xA. Changed - Removed Emissive Armor restriction for units
-xB. Added   - Large mounts for Large Troops and Large Fighters
-xG. Changed - Reduced resource bonuses to 10-30% from 10-50% for Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities
-xG. Changed - Reduced from 5 levels to 3 levels system versions of Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities; Reduced bonuses to 5-15% from 5-25%
-xA. Changed - Replaced System Computer Complex with Research Directorate and reduced to 3 levels
-xA. Changed - Replaced System Databank Complex with Intelligence Directorate and reduced to 3 levels
-xG. Changed - Reduced resource/intel bonuses to 10-30% from 10-50% for Central Computer Complex and Citizen Databank Complex
-xA. Changed - Added Unit and Facility scrap modifiers to the Ultra-Recycler facility
-xA. Removed - Planetary Gravitational Shield Facility
-xG. Changed - Combined Ship and Fleet Training into single Training Faclity for both regular and Psychic versions
-xA. Changed - Added Stop Planet Destroyer ability to System Gravitational Shield Facility
-xA. Added   - Extradimensional Portal Facility, Subspace Transmitter and Sensor Facility to Interdimensional trait technology
-xA. Changed - Reduced maximum sight range for Basic Sensors and Advanced Sensors (Tachyon, Psychic and Temporal) by about 40%
-xA. Changed - Planets are now set to visible when entering a system
-xA. Changed - Made sight level descriptions more clear for stellar objects, components and other items
-xA. Changed - Added individual stellar abilities to each type of storm to allow for easier recoginition in game of abilities
-xA. Changed - Set blocked hex radius to 1 for Sphereworlds
-xB. Added   - New intel project that damages a portion or completely detonates the minefield of the target player
-xB. Added   - New event that damages a portion or completely detonates the minefield of the target player
-xB. Added   - AI support for new design types Drone (Repair), Satellite (Repair), Fighter (Anti-Fighter), Troop (Anti-Fighter) [WIP] 
-xB. Added   - AI support Storage Compound colony type
-xB. Fixed   - Planets orbiting companion stars in certain systems will have proper I, II, III designations
-xG. Changed - AI players will know a little bit more about colonization game settings (WIP)
-xG. Added   - New layer of cooperation strategy which takes into consideration contextual factors like quadrant density, proximity, colonization capability and other racial characteristics
-xG. Changed - Treaty diplomacy will now use cooperation strategy classifications as the base factor and anger/fear/usefulness factors for specific treaty element selection
-xG. Added   - Additional dynamic message text will be added to various message types helpful to explain AI motivations or changes
-xG. Fixed   - Anger for mine explosion events was not being registered against the minefield owner due to a limitation in the event log details
-xG. Changed - Anger for mine explosion events is more significant especially against minefield owners who have treaties with the affected player
-xG. Added   - AI will track broken treaty dates and the frequencies for each player, anger penalties are more severe and future diplomacy more difficult
-xG. Added   - AI players will seek/require at least some form of non-aggression in any treaty
-
-To-do List:
-
-- Incorporate new components in AI design script (Completed but not optimized)
-- Incorporate new facilities in AI script (Completed but not optimized)
-- Add new AI design type instructions (WIP)
-- Update AI build settings (WIP)
-- Update AI diplomacy settings (WIP)
-- Consider reputation for diplomacy considerations (WIP)
-- Review target strength calculations
-- Update AI attack algorithm
-- Update AI ship orders
-- Update AI planet orders (WIP)
+1.   Added   - Engineering cultural achievement to increase space yard rates for an empire
+2.   Added   - Logistics cultural achievement to reduce maintenance costs for an empire
+3.   Changed - Economics cultural achievement will now provide an empire wide boost to resource production
+4.   Added   - New racial trait Interdimensional
+5.   Changed - Reduced all resource costs and production rates by a factor of 5
+6.   Changed - Reduced all research costs and generation by a factor of 5
+7.   Changed - Increased starting unit maintenance to 15% from 10%
+8.   Changed - Low, Medium and High tech starting points reduced by a factor of 10 (5,000; 50,000; 500,000)
+9.   Changed - Reduced all intelligence costs and generation by a factor of 10
+10.  Changed - Reduced starting resources/points default amounts to 2,000, 10,000 and 20,000
+11.  Changed - Reduced Mega Evil trigger to 1.5x score for human players and 2.0x score for AI players; Threshold remains > 1,000,000 score.
+12.  Changed - Increased Drone Combat Computer Core to 20 kT and added attack/defense modifiers
+13.  Changed - Drone Combat Computer Core now requires Drones Level 2
+14.  Added   - Dynamic AI designs for using Autonomic Ganglion component
+15.  Changed - Increased structure for vehicle controls
+16.  Added   - Component Inertial Dampeners that increases combat movement for a ship
+17.  Added   - Component Deflector Array that reduces a ship's maintenance cost
+18.  Changed - Null-Space Shields moved to Interdimensional Technology
+19.  Changed - Reduced Tachyon Sensors, Psychic Receptors and Temporal Sensors to 6 levels
+20.  Changed - Advanced sensors still see up to sight level 16, but there range at max tech no longer covers an entire system
+21.  Added   - Multiplex Tracking as a supplementary modifier to a vehicle's combat to hit offense modifier
+22.  Changed - Slightly reduced hitpoints of regular armor
+23.  Changed - Reduced levels of Stealth Armor from 6 to 5, but made it available earlier (level 4 Armor) and increased its cloak level
+24.  Changed - Reduced levels of Scattering Armor from 6 to 3, but double the advancement between each level and increased its overall defense bonus
+25.  Changed - Increased hitpoints of Organic Armors, but slightly reduced their regeneration rate [WIP]
+26.  Changed - Reduced Shard Cannons from 16 to 11 levels
+27.  Changed - Reduced Crystalline Torpedo from 20 to 11 levels
+28.  Added   - Phase Disruptors and Small Phase Disruptors to Interdimensional Weapons
+29.  Added   - Hyperspatial Darts to Interdimensional Weapons
+30.  Added   - Quantum Tunneler to Interdimensional Weapons
+31.  Added   - Null-Space Cannons, Null-Space Warhead to Interdimensional Weapons tech area
+32.  Changed - Moved Null-Space Projector to Interdimensional Weapons tech area
+33.  Removed - Null-Space Weapons tech area
+34.  Changed - Reduced Seeking Parasite from 20 to 11 levels
+35.  Changed - Increased range for Electric Discharge, Lightning Ray and Hyperdense Globule weapons
+36.  Changed - Spread out tech area requirements for Lightning Ray
+37.  Changed - Reduced Psychic Technology tech area cost from 3,000 to 2,000
+38.  Changed - Some Psychic weapons could be used with Satellites or Drones, which was unintentional
+39.  Changed - Increased Cloaking Device to 11 levels
+40.  Changed - Adjusted small seeker accuracy rate to 0.5 per 1 range (standard accuracy attrition rate)
+41.  Added   - Point-Defense Weapon Anti-Fighter Rocket
+42.  Changed - Reduced Flak Cannons to 3 levels but moved up earlier in Point-Defense Weapons tech area
+43.  Changed - Reduced Bomblet Missile to 3 levels
+44.  Changed - Reduced Tractor Beam and Repulser Beam to 6 levels
+45.  Changed - Reduced Cobalt Warhead and Mine Warhead to 11 levels
+46.  Changed - Reduced Kamikaze Warhead to 6 levels
+47.  Changed - Reduced Speciality Mine Warheads to 6 levels
+48.  Changed - Reduced Boarding Parties and Security Stations to 6 levels
+49.  Changed - All types of mine warheads have a damage range from 0 to their maximum amount (more variable)
+50.  Changed - Updated most weapon sound effects including conversion to stereo
+51.  Added   - Added dedicated sound effects for small weapons
+52.  Changed - Removed medium size of Weapon Platforms, Satellites, Fighters, Drones and Mines
+53.  Changed - Unit launching components no longer have cargo space (need to use combination of cargo bays and launchers)
+54.  Changed - Reduced Fighter and Drone Launcher requirements for carriers from 20% to 10%
+55.  Changed - Added a requirement for Carriers to have at least 30% total space used between Fighter or Drone Launchers and Cargo Bays
+56.  Added   - Carriers now have a hull-based ability to repair units
+57.  Changed - Freighters can no longer mount Fighter or Drone Launchers
+58.  Changed - Removed vehicle size changes for all unit vehicle types so unit sizes are fixed
+59.  Changed - Increased relative hull cost for combat ships (does not include carriers)
+60.  Changed - Removed Emissive Armor restriction for units
+61.  Added   - Large mounts for Large Troops and Large Fighters
+62.  Changed - Reduced resource bonuses to 10-30% from 10-50% for Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities
+63.  Changed - Reduced from 5 levels to 3 levels system versions of Mineral Scanner, Hybrid Eco-Farm and Radioactives Collider facilities; Reduced bonuses to 5-15% from 5-25%
+64.  Changed - Replaced System Computer Complex with Research Directorate and reduced to 3 levels
+65.  Changed - Replaced System Databank Complex with Intelligence Directorate and reduced to 3 levels
+66.  Changed - Reduced resource/intel bonuses to 10-30% from 10-50% for Central Computer Complex and Citizen Databank Complex
+67.  Changed - Reduced resource bonuses for Replicant Center from 5-25% to 2-10%
+68.  Changed - Added Unit and Facility scrap modifiers to the Ultra-Recycler facility
+69.  Removed - Planetary Gravitational Shield Facility
+70.  Changed - Combined Ship and Fleet Training into single Training Faclity for both regular and Psychic versions
+71.  Added   - New Psychic facility, Allegiance Subverter Amplifier, which can randomly capture crewed enemy ships in a system
+72.  Changed - Added Stop Planet Destroyer ability to System Gravitational Shield Facility
+73.  Added   - Extradimensional Portal Facility, Subspace Transmitter and Sensor Facility to Interdimensional trait technology
+74.  Changed - Reduced maximum sight range for Basic Sensors and Advanced Sensors (Tachyon, Psychic and Temporal) by about 40%
+75.  Changed - Planets are now set to visible when entering a system
+76.  Changed - Made sight level descriptions more clear for stellar objects, components and other items
+77.  Changed - Added individual stellar abilities to each type of storm to allow for easier recoginition in game of abilities
+78.  Changed - Set blocked hex radius to 1 for Sphereworlds
+79.  Added   - New intel project that damages a portion or completely detonates the minefield of the target player
+80.  Added   - New event that damages a portion or completely detonates the minefield of the target player
+81.  Added   - AI support for new design types Drone (Repair), Satellite (Repair), Fighter (Anti-Fighter), Troop (Anti-Fighter)
+82.  Added   - AI support Storage Compound colony type
+83.  Fixed   - Planets orbiting companion stars in certain systems will have proper I, II, III designations
+84.  Changed - Modified asteroids to fall into 3 categories (C-Type, M-Type, S-Type) which distinct models/textures and abilities
+85.  Changed - Updated various storm textures and animations
+86.  Changed - AI players will know a little bit more about colonization game settings (WIP)
+87.  Added   - New layer of cooperation strategy which takes into consideration contextual factors like quadrant density, proximity, colonization capability and other racial characteristics
+88.  Changed - Treaty diplomacy will now use cooperation strategy classifications as the base factor and anger/fear/usefulness factors for specific treaty element selection
+89.  Added   - Additional dynamic message text will be added to various message types helpful to explain AI motivations or changes
+90.  Fixed   - Anger for mine explosion events was not being registered against the minefield owner due to a limitation in the event log details
+91.  Changed - Anger for mine explosion events is more significant especially against minefield owners who have treaties with the affected player
+92.  Changed - Increased anger for ship/unit/colony locations in an AI player's territory; Modified by level of friendship and race specific modifiers
+93.  Added   - AI will track broken treaty dates and the frequencies for each player, anger penalties are more severe and future diplomacy more difficult
+94.  Added   - AI players will seek/require at least some form of non-aggression in any treaty
+95.  Fixed   - Added a workaround for a rare situation where an AI player's fleet IDs did not match with those returned by AI script functions
+96.  Changed - Incoporated strategic value of planetary targets into the AI's evaluation scheme for selecting targets to attack
+97.  Changed - Added additional modifiers to control target numbers of ship and units for AI players
+98.  Fixed   - Sometimes AI players wouldn't spend 100% of their research points
+99.  Changed - AI players will utilize their patrol ships more frequently to reduce gaps in their sensor coverage
+100. Added   - Added "AI Assist" racial trait, intended for AI use only, that provides small bonuses to sensor sight range and mine sweeping for example
 
 
 Version 1.24 (02 Jun 2023)
