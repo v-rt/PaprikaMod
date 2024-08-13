@@ -43,7 +43,7 @@ Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >=
 Requirement 3 Description                       := Empire must have at least tech level 1 in Ship Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= [%Level%]
 Requirement 4 Description                       := Empire must have tech level 1 in Small Ship Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Ship Construction") >= 1
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
 
 Long Name                                       := Heavy Ship Mount
 Short Name                                      := Heavy Mount
@@ -105,8 +105,8 @@ Requirement 2 Description                       := The vehicle size must be at l
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 750
 Requirement 3 Description                       := Empire must have at least tech level 4 in Ship Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= 4 + ([%Level%] - 1)
-Requirement 4 Description                       := Empire must have tech level 1 in Medium Ship Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Medium Ship Construction") >= 1
+Requirement 4 Description                       := Empire must have tech level 2 Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 2
 
 Long Name                                       := Massive Ship Mount
 Short Name                                      := Massive Mount
@@ -168,8 +168,8 @@ Requirement 2 Description                       := The vehicle size must be at l
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 1250
 Requirement 3 Description                       := Empire must have at least tech level 7 in Ship Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Ship Weapon Mounts") >= 7 + ([%Level%] - 1)
-Requirement 4 Description                       := Empire must have tech level 1 in Large Ship Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 1
+Requirement 4 Description                       := Empire must have tech level 3 in Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 3
 
 Long Name                                       := Large Base Mount
 Short Name                                      := Large Mount
@@ -192,7 +192,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 10
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -213,8 +213,8 @@ Requirement 2 Description                       := The vehicle size must be at l
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 500
 Requirement 3 Description                       := Empire must have at least tech level 1 in Base Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= [%Level%]
-Requirement 4 Description                       := Empire must have tech level 1 in Small Base Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Base Construction") >= 1
+Requirement 4 Description                       := Empire must have tech level 1 in Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
 
 Long Name                                       := Heavy Base Mount
 Short Name                                      := Heavy Mount
@@ -237,7 +237,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 20
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -282,8 +282,8 @@ Requirement 2 Description                       := The vehicle size must be at l
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 1000
 Requirement 3 Description                       := Empire must have at least tech level 4 in Base Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= 4 + ([%Level%] - 1)
-Requirement 4 Description                       := Empire must have tech level 6 in Small Base Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Small Base Construction") >= 6
+Requirement 4 Description                       := Empire must have tech level 2 in Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 2
 
 Long Name                                       := Massive Base Mount
 Short Name                                      := Massive Mount
@@ -306,7 +306,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 30
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -351,8 +351,8 @@ Requirement 2 Description                       := The vehicle size must be at l
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 2000
 Requirement 3 Description                       := Empire must have at least tech level 7 in Base Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Base Weapon Mounts") >= 7 + ([%Level%] - 1)
-Requirement 4 Description                       := Empire must have tech level 1 in Large Base Construction.
-Requirement 4 Formula                           := Get_Empire_Tech_Level("Large Base Construction") >= 1
+Requirement 4 Description                       := Empire must have tech level 3 in Construction.
+Requirement 4 Formula                           := Get_Empire_Tech_Level("Construction") >= 1
 
 Long Name                                       := Large Troop Mount
 Short Name                                      := Large Mount
@@ -481,7 +481,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 10
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -526,7 +526,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 10
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -545,7 +545,7 @@ Requirement 1 Description                       := Component must be a Direct Fi
 Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
 Requirement 2 Description                       := The vehicle size must be at least 250kT.
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 250
-Requirement 3 Description                       := Empire must have at least tech level 1 in Unit Weapon Mounts.
+Requirement 3 Description                       := Empire must have at least tech level 3 in Unit Weapon Mounts.
 Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= [%Level%]
 Requirement 4 Description                       := Empire must have at least tech level 2 in Weapon Platforms.
 Requirement 4 Formula                           := Get_Empire_Tech_Level("Weapon Platforms") >= 2
@@ -571,7 +571,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 20
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20
@@ -614,8 +614,8 @@ Requirement 1 Description                       := Component must be a Direct Fi
 Requirement 1 Formula                           := Get_Component_Weapon_Type() = "Direct Fire"
 Requirement 2 Description                       := The vehicle size must be at least 500kT.
 Requirement 2 Formula                           := Get_Vehicle_Size_Tonnage() >= 500
-Requirement 3 Description                       := Empire must have at least tech level 3 in Unit Weapon Mounts.
-Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 3 + ([%Level%] - 1)
+Requirement 3 Description                       := Empire must have at least tech level 4 in Unit Weapon Mounts.
+Requirement 3 Formula                           := Get_Empire_Tech_Level("Unit Weapon Mounts") >= 4
 Requirement 4 Description                       := Empire must have at least tech level 4 in Weapon Platforms.
 Requirement 4 Formula                           := Get_Empire_Tech_Level("Weapon Platforms") >= 4
 
@@ -640,7 +640,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 30
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Component - Weapon To Hit Percent
-Ability 3 Description                           := Improves chance for weapon to hit by [%Amount1%]%.
+Ability 3 Description                           := Adds [%Amount1%] to weapon's accuracy at range.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 20

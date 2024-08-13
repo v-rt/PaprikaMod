@@ -166,6 +166,14 @@ Event Message 40 Title                                := Minefield Detonation
 Event Message 40 Text                                 := Our [%VehicleName%] minefield in the [%SystemName%] system has completely self-detonated after an accidental warhead explosion set off a chain reaction.
 Event Message 40 Small Picture Filename               := Event_MineExplosion.jpg
 Event Message 40 Large Picture Filename               := LargePortrait_Event_MineExplosion.jpg
+Event Message 41 Title                                := Ship Captured
+Event Message 41 Text                                 := [%EventCause%] has captured the [%VehicleName%] in the [%SystemName%] system.
+Event Message 41 Small Picture Filename               := Event_PlanetRebels.jpg
+Event Message 41 Large Picture Filename               := LargePortrait_Event_PlanetRebels.jpg
+Event Message 42 Title                                := Enemy Ship Captured
+Event Message 42 Text                                 := Our Allegiance Subverter Amplifier has captured the [%VehicleOwner%]'s vehicle [%VehicleName%] in the [%SystemName%] system.
+Event Message 42 Small Picture Filename               := Event_ShipMoved1.jpg
+Event Message 42 Large Picture Filename               := LargePortrait_Event_ShipMoved1.jpg
 
 =======================================================================================
 *END*

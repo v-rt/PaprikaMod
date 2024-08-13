@@ -1,15 +1,15 @@
 =======================================================================================
-AI DATA FILE - Phong AI Speech - Captain Kwok's Balance Mod
+AI DATA FILE - Phong AI Speech - Captain Kwok's Balance Mod v125+
 =======================================================================================
 
 Replacement Symbols used:
 [%OurEmperorTitle%]       - Our Emperor's Title
 [%OurEmperorName%]        - Our Emperor's Name
 [%OurEmpireName%]         - Our Empire Name
-[%TargetEmperorTitle%]    - Target Emperor's Title       (Player who gets message)
+[%TargetEmperorTitle%]    - Target Emperor's Title (Player who gets message)
 [%TargetEmperorName%]     - Target Emperor's Name
 [%TargetEmpireName%]      - Target Empire Name
-[%OtherEmperorTitle%]     - Other Emperor's Title        (Player who this message is talking about, third empire)
+[%OtherEmperorTitle%]     - Other Emperor's Title (Player who this message is talking about, third empire)
 [%OtherEmperorName%]      - Other Emperor's Name
 [%OtherEmpireName%]       - Other Empire Name
 [%TreatyName%]            - Current Treaty
@@ -27,71 +27,71 @@ Replacement Symbols used:
 *BEGIN*
 =======================================================================================
 
-Send General Message 1                                                  := Beware of strange warp points!
-Send General Message 2                                                  := Mineral planets are the best.
-Send General Message 3                                                  := Your growth is astonishing!
-Send General Message 4                                                  := We have found many rich deposits in the nearby asteroid fields.
-Send General Message 5                                                  := We admire your recent advances.
-Send Declare War 1                                                      := You have pushed us into a corner. There must be war.
-Send Declare War 2                                                      := Though we are not a violent species, you have left us no choice. We declare war on your reckless society.
-Send Declare War 3                                                      := We regret that your actions leave us no choice. War has come between us.
-Send Declare War 4                                                      := You have defiled us for the last time! There will be war!
-Send Declare War 5                                                      := Your cities shall burn with our vengeful fire!
-Send Surrender 1                                                        := We surrender to your empire.
-Send Surrender 2                                                        := To continue against an insurmountable foe such as you would be folly. We surrender to the [%TargetEmpireName%].
-Send Surrender 3                                                        := We do this as a last resort, [%TargetEmperorTitle%] [%TargetEmperorName%]. We wish to join your people.
-Send Surrender 4                                                        := To prevent the destruction of our race, we humbly surrender to your forces.
-Send Surrender 5                                                        := Though we fall now, we shall rise again.
+Send General Message 1                                               := It seems some of the warp points in this region are quite turbulent. Some of our ships have taken damage crossing them.
+Send General Message 2                                               := Mineral planets are the best, but the ones with radioactives are not too bad either.
+Send General Message 3                                               := The [%TargetEmpireName%] seems to be progressing well. We offer lots of valuable goods for a growing empire.
+Send General Message 4                                               := Asteroids are great for harvesting resources when you are struggling to get enough from the usual planetary sources.
+Send General Message 5                                               := The technology advancements of the [%TargetEmpireName%] continue to impress.
+Send Declare War 1                                                   := We have been pushed into a corner by the acts of the [%TargetEmpireName%] and are left with no choice but war.
+Send Declare War 2                                                   := Though we are not a violent species, [%TargetEmperorTitle%] [%TargetEmperorName%], you have left us with no choice but to declare war on your reckless empire.
+Send Declare War 3                                                   := We regret the [%TargetEmpireName%] has left us with no other choice. War has become between us.
+Send Declare War 4                                                   := The [%TargetEmpireName%] has violated our territory for the last time. War is necessary and we will defend ourselves to the last Phong.
+Send Declare War 5                                                   := War is declared on the [%TargetEmpireName%]. Your marauding empire will soon see its colonies burn, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Surrender 1                                                     := The [%OurEmpireName%] announces its surrender to the [%TargetEmpireName%]. Spare whatever remains of our people, [%TargetEmperorTitle%] [%TargetEmperorName%]. They will work hard for you.
+Send Surrender 2                                                     := To continue against insurmountable odds would only result in our complete destruction. We surrender to the [%TargetEmpireName%] so that we may continue to exist.
+Send Surrender 3                                                     := It is impossible for us to continue to fight. We declare our surrender to the [%TargetEmpireName%]. I ask mercy for the few Phong that remain and in return they will be industrious for your empire.
+Send Surrender 4                                                     := As the leader of the [%OurEmpireName%], I must bring an end to the suffering of our people. To continue fighting would mean the complete eradication of the Phong and that cannot be allowed. We will surrender to your empire, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Surrender 5                                                     := Though today we fall to the [%TargetEmpireName%] and become part of a new whole, we will rise tomorrow and continue to demonstrate that hard work and determination is what makes us Phong no matter what flag we find ourselves under.
 Send Grant Independence 1                                               := We have granted independence to your colony on [%SpaceObjectName%].
 Send Grant Independence 2                                               := Your people on [%SpaceObjectName%] are yours once more, [%TargetEmperorTitle%] [%TargetEmperorName%].
 Send Grant Independence 3                                               := We have no need of [%SpaceObjectName%], you may have control back.
 Send Grant Independence 4                                               := We grow tired of the constant whining of the people of [%SpaceObjectName%]. They are more trouble than their worth.
 Send Grant Independence 5                                               := As you desired [%TargetEmperorTitle%] [%TargetEmperorName%], planet [%SpaceObjectName%] has been returned to your government.
-Send Propose Treaty 1                                                   := We would like to propose a treaty.
-Send Propose Treaty 2                                                   := A treaty would benefit us both.
-Send Propose Treaty 3                                                   := Please ally yourselves with us.
-Send Propose Treaty 4                                                   := We propose a [%ProposedTreatyName%].
-Send Propose Treaty 5                                                   := We offer this [%ProposedTreatyName%] in the hopes of better relations.
-Send Propose Change In Treaty 1                                         := We would like to propose changes in our existing treaty.
-Send Propose Change In Treaty 2                                         := A revised version of our treaty would benefit us both.
-Send Propose Change In Treaty 3                                         := Let us renew our treaty and its requirements.
-Send Propose Change In Treaty 4                                         := Our treaty needs amending.
-Send Propose Change In Treaty 5                                         := Our current treaty is not adequately meeting our needs. We wish to revise it. 
-Send Accept Treaty Proposal 1                                           := Your offer is acceptable.
-Send Accept Treaty Proposal 2                                           := Our regents have reviewed your proposal and we accept.
-Send Accept Treaty Proposal 3                                           := We welcome our new ally.
-Send Accept Treaty Proposal 4                                           := We accept your proposal!
-Send Accept Treaty Proposal 5                                           := A new day of cooperation has dawned!
-Send Accept Treaty Changes 1                                            := The changes in the treaty are acceptable.
-Send Accept Treaty Changes 2                                            := Our regents have reviewed the changes and we accept.
-Send Accept Treaty Changes 3                                            := The changes seem fair. We will accept them.
-Send Accept Treaty Changes 4                                            := The [%OurEmpireName%] will accept the requested changes in our treaty.
-Send Accept Treaty Changes 5                                            := The proposed changes are agreeable to us at this time.
-Send Refuse Treaty Proposal 1                                           := Our regents have rejected your proposal.
-Send Refuse Treaty Proposal 2                                           := We cannot accept your proposal at this time.
-Send Refuse Treaty Proposal 3                                           := Now is not the time for alliances.
-Send Refuse Treaty Proposal 4                                           := We must refuse your proposal at this time.
-Send Refuse Treaty Proposal 5                                           := We do not entirely trust you. Your treaty can wait for now.
-Send Refuse Treaty Changes 1                                            := Our regents have rejected the changes you requested, [%TargetEmperorTitle%] [%TargetEmperorName%].
-Send Refuse Treaty Changes 2                                            := We are not looking for any changes to our treaty at this time.
-Send Refuse Treaty Changes 3                                            := The changes you requested to our treaty are beyond what the [%OurEmpireName%] will accept.
-Send Refuse Treaty Changes 4                                            := We will not agree to the proposed changes, [%TargetEmperorName%]. We prefer our current agreement.
-Send Refuse Treaty Changes 5                                            := The requested treaty changes are not aligned with what we want from the [%TargetEmpireName%].
-Send Counter Treaty Proposal 1                                          := We would prefer a treaty made up of these elements.
-Send Counter Treaty Proposal 2                                          := This version of the treaty would better suit our needs.
-Send Counter Treaty Proposal 3                                          := We cannot accept your version of the treaty. Here are our requirements.
-Send Counter Treaty Proposal 4                                          := Your offer is interesting, but we require these elements.
-Send Counter Treaty Proposal 5                                          := Your offer is not acceptable. We counter with this treaty.
-Send Counter Treaty Changes 1                                           := Your treaty changes are interesting, but we prefer these.
-Send Counter Treaty Changes 2                                           := These treaty changes are not acceptable. Here are the changes that we would allow. 
-Send Counter Treaty Changes 3                                           := We cannot accept your changes as they are. We present a list of our revisions. 
-Send Counter Treaty Changes 4                                           := We counter with these treaty changes. 
-Send Counter Treaty Changes 5                                           := These treaty elements are more to our liking. 
-Send Break Treaty 1                                                     := Due to recent events, we must break our treaty.
-Send Break Treaty 2                                                     := Consider our treaty broken, and our relations severed.
-Send Break Treaty 3                                                     := Our continued alliance is unsatisfactory.
-Send Break Treaty 4                                                     := We must break our treaty.
-Send Break Treaty 5                                                     := Our treaty is dust. You will have to work hard to deserve it again.
+Send Propose Treaty 1                                                := Consider this modest treaty proposal as a first step to better relations.
+Send Propose Treaty 2                                                := The treaty proposed offers some measure of security for both our people.
+Send Propose Treaty 3                                                := Review the treaty elements of the proposed [%ProposedTreatyName%]. Cooperation brings opportunity.
+Send Propose Treaty 4                                                := We are proposing the following treaty in the hopes of fostering better relations with the [%TargetEmpireName%].
+Send Propose Treaty 5                                                := The [%OurEmpireName%] offers this [%ProposedTreatyName%] as an opportunity to get off to a good start with the [%TargetEmpireName%].
+Send Propose Change In Treaty 1                                      := Consider these revisions as an opportunity to provide additional benefits to our two empires.
+Send Propose Change In Treaty 2                                      := We are proposing a few changes to our existing treaty. We will wait for your response, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Propose Change In Treaty 3                                      := We are requesting changes to our current treaty. We hope the [%TargetEmpireName%] will recognize their value.
+Send Propose Change In Treaty 4                                      := [%TargetEmperorTitle%] [%TargetEmperorName%], we are proposing the following revisions to our treaty. We think the [%TargetEmpireName%] will find them agreeable.
+Send Propose Change In Treaty 5                                      := We are eager to increase our level of cooperation with the [%TargetEmpireName%]. The proposed changes support that claim.
+Send Accept Treaty Proposal 1                                        := The [%OurEmpireName%] will accept your treaty proposal.
+Send Accept Treaty Proposal 2                                        := The treaty proposal has been reviewed and accepted. No revisions are required.
+Send Accept Treaty Proposal 3                                        := We have accepted the treaty offer from the [%TargetEmpireName%].
+Send Accept Treaty Proposal 4                                        := The [%ProposedTreatyName%] has been reviewed and accepted by the [%OurEmpireName%]. The specific treaty elements were appropriate for the moment.
+Send Accept Treaty Proposal 5                                        := We will accept the [%ProposedTreatyName%] put forward by the [%TargetEmpireName%].
+Send Accept Treaty Changes 1                                         := The revised treaty elements are acceptable to us. We will approve there inclusion into the treaty, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Accept Treaty Changes 2                                         := We have completed our review of the changes proposed by the [%TargetEmpireName%]. We have approved them.
+Send Accept Treaty Changes 3                                         := These are reasonable changes that you have proposed, [%TargetEmperorTitle%] [%TargetEmperorName%]. We will accept them.
+Send Accept Treaty Changes 4                                         := The [%OurEmpireName%] will accept the requested changes in our treaty.
+Send Accept Treaty Changes 5                                         := There was some debate in our council over the changes, but ultimately we decided to approve the changes proposed by the [%TargetEmpireName%].
+Send Refuse Treaty Proposal 1                                        := The [%ProposedTreatyName%] is too far beyond what we can consider at this time with the [%TargetEmpireName%].
+Send Refuse Treaty Proposal 2                                        := We have reviewed the treaty proposal and after some debate have decided it is not the right fit for the [%OurEmpireName%] at this time.
+Send Refuse Treaty Proposal 3                                        := The proposed treaty by the [%TargetEmpireName%] is too far removed from what we are willing to accept.
+Send Refuse Treaty Proposal 4                                        := It will not be possible for us to accept your offer, [%TargetEmperorTitle%] [%TargetEmperorName%]. Its elements are just not the ones we are willing to consider... at all.
+Send Refuse Treaty Proposal 5                                        := We are not sure if should take this as a serious offer, [%TargetEmperorTitle%] [%TargetEmperorName%]. It seems deliberately constructed to offend us.
+Send Refuse Treaty Changes 1                                         := The treaty revisions suggested by the [%TargetEmpireName%] do not resonate with us. We cannot approve them.
+Send Refuse Treaty Changes 2                                         := We are not eager to accept any changes at this point in time. Perhaps in the future there will be an opportunity to make additions to our deal.
+Send Refuse Treaty Changes 3                                         := We have consider your proposed changes, [%TargetEmperorTitle%] [%TargetEmperorName%], but have not approved their inclusion. They did not inspire us.
+Send Refuse Treaty Changes 4                                         := To be honest, we are usually receptive to change. However this proposal just does not work us at this time.
+Send Refuse Treaty Changes 5                                         := The [%OurEmpireName%] has not approved the changes. Sorry.
+Send Counter Treaty Proposal 1                                       := The [%ProposedTreatyName%] is workable, but these are the specific elements we want to see included.
+Send Counter Treaty Proposal 2                                       := This alternate version of your proposal will gain our support, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Counter Treaty Proposal 3                                       := As it is has been proposed, it is not possible for us to accept the offer from the [%TargetEmpireName%]. Modify to include these elements and we can sign off.
+Send Counter Treaty Proposal 4                                       := The proposal has merits, but not all the elements were appropriate. We have put together this counter proposal for your consideration, [%TargetEmperorTitle%] [%TargetEmperorName%].
+Send Counter Treaty Proposal 5                                       := Our council did not approve the original offer, but has signed back this alternate proposal with a few elements that we consider are better suited for the current situation.
+Send Counter Treaty Changes 1                                        := We are receptive to change, but these elements we offer here, [%TargetEmperorTitle%] [%TargetEmperorName%], are more to our liking.
+Send Counter Treaty Changes 2                                        := The revised elements put forward by the [%TargetEmpireName%] were reasonable enough to encourage this counter offer. This version of the treaty we could accept.
+Send Counter Treaty Changes 3                                        := We want to move forward with a few changes, but the ones suggested by the [%TargetEmpireName%] did not resonate with us. However, these changes we are proposing would work well for the both of us.
+Send Counter Treaty Changes 4                                        := [%TargetEmperorTitle%] [%TargetEmperorName%], your proposed changes were interesting. Our council did not approve them outright, but has instead put together this alternate revision for your consideration.
+Send Counter Treaty Changes 5                                        := The [%TargetEmpireName%] could have saved some time if they included these revised elements from the start.
+Send Break Treaty 1                                                  := The [%OurEmpireName%] must withdrawal from our treaty with the [%TargetEmpireName%]. Recent events have left us no other choice.
+Send Break Treaty 2                                                  := Our relations with the [%TargetEmpireName%] are terminated immediately.
+Send Break Treaty 3                                                  := We no longer have confidence that the [%TargetEmpireName%] can be trusted. We have withdrawn from our treaty and are ready to defend ourselves.
+Send Break Treaty 4                                                  := The culmination of recent events involving the [%TargetEmpireName%] have eroded any hope we had in maintaining any sort of decorum with them. Our treaty is cancelled.
+Send Break Treaty 5                                                  := We can no longer tolerate the actions of the [%TargetEmpireName%]. Our treaty is over.
 Send Propose Trade 1                                                    := We wish to trade with your people.
 Send Propose Trade 2                                                    := This trade is mutually beneficial for our peoples.
 Send Propose Trade 3                                                    := There are several items we are looking to procure.

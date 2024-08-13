@@ -160,10 +160,10 @@ All Shipsets Get 360 Degree Center Firing Point                       := TRUE
 //---------------------------------------------------------------------------------------
 Use Old Log Political Message Display                                 := FALSE
 //---------------------------------------------------------------------------------------
-Minimum Empire Minerals Generation                                    := 200
-Minimum Empire Organics Generation                                    := 200
-Minimum Empire Radioactives Generation                                := 200
-Minimum Empire Point Storage                                          := 10000
+Minimum Empire Minerals Generation                                    := 250
+Minimum Empire Organics Generation                                    := 250
+Minimum Empire Radioactives Generation                                := 250
+Minimum Empire Point Storage                                          := 25000
 //---------------------------------------------------------------------------------------
 Trade Percentage Increase Per Turn                                    := 0.5
 Treaty Subjugated Resource Percentage                                 := 40
@@ -358,8 +358,8 @@ Ram Ship Source Modifier Percent                                      := 80
 Ram Ship Target Modifier Percent                                      := 100
 AI Uses Mega Evil Empire                                              := TRUE
 AI Mega Evil Empire Threshold Score Thousands                         := 1000
-AI Human Mega Evil Empire Score Percent                               := 200
-AI Computer Mega Evil Empire Score Percent                            := 250
+AI Human Mega Evil Empire Score Percent                               := 150
+AI Computer Mega Evil Empire Score Percent                            := 200
 Home System Percentage Value With No Spaceport                        := 25
 Create Combat Replay                                                  := TRUE
 //---------------------------------------------------------------------------------------
@@ -569,7 +569,7 @@ Default Empire Option Sort Components By Name                         := FALSE
 Default Empire Option Sort Vehicle Sizes By Name                      := FALSE
 Default Empire Option Sort Mounts By Name                             := FALSE
 //---------------------------------------------------------------------------------------
-Created Asteroids Use Stellar Ability Type                            := Normal Asteroids
+Created Asteroids Use Stellar Ability Type                            := Planetary Rubble
 //---------------------------------------------------------------------------------------
 Number Of Population Modifiers                                        := 116
 Pop Modifier 1 Population Amount                                      := 1

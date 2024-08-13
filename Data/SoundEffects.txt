@@ -603,15 +603,15 @@ Sound Max Distance                                   := 5000
 Effect Instances                                     := 3
 Is 3D Sound Effect                                   := TRUE
 
-Sound Effect Name                                    := Small Seeking Paraite
-Sound Effect Filename                                := WeaponSmallSeekingParasite.wav
+Sound Effect Name                                    := Small Acid Globule
+Sound Effect Filename                                := WeaponSmallAcidGlobule.wav
 Sound Min Distance                                   := 40
 Sound Max Distance                                   := 5000
 Effect Instances                                     := 3
 Is 3D Sound Effect                                   := TRUE
 
-Sound Effect Name                                    := Small Acid Globule
-Sound Effect Filename                                := WeaponSmallAcidGlobule.wav
+Sound Effect Name                                    := Small Seeking Parasite
+Sound Effect Filename                                := WeaponSmallSeekingParasite.wav
 Sound Min Distance                                   := 40
 Sound Max Distance                                   := 5000
 Effect Instances                                     := 3
@@ -647,6 +647,13 @@ Is 3D Sound Effect                                   := TRUE
 
 Sound Effect Name                                    := Small Shield Depleter
 Sound Effect Filename                                := WeaponSmallShieldDepleter.wav
+Sound Min Distance                                   := 40
+Sound Max Distance                                   := 5000
+Effect Instances                                     := 3
+Is 3D Sound Effect                                   := TRUE
+
+Sound Effect Name                                    := Small X-Ray Laser
+Sound Effect Filename                                := WeaponSmallXRayLaser.wav
 Sound Min Distance                                   := 40
 Sound Max Distance                                   := 5000
 Effect Instances                                     := 3

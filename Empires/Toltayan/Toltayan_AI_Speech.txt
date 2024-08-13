@@ -1,15 +1,15 @@
 =======================================================================================
-AI DATA FILE - Speech
+AI DATA FILE - Toltayan AI Speech - Captain Kwok's Balance Mod v125+
 =======================================================================================
 
 Replacement Symbols used:
 [%OurEmperorTitle%]       - Our Emperor's Title
 [%OurEmperorName%]        - Our Emperor's Name
 [%OurEmpireName%]         - Our Empire Name
-[%TargetEmperorTitle%]    - Target Emperor's Title       (Player who gets message)
+[%TargetEmperorTitle%]    - Target Emperor's Title (Player who gets message)
 [%TargetEmperorName%]     - Target Emperor's Name
 [%TargetEmpireName%]      - Target Empire Name
-[%OtherEmperorTitle%]     - Other Emperor's Title        (Player who this message is talking about, third empire)
+[%OtherEmperorTitle%]     - Other Emperor's Title (Player who this message is talking about, third empire)
 [%OtherEmperorName%]      - Other Emperor's Name
 [%OtherEmpireName%]       - Other Empire Name
 [%TreatyName%]            - Current Treaty

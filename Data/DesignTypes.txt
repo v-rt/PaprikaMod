@@ -114,8 +114,6 @@ Name                 := Ship (Defense S)
 
 Name                 := Ship (Explorer)
 
-Name                 := Ship (Point-Defense)
-
 Name                 := Ship (Kamikaze)
 
 Name                 := Ship (Medical)
@@ -135,6 +133,8 @@ Name                 := Ship (Plague)
 Name                 := Ship (Planet Creator)
 
 Name                 := Ship (Planet Destroyer)
+
+Name                 := Ship (Point-Defense)
 
 Name                 := Ship (Remote Farming)
 

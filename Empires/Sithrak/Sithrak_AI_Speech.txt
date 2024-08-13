@@ -1,5 +1,5 @@
 =======================================================================================
-AI DATA FILE - Sithrak AI Speech - Captain Kwok's Balance Mod
+AI DATA FILE - Sithrak AI Speech - Captain Kwok's Balance Mod v125+
 =======================================================================================
 
 Replacement Symbols used:
@@ -31,12 +31,12 @@ Send General Message 1                                               := Yet anot
 Send General Message 2                                               := Do not attempt to interfere with us or we will destroy you.
 Send General Message 3                                               := Make no attempts to cross our warp points or your ships will not be seen again.
 Send General Message 4                                               := Those who are weak will be the first to perish.
-Send General Message 5                                               := Only the strong can survive.
+Send General Message 5                                               := Only the strong can survive in this quadrant.
 Send Declare War 1                                                   := War is upon you. The [%TargetEmpireName%] will be eradicated.
-Send Declare War 2                                                   := War has come to the fledgling [%TargetEmpireName%].
+Send Declare War 2                                                   := War has come for the fledgling [%TargetEmpireName%].
 Send Declare War 3                                                   := You were warned. Now the [%TargetEmpireName%] will burn.
 Send Declare War 4                                                   := It is time for war, [%TargetEmperorName%]. The weakling [%TargetEmpireName%] will not survive.
-Send Declare War 5                                                   := War
+Send Declare War 5                                                   := The [%TargetEmpireName%] is weak and pitiful. The coming war will end their existence.
 Send Surrender 1                                                     := Our warriors who surrender now are not worthy of the name Sithrak.
 Send Surrender 2                                                     := It disgusts me that there are Sithrak who choose to become slaves of the [%TargetEmpireName%]!
 Send Surrender 3                                                     := The weakling Sithrak that surrender now deserve their fate as slaves!
@@ -52,7 +52,7 @@ Send Propose Treaty 2                                                := [%Target
 Send Propose Treaty 3                                                := The [%TargetEmpireName%] stands a little taller than the other pathetic races of this quadrant. Agree to leave us alone and you can keep your territory.
 Send Propose Treaty 4                                                := Unlike the rest of this miserable quadrant, the [%TargetEmpireName%] has some potential in it. We are willing to keep you around if you accept our conditions.
 Send Propose Treaty 5                                                := Our motives are transparent. We are busy elsehwere and propose this treaty out of conveience. Out of this quadrant's races, you are among the least detestable.
-Send Propose Change In Treaty 1                                      := We require these changes.
+Send Propose Change In Treaty 1                                      := We demand these changes.
 Send Propose Change In Treaty 2                                      := If the [%TargetEmpireName%] wants to remain on friendly terms, agree to these changes.
 Send Propose Change In Treaty 3                                      := The [%OurEmpireName%] requires these changes.
 Send Propose Change In Treaty 4                                      := Our requirements have changed. Accept them without delay.
@@ -73,7 +73,7 @@ Send Refuse Treaty Proposal 3                                        := We did n
 Send Refuse Treaty Proposal 4                                        := Perhaps provide us something of value before you ask anything more of us.
 Send Refuse Treaty Proposal 5                                        := Don't expect us to accept anything you offer, [%TargetEmperorName%], unless it is tribute.
 Send Refuse Treaty Changes 1                                         := Ah, mediocre! Perhaps try offering something of value next time - if there is a next time.
-Send Refuse Treaty Changes 2                                         := You don't get lucky twice, [%TargetEmperorName%].
+Send Refuse Treaty Changes 2                                         := You do not get lucky twice, [%TargetEmperorName%].
 Send Refuse Treaty Changes 3                                         := We do not care to make changes. Now go do something useful like attack our enemies.
 Send Refuse Treaty Changes 4                                         := No changes. You were fortunate that we even accepted the last treaty.
 Send Refuse Treaty Changes 5                                         := Mediocre [%TargetEmperorName%]! The [%TargetEmpireName%] is on shaky ground and you expect us to accept these changes?
@@ -333,7 +333,7 @@ Response Friend Accept Treaty Changes 3                              := You have
 Response Friend Accept Treaty Changes 4                              := With these changes in place, our expectations are greater now [%TargetEmperorName%]. Do not fail us.
 Response Friend Accept Treaty Changes 5                              := Who would we kill if everyone was as pleasing as you, [%TargetEmperorName%]?
 Response Friend Refuse Treaty Proposal 1                             := You have chosen to become our enemy and they don't last long.
-Response Friend Refuse Treaty Proposal 2                             := No matter. The [%TargetEmpireName%] was going to be destroyed anyway, just sooner now than before.
+Response Friend Refuse Treaty Proposal 2                             := No matter. The [%TargetEmpireName%] was going to be destroyed anyway, just sooner rather than later.
 Response Friend Refuse Treaty Proposal 3                             := Your refusal makes you a target, [%TargetEmperorName%].
 Response Friend Refuse Treaty Proposal 4                             := The wrong choice.
 Response Friend Refuse Treaty Proposal 5                             := 

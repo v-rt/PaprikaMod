@@ -1,5 +1,5 @@
 =======================================================================================
-QUADRANT TYPES DATA FILE - Captain Kwok's Balance Mod v1.20+ (Adapated from FQM)
+QUADRANT TYPES DATA FILE - Captain Kwok's Balance Mod v125+ (Adapated from FQM)
 =======================================================================================
 
 Quadrant Map Size = 68x50

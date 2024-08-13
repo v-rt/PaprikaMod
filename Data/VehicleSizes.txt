@@ -17,9 +17,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 200 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 200 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 40 + (([%Level%] - 1) * 5)
-Cost Organics Formula                           := 8 + ([%Level%] - 1)
-Cost Radioactives Formula                       := 8 + ([%Level%] - 1)
+Cost Minerals Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 40
 Maximum Model Size                              := 6.0
 Vehicle TopDown Picture Index                   := 1
@@ -110,9 +110,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 5
 Tonnage Space Formula                           := 300 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 300 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 60 + (([%Level%] - 1) * 5)
-Cost Organics Formula                           := 12 + ([%Level%] - 1)
-Cost Radioactives Formula                       := 12 + ([%Level%] - 1)
+Cost Minerals Formula                           := 150 + trunc(([%Level%] - 1) * 12.5)
+Cost Organics Formula                           := 30 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 30 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 60
 Maximum Model Size                              := 7.0
 Vehicle TopDown Picture Index                   := 2
@@ -203,9 +203,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 450 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 450 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 90 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 18 + trunc(([%Level%] - 1) * 1.2)
-Cost Radioactives Formula                       := 18 + trunc(([%Level%] - 1) * 1.2)
+Cost Minerals Formula                           := 225 + (([%Level%] - 1) * 15)
+Cost Organics Formula                           := 45 + (([%Level%] - 1) * 3)
+Cost Radioactives Formula                       := 45 + (([%Level%] - 1) * 3)
 Engines Per Move                                := 90
 Maximum Model Size                              := 8.5
 Vehicle TopDown Picture Index                   := 3
@@ -296,9 +296,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 750 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 750 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 150 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 30 + trunc(([%Level%] - 1) * 1.2)
-Cost Radioactives Formula                       := 30 + trunc(([%Level%] - 1) * 1.2)
+Cost Minerals Formula                           := 375 + (([%Level%] - 1) * 15)
+Cost Organics Formula                           := 75 + (([%Level%] - 1) * 3)
+Cost Radioactives Formula                       := 75 + (([%Level%] - 1) * 3)
 Engines Per Move                                := 150
 Maximum Model Size                              := 10.5
 Vehicle TopDown Picture Index                   := 4
@@ -383,9 +383,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 40)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 40)
-Cost Minerals Formula                           := 200 + (([%Level%] - 1) * 8)
-Cost Organics Formula                           := 40 + trunc(([%Level%] - 1) * 1.6)
-Cost Radioactives Formula                       := 40 + trunc(([%Level%] - 1) * 1.6)
+Cost Minerals Formula                           := 500 + (([%Level%] - 1) * 20)
+Cost Organics Formula                           := 100 + (([%Level%] - 1) * 4)
+Cost Radioactives Formula                       := 100 + (([%Level%] - 1) * 4)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 5
@@ -432,7 +432,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 3
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Large size of Battleships deducts [%Amount2%] from combat defense modifier.
+Ability 1 Description                           := Large size of Battleships deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -10
@@ -476,9 +476,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 60)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 60)
-Cost Minerals Formula                           := 300 + (([%Level%] - 1) * 12)
-Cost Organics Formula                           := 60 + trunc(([%Level%] - 1) * 2.4)
-Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 2.4)
+Cost Minerals Formula                           := 750 + (([%Level%] - 1) * 30)
+Cost Organics Formula                           := 150 + (([%Level%] - 1) * 6)
+Cost Radioactives Formula                       := 150 + (([%Level%] - 1) * 6)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 6
@@ -569,9 +569,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 400 + (([%Level%] - 1) * 20)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 80 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 1000 + (([%Level%] - 1) * 50)
+Cost Organics Formula                           := 200 + (([%Level%] - 1) * 10)
+Cost Radioactives Formula                       := 200 + (([%Level%] - 1) * 10)
 Engines Per Move                                := 500
 Maximum Model Size                              := 18.0
 Vehicle TopDown Picture Index                   := 11
@@ -662,9 +662,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 500 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 500 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 100 + (([%Level%] - 1) * 10)
-Cost Organics Formula                           := 20 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 20 + (([%Level%] - 1) * 2)
+Cost Minerals Formula                           := 125 + trunc(([%Level%] - 1) * 12.5)
+Cost Organics Formula                           := 25 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 25 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 90
 Maximum Model Size                              := 9.0
 Vehicle TopDown Picture Index                   := 7
@@ -709,9 +709,9 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 5
+Number Of Abilities                             := 6
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Large size of Light Carriers deduct [%Amount1%] from combat defense modifier.
+Ability 1 Description                           := Large size of Light Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -10
@@ -734,20 +734,26 @@ Ability 4 Scope                                 := Space Object
 Ability 4 Range Formula                         := 0
 Ability 4 Amount 1 Formula                      := 0
 Ability 4 Amount 2 Formula                      := 0
-Ability 5 Type                                  := Description Only
-Ability 5 Description                           := Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 5 Type                                  := Tonnage Repair Unit
+Ability 5 Description                           := Light Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 5 Scope                                 := Space Object
 Ability 5 Range Formula                         := 0
-Ability 5 Amount 1 Formula                      := 0
+Ability 5 Amount 1 Formula                      := 25
 Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
 Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Small Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Small Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1
+Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1 or Get_Empire_Tech_Level("Drones") >= 1
 Requirement 3 Description                       := Empire must not be an Organic or Crystalline race.
 Requirement 3 Formula                           := (not Empire_Has_Racial_Trait("Crystallurgy")) and (not Empire_Has_Racial_Trait("Organic Manipulation"))
 Requirement 4 Description                       := Light Carriers must have a Bridge or Master Computer.
@@ -773,9 +779,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 200 + (([%Level%] - 1) * 20)
-Cost Organics Formula                           := 40 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 40 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 250 + (([%Level%] - 1) * 25)
+Cost Organics Formula                           := 50 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 50 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 7
@@ -820,7 +826,7 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 5
+Number Of Abilities                             := 6
 Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Large size of Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
@@ -845,20 +851,26 @@ Ability 4 Scope                                 := Space Object
 Ability 4 Range Formula                         := 0
 Ability 4 Amount 1 Formula                      := 0
 Ability 4 Amount 2 Formula                      := 0
-Ability 5 Type                                  := Description Only
-Ability 5 Description                           := Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 5 Type                                  := Tonnage Repair Unit
+Ability 5 Description                           := Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 5 Scope                                 := Space Object
 Ability 5 Range Formula                         := 0
-Ability 5 Amount 1 Formula                      := 0
+Ability 5 Amount 1 Formula                      := 50
 Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
-Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 10
+Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Medium Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Medium Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 4 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 4
+Requirement 2 Description                       := Empire must have at least tech level 3 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 3 or Get_Empire_Tech_Level("Drones") >= 3
 Requirement 3 Description                       := Empire must not be an Organic or Crystalline race.
 Requirement 3 Formula                           := (not Empire_Has_Racial_Trait("Crystallurgy")) and (not Empire_Has_Racial_Trait("Organic Manipulation"))
 Requirement 4 Description                       := Carriers must have a Bridge or Master Computer.
@@ -884,9 +896,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 300 + (([%Level%] - 1) * 30)
-Cost Organics Formula                           := 60 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 60 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 375 + trunc(([%Level%] - 1) * 37.5)
+Cost Organics Formula                           := 75 + trunc(([%Level%] - 1) * 7.5)
+Cost Radioactives Formula                       := 75 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 7
@@ -931,9 +943,9 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 5
+Number Of Abilities                             := 6
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Large size of Heavy Carriers deduct [%Amount1%] from combat defense modifier.
+Ability 1 Description                           := Large size of Heavy Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -30
@@ -956,20 +968,26 @@ Ability 4 Scope                                 := Space Object
 Ability 4 Range Formula                         := 0
 Ability 4 Amount 1 Formula                      := 0
 Ability 4 Amount 2 Formula                      := 0
-Ability 5 Type                                  := Description Only
-Ability 5 Description                           := Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 5 Type                                  := Tonnage Repair Unit
+Ability 5 Description                           := Heavy Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 5 Scope                                 := Space Object
 Ability 5 Range Formula                         := 0
-Ability 5 Amount 1 Formula                      := 0
+Ability 5 Amount 1 Formula                      := 100
 Ability 5 Amount 2 Formula                      := 0
+Ability 6 Type                                  := Description Only
+Ability 6 Description                           := Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 6 Scope                                 := Space Object
+Ability 6 Range Formula                         := 0
+Ability 6 Amount 1 Formula                      := 0
+Ability 6 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
-Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 10
+Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Large Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 8 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 8
+Requirement 2 Description                       := Empire must have at least tech level 5 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 5 or Get_Empire_Tech_Level("Drones") >= 5
 Requirement 3 Description                       := Empire must not be an Organic or Crystalline race.
 Requirement 3 Formula                           := (not Empire_Has_Racial_Trait("Crystallurgy")) and (not Empire_Has_Racial_Trait("Organic Manipulation"))
 Requirement 4 Description                       := Heavy Carriers must have a Bridge or Master Computer.
@@ -995,9 +1013,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 500 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 500 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 100 + (([%Level%] - 1) * 20)
-Cost Organics Formula                           := 20 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 20 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 125 + (([%Level%] - 1) * 25)
+Cost Organics Formula                           := 25 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 25 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 0
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 10
@@ -1082,9 +1100,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 200)
 Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 200)
-Cost Minerals Formula                           := 400 + (([%Level%] - 1) * 40)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 8)
-Cost Radioactives Formula                       := 80 + (([%Level%] - 1) * 8)
+Cost Minerals Formula                           := 500 + (([%Level%] - 1) * 100)
+Cost Organics Formula                           := 100 + (([%Level%] - 1) * 10)
+Cost Radioactives Formula                       := 100 + (([%Level%] - 1) * 10)
 Engines Per Move                                := 0
 Maximum Model Size                              := 20.0
 Vehicle TopDown Picture Index                   := 11
@@ -1169,9 +1187,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 80 + (([%Level%] - 1) * 10)
-Cost Organics Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 16 + (([%Level%] - 1) * 2)
+Cost Minerals Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 70
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 9
@@ -1264,9 +1282,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 80 + (([%Level%] - 1) * 10)
-Cost Organics Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 16 + (([%Level%] - 1) * 2)
+Cost Minerals Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 50
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 8
@@ -1367,9 +1385,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 800 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 800 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 160 + (([%Level%] - 1) * 20)
-Cost Organics Formula                           := 32 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 32 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 200 + (([%Level%] - 1) * 25)
+Cost Organics Formula                           := 40 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 40 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 160
 Maximum Model Size                              := 11.0
 Vehicle TopDown Picture Index                   := 8
@@ -1459,7 +1477,7 @@ Requirement 7 Description                       := Medium Freighters can have a 
 Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 12
 Requirement 8 Description                       := Medium Freighters must have at least 40% of their hull dedicated to cargo space.
 Requirement 8 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Storage Cargo Space Amount", "") >= 40
-Requirement 9 Description                       := Small Freighters cannot use Fighter or Drone Launchers.
+Requirement 9 Description                       := Medium Freighters cannot use Fighter or Drone Launchers.
 Requirement 9 Formula                           := (Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Fighter") + Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Drone")) = 0
 
 Name                                            := Large Freighter
@@ -1470,9 +1488,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1200 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1200 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 240 + (([%Level%] - 1) * 30)
-Cost Organics Formula                           := 48 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 48 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 300 + trunc(([%Level%] - 1) * 37.5)
+Cost Organics Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 300
 Maximum Model Size                              := 14.0
 Vehicle TopDown Picture Index                   := 8
@@ -1562,7 +1580,7 @@ Requirement 7 Description                       := Large Freighters can have a m
 Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 20
 Requirement 8 Description                       := Large Freighters must have at least 40% of their hull dedicated to cargo space.
 Requirement 8 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Storage Cargo Space Amount", "") >= 40
-Requirement 9 Description                       := Small Freighters cannot use Fighter or Drone Launchers.
+Requirement 9 Description                       := Large Freighters cannot use Fighter or Drone Launchers.
 Requirement 9 Formula                           := (Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Fighter") + Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Drone")) = 0
 
 Name                                            := Small Weapon Platform
@@ -1838,7 +1856,7 @@ Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Small size of Large Satellites adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
-Ability 1 Amount 1 Formula                      := 20
+Ability 1 Amount 1 Formula                      := 10
 Ability 1 Amount 2 Formula                      := 10
 Number Of Requirements                          := 4
 Requirements Evaluation Availability            := 1, 2
@@ -2084,7 +2102,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := FALSE
 Number Of Abilities                             := 3
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Large Troops adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Large Troops adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 10
@@ -2312,7 +2330,7 @@ Cost Minerals Formula                           := 20
 Cost Organics Formula                           := 2
 Cost Radioactives Formula                       := 4
 Engines Per Move                                := 8
-Maximum Model Size                              := 1.5
+Maximum Model Size                              := 1.8
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_SmallDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_Drone.bmp
@@ -2357,16 +2375,16 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 4
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Small Drones adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Small Drones adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 30
 Ability 1 Amount 2 Formula                      := 10
-Ability 2 Type                                  := Unit Maintenance Cost Modifier
-Ability 2 Description                           := Disposibility of Small Drones saves [%Amount1%]% on maintenance cost.
+Ability 2 Type                                  := Ship Maintenance Cost Modifier
+Ability 2 Description                           := disposability of Small Drones saves [%Amount1%]% on maintenance cost.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
-Ability 2 Amount 1 Formula                      := 0
+Ability 2 Amount 1 Formula                      := -25
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
 Ability 3 Description                           := Small Drones can have a maximum of 1 engine.
@@ -2389,7 +2407,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must not be an Organic or Crystalline race.
 Requirement 2 Formula                           := (not Empire_Has_Racial_Trait("Crystallurgy")) and (not Empire_Has_Racial_Trait("Organic Manipulation"))
 Requirement 3 Description                       := Small Drones must have a Drone Computer Core.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Small Drones can have a maximum of 1 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 
@@ -2405,7 +2423,7 @@ Cost Minerals Formula                           := 40
 Cost Organics Formula                           := 4
 Cost Radioactives Formula                       := 8
 Engines Per Move                                := 16
-Maximum Model Size                              := 3.0
+Maximum Model Size                              := 2.4
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_LargeDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_Drone.bmp
@@ -2450,13 +2468,13 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 4
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Large Drones adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Large Drones adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 20
 Ability 1 Amount 2 Formula                      := 10
-Ability 2 Type                                  := Unit Maintenance Cost Modifier
-Ability 2 Description                           := Disposibility of Large Drones saves [%Amount1%]% on maintenance cost.
+Ability 2 Type                                  := Ship Maintenance Cost Modifier
+Ability 2 Description                           := disposability of Large Drones saves [%Amount1%]% on maintenance cost.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -25
@@ -2482,7 +2500,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must not be an Organic or Crystalline race.
 Requirement 2 Formula                           := (not Empire_Has_Racial_Trait("Crystallurgy")) and (not Empire_Has_Racial_Trait("Organic Manipulation"))
 Requirement 3 Description                       := Large Drones must have a Drone Computer Core.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Large Drones can have a maximum of 2 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
 
@@ -2643,9 +2661,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 200 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 200 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 8 + ([%Level%] - 1)
-Cost Organics Formula                           := 40 + (([%Level%] - 1) * 5)
-Cost Radioactives Formula                       := 8 + ([%Level%] - 1)
+Cost Minerals Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Organics Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 40
 Maximum Model Size                              := 6.0
 Vehicle TopDown Picture Index                   := 1
@@ -2692,10 +2710,10 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 5
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Organic Frigates adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Organic Frigates adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
-Ability 1 Amount 1 Formula                      := 20
+Ability 1 Amount 1 Formula                      := 30
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Ship Maintenance Cost Modifier
 Ability 2 Description                           := Organic hull saves [%Amount1%]% on maintenance cost.
@@ -2732,9 +2750,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Frigates must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Frigates need Life Support for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Frigates need Crew Quarters for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Frigates need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Frigates can have a maximum of 4 engines.
@@ -2748,9 +2766,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 5
 Tonnage Space Formula                           := 300 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 300 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 12 + trunc(([%Level%] - 1) * 0.8)
-Cost Organics Formula                           := 60 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 12 + trunc(([%Level%] - 1) * 0.8)
+Cost Minerals Formula                           := 30 + trunc(([%Level%] - 1) * 2.5)
+Cost Organics Formula                           := 150 + trunc(([%Level%] - 1) * 12.5)
+Cost Radioactives Formula                       := 30 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 60
 Maximum Model Size                              := 7.0
 Vehicle TopDown Picture Index                   := 2
@@ -2797,7 +2815,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 5
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Organic Destroyers adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Organic Destroyers adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 20
@@ -2837,9 +2855,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Frigates must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Frigates need Life Support for 150 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 150) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 150) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Frigates need Crew Quarters for 150 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 150) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 150) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Destroyers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Destroyers can have a maximum of 6 engines.
@@ -2853,9 +2871,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 450 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 450 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 18 + trunc(([%Level%] - 1) * 1.2)
-Cost Organics Formula                           := 90 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 18 + trunc(([%Level%] - 1) * 1.2)
+Cost Minerals Formula                           := 45 + (([%Level%] - 1) * 3)
+Cost Organics Formula                           := 225 + (([%Level%] - 1) * 15)
+Cost Radioactives Formula                       := 45 + (([%Level%] - 1) * 3)
 Engines Per Move                                := 90
 Maximum Model Size                              := 8.5
 Vehicle TopDown Picture Index                   := 3
@@ -2902,7 +2920,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 5
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Organic Light Cruisers adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Organic Light Cruisers adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 10
@@ -2942,9 +2960,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Light Cruisers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Light Cruisers need Life Support for 250 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 250 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 250) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 250) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Light Cruisers need Crew Quarters for 250 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 250 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 250) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 250) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Light Cruisers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Light Cruisers can have a maximum of 8 engines.
@@ -2958,9 +2976,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 750 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 750 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 30 + trunc(([%Level%] - 1) * 1.2)
-Cost Organics Formula                           := 150 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 30 + trunc(([%Level%] - 1) * 1.2)
+Cost Minerals Formula                           := 75 + (([%Level%] - 1) * 3)
+Cost Organics Formula                           := 375 + (([%Level%] - 1) * 15)
+Cost Radioactives Formula                       := 75 + (([%Level%] - 1) * 3)
 Engines Per Move                                := 150
 Maximum Model Size                              := 10.5
 Vehicle TopDown Picture Index                   := 4
@@ -3041,9 +3059,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Cruisers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Cruisers need Life Support for 400 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 400 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 400) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 400) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Cruisers need Crew Quarters for 400 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 400 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 400) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 400) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Cruisers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Cruisers can have a maximum of 12 engines.
@@ -3057,9 +3075,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 40)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 40)
-Cost Minerals Formula                           := 40 + (([%Level%] - 1) * 4)
-Cost Organics Formula                           := 200 + (([%Level%] - 1) * 8)
-Cost Radioactives Formula                       := 40 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 100 + (([%Level%] - 1) * 4)
+Cost Organics Formula                           := 500 + (([%Level%] - 1) * 20)
+Cost Radioactives Formula                       := 100 + (([%Level%] - 1) * 4)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 5
@@ -3146,9 +3164,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Battleships must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Battleships need Life Support for 500 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 500 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Battleships need Crew Quarters for 500 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 500 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Battleships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Battleships can have a maximum of 16 engines.
@@ -3162,9 +3180,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 60)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 60)
-Cost Minerals Formula                           := 60 + trunc(([%Level%] - 1) * 2.4)
-Cost Organics Formula                           := 300 + (([%Level%] - 1) * 12)
-Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 2.4)
+Cost Minerals Formula                           := 150 + (([%Level%] - 1) * 6)
+Cost Organics Formula                           := 750 + (([%Level%] - 1) * 30)
+Cost Radioactives Formula                       := 150 + (([%Level%] - 1) * 6)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 6
@@ -3251,9 +3269,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Dreadnoughts must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Dreadnoughts need Life Support for 700 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 700 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Dreadnoughts need Crew Quarters for 700 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 700 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Dreadnoughts need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Dreadnoughts can have a maximum of 24 engines.
@@ -3265,11 +3283,11 @@ Description                                     :=
 Code                                            := BA
 Vehicle Type                                    := Ship
 Maximum Level                                   := 6
-Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 50)
-Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 80 + (([%Level%] - 1) * 4)
-Cost Organics Formula                           := 400 + (([%Level%] - 1) * 20)
-Cost Radioactives Formula                       := 80 + (([%Level%] - 1) * 4)
+Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 100)
+Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 100)
+Cost Minerals Formula                           := 200 + (([%Level%] - 1) * 10)
+Cost Organics Formula                           := 1000 + (([%Level%] - 1) * 50)
+Cost Radioactives Formula                       := 200 + (([%Level%] - 1) * 10)
 Engines Per Move                                := 500
 Maximum Model Size                              := 18.0
 Vehicle TopDown Picture Index                   := 11
@@ -3356,9 +3374,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Baseships must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Baseships need Life Support for 1000 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 1000 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Baseships need Crew Quarters for 1000 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 1000 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Baseships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Baseships can have a maximum of 30 engines.
@@ -3419,7 +3437,7 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Large size of Organic Light Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
@@ -3456,28 +3474,34 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Organic Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Organic Light Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 25
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Organic Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
 Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Small Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Small Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1
+Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1 or Get_Empire_Tech_Level("Drones") >= 1
 Requirement 3 Description                       := Empire must have the racial trait Organic Manipulation.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
 Requirement 4 Description                       := Organic Light Carriers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 4 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 5 Description                       := Organic Light Carriers need Life Support for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Light Carriers need Crew Quarters for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 7 Description                       := Organic Light Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 8 Description                       := Organic Light Carriers can have a maximum of 8 engines.
@@ -3495,9 +3519,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 40 + (([%Level%] - 1) * 4)
-Cost Organics Formula                           := 200 + (([%Level%] - 1) * 20)
-Cost Radioactives Formula                       := 40 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 50 + (([%Level%] - 1) * 5)
+Cost Organics Formula                           := 250 + (([%Level%] - 1) * 25)
+Cost Radioactives Formula                       := 50 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 7
@@ -3542,7 +3566,7 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Large size of Organic Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
@@ -3579,28 +3603,34 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Organic Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Organic Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 50
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Organic Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
-Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 10
+Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Medium Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Medium Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 3 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 3
+Requirement 2 Description                       := Empire must have at least tech level 3 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 3 or Get_Empire_Tech_Level("Drones") >= 3
 Requirement 3 Description                       := Empire must have the racial trait Organic Manipulation.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
 Requirement 4 Description                       := Organic Carriers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 4 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 5 Description                       := Organic Carriers need Life Support for 500 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 500 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Carriers need Crew Quarters for 500 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 500 crew or a Master Computer.
-Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 500) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 7 Description                       := Organic Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 8 Description                       := Organic Carriers can have a maximum of 16 engines.
@@ -3618,9 +3648,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 60 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 300 + (([%Level%] - 1) * 30)
-Cost Radioactives Formula                       := 60 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 75 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 375 + trunc(([%Level%] - 1) * 37.5)
+Cost Radioactives Formula                       := 75 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 7
@@ -3665,7 +3695,7 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Large size of Organic Heavy Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
@@ -3702,28 +3732,34 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Organic Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Organic Heavy Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 100
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Organic Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
 Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Large Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 5 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 5
+Requirement 2 Description                       := Empire must have at least tech level 5 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 5 or Get_Empire_Tech_Level("Drones") >= 5
 Requirement 3 Description                       := Empire must have the racial trait Organic Manipulation.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
 Requirement 4 Description                       := Organic Heavy Carriers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 4 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 5 Description                       := Organic Heavy Carriers need Life Support for 700 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 700 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Heavy Carriers need Crew Quarters for 700 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 700 crew or a Master Computer.
-Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 6 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 700) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 7 Description                       := Organic Heavy Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 8 Description                       := Organic Heavy Carriers can have a maximum of 24 engines.
@@ -3741,9 +3777,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 500 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 500 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 20 + (([%Level%] - 1) * 4)
-Cost Organics Formula                           := 100 + (([%Level%] - 1) * 20)
-Cost Radioactives Formula                       := 20 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 25 + (([%Level%] - 1) * 5)
+Cost Organics Formula                           := 125 + (([%Level%] - 1) * 25)
+Cost Radioactives Formula                       := 25 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 0
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 10
@@ -3818,9 +3854,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Space Stations must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Space Stations need Life Support for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Space Stations need Crew Quarters for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Space Stations need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Space Stations cannot have any movement.
@@ -3834,9 +3870,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 200)
 Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 200)
-Cost Minerals Formula                           := 80 + (([%Level%] - 1) * 8)
-Cost Organics Formula                           := 400 + (([%Level%] - 1) * 40)
-Cost Radioactives Formula                       := 80 + (([%Level%] - 1) * 8)
+Cost Minerals Formula                           := 100 + (([%Level%] - 1) * 10)
+Cost Organics Formula                           := 500 + (([%Level%] - 1) * 50)
+Cost Radioactives Formula                       := 100 + (([%Level%] - 1) * 10)
 Engines Per Move                                := 0
 Maximum Model Size                              := 20.0
 Vehicle TopDown Picture Index                   := 11
@@ -3911,9 +3947,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Starbases must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Starbases need Life Support for 1000 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 1000 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Starbases need Crew Quarters for 1000 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 1000 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 1000) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Starbases need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Starbases cannot have any movement.
@@ -3927,9 +3963,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 10)
-Cost Radioactives Formula                       := 16 + (([%Level%] - 1) * 2)
+Cost Minerals Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Organics Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 70
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 9
@@ -4010,9 +4046,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Colony Ships must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Colony Ships need Life Support for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Colony Ships need Crew Quarters for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Colony Ships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Colony Ships can have a maximum of 6 engines.
@@ -4028,9 +4064,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 10)
-Cost Radioactives Formula                       := 16 + (([%Level%] - 1) * 2)
+Cost Minerals Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Organics Formula                           := 100 + trunc(([%Level%] - 1) * 12.5)
+Cost Radioactives Formula                       := 20 + trunc(([%Level%] - 1) * 2.5)
 Engines Per Move                                := 50
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 8
@@ -4117,9 +4153,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Small Freighters must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Small Freighters need Life Support for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Small Freighters need Crew Quarters for 100 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Small Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Small Freighters can have a maximum of 4 engines.
@@ -4137,9 +4173,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 800 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 800 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 32 + (([%Level%] - 1) * 4)
-Cost Organics Formula                           := 160 + (([%Level%] - 1) * 20)
-Cost Radioactives Formula                       := 32 + (([%Level%] - 1) * 4)
+Cost Minerals Formula                           := 40 + (([%Level%] - 1) * 5)
+Cost Organics Formula                           := 200 + (([%Level%] - 1) * 25)
+Cost Radioactives Formula                       := 40 + (([%Level%] - 1) * 5)
 Engines Per Move                                := 160
 Maximum Model Size                              := 11.0
 Vehicle TopDown Picture Index                   := 8
@@ -4226,9 +4262,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Medium Freighers must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Medium Freighters need Life Support for 200 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 200) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= 200) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Medium Freighters need Crew Quarters for 200 crew members, an Autonomic Ganglion or a Master Computer.
-Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 200) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 200) or (Get_Design_Specific_Component_Count("Autonomic Ganglion") >= 1) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Medium Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Medium Freighters can have a maximum of 12 engines.
@@ -4246,9 +4282,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1200 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1200 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 48 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 240 + (([%Level%] - 1) * 30)
-Cost Radioactives Formula                       := 48 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 300 + trunc(([%Level%] - 1) * 37.5)
+Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 300
 Maximum Model Size                              := 14.0
 Vehicle TopDown Picture Index                   := 8
@@ -4335,9 +4371,9 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Orga
 Requirement 3 Description                       := Organic Large Freighters must have a Bridge, an Autonomic Ganglion or a Master Computer.
 Requirement 3 Formula                           := (Get_Design_Ability_Component_Count("Control Center") >= 1) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 4 Description                       := Organic Large Freighters need Life Support for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 4 Formula                           := ((Get_Design_Ability_Total("Life Support", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 5 Description                       := Organic Large Freighters need Crew Quarters for 300 crew members, a combination of Life Support or Autonomic Ganglions equivalent to 300 crew or a Master Computer.
-Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
+Requirement 5 Formula                           := ((Get_Design_Ability_Total("Crew Quarters", 1) + Get_Design_Specific_Component_Count("Autonomic Ganglion") * 200) >= 300) or ((Get_Design_Specific_Component_Count("Master Computer") + Get_Design_Specific_Component_Count("Control Computer")) >= 1)
 Requirement 6 Description                       := Organic Large Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
 Requirement 7 Description                       := Organic Large Freighters can have a maximum of 20 engines.
@@ -4403,7 +4439,7 @@ Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 2
-Ability 1 Type                                  := Unit Maintenance Cost Modifier
+Ability 1 Type                                  := Ship Maintenance Cost Modifier
 Ability 1 Description                           := Organic hull saves [%Amount1%]% on maintenance cost.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
@@ -4484,7 +4520,7 @@ Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 2
-Ability 1 Type                                  := Unit Maintenance Cost Modifier
+Ability 1 Type                                  := Ship Maintenance Cost Modifier
 Ability 1 Description                           := Organic hull saves [%Amount1%]% on maintenance cost.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
@@ -4571,7 +4607,7 @@ Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 20
 Ability 1 Amount 2 Formula                      := 10
-Ability 2 Type                                  := Unit Maintenance Cost Modifier
+Ability 2 Type                                  := Ship Maintenance Cost Modifier
 Ability 2 Description                           := Organic hull saves [%Amount1%]% on maintenance cost.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
@@ -4653,12 +4689,12 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := FALSE
 Number Of Abilities                             := 3
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Organic Large Satellites adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Organic Large Satellites adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 10
 Ability 1 Amount 2 Formula                      := 10
-Ability 2 Type                                  := Unit Maintenance Cost Modifier
+Ability 2 Type                                  := Ship Maintenance Cost Modifier
 Ability 2 Description                           := Organic hull saves [%Amount1%]% on maintenance cost.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
@@ -5037,13 +5073,13 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 6
 Ability 1 Type                                  := Combat To Hit Offense
-Ability 1 Description                           := Maneuverability of Organic Small Fighters adds [%Amount1%]% to combat attack modifier.
+Ability 1 Description                           := Maneuverability of Organic Small Fighters adds [%Amount1%] to combat attack modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 30
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Combat To Hit Defense
-Ability 2 Description                           := Small size of Organic Small Fighters adds [%Amount1%]% to combat defense modifier.
+Ability 2 Description                           := Small size of Organic Small Fighters adds [%Amount1%] to combat defense modifier.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 60
@@ -5202,7 +5238,7 @@ Cost Minerals Formula                           := 2
 Cost Organics Formula                           := 20
 Cost Radioactives Formula                       := 4
 Engines Per Move                                := 8
-Maximum Model Size                              := 1.5
+Maximum Model Size                              := 1.8
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_OrganicSmallDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_SmallDrone.bmp
@@ -5285,7 +5321,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must have the racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
 Requirement 3 Description                       := Organic Small Drones must have a Control Component.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Drone Ganglia")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Drone Ganglia") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Organic Small Drones can have a maximum of 1 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 
@@ -5301,7 +5337,7 @@ Cost Minerals Formula                           := 4
 Cost Organics Formula                           := 40
 Cost Radioactives Formula                       := 8
 Engines Per Move                                := 16
-Maximum Model Size                              := 3.0
+Maximum Model Size                              := 2.4
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_OrganicLargeDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_LargeDrone.bmp
@@ -5346,7 +5382,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 5
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Small size of Organic Large Drones adds [%Amount1%]% to combat defense modifier.
+Ability 1 Description                           := Small size of Organic Large Drones adds [%Amount1%] to combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 20
@@ -5384,7 +5420,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must have the racial trait Organic Manipulation.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Organic Manipulation")
 Requirement 3 Description                       := Organic Large Drones must have a Control Component.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Drone Ganglia")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Drone Ganglia") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Organic Large Drones can have a maximum of 2 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
 
@@ -5545,9 +5581,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 200 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 200 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 24 + (([%Level%] - 1) * 3)
-Cost Organics Formula                           := 8 + ([%Level%] - 1)
-Cost Radioactives Formula                       := 24 + (([%Level%] - 1) * 3)
+Cost Minerals Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 40
 Maximum Model Size                              := 6.0
 Vehicle TopDown Picture Index                   := 1
@@ -5650,9 +5686,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 5
 Tonnage Space Formula                           := 300 + (([%Level%] - 1) * 25)
 Tonnage Structure Formula                       := 300 + (([%Level%] - 1) * 25)
-Cost Minerals Formula                           := 36 + trunc(([%Level%] - 1) * 2.4)
-Cost Organics Formula                           := 12 + trunc(([%Level%] - 1) * 0.8)
-Cost Radioactives Formula                       := 36 + trunc(([%Level%] - 1) * 2.4)
+Cost Minerals Formula                           := 90 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 30 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 90 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 60
 Maximum Model Size                              := 7.0
 Vehicle TopDown Picture Index                   := 2
@@ -5755,9 +5791,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 450 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 450 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 54 + trunc(([%Level%] - 1) * 3.6)
-Cost Organics Formula                           := 18 + trunc(([%Level%] - 1) * 1.2)
-Cost Radioactives Formula                       := 54 + trunc(([%Level%] - 1) * 3.6)
+Cost Minerals Formula                           := 135 + trunc(([%Level%] - 1) * 9)
+Cost Organics Formula                           := 45 + (([%Level%] - 1) * 3)
+Cost Radioactives Formula                       := 135 + trunc(([%Level%] - 1) * 9)
 Engines Per Move                                := 90
 Maximum Model Size                              := 8.5
 Vehicle TopDown Picture Index                   := 3
@@ -5860,9 +5896,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 750 + (([%Level%] - 1) * 30)
 Tonnage Structure Formula                       := 750 + (([%Level%] - 1) * 30)
-Cost Minerals Formula                           := 90 + trunc(([%Level%] - 1) * 3.6)
-Cost Organics Formula                           := 30 + trunc(([%Level%] - 1) * 1.2)
-Cost Radioactives Formula                       := 90 + trunc(([%Level%] - 1) * 3.6)
+Cost Minerals Formula                           := 225 + (([%Level%] - 1) * 9)
+Cost Organics Formula                           := 75 + (([%Level%] - 1) * 3)
+Cost Radioactives Formula                       := 225 + (([%Level%] - 1) * 9)
 Engines Per Move                                := 150
 Maximum Model Size                              := 10.5
 Vehicle TopDown Picture Index                   := 4
@@ -5959,9 +5995,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 40)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 40)
-Cost Minerals Formula                           := 120 + trunc(([%Level%] - 1) * 4.8)
-Cost Organics Formula                           := 40 + trunc(([%Level%] - 1) * 1.6)
-Cost Radioactives Formula                       := 120 + trunc(([%Level%] - 1) * 4.8)
+Cost Minerals Formula                           := 300 + (([%Level%] - 1) * 12)
+Cost Organics Formula                           := 100 + (([%Level%] - 1) * 4)
+Cost Radioactives Formula                       := 300 + (([%Level%] - 1) * 12)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 5
@@ -6064,9 +6100,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 60)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 60)
-Cost Minerals Formula                           := 180 + trunc(([%Level%] - 1) * 7.2)
-Cost Organics Formula                           := 60 + trunc(([%Level%] - 1) * 2.4)
-Cost Radioactives Formula                       := 180 + trunc(([%Level%] - 1) * 7.2)
+Cost Minerals Formula                           := 450 + (([%Level%] - 1) * 18)
+Cost Organics Formula                           := 150 + (([%Level%] - 1) * 6)
+Cost Radioactives Formula                       := 450 + (([%Level%] - 1) * 18)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 6
@@ -6169,9 +6205,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 240 + (([%Level%] - 1) * 12)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 240 + (([%Level%] - 1) * 12)
+Cost Minerals Formula                           := 600 + (([%Level%] - 1) * 30)
+Cost Organics Formula                           := 200 + (([%Level%] - 1) * 10)
+Cost Radioactives Formula                       := 600 + (([%Level%] - 1) * 30)
 Engines Per Move                                := 500
 Maximum Model Size                              := 18.0
 Vehicle TopDown Picture Index                   := 11
@@ -6274,9 +6310,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 500 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 500 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 60 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 20 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 60 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 75 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 25 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 75 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 90
 Maximum Model Size                              := 9.0
 Vehicle TopDown Picture Index                   := 7
@@ -6321,9 +6357,9 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Large size reduces deducts [%Amount1%] from combat defense modifier.
+Ability 1 Description                           := Large size of Crystalline Light Carriers reduces deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -10
@@ -6338,8 +6374,8 @@ Ability 3 Type                                  := Units - Launch
 Ability 3 Description                           := Crystalline Light Carriers can still launch a fighter every [%Amount2%] milliseconds during combat even if all Fighter Launchers are destroyed.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
-Ability 3 Amount 1 Formula                      := iif(Get_Empire_Tech_Level("Fighters") = 7, 2000, iif(Get_Empire_Tech_Level("Fighters") >= 5, 4000, iif(Get_Empire_Tech_Level("Fighters") = 4, 6000, iif(Get_Empire_Tech_Level("Fighters") <= 3, (10000 - ((Get_Empire_Tech_Level("Fighters") - 1) * 2000)), 0))))
-Ability 3 Amount 2 Formula                      := 3000
+Ability 3 Amount 1 Formula                      := "Fighter"
+Ability 3 Amount 2 Formula                      := iif(Get_Empire_Tech_Level("Fighters") = 7, 2000, iif(Get_Empire_Tech_Level("Fighters") >= 5, 4000, iif(Get_Empire_Tech_Level("Fighters") = 4, 6000, iif(Get_Empire_Tech_Level("Fighters") <= 3, (10000 - ((Get_Empire_Tech_Level("Fighters") - 1) * 2000)), 0))))
 Ability 4 Type                                  := Shield Generation From Damage
 Ability 4 Description                           := Crystalline hull converts a portion of weapons damage into [%Amount1%] shields points for the ship.
 Ability 4 Scope                                 := Space Object
@@ -6358,20 +6394,26 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Crystalline Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Crystalline Light Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 25
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Crystalline Light Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
 Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Small Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Small Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1
+Requirement 2 Description                       := Empire must have at least tech level 1 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 1 or Get_Empire_Tech_Level("Drones") >= 1
 Requirement 3 Description                       := Empire must have the racial trait Crystallurgy.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 4 Description                       := Crystalline Light Carriers must have a Bridge or Master Computer.
@@ -6397,9 +6439,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1000 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 1000 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 120 + (([%Level%] - 1) * 12)
-Cost Organics Formula                           := 40 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 120 + (([%Level%] - 1) * 12)
+Cost Minerals Formula                           := 150 + (([%Level%] - 1) * 15)
+Cost Organics Formula                           := 50 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 150 + (([%Level%] - 1) * 15)
 Engines Per Move                                := 210
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 7
@@ -6444,7 +6486,7 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
 Ability 1 Description                           := Large size of Crystalline Carriers deducts [%Amount1%] from combat defense modifier.
 Ability 1 Scope                                 := Space Object
@@ -6481,20 +6523,26 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Crystalline Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Crystalline Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 50
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Crystalline Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
-Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 10
+Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Medium Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Medium Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 3 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 3
+Requirement 2 Description                       := Empire must have at least tech level 3 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 3 or Get_Empire_Tech_Level("Drones") >= 3
 Requirement 3 Description                       := Empire must have the racial trait Crystallurgy.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 4 Description                       := Crystalline Carriers must have a Bridge or Master Computer.
@@ -6522,9 +6570,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1500 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1500 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 180 + (([%Level%] - 1) * 18)
-Cost Organics Formula                           := 60 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 180 + (([%Level%] - 1) * 18)
+Cost Minerals Formula                           := 225 + trunc(([%Level%] - 1) * 22.5)
+Cost Organics Formula                           := 75 + trunc(([%Level%] - 1) * 7.5)
+Cost Radioactives Formula                       := 225 + trunc(([%Level%] - 1) * 22.5)
 Engines Per Move                                := 350
 Maximum Model Size                              := 15.0
 Vehicle TopDown Picture Index                   := 7
@@ -6569,9 +6617,9 @@ Ground Combat Deceleration Rate Base            := 0.0
 Ground Combat Deceleration Rate Decrease Per kT := 0.0
 Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
-Number Of Abilities                             := 7
+Number Of Abilities                             := 8
 Ability 1 Type                                  := Combat To Hit Defense
-Ability 1 Description                           := Large size reduces combat defense modifier by [%Amount1%]%.
+Ability 1 Description                           := Large size of Crystalline Heavy Carrier reduces combat defense modifier by [%Amount1%]%.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -30
@@ -6606,20 +6654,26 @@ Ability 6 Scope                                 := Space Object
 Ability 6 Range Formula                         := 0
 Ability 6 Amount 1 Formula                      := 0
 Ability 6 Amount 2 Formula                      := 0
-Ability 7 Type                                  := Description Only
-Ability 7 Description                           := Crystalline Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 7 Type                                  := Tonnage Repair Unit
+Ability 7 Description                           := Crystalline Light Carriers repair [%Amount1%]kT of unit tonnage per turn.
 Ability 7 Scope                                 := Space Object
 Ability 7 Range Formula                         := 0
-Ability 7 Amount 1 Formula                      := 0
+Ability 7 Amount 1 Formula                      := 100
 Ability 7 Amount 2 Formula                      := 0
+Ability 8 Type                                  := Description Only
+Ability 8 Description                           := Crystalline Heavy Carriers require Fighter or Drone Launchers to launch fighters or drones and Cargo Bays to store them.
+Ability 8 Scope                                 := Space Object
+Ability 8 Range Formula                         := 0
+Ability 8 Amount 1 Formula                      := 0
+Ability 8 Amount 2 Formula                      := 0
 Number Of Requirements                          := 10
 Requirements Evaluation Availability            := 1, 2, 3
 Requirements Evaluation Allows Placement        := 4, 5, 6, 7, 8, 9, 10
 Requirements Evaluation Allows Usage            := TRUE
 Requirement 1 Description                       := Empire must have at least tech level 2 in Large Ship Construction.
 Requirement 1 Formula                           := Get_Empire_Tech_Level("Large Ship Construction") >= 2 * [%Level%]
-Requirement 2 Description                       := Empire must have at least tech level 5 in Fighters.
-Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 5
+Requirement 2 Description                       := Empire must have at least tech level 5 in Fighters or Drones.
+Requirement 2 Formula                           := Get_Empire_Tech_Level("Fighters") >= 5 or Get_Empire_Tech_Level("Drones") >= 5
 Requirement 3 Description                       := Empire must have the racial trait Crystallurgy.
 Requirement 3 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 4 Description                       := Crystalline Heavy Carriers must have a Bridge or Master Computer.
@@ -6645,9 +6699,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 500 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 500 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 60 + (([%Level%] - 1) * 12)
-Cost Organics Formula                           := 20 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 60 + (([%Level%] - 1) * 12)
+Cost Minerals Formula                           := 75 + (([%Level%] - 1) * 15)
+Cost Organics Formula                           := 25 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 75 + (([%Level%] - 1) * 15)
 Engines Per Move                                := 0
 Maximum Model Size                              := 12.0
 Vehicle TopDown Picture Index                   := 10
@@ -6738,9 +6792,9 @@ Vehicle Type                                    := Base
 Maximum Level                                   := 6
 Tonnage Space Formula                           := 2000 + (([%Level%] - 1) * 200)
 Tonnage Structure Formula                       := 2000 + (([%Level%] - 1) * 200)
-Cost Minerals Formula                           := 240 + (([%Level%] - 1) * 24)
-Cost Organics Formula                           := 80 + (([%Level%] - 1) * 8)
-Cost Radioactives Formula                       := 240 + (([%Level%] - 1) * 24)
+Cost Minerals Formula                           := 300 + (([%Level%] - 1) * 30)
+Cost Organics Formula                           := 100 + (([%Level%] - 1) * 10)
+Cost Radioactives Formula                       := 300 + (([%Level%] - 1) * 30)
 Engines Per Move                                := 0
 Maximum Model Size                              := 20.0
 Vehicle TopDown Picture Index                   := 11
@@ -6831,9 +6885,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 48 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 48 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 70
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 9
@@ -6932,9 +6986,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 400 + (([%Level%] - 1) * 50)
 Tonnage Structure Formula                       := 400 + (([%Level%] - 1) * 50)
-Cost Minerals Formula                           := 48 + (([%Level%] - 1) * 6)
-Cost Organics Formula                           := 16 + (([%Level%] - 1) * 2)
-Cost Radioactives Formula                       := 48 + (([%Level%] - 1) * 6)
+Cost Minerals Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Organics Formula                           := 20 + trunc(([%Level%] - 1) * 2.5)
+Cost Radioactives Formula                       := 60 + trunc(([%Level%] - 1) * 7.5)
 Engines Per Move                                := 50
 Maximum Model Size                              := 8.0
 Vehicle TopDown Picture Index                   := 8
@@ -7041,9 +7095,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 800 + (([%Level%] - 1) * 100)
 Tonnage Structure Formula                       := 800 + (([%Level%] - 1) * 100)
-Cost Minerals Formula                           := 96 + (([%Level%] - 1) * 12)
-Cost Organics Formula                           := 32 + (([%Level%] - 1) * 4)
-Cost Radioactives Formula                       := 96 + (([%Level%] - 1) * 12)
+Cost Minerals Formula                           := 120 + (([%Level%] - 1) * 15)
+Cost Organics Formula                           := 40 + (([%Level%] - 1) * 5)
+Cost Radioactives Formula                       := 120 + (([%Level%] - 1) * 15)
 Engines Per Move                                := 160
 Maximum Model Size                              := 11.0
 Vehicle TopDown Picture Index                   := 8
@@ -7150,9 +7204,9 @@ Vehicle Type                                    := Ship
 Maximum Level                                   := 3
 Tonnage Space Formula                           := 1200 + (([%Level%] - 1) * 150)
 Tonnage Structure Formula                       := 1200 + (([%Level%] - 1) * 150)
-Cost Minerals Formula                           := 144 + (([%Level%] - 1) * 18)
-Cost Organics Formula                           := 48 + (([%Level%] - 1) * 6)
-Cost Radioactives Formula                       := 144 + (([%Level%] - 1) * 18)
+Cost Minerals Formula                           := 180 + trunc(([%Level%] - 1) * 22.5)
+Cost Organics Formula                           := 60 + trunc(([%Level%] - 1) * 7.5)
+Cost Radioactives Formula                       := 180 + trunc(([%Level%] - 1) * 22.5)
 Engines Per Move                                := 300
 Maximum Model Size                              := 14.0
 Vehicle TopDown Picture Index                   := 8
@@ -7783,7 +7837,7 @@ Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crys
 Requirement 3 Description                       := Crystalline Medium Troops must have a Troop Cockpit.
 Requirement 3 Formula                           := Get_Design_Specific_Component_Count("Troop Cockpit") = 1
 Requirement 4 Description                       := Crystalline Medium Troops can have a maximum of 4 engines.
-Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Ground Movement Standard") <= 3
+Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Ground Movement Standard") <= 4
 
 Name                                            := Crystalline Large Troop
 Short Name                                      := Crys L Troop
@@ -8106,7 +8160,7 @@ Cost Minerals Formula                           := 12
 Cost Organics Formula                           := 2
 Cost Radioactives Formula                       := 12
 Engines Per Move                                := 8
-Maximum Model Size                              := 1.5
+Maximum Model Size                              := 1.8
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_CrystallineSmallDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_SmallDrone.bmp
@@ -8189,7 +8243,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must have the racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 3 Description                       := Crystalline Small Drones must have a Drone Computer Core.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Crystalline Small Drones can have a maximum of 1 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 
@@ -8205,7 +8259,7 @@ Cost Minerals Formula                           := 24
 Cost Organics Formula                           := 4
 Cost Radioactives Formula                       := 24
 Engines Per Move                                := 16
-Maximum Model Size                              := 3.0
+Maximum Model Size                              := 2.4
 Vehicle TopDown Picture Index                   := 12
 Vehicle Portrait Primary                        := [%EmpireName%]_Portrait_CrystallineLargeDrone.bmp
 Vehicle Portrait Alternate                      := [%EmpireName%]_Portrait_LargeDrone.bmp
@@ -8288,7 +8342,7 @@ Requirement 1 Formula                           := Get_Empire_Tech_Level("Drones
 Requirement 2 Description                       := Empire must have the racial trait Crystallurgy.
 Requirement 2 Formula                           := Empire_Has_Racial_Trait("Crystallurgy")
 Requirement 3 Description                       := Crystalline Large Drones must have a Drone Computer Core.
-Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
+Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core") + Get_Design_Specific_Component_Count("Psychic Drone Interface")) = 1
 Requirement 4 Description                       := Crystalline Large Drones can have a maximum of 2 engines.
 Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
 
