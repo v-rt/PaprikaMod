@@ -11,26 +11,28 @@ Components:
 Facilities:
 - Added Highly Industrialized Slums and Legacy Infrastructure. Inspired by SuicideJunkie.
 
-Combat Speed: Is now modified by hull size. Are values are compared to BMv125.
+Combat Speed: Is now modified by hull size. All percetage values are compared to BMv125.
 
 Warships get the following combat speed bonuses or penalties:
-- Frigates have        +20%.
-- Destroyers have      +10%.
-- Light Cruisers have  0%
-- Cruisers have        -5%.
-- Battleships have     -10%.
+- Frigates                   +20%
+- Destroyers                 +10%
+- Light Cruisers               0%
+- Cruisers                    -5%
+- Battleships                -10%
 - Dreadnoughts and Baseships -15%
 
 Fighter and Drone speed AND maneuverability have been increased by 50%.
+
+All relevant racial hulls were updated as well.
 
 Freighters and Colony Ships are unchanged at -25% speed and maneuverability.
 
 Homeworlds:
 
 Homeworlds are much stronger in Paprika than in Balance Mod. Most production and construction rates have been increased by around 60%.
-Homeworlds receive special facilities that cost no maintenance, but they cannot be built by the player or AIs (subject to change.) 
-This places more emphasis on protecting and capturing homeworlds. Some common strategies for colony bombardment may be more difficult with
-the increased ordnance consumption changes.
+Homeworlds receive special facilities that cost no maintenance, but they cannot be built by the player or AIs (subject to change). 
+This places more emphasis on protecting and capturing homeworlds. Some common strategies for colony bombardment may be more difficult due to increased ordnance consumption.
+
 
 Captain Kwok's Balance Mod for Space Empires V
 ==============================================
