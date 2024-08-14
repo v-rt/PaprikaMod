@@ -8,7 +8,7 @@ MOD DEFINITION DATA FILE - Paprika Mod
 
 Mod Name                                 := Paprika Mod
 Description                              := Based on Captain Kwok's Balance Mod v1.25. Check Readme.txt for details.
-Picture Filename                         := BalanceMod.bmp
+Picture Filename                         := PaprikaMod.bmp
 Allow Main Empires                       := FALSE
 Override InvConfiguration Slots          := FALSE
 
