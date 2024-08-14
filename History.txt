@@ -11,7 +11,7 @@ Components:
 Facilities:
 - Added Highly Industrialized Slums and Legacy Infrastructure. Inspired by SuicideJunkie.
 
-Combat Speed: Is now modified by hull size. All percetage values are compared to BMv125.
+Combat Speed: Is now modified by hull size. All percentage values are compared to BMv125.
 
 Warships get the following combat speed bonuses or penalties:
 - Frigates                   +20%
@@ -25,7 +25,7 @@ Fighter and Drone speed AND maneuverability have been increased by 50%.
 
 All relevant racial hulls were updated as well.
 
-Freighters and Colony Ships are unchanged at -25% speed and maneuverability.
+Freighters and Colony Ships and Carriers are unchanged at -25% speed and maneuverability.
 
 Homeworlds:
 
